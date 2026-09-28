@@ -1,0 +1,237 @@
+{
+  "schema_version": "s09a-expert-score-v2",
+  "generated_at_utc": "2026-09-11T16:02:59+00:00",
+  "source_sha256": {
+    "review_scorer": "cf7b2595a0adeb7ca8ff18e9e70dec48c65d70fda9e85bf90afaa51c5bfd5144"
+  },
+  "blinding_key": "blinding_key.json",
+  "blinding_key_sha256": "f48807b1146c616d364861478e6b4d11166300082135c4cd21b9d398b498954d",
+  "experiment_id": "s09a_primary_a8b5e146_p16",
+  "input_sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+  "replicate": 1,
+  "comparison": {
+    "control": "fallback",
+    "treatment": "full"
+  },
+  "reviewer_files": [
+    {
+      "path": "reviewer_1.csv",
+      "sha256_scored": "67f7a2cd6a50b95342e73b045fd9329ce77170f80736d8a134971eb858a41c5b"
+    },
+    {
+      "path": "reviewer_2.csv",
+      "sha256_scored": "3bcf46321856c65502b5928945febbf75dc85c642a901e77a7c6d9d84051f098"
+    },
+    {
+      "path": "reviewer_3.csv",
+      "sha256_scored": "4e4103574db8f6a2afd5acb8da8bc2cb53df9e651aa03ce28d604bbf34858c4c"
+    },
+    {
+      "path": "reviewer_4.csv",
+      "sha256_scored": "1b47abbda800b9e18e9212675945e127172c1e0c0c13c743f08e360b8198c810"
+    },
+    {
+      "path": "reviewer_5.csv",
+      "sha256_scored": "82b81c132a59daf8f19f13b4ce13042941902a889962297bf998e5e9ace9970f"
+    },
+    {
+      "path": "reviewer_6.csv",
+      "sha256_scored": "3f8e875be34af1d18bb2994b195588bc63189e1093f894389de6018c3112177a"
+    },
+    {
+      "path": "reviewer_7.csv",
+      "sha256_scored": "3a0ff2750f1216d2f8a57842548808a2b7ebfc125f2713cf6f3fa1221284452d"
+    },
+    {
+      "path": "reviewer_8.csv",
+      "sha256_scored": "0a62ec8dc0c510a6c3b397f2467e760aba150039ecd925002bca57a955cc81e1"
+    },
+    {
+      "path": "reviewer_9.csv",
+      "sha256_scored": "4cbb449556fe77f1b5058ee274a6738515922e1371b9932a8e4e2892d439ca03"
+    },
+    {
+      "path": "reviewer_10.csv",
+      "sha256_scored": "a6dd9fd3e0bcc3568c063622e26074e7bc05929ed27bb858e48af60cf233d885"
+    }
+  ],
+  "adjudication_file": {
+    "path": "adjudication.csv",
+    "sha256_scored": "42943c5ce65a293a19891a4dfa4130d53a12ec8dc429673f2cf42672e1c3780d"
+  },
+  "uncertain_policy": "incorrect",
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 42,
+  "bootstrap_effective_seeds": {
+    "changed_parent_primary": 42,
+    "all_sampled_secondary": 104771
+  },
+  "inter_reviewer_agreement": {
+    "correctness": {
+      "n": 301,
+      "raw_agreement": 0.7708,
+      "kappa": 0.5778,
+      "mean_pairwise_kappa": 0.4269,
+      "fleiss_kappa": 0.4233,
+      "raters": 10
+    },
+    "specificity": {
+      "fleiss_kappa": 0.4445
+    },
+    "concept_validity": {
+      "fleiss_kappa": 0.3336
+    },
+    "pairwise_cohen_kappas": {
+      "reviewer_1__vs__reviewer_2": 0.5778,
+      "reviewer_1__vs__reviewer_3": 0.2975,
+      "reviewer_1__vs__reviewer_4": 0.4348,
+      "reviewer_1__vs__reviewer_5": 0.3775,
+      "reviewer_1__vs__reviewer_6": 0.4546,
+      "reviewer_1__vs__reviewer_7": 0.3621,
+      "reviewer_1__vs__reviewer_8": 0.3345,
+      "reviewer_1__vs__reviewer_9": 0.327,
+      "reviewer_1__vs__reviewer_10": 0.6528,
+      "reviewer_2__vs__reviewer_3": 0.3232,
+      "reviewer_2__vs__reviewer_4": 0.5289,
+      "reviewer_2__vs__reviewer_5": 0.3699,
+      "reviewer_2__vs__reviewer_6": 0.4715,
+      "reviewer_2__vs__reviewer_7": 0.3918,
+      "reviewer_2__vs__reviewer_8": 0.3086,
+      "reviewer_2__vs__reviewer_9": 0.3785,
+      "reviewer_2__vs__reviewer_10": 0.5884,
+      "reviewer_3__vs__reviewer_4": 0.3071,
+      "reviewer_3__vs__reviewer_5": 0.3319,
+      "reviewer_3__vs__reviewer_6": 0.3057,
+      "reviewer_3__vs__reviewer_7": 0.3232,
+      "reviewer_3__vs__reviewer_8": 0.3077,
+      "reviewer_3__vs__reviewer_9": 0.3197,
+      "reviewer_3__vs__reviewer_10": 0.2691,
+      "reviewer_4__vs__reviewer_5": 0.5,
+      "reviewer_4__vs__reviewer_6": 0.5965,
+      "reviewer_4__vs__reviewer_7": 0.5155,
+      "reviewer_4__vs__reviewer_8": 0.4658,
+      "reviewer_4__vs__reviewer_9": 0.506,
+      "reviewer_4__vs__reviewer_10": 0.5076,
+      "reviewer_5__vs__reviewer_6": 0.5142,
+      "reviewer_5__vs__reviewer_7": 0.4481,
+      "reviewer_5__vs__reviewer_8": 0.4395,
+      "reviewer_5__vs__reviewer_9": 0.4743,
+      "reviewer_5__vs__reviewer_10": 0.4329,
+      "reviewer_6__vs__reviewer_7": 0.5051,
+      "reviewer_6__vs__reviewer_8": 0.4604,
+      "reviewer_6__vs__reviewer_9": 0.4816,
+      "reviewer_6__vs__reviewer_10": 0.5185,
+      "reviewer_7__vs__reviewer_8": 0.4806,
+      "reviewer_7__vs__reviewer_9": 0.4769,
+      "reviewer_7__vs__reviewer_10": 0.3596,
+      "reviewer_8__vs__reviewer_9": 0.4185,
+      "reviewer_8__vs__reviewer_10": 0.3442,
+      "reviewer_9__vs__reviewer_10": 0.4205
+    },
+    "fleiss_details": {
+      "correctness": {
+        "n": 301,
+        "raters": 10,
+        "kappa": 0.4233,
+        "mean_P": 0.7031,
+        "P_e": 0.4852
+      },
+      "specificity": {
+        "n": 301,
+        "raters": 10,
+        "kappa": 0.4445,
+        "mean_P": 0.6429,
+        "P_e": 0.3572
+      },
+      "concept_validity": {
+        "n": 301,
+        "raters": 10,
+        "kappa": 0.3336,
+        "mean_P": 0.9255,
+        "P_e": 0.8882
+      }
+    }
+  },
+  "resolution": {
+    "adjudicated_disagreement": 192,
+    "reviewer_agreement": 109
+  },
+  "excluded_concepts": {},
+  "paired_results": {
+    "all_sampled_concepts": {
+      "n": 188,
+      "control_correct": 120,
+      "treatment_correct": 137,
+      "control_correct_rate": 0.6383,
+      "treatment_correct_rate": 0.7287,
+      "risk_difference": 0.0904,
+      "risk_difference_ci95": [
+        0.0213,
+        0.1649
+      ],
+      "repairs": 34,
+      "regressions": 17,
+      "discordant": 51,
+      "mcnemar_exact_p": 0.024093,
+      "repair_precision": 0.1809,
+      "regression_rate": 0.0904,
+      "net_repairs": 17,
+      "joint_positive_result": true,
+      "decision_rule": "CI lower bound > 0 and exact McNemar p < .05"
+    },
+    "changed_parent_concepts": {
+      "n": 113,
+      "control_correct": 60,
+      "treatment_correct": 77,
+      "control_correct_rate": 0.531,
+      "treatment_correct_rate": 0.6814,
+      "risk_difference": 0.1504,
+      "risk_difference_ci95": [
+        0.0265,
+        0.2655
+      ],
+      "repairs": 34,
+      "regressions": 17,
+      "discordant": 51,
+      "mcnemar_exact_p": 0.024093,
+      "repair_precision": 0.3009,
+      "regression_rate": 0.1504,
+      "net_repairs": 17,
+      "joint_positive_result": true,
+      "decision_rule": "CI lower bound > 0 and exact McNemar p < .05"
+    }
+  },
+  "review_ready": true,
+  "protocol_compliance": {
+    "protocol_id": "s09a-ablation-protocol-v1.6",
+    "compliant": true,
+    "checks": {
+      "protocol_identity": true,
+      "primary_frozen_input": true,
+      "three_condition_design": true,
+      "five_isolated_replicates": true,
+      "designated_primary_replicate": true,
+      "runner_seed_42": true,
+      "initial_temperature_zero": true,
+      "request_timeout_200_seconds": true,
+      "max_output_tokens_8192": true,
+      "primary_fallback_full_comparison": true,
+      "review_seed_2026": true,
+      "condition_blind_pair_visible_review": true,
+      "at_least_two_exported_reviewers": true,
+      "changed_sampling_rule": true,
+      "unchanged_control_sampling_rule": true,
+      "sample_metadata_matches": true,
+      "uncertain_mapped_to_incorrect": true,
+      "bootstrap_10000": true,
+      "bootstrap_seed_42": true
+    },
+    "deviations": []
+  },
+  "headline_inference_ready": true,
+  "inference_ready": true,
+  "headline_positive_result": true,
+  "analysis_status": "final_preregistered_headline",
+  "interpretation": "Two complete independent reviews, separate adjudication, and every prespecified primary-analysis check are ready for headline inference.",
+  "scope": "Concept-level uncertainty conditional on one frozen S09 input and the selected replicate; it does not establish generalization to another corpus, domain, model family, or complete pipeline run."
+}

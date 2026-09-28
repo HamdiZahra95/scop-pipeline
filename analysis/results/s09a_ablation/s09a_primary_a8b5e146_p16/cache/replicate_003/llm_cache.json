@@ -1,0 +1,3495 @@
+{
+  "floater_llm_v4_82866c142afe908cfbd6e372": {
+    "placements": [
+      {
+        "concept": "adversarial sample",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Adversarial Example"
+      },
+      {
+        "concept": "classification",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Machine Learning Task"
+      },
+      {
+        "concept": "concurrent learning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Paradigm"
+      },
+      {
+        "concept": "contextual embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Embedding"
+      },
+      {
+        "concept": "convex program",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Optimization Problem"
+      },
+      {
+        "concept": "deep learning classifier",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Classifier"
+      },
+      {
+        "concept": "deep network",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Neural Network Architecture"
+      },
+      {
+        "concept": "denoising",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Signal Processing Task"
+      },
+      {
+        "concept": "distribution shift",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dataset Shift"
+      },
+      {
+        "concept": "domain shift",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dataset Shift"
+      },
+      {
+        "concept": "dynamic learning rate",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Hyperparameter"
+      },
+      {
+        "concept": "dynamical system",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Mathematical System"
+      }
+    ]
+  },
+  "floater_llm_v4_250fb0fd7cc85e498091039d": {
+    "placements": [
+      {
+        "concept": "epistemic uncertainty",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Uncertainty Quantification"
+      },
+      {
+        "concept": "explanation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Explainable AI"
+      },
+      {
+        "concept": "feature embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Representation Learning"
+      },
+      {
+        "concept": "feature representation learning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Representation Learning"
+      },
+      {
+        "concept": "generalization bound",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Theory"
+      },
+      {
+        "concept": "generative network",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Generative Model"
+      },
+      {
+        "concept": "graph representation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Representation"
+      },
+      {
+        "concept": "graph theory",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Discrete Mathematics"
+      },
+      {
+        "concept": "hyperparameter tuning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Optimization"
+      },
+      {
+        "concept": "invariant predictor",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Invariant Learning"
+      },
+      {
+        "concept": "kernel function",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Kernel Method"
+      },
+      {
+        "concept": "learning rate schedule",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Optimization Strategy"
+      }
+    ]
+  },
+  "floater_llm_v4_325b886a1fb6ccea03aa2fad": {
+    "placements": [
+      {
+        "concept": "linear decision boundary",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Decision Boundary"
+      },
+      {
+        "concept": "machine learning algorithm",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Algorithm"
+      },
+      {
+        "concept": "maximum likelihood estimator",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Estimator"
+      },
+      {
+        "concept": "model generalization",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Property"
+      },
+      {
+        "concept": "model uncertainty",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Property"
+      },
+      {
+        "concept": "multi-label classification",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Supervised Learning Task"
+      },
+      {
+        "concept": "neural network embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Embedding"
+      },
+      {
+        "concept": "non-convex optimization",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Optimization Problem"
+      },
+      {
+        "concept": "nonlinear dimension reduction",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dimension Reduction Technique"
+      },
+      {
+        "concept": "overfitting",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Error"
+      },
+      {
+        "concept": "parameter tuning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Optimization"
+      },
+      {
+        "concept": "prediction error",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Performance Metric"
+      }
+    ]
+  },
+  "floater_llm_v4_b31e96b687afb7230974354b": {
+    "placements": [
+      {
+        "concept": "prediction interval",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Statistical Interval"
+      },
+      {
+        "concept": "predictive analysis",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Analysis"
+      },
+      {
+        "concept": "predictive model",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Machine Learning Model"
+      },
+      {
+        "concept": "predictive task",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Machine Learning Task"
+      },
+      {
+        "concept": "projection-free algorithm",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Mathematical Optimization Method"
+      },
+      {
+        "concept": "robust classifier",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Classifier"
+      },
+      {
+        "concept": "robust learner",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Method"
+      },
+      {
+        "concept": "scattering transform",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Feature Transform"
+      },
+      {
+        "concept": "scenario generation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Generation Method"
+      },
+      {
+        "concept": "self-supervised pre-training",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Training Strategy"
+      },
+      {
+        "concept": "similarity measure",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Metric"
+      },
+      {
+        "concept": "stochastic differential equation",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Stochastic Equation"
+      }
+    ]
+  },
+  "floater_llm_v4_18b164137fdf12cd8eb744f9": {
+    "placements": [
+      {
+        "concept": "stochastic gradient",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Gradient Estimate"
+      },
+      {
+        "concept": "synthetic training data",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Training Data"
+      },
+      {
+        "concept": "transformer-based architecture",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Neural Network Architecture"
+      },
+      {
+        "concept": "unpaired image-to-image translation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Image Translation Task"
+      },
+      {
+        "concept": "vector representation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Representation"
+      }
+    ]
+  },
+  "refine_llm_v5_2c6826a886255ca2a03b0c1c": {
+    "decisions": [
+      {
+        "concept": "Analysis & Metric Geometry",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Discrete Mathematics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Discrete Structures & Dynamical Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Estimator",
+        "decision": "move",
+        "proposed_path": "Mathematics > Probabilistic Inference & Statistics"
+      },
+      {
+        "concept": "Gradient Estimate",
+        "decision": "move",
+        "proposed_path": "Mathematics > Probabilistic Inference & Statistics > Estimator"
+      },
+      {
+        "concept": "Linear Algebra & Spectral Theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Mathematical Optimization Method",
+        "decision": "move",
+        "proposed_path": "Mathematics > Optimization & Variational Analysis"
+      },
+      {
+        "concept": "Mathematical System",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Metric",
+        "decision": "move",
+        "proposed_path": "Mathematics > Analysis & Metric Geometry"
+      },
+      {
+        "concept": "Optimization & Variational Analysis",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Optimization Problem",
+        "decision": "move",
+        "proposed_path": "Mathematics > Optimization & Variational Analysis"
+      },
+      {
+        "concept": "Probabilistic Inference & Statistics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Statistical Interval",
+        "decision": "move",
+        "proposed_path": "Mathematics > Probabilistic Inference & Statistics"
+      },
+      {
+        "concept": "Stochastic Equation",
+        "decision": "move",
+        "proposed_path": "Mathematics > Stochastic Processes"
+      },
+      {
+        "concept": "Stochastic Processes",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_57c53e5bdbbc9985afd14036": {
+    "decisions": [
+      {
+        "concept": "bijective transformation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "distance function",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "divergence",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "first-order logic",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "matrix decomposition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "orthogonal transformation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "persistence diagram",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "random matrix",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "region of attraction",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "semidefinite relaxation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "spectral decomposition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "spectral filter",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "spectral method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "tensor decomposition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "tensor factorization",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_df0df076683d19977e76fc66": {
+    "decisions": [
+      {
+        "concept": "transition matrix",
+        "decision": "move",
+        "proposed_path": "Mathematics > Linear Algebra > Matrix"
+      }
+    ]
+  },
+  "refine_llm_v5_677b2f6d55b39d4ead8c77eb": {
+    "decisions": [
+      {
+        "concept": "Discrete Structures",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_7af98abe7aa67d60497f054f": {
+    "decisions": [
+      {
+        "concept": "convex programming",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "coordinate descent",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "min-max game",
+        "decision": "move",
+        "proposed_path": "Mathematics > Game Theory"
+      }
+    ]
+  },
+  "refine_llm_v5_ae64162b031d07163df0f7ad": {
+    "decisions": [
+      {
+        "concept": "Estimation & Sampling Techniques",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Statistical Inference Methods",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_706f7136ce2a2b9585d1454a": {
+    "decisions": [
+      {
+        "concept": "Hawkes Process",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d1b38f40594e272bbfe6b11d": {
+    "decisions": [
+      {
+        "concept": "complex network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "graph",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_a87e1612ea88f5743c9900d2": {
+    "decisions": [
+      {
+        "concept": "kernel density estimator",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_146faa3ae67a7c4447ea8f98": {
+    "decisions": [
+      {
+        "concept": "confidence interval",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "hypothesis test",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_292c4803c854b84b1674d25e": {
+    "decisions": [
+      {
+        "concept": "Computational Physics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Dynamical Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Quantum Information",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Statistical Mechanics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "mean-field theory",
+        "decision": "move",
+        "proposed_path": "Physics > Statistical Mechanics"
+      },
+      {
+        "concept": "perturbation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "physics-based model",
+        "decision": "move",
+        "proposed_path": "Physics > Computational Physics"
+      },
+      {
+        "concept": "quantum circuit",
+        "decision": "move",
+        "proposed_path": "Physics > Quantum Information"
+      },
+      {
+        "concept": "renormalization group",
+        "decision": "move",
+        "proposed_path": "Physics > Statistical Mechanics"
+      },
+      {
+        "concept": "tensor network",
+        "decision": "move",
+        "proposed_path": "Physics > Quantum Information"
+      }
+    ]
+  },
+  "refine_llm_v5_2386d409b03c9c27eb2e0344": {
+    "decisions": [
+      {
+        "concept": "molecular simulation",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_35034be3f4f466b087eda219": {
+    "decisions": [
+      {
+        "concept": "Hamiltonian dynamics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "differential equation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "diffusion process",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "markov chain",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "random walks",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_901e56cad66d88ad3e95175e": {
+    "decisions": [
+      {
+        "concept": "gene interaction graph",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "spike-timing dependent plasticity",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_86936c54d740416cbbed7a11": {
+    "decisions": [
+      {
+        "concept": "Control_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Control_Theory_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Signal Processing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "digital twin",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "false data injection attack",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "fault-tolerant control",
+        "decision": "move",
+        "proposed_path": "Engineering > Control_Algorithm"
+      },
+      {
+        "concept": "feedback loop",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "linear system identification",
+        "decision": "move",
+        "proposed_path": "Engineering > Signal Processing"
+      },
+      {
+        "concept": "parameterized quantum circuit",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "simulator",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_983380f4cdecaae935886404": {
+    "decisions": [
+      {
+        "concept": "Model_Predictive_Control",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_ecd2f943a5be5e8b2fac05cb": {
+    "decisions": [
+      {
+        "concept": "linear quadratic regulator",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_4dc8cbcd702d11c7fb44ba18": {
+    "decisions": [
+      {
+        "concept": "sparse recovery",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_8866022ef3038e9e09d41df5": {
+    "decisions": [
+      {
+        "concept": "Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Computing Architectures",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data Analysis",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data Generation Method",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Dataset Shift",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Decision Boundary",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Digital Media & Simulation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Dimension Reduction Technique",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Feature Transform",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Intelligent Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Invariant Learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Learning Method",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Machine Learning Task",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Model Error",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      },
+      {
+        "concept": "Model Property",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning"
+      }
+    ]
+  },
+  "refine_llm_v5_782332f745a09c5f1b8f4566": {
+    "decisions": [
+      {
+        "concept": "NP-hard problem",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Theoretical Foundations > computational complexity"
+      },
+      {
+        "concept": "Signal Processing Task",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Signal_Processing_Tasks"
+      },
+      {
+        "concept": "Software Assurance",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Software_Engineering"
+      },
+      {
+        "concept": "Theoretical Foundations",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Training Data",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Machine_Learning > Data_Sets"
+      },
+      {
+        "concept": "hierarchical decomposition",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Algorithms > Algorithmic_Techniques"
+      },
+      {
+        "concept": "image processing",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Computer_Vision"
+      },
+      {
+        "concept": "intermediate representation",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Compilers"
+      },
+      {
+        "concept": "probabilistic programming",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Programming_Paradigms"
+      }
+    ]
+  },
+  "refine_llm_v5_b79c93c25806952018e57074": {
+    "decisions": [
+      {
+        "concept": "Algorithmic_Techniques",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Algorithm_Design"
+      }
+    ]
+  },
+  "refine_llm_v5_0e24720c627eaa427c14c6d1": {
+    "decisions": [
+      {
+        "concept": "AI_Applications_and_Evaluation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data_Engineering_and_Analysis",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Heuristic_Search_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Theory_and_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Mathematical_Optimization_and_Inference",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Architectures_and_Frameworks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Multi-Agent Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "abductive reasoning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "automated theorem proving",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "knowledge acquisition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "knowledge base",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "logic program",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "predictive coding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "search algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_800aba41925eae7069e5ed50": {
+    "decisions": [
+      {
+        "concept": "Blockchain",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Distributed Systems"
+      },
+      {
+        "concept": "Distributed Algorithm",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Algorithms"
+      },
+      {
+        "concept": "Quantum Computing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Trusted Execution Environment",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_10524b5b0773dc2f4d7be5b7": {
+    "decisions": [
+      {
+        "concept": "interactive visualization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "simulation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "synthetic media",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_ab6a7ae2e28dab9cbf9bbf9c": {
+    "decisions": [
+      {
+        "concept": "formal verification",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_a69bb494d02061dbb0c44036": {
+    "decisions": [
+      {
+        "concept": "computational complexity",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "computational model",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_10f1a6b0b8645005eb15bd1d": {
+    "decisions": [
+      {
+        "concept": "AI_Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "AI_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_21445038b513a8605d086b7e": {
+    "decisions": [
+      {
+        "concept": "Data Labeling",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data Preprocessing",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_771803932b3f8fc5600c5174": {
+    "decisions": [
+      {
+        "concept": "Evolutionary_Computation",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_f6cca6327f78700b2d783415": {
+    "decisions": [
+      {
+        "concept": "Concept Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Instance-based Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d5a0f1501ecace74180857fb": {
+    "decisions": [
+      {
+        "concept": "Bandit_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_Learning_Paradigms",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "Data_Sets",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "General_Graphical_Frameworks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Generative_Graphical_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Paradigm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Application_Domain",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Miscellaneous_ML_Concepts",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Policy-Based_RL_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Value-Based_RL_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Video_Analysis_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Wasserstein GAN",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "causal model",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > General_Graphical_Frameworks"
+      },
+      {
+        "concept": "collaborative learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "conditional generative model",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_703d67f727877fa55bf90a95": {
+    "decisions": [
+      {
+        "concept": "data analytics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep gaussian process",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep generative model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep image prior",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "diffusion model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "diffusion probabilistic model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "few-shot learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "gaussian process regression",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generative model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "hidden markov model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "imitation learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "markov random field",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "meta-learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "mixture model",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_71b5af75a41e65e63601ff95": {
+    "decisions": [
+      {
+        "concept": "multi-output gaussian process",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "multimodal learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "neural process",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "pattern recognition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "probabilistic generative model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "quantum machine learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sum-product network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "upper confidence bound",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_5d1fc1f7c243cc9e2737d148": {
+    "decisions": [
+      {
+        "concept": "Mathematical Optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model Optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic Inference",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_6420a467b1604f5bec9dd92f": {
+    "decisions": [
+      {
+        "concept": "Connectionist Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Federated Learning Framework",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigms"
+      },
+      {
+        "concept": "Physics-Informed Neural Network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_e8fcf922ab665f3e5f708313": {
+    "decisions": [
+      {
+        "concept": "multi-agent reinforcement learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d92be34fb9ea30c87a61d243": {
+    "decisions": [
+      {
+        "concept": "Recommendation System",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "classification-system",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_8860b62481ca74d860e9a03c": {
+    "decisions": [
+      {
+        "concept": "Audio Classification Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "CTR Prediction Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Detection Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Recognition Task",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_17c561b774097d32138e7176": {
+    "decisions": [
+      {
+        "concept": "Upper_Confidence_Bound_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_a66eb42b717cc501e7e48d35": {
+    "decisions": [
+      {
+        "concept": "neural network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_3df5a7c1f41687f003ebe93c": {
+    "decisions": [
+      {
+        "concept": "Motivation_Driven_Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Optimization_Based_Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_16cc7a7fd47e7c1668cab7c3": {
+    "decisions": [
+      {
+        "concept": "distant supervision",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_e3b86769568ef0c7e702aedf": {
+    "decisions": [
+      {
+        "concept": "Feature Engineering",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "missing value imputation",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_2a3da7f3b67837b874316a37": {
+    "decisions": [
+      {
+        "concept": "genetic programming",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d7dd2768c076fcec61c5dffa": {
+    "decisions": [
+      {
+        "concept": "Decentralized Federated Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_e7e68fdd38e980c46e63ce94": {
+    "decisions": [
+      {
+        "concept": "Graph_Based_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Graphical_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic_Graphical_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_1387a5a01ad6127c12d1b3ed": {
+    "decisions": [
+      {
+        "concept": "Gaussian_Mixture_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Graph_Generative_Model",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Generative_Model"
+      }
+    ]
+  },
+  "refine_llm_v5_1d7a948fb4843076a0952bb0": {
+    "decisions": [
+      {
+        "concept": "case-based reasoning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "k-nearest neighbors",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_8ac4f719405087a7560e8403": {
+    "decisions": [
+      {
+        "concept": "Core_ML_Learning_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "FewShotLearning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Strategy",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "SemiSupervisedLearning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Supervised_Learning_Variants",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "continual learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep reinforcement learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "domain generalization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "end-to-end learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "feature learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generalized zero-shot learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "lifelong learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "multi-task learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "multi-view learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "self-supervised learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_689663c7644b60a7b2b03f2d": {
+    "decisions": [
+      {
+        "concept": "semi-supervised learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sequence-to-sequence learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Model_Architecture"
+      },
+      {
+        "concept": "weakly supervised learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_64fdb7adc023ff78da3e8ca2": {
+    "decisions": [
+      {
+        "concept": "Adversarial_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Algorithmic Strategy",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Approximation Method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_Gradient_Based_Optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Embedding_Techniques",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Deep Ensemble Methods",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Deep_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Deep_Reinforcement_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Domain Adaptation Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Ensemble_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Imitation_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Paradigm_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Interpretability_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Matrix Factorization Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_c7c556af998eb593bb2cf29d": {
+    "decisions": [
+      {
+        "concept": "Meta_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Adaptation_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Online_Optimization_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Optimization_and_Efficiency",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic_and_Statistical_Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Quantum_ML_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Reinforcement_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Reinforcement_Learning_Variants",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Robustness_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Sampling Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Semi_Supervised_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Specialized_Optimization_Frameworks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Structural_and_Representation_Algorithms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Supervised_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Unsupervised_Learning_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_c3187ccf0efdafba76206105": {
+    "decisions": [
+      {
+        "concept": "activation function",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Component"
+      },
+      {
+        "concept": "actor-critic algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "actor-critic framework",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Framework"
+      },
+      {
+        "concept": "adversarial training",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Training_Method"
+      },
+      {
+        "concept": "approximate message passing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "attention mechanism",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Component"
+      },
+      {
+        "concept": "boosting",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "causal convolution",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Component"
+      },
+      {
+        "concept": "channel pruning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Optimization_Technique"
+      },
+      {
+        "concept": "contrastive predictive coding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "convolutional sparse coding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "counterfactual regret minimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep deterministic policy gradient",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "deep ensemble",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "derivative-free optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d9b189e242c89e4bff4c1b1c": {
+    "decisions": [
+      {
+        "concept": "dilated convolution",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Neural_Network_Component"
+      },
+      {
+        "concept": "dynamic time warping",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Distance_Metric"
+      },
+      {
+        "concept": "ensemble learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "episodic reinforcement learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "graph convolution",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Neural_Network_Component"
+      },
+      {
+        "concept": "graph pooling",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Neural_Network_Component"
+      },
+      {
+        "concept": "hierarchical reinforcement learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "kernel method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "kernel trick",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "knowledge transfer",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "learning vector quantization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "message passing",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Neural_Network_Component"
+      },
+      {
+        "concept": "model-agnostic meta-learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "model-based reinforcement learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "multi-armed bandit",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_2751cbaeabac62c2fe36a135": {
+    "decisions": [
+      {
+        "concept": "multi-instance learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "multimodal fusion",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "noise injection",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "off-policy reinforcement learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning"
+      },
+      {
+        "concept": "one-shot learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "option",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning > RL_Component"
+      },
+      {
+        "concept": "policy gradient algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "policy gradient method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "policy optimization",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "quantum algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "quantum annealing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "random projection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "rectified linear unit",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Neural_Network_Component"
+      },
+      {
+        "concept": "relational learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      },
+      {
+        "concept": "reservoir computing",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_ada0d7d0e29783f4a7aaf80c": {
+    "decisions": [
+      {
+        "concept": "residual learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "self-attention",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Component"
+      },
+      {
+        "concept": "spectral algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "stacking",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "stochastic regularization",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Regularization_Technique"
+      },
+      {
+        "concept": "variational Bayesian inference",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "variational information bottleneck",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Technique"
+      },
+      {
+        "concept": "variational quantum algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "zero-shot learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Learning_Paradigm"
+      }
+    ]
+  },
+  "refine_llm_v5_c96689b224b7688e01632dc0": {
+    "decisions": [
+      {
+        "concept": "computer vision",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "process mining",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d1cad1fb9fb4620354d0b8d1": {
+    "decisions": [
+      {
+        "concept": "Adversarial_Data_Representations",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Data_and_Representation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data_Representation_Methods",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Data_Analysis_and_Sampling",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_Preprocessing"
+      },
+      {
+        "concept": "ML_Data_Representation_Artifacts",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Embedding_Techniques",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_and_Representation > Data_Representation_Methods"
+      },
+      {
+        "concept": "ML_Graph_Representations",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Mathematical_Data_Representations",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Sparse Dimensionality Reduction",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_and_Representation > Data_Representation_Methods"
+      },
+      {
+        "concept": "[NEW]_ML_Data_Generation",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_Preprocessing"
+      },
+      {
+        "concept": "[NEW]_Representation_Metrics",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Evaluation"
+      },
+      {
+        "concept": "binary representation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "context vectors",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "contextual representation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "coreset",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_6df99ab2f58fb78e444dd991": {
+    "decisions": [
+      {
+        "concept": "data embedding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "data imputation",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_Preprocessing"
+      },
+      {
+        "concept": "dataset",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "embedding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "embedding space",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "embedding-based method",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Methods"
+      },
+      {
+        "concept": "feature extraction",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_Preprocessing"
+      },
+      {
+        "concept": "feature map",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "graph augmentation",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Data_Preprocessing"
+      },
+      {
+        "concept": "heterogeneous information network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "low-dimensional embedding",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "random fourier features",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "semantic word vector",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "similarity function",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Metrics"
+      },
+      {
+        "concept": "synthetic data",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_928e0b0844dc054ac69b2f10": {
+    "decisions": [
+      {
+        "concept": "weakly labeled data",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "word representation",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_cfb5eacd0811b43e5a678fa3": {
+    "decisions": [
+      {
+        "concept": "Bregman divergence",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_First_Order_Optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Foundations_and_Theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Hilbert-Schmidt Independence Criterion",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning Theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_and_Optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Lipschitz constant",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Optimization_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Optimization_and_Regularization_Techniques",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "PAC-Bayesian bound",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic_and_Causal_Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Statistical_Inference_and_Learning_Theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Wasserstein barycenter",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Wasserstein metric",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_ac0410c3af91bd2ab5751d89": {
+    "decisions": [
+      {
+        "concept": "compressed sensing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "control variates",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Optimization"
+      },
+      {
+        "concept": "exploration",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning"
+      },
+      {
+        "concept": "fisher information matrix",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "function approximation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generalization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generalization risk",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "gradient information",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Optimization"
+      },
+      {
+        "concept": "high-probability bound",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "implicit regularization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "inductive bias",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "lagrangian duality",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Optimization"
+      },
+      {
+        "concept": "likelihood function",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "linear convergence",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Optimization"
+      },
+      {
+        "concept": "link function",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Supervised_Learning"
+      }
+    ]
+  },
+  "refine_llm_v5_856b5c38a72132a8135415ce": {
+    "decisions": [
+      {
+        "concept": "loss landscape",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "mixture distribution",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "multivariate normal distribution",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "nash equilibrium",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "no-regret learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "optimization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "positive definite kernel",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "predictive distribution",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "prior distribution",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "randomization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "regret",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "regret bound",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "reproducing kernel Hilbert space",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "saddle point",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sample complexity",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d0a25a224b15dbba3e8ac67d": {
+    "decisions": [
+      {
+        "concept": "shapley value",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "statistical learning theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "submodular function",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_f3a8ab2ffad8079485b6899f": {
+    "decisions": [
+      {
+        "concept": "Hardware Architecture",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Computing_and_Infrastructure",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Environments_and_Interfaces",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Frameworks_and_Languages",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Neuromorphic Computing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_ML_Security_and_Privacy",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_948cf79c470f240f36d2afeb": {
+    "decisions": [
+      {
+        "concept": "Advanced_ML_Computing_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Analysis_and_Discovery_Methods",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Trustworthy_and_Ethical_ML",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_7e581ae5cc9ce47fff35457e": {
+    "decisions": [
+      {
+        "concept": "Advanced_Learning_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Architectural_Features",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Architecture_Types",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model > Model_Architectures"
+      },
+      {
+        "concept": "Bottleneck_Architecture",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model > Model_Architectures"
+      },
+      {
+        "concept": "Classical_ML_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Classical_and_Algorithmic_Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Connectivity_Mechanisms",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model > Architectural_Features"
+      },
+      {
+        "concept": "Core_Core_ML_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Architectures",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Neural Architecture",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model > Model_Architectures"
+      },
+      {
+        "concept": "Neural_and_Connectionist_Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic_and_Statistical_Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ReLU network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Specialized_Convolutional_Neural_Network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_c1979f1b100fed5fbfc1681f": {
+    "decisions": [
+      {
+        "concept": "Specialized_Topology_Network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Structural_Components",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model_Architecture"
+      },
+      {
+        "concept": "Task_Specific_Architecture",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model_Architecture"
+      },
+      {
+        "concept": "deep learning architecture",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model_Architecture"
+      },
+      {
+        "concept": "encoder-decoder model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "end-to-end model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generative architecture",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model_Architecture"
+      },
+      {
+        "concept": "hyperparameter",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "language model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "latent factor model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "latent variable model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "learned index",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "machine learning classifier",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "machine learning model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "metamodel",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_f33fec529e22af14ac14a058": {
+    "decisions": [
+      {
+        "concept": "neural model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "pre-trained language model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "pre-trained model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "probabilistic circuit",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "probabilistic model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "recurrent neural network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "region proposal network",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "regression model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sequential model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sparse gaussian process",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "stochastic model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "stochastic policy",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning > Policy"
+      },
+      {
+        "concept": "supervised model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "transformer network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_aa39ead6f64405b92876d52f": {
+    "decisions": [
+      {
+        "concept": "Optimization_Components",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Optimization"
+      },
+      {
+        "concept": "Optimization_Framework",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Optimization"
+      },
+      {
+        "concept": "Regularization Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Transformer_Based_Learning_Objective",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_General_Objective",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_Reward_and_Utility",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "constrained reinforcement learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning"
+      },
+      {
+        "concept": "cost function",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "cumulative regret",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "empirical risk",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "loss function",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "objective function",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ranking function",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model"
+      },
+      {
+        "concept": "regularization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "scoring function",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model"
+      }
+    ]
+  },
+  "refine_llm_v5_94f879bc0ea2211f198a89ca": {
+    "decisions": [
+      {
+        "concept": "Adversarial_ML",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Interpretability",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Interpretability_Method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Model_Interpretability_Attribute",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Performance_and_Generalization_Attribute",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Security",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Trustworthiness_Attribute",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Prediction_and_Robustness_Methods",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_ML_Learning_and_Optimization_Attribute",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_ML_Structural_Attribute",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "adversarial attack",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Property_and_Quality_Attribute > Adversarial_ML"
+      },
+      {
+        "concept": "algorithmic fairness",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "backdoor attack",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Property_and_Quality_Attribute > Adversarial_ML"
+      },
+      {
+        "concept": "differential privacy",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "local differential privacy",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Property_and_Quality_Attribute > differential privacy"
+      }
+    ]
+  },
+  "refine_llm_v5_9975624fd010fba9a3d90468": {
+    "decisions": [
+      {
+        "concept": "out-of-distribution generalization",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "probability calibration",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "robust reinforcement learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning"
+      },
+      {
+        "concept": "universal adversarial perturbation",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Adversarial_Machine_Learning"
+      }
+    ]
+  },
+  "refine_llm_v5_cd0476c5e265b8a35ebe4223": {
+    "decisions": [
+      {
+        "concept": "Analysis_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Analytical_and_Structural_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Anomaly_and_Pattern_Detection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Applied_ML_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Security_and_Reliability_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_Natural_Language_Processing_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Domain_Specific_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Generative_Supervised_Learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Task > Learning_Paradigm_Task"
+      },
+      {
+        "concept": "Image_Analysis_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Image_Generation_CNN",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Image_Segmentation_CNN",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Learning_Paradigm_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Security_Attack",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Security_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_b67af20054f7b5032139d3f5": {
+    "decisions": [
+      {
+        "concept": "ML_Security_and_Reliability_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Object_Detection_CNN",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Model"
+      },
+      {
+        "concept": "Pattern_and_Anomaly_Detection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Regression_and_Segmentation_ML_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Reinforcement_Learning_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Robustness_and_Security_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Specialized_ML_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Supervised_Learning_Task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Tasks_and_Applications",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "adversarial example detection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "auxiliary task",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "change-point detection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "click-through rate prediction",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "clustering",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "conditional average treatment effect",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_bc5dfe0beede1ed6e983cf20": {
+    "decisions": [
+      {
+        "concept": "domain adaptation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "image analysis",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "off-policy evaluation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "predictive analytics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "sequence modeling",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "tensor completion",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "text-to-speech synthesis",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_ecb385875677f5dbfd6d65e0": {
+    "decisions": [
+      {
+        "concept": "Automated_ML_Workflow",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Core_ML_Workflow_and_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data_Fairness_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Data_Refinement_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Distributed_Learning_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Federated_ML_Workflow",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Compression_Workflow",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Optimization_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Optimization_and_Refinement",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Model_Training_and_Selection_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Training_Optimization_Strategy",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Training_and_Sampling_Strategies",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "[NEW]_Knowledge_Acquisition_Protocol",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "automated machine learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_21ce6eef709facd6aab42bf2": {
+    "decisions": [
+      {
+        "concept": "network compression",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_c8798e7f87d3c37c8172507d": {
+    "decisions": [
+      {
+        "concept": "Hamiltonian Neural Network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_9ad924dd3a5379f34e5236c1": {
+    "decisions": [
+      {
+        "concept": "Actor_Critic_Method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Actor_Critic_RL_Algorithm",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Asynchronous_Advantage_Actor_Critic",
+        "decision": "move",
+        "proposed_path": "Computer_Science -> Artificial_Intelligence -> Machine_Learning -> Policy-Based_RL_Algorithm -> Actor_Critic_RL_Algorithm"
+      },
+      {
+        "concept": "Policy_Gradient",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Proximal_Policy_Optimization",
+        "decision": "move",
+        "proposed_path": "Computer_Science -> Artificial_Intelligence -> Machine_Learning -> Policy-Based_RL_Algorithm -> Policy_Gradient"
+      },
+      {
+        "concept": "Soft_Actor_Critic",
+        "decision": "move",
+        "proposed_path": "Computer_Science -> Artificial_Intelligence -> Machine_Learning -> Policy-Based_RL_Algorithm -> Actor_Critic_RL_Algorithm"
+      }
+    ]
+  },
+  "refine_llm_v5_6db6fbe00519e862ec46b9bc": {
+    "decisions": [
+      {
+        "concept": "Gibbs Sampling",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_0a26fe4b52efe593dc081430": {
+    "decisions": [
+      {
+        "concept": "Deep Q-Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Off-Policy Learning",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Reinforcement_Learning"
+      },
+      {
+        "concept": "Q-Learning",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_d3201efa3165967cde1af60b": {
+    "decisions": [
+      {
+        "concept": "Action_Recognition",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Deepfake_Detection",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Video_Prediction",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Video_Generation_Task"
+      }
+    ]
+  },
+  "refine_llm_v5_9f0c166469778aa2a35d7d72": {
+    "decisions": [
+      {
+        "concept": "Autoencoder-based Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Diffusion and Score-based Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Flow-based Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "GAN-based Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Probabilistic_and_Functional_Model",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Remove (Redundant with flow-based generative model)",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Remove (Redundant with generative neural network)",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "generative neural network",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_21f3ff23cd32c4366df4fef7": {
+    "decisions": [
+      {
+        "concept": "meta-learner",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > Machine_Learning_Model"
+      }
+    ]
+  },
+  "refine_llm_v5_2504f1fdcfaa817512d28780": {
+    "decisions": [
+      {
+        "concept": "Neural_and_Tensor_Generative_Models",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "probabilistic sampling model",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_f546e5f8fc24a0c9eb0553cb": {
+    "decisions": [
+      {
+        "concept": "Game Theory",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Linear Algebra",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_c7609a8cbcd421d1994f3013": {
+    "decisions": [
+      {
+        "concept": "Matrix",
+        "decision": "move",
+        "proposed_path": "Mathematics > Mathematical Object"
+      }
+    ]
+  },
+  "refine_llm_v5_b2b6d3f3409e75947909aaca": {
+    "decisions": [
+      {
+        "concept": "Algorithm_Design",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Compilers",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Distributed Systems",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Programming_Paradigms",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Signal_Processing_Tasks",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Software_Engineering",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_0013ef89ef2934b541213dec": {
+    "decisions": [
+      {
+        "concept": "Distance_Metric",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Metrics"
+      },
+      {
+        "concept": "ML_Component",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Data_Preprocessing",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Evaluation",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Framework",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Software_Engineering > Software_Framework"
+      },
+      {
+        "concept": "ML_Metrics",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Optimization_Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Technique",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "ML_Training_Method",
+        "decision": "ok",
+        "proposed_path": ""
+      },
+      {
+        "concept": "Neural_Network_Component",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Machine_Learning > ML_Component"
+      },
+      {
+        "concept": "Video_Generation_Task",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Artificial_Intelligence > Computer_Vision"
+      }
+    ]
+  },
+  "refine_llm_v5_4093d060efc9ce35b6d2e586": {
+    "decisions": [
+      {
+        "concept": "Mathematical Object",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  },
+  "refine_llm_v5_dc7388b03d3164d35e55b34f": {
+    "decisions": [
+      {
+        "concept": "Software_Framework",
+        "decision": "move",
+        "proposed_path": "Computer_Science > Software"
+      }
+    ]
+  },
+  "refine_llm_v5_b6099e85043896d11302346e": {
+    "decisions": [
+      {
+        "concept": "Software",
+        "decision": "ok",
+        "proposed_path": ""
+      }
+    ]
+  }
+}

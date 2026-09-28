@@ -1,0 +1,4 @@
+# The full ITO OWL is 124 MB — kept out of version control (reproducible via SOURCES.md).
+# The lightweight ito-ai-process.json task tree IS tracked and used by default.
+ITO.owl
+ITO.owl.zip

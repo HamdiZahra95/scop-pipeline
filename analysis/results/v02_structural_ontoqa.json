@@ -1,0 +1,422 @@
+{
+  "modes": [
+    "baseline",
+    "guided"
+  ],
+  "primary": {
+    "baseline": {
+      "class_count": 2089,
+      "concept_count": 2072,
+      "skeleton_count": 17,
+      "max_depth": 11,
+      "branching_factor": 2.352,
+      "pct_with_parent": 1.0,
+      "pct_with_property": 0.2138,
+      "orphan_count": 0,
+      "orphan_ratio": 0.0,
+      "inheritance_richness": 0.9976,
+      "relationship_richness": 0.3131,
+      "attribute_richness": 38.6769,
+      "tangledness": 0.0,
+      "multi_parent_classes": 0,
+      "leaf_ratio": 0.5759,
+      "leaf_count": 1203,
+      "property_edges": 950,
+      "run": "scop_baseline.owl"
+    },
+    "guided": {
+      "class_count": 2129,
+      "concept_count": 2112,
+      "skeleton_count": 17,
+      "max_depth": 10,
+      "branching_factor": 2.376,
+      "pct_with_parent": 1.0,
+      "pct_with_property": 0.2216,
+      "orphan_count": 0,
+      "orphan_ratio": 0.0,
+      "inheritance_richness": 0.9977,
+      "relationship_richness": 0.3194,
+      "attribute_richness": 37.6726,
+      "tangledness": 0.0,
+      "multi_parent_classes": 0,
+      "leaf_ratio": 0.5801,
+      "leaf_count": 1235,
+      "property_edges": 997,
+      "run": "scop_guided.owl"
+    }
+  },
+  "comparison": {
+    "class_count": {
+      "baseline": 2089,
+      "guided": 2129,
+      "delta": 40
+    },
+    "concept_count": {
+      "baseline": 2072,
+      "guided": 2112,
+      "delta": 40
+    },
+    "skeleton_count": {
+      "baseline": 17,
+      "guided": 17,
+      "delta": 0
+    },
+    "max_depth": {
+      "baseline": 11,
+      "guided": 10,
+      "delta": -1
+    },
+    "branching_factor": {
+      "baseline": 2.352,
+      "guided": 2.376,
+      "delta": 0.024
+    },
+    "pct_with_parent": {
+      "baseline": 1.0,
+      "guided": 1.0,
+      "delta": 0.0
+    },
+    "pct_with_property": {
+      "baseline": 0.2138,
+      "guided": 0.2216,
+      "delta": 0.0078
+    },
+    "orphan_count": {
+      "baseline": 0,
+      "guided": 0,
+      "delta": 0
+    },
+    "orphan_ratio": {
+      "baseline": 0.0,
+      "guided": 0.0,
+      "delta": 0.0
+    },
+    "inheritance_richness": {
+      "baseline": 0.9976,
+      "guided": 0.9977,
+      "delta": 0.0001
+    },
+    "relationship_richness": {
+      "baseline": 0.3131,
+      "guided": 0.3194,
+      "delta": 0.0063
+    },
+    "attribute_richness": {
+      "baseline": 38.6769,
+      "guided": 37.6726,
+      "delta": -1.0043
+    },
+    "tangledness": {
+      "baseline": 0.0,
+      "guided": 0.0,
+      "delta": 0.0
+    },
+    "multi_parent_classes": {
+      "baseline": 0,
+      "guided": 0,
+      "delta": 0
+    },
+    "leaf_ratio": {
+      "baseline": 0.5759,
+      "guided": 0.5801,
+      "delta": 0.0042
+    },
+    "leaf_count": {
+      "baseline": 1203,
+      "guided": 1235,
+      "delta": 32
+    },
+    "property_edges": {
+      "baseline": 950,
+      "guided": 997,
+      "delta": 47
+    }
+  },
+  "distribution_across_runs": {
+    "baseline": {
+      "class_count": {
+        "point": 2089.0,
+        "lo": 2089.0,
+        "hi": 2089.0,
+        "n": 1,
+        "min": 2089,
+        "max": 2089
+      },
+      "concept_count": {
+        "point": 2072.0,
+        "lo": 2072.0,
+        "hi": 2072.0,
+        "n": 1,
+        "min": 2072,
+        "max": 2072
+      },
+      "skeleton_count": {
+        "point": 17.0,
+        "lo": 17.0,
+        "hi": 17.0,
+        "n": 1,
+        "min": 17,
+        "max": 17
+      },
+      "max_depth": {
+        "point": 11.0,
+        "lo": 11.0,
+        "hi": 11.0,
+        "n": 1,
+        "min": 11,
+        "max": 11
+      },
+      "branching_factor": {
+        "point": 2.352,
+        "lo": 2.352,
+        "hi": 2.352,
+        "n": 1,
+        "min": 2.352,
+        "max": 2.352
+      },
+      "pct_with_parent": {
+        "point": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n": 1,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "pct_with_property": {
+        "point": 0.2138,
+        "lo": 0.2138,
+        "hi": 0.2138,
+        "n": 1,
+        "min": 0.2138,
+        "max": 0.2138
+      },
+      "orphan_count": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0,
+        "max": 0
+      },
+      "orphan_ratio": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "inheritance_richness": {
+        "point": 0.9976,
+        "lo": 0.9976,
+        "hi": 0.9976,
+        "n": 1,
+        "min": 0.9976,
+        "max": 0.9976
+      },
+      "relationship_richness": {
+        "point": 0.3131,
+        "lo": 0.3131,
+        "hi": 0.3131,
+        "n": 1,
+        "min": 0.3131,
+        "max": 0.3131
+      },
+      "attribute_richness": {
+        "point": 38.6769,
+        "lo": 38.6769,
+        "hi": 38.6769,
+        "n": 1,
+        "min": 38.6769,
+        "max": 38.6769
+      },
+      "tangledness": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "multi_parent_classes": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0,
+        "max": 0
+      },
+      "leaf_ratio": {
+        "point": 0.5759,
+        "lo": 0.5759,
+        "hi": 0.5759,
+        "n": 1,
+        "min": 0.5759,
+        "max": 0.5759
+      },
+      "leaf_count": {
+        "point": 1203.0,
+        "lo": 1203.0,
+        "hi": 1203.0,
+        "n": 1,
+        "min": 1203,
+        "max": 1203
+      },
+      "property_edges": {
+        "point": 950.0,
+        "lo": 950.0,
+        "hi": 950.0,
+        "n": 1,
+        "min": 950,
+        "max": 950
+      }
+    },
+    "guided": {
+      "class_count": {
+        "point": 2129.0,
+        "lo": 2129.0,
+        "hi": 2129.0,
+        "n": 1,
+        "min": 2129,
+        "max": 2129
+      },
+      "concept_count": {
+        "point": 2112.0,
+        "lo": 2112.0,
+        "hi": 2112.0,
+        "n": 1,
+        "min": 2112,
+        "max": 2112
+      },
+      "skeleton_count": {
+        "point": 17.0,
+        "lo": 17.0,
+        "hi": 17.0,
+        "n": 1,
+        "min": 17,
+        "max": 17
+      },
+      "max_depth": {
+        "point": 10.0,
+        "lo": 10.0,
+        "hi": 10.0,
+        "n": 1,
+        "min": 10,
+        "max": 10
+      },
+      "branching_factor": {
+        "point": 2.376,
+        "lo": 2.376,
+        "hi": 2.376,
+        "n": 1,
+        "min": 2.376,
+        "max": 2.376
+      },
+      "pct_with_parent": {
+        "point": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n": 1,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "pct_with_property": {
+        "point": 0.2216,
+        "lo": 0.2216,
+        "hi": 0.2216,
+        "n": 1,
+        "min": 0.2216,
+        "max": 0.2216
+      },
+      "orphan_count": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0,
+        "max": 0
+      },
+      "orphan_ratio": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "inheritance_richness": {
+        "point": 0.9977,
+        "lo": 0.9977,
+        "hi": 0.9977,
+        "n": 1,
+        "min": 0.9977,
+        "max": 0.9977
+      },
+      "relationship_richness": {
+        "point": 0.3194,
+        "lo": 0.3194,
+        "hi": 0.3194,
+        "n": 1,
+        "min": 0.3194,
+        "max": 0.3194
+      },
+      "attribute_richness": {
+        "point": 37.6726,
+        "lo": 37.6726,
+        "hi": 37.6726,
+        "n": 1,
+        "min": 37.6726,
+        "max": 37.6726
+      },
+      "tangledness": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "multi_parent_classes": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 1,
+        "min": 0,
+        "max": 0
+      },
+      "leaf_ratio": {
+        "point": 0.5801,
+        "lo": 0.5801,
+        "hi": 0.5801,
+        "n": 1,
+        "min": 0.5801,
+        "max": 0.5801
+      },
+      "leaf_count": {
+        "point": 1235.0,
+        "lo": 1235.0,
+        "hi": 1235.0,
+        "n": 1,
+        "min": 1235,
+        "max": 1235
+      },
+      "property_edges": {
+        "point": 997.0,
+        "lo": 997.0,
+        "hi": 997.0,
+        "n": 1,
+        "min": 997,
+        "max": 997
+      }
+    }
+  },
+  "runs_meta": {
+    "baseline": {
+      "n_runs": 1
+    },
+    "guided": {
+      "n_runs": 1
+    }
+  },
+  "note": "Primary = latest baseline vs latest guided. Distribution spread across historical exports also reflects code-version changes, not only LLM run-to-run noise (see v07 for a cleaner stability study)."
+}

@@ -1,0 +1,463 @@
+{
+  "config": {
+    "threshold": 0.85,
+    "use_semantic": true,
+    "ito_full": false
+  },
+  "golds": {
+    "ccs": {
+      "blurb": "ACM CCS 2012 (institutional human curation; skos:broader)",
+      "concepts": 2299
+    },
+    "ito": {
+      "blurb": "ITO (manual expert curation; AI task hierarchy)",
+      "concepts": 1097
+    },
+    "aio": {
+      "blurb": "AIO (expert + LLM-assisted; ML model/architecture is-a) — supplementary",
+      "concepts": 442
+    }
+  },
+  "runs": {
+    "baseline": {
+      "_owl": "/home/hamdi/Desktop/Ontololgy/undermind.ai/ssep_pipeline/test_result/pipeline_v2/ontologies/scop_baseline.owl",
+      "ccs": {
+        "match_kind_counts": {
+          "none": 1834,
+          "semantic": 85,
+          "exact": 147,
+          "lexical": 6
+        },
+        "semantic_score_mean": 0.887,
+        "with_semantic": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 2299,
+          "matched_concepts": 238,
+          "coverage_of_generated": 0.1149,
+          "coverage_ci": {
+            "point": 0.1149,
+            "lo": 0.1014,
+            "hi": 0.1293,
+            "n": 2072
+          },
+          "recall_of_gold": 0.0687,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 57,
+            "gold_ancestor_pairs": 109,
+            "overlap": 10,
+            "precision": 0.1754,
+            "recall": 0.0917,
+            "f1": 0.1205
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 2299,
+          "matched_concepts": 153,
+          "coverage_of_generated": 0.0738,
+          "coverage_ci": {
+            "point": 0.0738,
+            "lo": 0.0637,
+            "hi": 0.0849,
+            "n": 2072
+          },
+          "recall_of_gold": 0.0579,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 18,
+            "gold_ancestor_pairs": 66,
+            "overlap": 3,
+            "precision": 0.1667,
+            "recall": 0.0455,
+            "f1": 0.0714
+          }
+        }
+      },
+      "ito": {
+        "match_kind_counts": {
+          "none": 1881,
+          "semantic": 74,
+          "exact": 116,
+          "lexical": 1
+        },
+        "semantic_score_mean": 0.886,
+        "with_semantic": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 1097,
+          "matched_concepts": 191,
+          "coverage_of_generated": 0.0922,
+          "coverage_ci": {
+            "point": 0.0922,
+            "lo": 0.0796,
+            "hi": 0.1047,
+            "n": 2072
+          },
+          "recall_of_gold": 0.1231,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 20,
+            "gold_ancestor_pairs": 80,
+            "overlap": 8,
+            "precision": 0.4,
+            "recall": 0.1,
+            "f1": 0.16
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 1097,
+          "matched_concepts": 117,
+          "coverage_of_generated": 0.0565,
+          "coverage_ci": {
+            "point": 0.0565,
+            "lo": 0.0463,
+            "hi": 0.0666,
+            "n": 2072
+          },
+          "recall_of_gold": 0.1067,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 10,
+            "gold_ancestor_pairs": 57,
+            "overlap": 4,
+            "precision": 0.4,
+            "recall": 0.0702,
+            "f1": 0.1194
+          }
+        }
+      },
+      "aio": {
+        "match_kind_counts": {
+          "none": 1929,
+          "exact": 63,
+          "semantic": 79,
+          "lexical": 1
+        },
+        "semantic_score_mean": 0.89,
+        "with_semantic": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 442,
+          "matched_concepts": 143,
+          "coverage_of_generated": 0.069,
+          "coverage_ci": {
+            "point": 0.069,
+            "lo": 0.0584,
+            "hi": 0.0801,
+            "n": 2072
+          },
+          "recall_of_gold": 0.181,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 29,
+            "gold_ancestor_pairs": 75,
+            "overlap": 10,
+            "precision": 0.3448,
+            "recall": 0.1333,
+            "f1": 0.1923
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2072,
+          "gold_concepts": 442,
+          "matched_concepts": 64,
+          "coverage_of_generated": 0.0309,
+          "coverage_ci": {
+            "point": 0.0309,
+            "lo": 0.0232,
+            "hi": 0.0386,
+            "n": 2072
+          },
+          "recall_of_gold": 0.1448,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 4,
+            "gold_ancestor_pairs": 54,
+            "overlap": 2,
+            "precision": 0.5,
+            "recall": 0.037,
+            "f1": 0.069
+          }
+        }
+      }
+    },
+    "guided": {
+      "_owl": "/home/hamdi/Desktop/Ontololgy/undermind.ai/ssep_pipeline/test_result/pipeline_v2/ontologies/scop_guided.owl",
+      "ccs": {
+        "match_kind_counts": {
+          "none": 1857,
+          "semantic": 95,
+          "exact": 153,
+          "lexical": 7
+        },
+        "semantic_score_mean": 0.887,
+        "with_semantic": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 2299,
+          "matched_concepts": 255,
+          "coverage_of_generated": 0.1207,
+          "coverage_ci": {
+            "point": 0.1207,
+            "lo": 0.108,
+            "hi": 0.1349,
+            "n": 2112
+          },
+          "recall_of_gold": 0.0731,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 87,
+            "gold_ancestor_pairs": 118,
+            "overlap": 19,
+            "precision": 0.2184,
+            "recall": 0.161,
+            "f1": 0.1854
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 2299,
+          "matched_concepts": 160,
+          "coverage_of_generated": 0.0758,
+          "coverage_ci": {
+            "point": 0.0758,
+            "lo": 0.0658,
+            "hi": 0.0871,
+            "n": 2112
+          },
+          "recall_of_gold": 0.06,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 40,
+            "gold_ancestor_pairs": 92,
+            "overlap": 11,
+            "precision": 0.275,
+            "recall": 0.1196,
+            "f1": 0.1667
+          }
+        }
+      },
+      "ito": {
+        "match_kind_counts": {
+          "none": 1931,
+          "exact": 105,
+          "semantic": 74,
+          "lexical": 2
+        },
+        "semantic_score_mean": 0.886,
+        "with_semantic": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 1097,
+          "matched_concepts": 181,
+          "coverage_of_generated": 0.0857,
+          "coverage_ci": {
+            "point": 0.0857,
+            "lo": 0.0743,
+            "hi": 0.098,
+            "n": 2112
+          },
+          "recall_of_gold": 0.1176,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 25,
+            "gold_ancestor_pairs": 75,
+            "overlap": 2,
+            "precision": 0.08,
+            "recall": 0.0267,
+            "f1": 0.04
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 1097,
+          "matched_concepts": 107,
+          "coverage_of_generated": 0.0507,
+          "coverage_ci": {
+            "point": 0.0507,
+            "lo": 0.0417,
+            "hi": 0.0606,
+            "n": 2112
+          },
+          "recall_of_gold": 0.0957,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 9,
+            "gold_ancestor_pairs": 53,
+            "overlap": 1,
+            "precision": 0.1111,
+            "recall": 0.0189,
+            "f1": 0.0323
+          }
+        }
+      },
+      "aio": {
+        "match_kind_counts": {
+          "none": 1982,
+          "exact": 61,
+          "lexical": 2,
+          "semantic": 67
+        },
+        "semantic_score_mean": 0.89,
+        "with_semantic": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 442,
+          "matched_concepts": 130,
+          "coverage_of_generated": 0.0616,
+          "coverage_ci": {
+            "point": 0.0616,
+            "lo": 0.0507,
+            "hi": 0.072,
+            "n": 2112
+          },
+          "recall_of_gold": 0.181,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 26,
+            "gold_ancestor_pairs": 112,
+            "overlap": 8,
+            "precision": 0.3077,
+            "recall": 0.0714,
+            "f1": 0.1159
+          }
+        },
+        "strict": {
+          "concepts_evaluated": 2112,
+          "gold_concepts": 442,
+          "matched_concepts": 63,
+          "coverage_of_generated": 0.0298,
+          "coverage_ci": {
+            "point": 0.0298,
+            "lo": 0.0227,
+            "hi": 0.0369,
+            "n": 2112
+          },
+          "recall_of_gold": 0.1425,
+          "taxonomic": {
+            "predicted_ancestor_pairs": 8,
+            "gold_ancestor_pairs": 88,
+            "overlap": 2,
+            "precision": 0.25,
+            "recall": 0.0227,
+            "f1": 0.0417
+          }
+        }
+      }
+    }
+  },
+  "comparison": {
+    "ccs": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": 0.0738,
+          "guided": 0.0758,
+          "delta": 0.002,
+          "winner": "guided"
+        },
+        "recall_of_gold": {
+          "baseline": 0.0579,
+          "guided": 0.06,
+          "delta": 0.0021,
+          "winner": "guided"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.0714,
+          "guided": 0.1667,
+          "delta": 0.0953,
+          "winner": "guided"
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": 0.1149,
+          "guided": 0.1207,
+          "delta": 0.0058,
+          "winner": "guided"
+        },
+        "recall_of_gold": {
+          "baseline": 0.0687,
+          "guided": 0.0731,
+          "delta": 0.0044,
+          "winner": "guided"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.1205,
+          "guided": 0.1854,
+          "delta": 0.0649,
+          "winner": "guided"
+        }
+      }
+    },
+    "ito": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": 0.0565,
+          "guided": 0.0507,
+          "delta": -0.0058,
+          "winner": "baseline"
+        },
+        "recall_of_gold": {
+          "baseline": 0.1067,
+          "guided": 0.0957,
+          "delta": -0.011,
+          "winner": "baseline"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.1194,
+          "guided": 0.0323,
+          "delta": -0.0871,
+          "winner": "baseline"
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": 0.0922,
+          "guided": 0.0857,
+          "delta": -0.0065,
+          "winner": "baseline"
+        },
+        "recall_of_gold": {
+          "baseline": 0.1231,
+          "guided": 0.1176,
+          "delta": -0.0055,
+          "winner": "baseline"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.16,
+          "guided": 0.04,
+          "delta": -0.12,
+          "winner": "baseline"
+        }
+      }
+    },
+    "aio": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": 0.0309,
+          "guided": 0.0298,
+          "delta": -0.0011,
+          "winner": "baseline"
+        },
+        "recall_of_gold": {
+          "baseline": 0.1448,
+          "guided": 0.1425,
+          "delta": -0.0023,
+          "winner": "baseline"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.069,
+          "guided": 0.0417,
+          "delta": -0.0273,
+          "winner": "baseline"
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": 0.069,
+          "guided": 0.0616,
+          "delta": -0.0074,
+          "winner": "baseline"
+        },
+        "recall_of_gold": {
+          "baseline": 0.181,
+          "guided": 0.181,
+          "delta": 0.0,
+          "winner": "tie"
+        },
+        "taxonomic_f1": {
+          "baseline": 0.1923,
+          "guided": 0.1159,
+          "delta": -0.0764,
+          "winner": "baseline"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "s09a-ablation-v1",
+  "protocol_id": "s09a-ablation-protocol-v1.3",
+  "study": "frozen-input S09a semantic taxonomy-repair ablation",
+  "status": "failed",
+  "created_at_utc": "2026-09-02T18:09:34+00:00",
+  "updated_at_utc": "2026-09-02T18:27:52+00:00",
+  "experiment_id": "s09a_primary_a8b5e146_p13",
+  "input": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/artifacts/s09_qa_repair/20260815-122647__03e5db99.json",
+    "sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+    "bytes": 3562558
+  },
+  "conditions": [
+    "fallback",
+    "phase1",
+    "full"
+  ],
+  "replicates": 5,
+  "primary_replicate": 1,
+  "seed": 42,
+  "model": "gemma-4-31b-it",
+  "initial_temperature": 0,
+  "output_root": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p13",
+  "cache_root": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p13/cache",
+  "trace_path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p13/logs/llm_trace.jsonl",
+  "source_sha256": {
+    "ablation_runner": "60615271152aaf5bc8e4c9cafb47ad142007086a19eab401c5e309b46d136d83",
+    "s09a_stage": "f428421d318b4c6a5a835fffb107e5efdfcccfefc9d791d603a6175445822b2c",
+    "pipeline_common": "e16c33ba6847bf98efd8e861cc48123889b8dab4352cb59ef060a5d6bd64b781"
+  },
+  "tunables": {
+    "floater_batch": 12,
+    "refine_batch": 15,
+    "max_passes": 5,
+    "max_refine_level": 3,
+    "fuzzy_threshold": 0.85,
+    "request_timeout_seconds": 200.0,
+    "max_output_tokens": 8192,
+    "llm_schema_attempts": 3,
+    "llm_rate_retries": 6
+  },
+  "runtime": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "executable": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/bin/python",
+    "SCOP_mode_at_launch": "baseline"
+  },
+  "design": {
+    "same_input_all_conditions": true,
+    "phase1_shared_with_full_within_replicate": true,
+    "physically_isolated_cache_per_replicate": true,
+    "fresh_cache_rule": "namespace must not exist for a new experiment; --resume may only reuse the namespace recorded by this same configuration",
+    "primary_comparison": "fallback versus full",
+    "secondary_comparison": "phase1 versus full",
+    "structural_metrics_are_secondary": true
+  },
+  "replicate_status": {},
+  "warnings": [],
+  "started_at_utc": "2026-09-02T18:09:34+00:00",
+  "failure": {
+    "type": "TreatmentIncomplete",
+    "message": "Phase-1 batch at offset 36 did not produce one valid placement per requested concept"
+  }
+}

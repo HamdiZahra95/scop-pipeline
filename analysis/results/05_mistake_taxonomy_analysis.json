@@ -1,0 +1,110 @@
+{
+  "category_outcomes": {
+    "annotation": {
+      "baseline": {
+        "answerable": 2,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 2,
+        "gap": 0
+      }
+    },
+    "disjointness-consistency": {
+      "baseline": {
+        "answerable": 1,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 1,
+        "gap": 0
+      }
+    },
+    "inverse-property": {
+      "baseline": {
+        "answerable": 2,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 2,
+        "gap": 0
+      }
+    },
+    "object-property": {
+      "baseline": {
+        "answerable": 1,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 1,
+        "gap": 0
+      }
+    },
+    "object-property-crossleaf": {
+      "baseline": {
+        "answerable": 0,
+        "gap": 1
+      },
+      "guided": {
+        "answerable": 0,
+        "gap": 1
+      }
+    },
+    "object-property-targeted": {
+      "baseline": {
+        "answerable": 1,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 1,
+        "gap": 0
+      }
+    },
+    "object-property-transitive": {
+      "baseline": {
+        "answerable": 1,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 1,
+        "gap": 0
+      }
+    },
+    "subsumption": {
+      "baseline": {
+        "answerable": 2,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 2,
+        "gap": 0
+      }
+    },
+    "subsumption-coverage": {
+      "baseline": {
+        "answerable": 1,
+        "gap": 0
+      },
+      "guided": {
+        "answerable": 1,
+        "gap": 0
+      }
+    }
+  },
+  "baseline_summary": {
+    "answerable": 11,
+    "gaps": 1
+  },
+  "guided_summary": {
+    "answerable": 11,
+    "gaps": 1
+  },
+  "main_loss_pattern": {
+    "most_affected_categories": [
+      "subsumption",
+      "inverse-property",
+      "object-property-targeted"
+    ],
+    "note": "The guided run loses mainly in abstract relation questions that require deeper domain semantics, not in the structural or consistency tests."
+  }
+}

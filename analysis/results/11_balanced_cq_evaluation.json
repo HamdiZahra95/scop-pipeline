@@ -1,0 +1,183 @@
+{
+  "benchmark": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/10_balanced_cq_benchmark.json",
+    "benchmark_id": "balanced_corpus_cq_v1",
+    "concepts_selected": 50,
+    "question_count": 300
+  },
+  "baseline": {
+    "run_name": "baseline",
+    "owl_path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/artifacts/s11_export_owl/20260816-171810__eb24b73e.owl",
+    "total_concepts": 50,
+    "covered_concepts": 39,
+    "coverage_rate": 0.78,
+    "missing_concepts": [
+      "time",
+      "target",
+      "text",
+      "accuracy",
+      "used for",
+      "mean",
+      "precision",
+      "required",
+      "scalable",
+      "categorical",
+      "accurate"
+    ],
+    "by_band": {
+      "high_frequency": {
+        "total_concepts": 16,
+        "covered_concepts": 11,
+        "coverage_rate": 0.6875,
+        "missing": [
+          "time",
+          "target",
+          "text",
+          "accuracy",
+          "used for"
+        ]
+      },
+      "medium_frequency": {
+        "total_concepts": 18,
+        "covered_concepts": 16,
+        "coverage_rate": 0.8889,
+        "missing": [
+          "mean",
+          "precision"
+        ]
+      },
+      "low_frequency_important": {
+        "total_concepts": 16,
+        "covered_concepts": 12,
+        "coverage_rate": 0.75,
+        "missing": [
+          "required",
+          "scalable",
+          "categorical",
+          "accurate"
+        ]
+      }
+    },
+    "by_question_type": {
+      "class_identity": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      },
+      "hierarchy": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      },
+      "relation": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      },
+      "property": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      },
+      "distinction": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      },
+      "evidence": {
+        "total_questions": 50,
+        "covered_questions": 39,
+        "coverage_rate": 0.78
+      }
+    }
+  },
+  "guided": {
+    "run_name": "guided",
+    "owl_path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/runs/guided/artifacts/s11_export_owl/20260828-130730__15832df2.owl",
+    "total_concepts": 50,
+    "covered_concepts": 43,
+    "coverage_rate": 0.86,
+    "missing_concepts": [
+      "accuracy",
+      "used for",
+      "mean",
+      "required",
+      "scalable",
+      "categorical",
+      "accurate"
+    ],
+    "by_band": {
+      "high_frequency": {
+        "total_concepts": 16,
+        "covered_concepts": 14,
+        "coverage_rate": 0.875,
+        "missing": [
+          "accuracy",
+          "used for"
+        ]
+      },
+      "medium_frequency": {
+        "total_concepts": 18,
+        "covered_concepts": 17,
+        "coverage_rate": 0.9444,
+        "missing": [
+          "mean"
+        ]
+      },
+      "low_frequency_important": {
+        "total_concepts": 16,
+        "covered_concepts": 12,
+        "coverage_rate": 0.75,
+        "missing": [
+          "required",
+          "scalable",
+          "categorical",
+          "accurate"
+        ]
+      }
+    },
+    "by_question_type": {
+      "class_identity": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      },
+      "hierarchy": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      },
+      "relation": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      },
+      "property": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      },
+      "distinction": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      },
+      "evidence": {
+        "total_questions": 50,
+        "covered_questions": 43,
+        "coverage_rate": 0.86
+      }
+    }
+  },
+  "side_by_side": {
+    "baseline_coverage_rate": 0.78,
+    "guided_coverage_rate": 0.86,
+    "coverage_delta": 0.08,
+    "winner": "guided",
+    "better_by_band": {
+      "high_frequency": "guided",
+      "medium_frequency": "guided",
+      "low_frequency_important": "tie"
+    }
+  }
+}

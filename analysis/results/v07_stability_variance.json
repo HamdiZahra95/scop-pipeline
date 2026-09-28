@@ -1,0 +1,503 @@
+{
+  "modes": [
+    "baseline",
+    "guided"
+  ],
+  "min_classes": 200,
+  "modes_detail": {
+    "baseline": {
+      "n_exports": 20,
+      "latest_code": "eb24b73e",
+      "skipped": [
+        "20260731-114823__3019a7c0.owl",
+        "20260731-120346__dc51a3c8.owl",
+        "20260803-140045__dc51a3c8.owl",
+        "20260803-140200__738c1fce.owl",
+        "20260803-152312_smoke1__738c1fce.owl",
+        "20260803-152435_smoke2__3e3bc2fb.owl",
+        "20260812-102222__738c1fce.owl"
+      ],
+      "code_groups": {
+        "738c1fce": {
+          "n_runs": 4,
+          "runs": [
+            "20260813-112627",
+            "20260813-124233",
+            "20260813-124449",
+            "20260815-113221"
+          ],
+          "is_current_code": false,
+          "concept_set_jaccard": 1.0,
+          "edge_set_jaccard": 0.9935,
+          "metric_spread": {
+            "class_count": {
+              "n": 4,
+              "mean": 1585.0,
+              "std": 0.0,
+              "min": 1585,
+              "max": 1585,
+              "cv": 0.0
+            },
+            "concept_count": {
+              "n": 4,
+              "mean": 1568.0,
+              "std": 0.0,
+              "min": 1568,
+              "max": 1568,
+              "cv": 0.0
+            },
+            "max_depth": {
+              "n": 4,
+              "mean": 11.0,
+              "std": 0.0,
+              "min": 11,
+              "max": 11,
+              "cv": 0.0
+            },
+            "branching_factor": {
+              "n": 4,
+              "mean": 3.5915,
+              "std": 0.001,
+              "min": 3.591,
+              "max": 3.593,
+              "cv": 0.0003
+            },
+            "orphan_ratio": {
+              "n": 4,
+              "mean": 0.2489,
+              "std": 0.057,
+              "min": 0.1633,
+              "max": 0.2774,
+              "cv": 0.2292
+            },
+            "pct_with_property": {
+              "n": 4,
+              "mean": 0.2991,
+              "std": 0.0,
+              "min": 0.2991,
+              "max": 0.2991,
+              "cv": 0.0
+            },
+            "inheritance_richness": {
+              "n": 4,
+              "mean": 0.9731,
+              "std": 0.0019,
+              "min": 0.9703,
+              "max": 0.9741,
+              "cv": 0.002
+            },
+            "relationship_richness": {
+              "n": 4,
+              "mean": 0.4064,
+              "std": 0.0005,
+              "min": 0.4062,
+              "max": 0.4071,
+              "cv": 0.0011
+            },
+            "attribute_richness": {
+              "n": 4,
+              "mean": 6.9918,
+              "std": 0.0,
+              "min": 6.9918,
+              "max": 6.9918,
+              "cv": 0.0
+            },
+            "leaf_ratio": {
+              "n": 4,
+              "mean": 0.729,
+              "std": 0.0006,
+              "min": 0.7287,
+              "max": 0.73,
+              "cv": 0.0009
+            }
+          }
+        },
+        "5a7111f4": {
+          "n_runs": 4,
+          "runs": [
+            "20260815-115701",
+            "20260815-122647",
+            "20260816-092632",
+            "20260816-095841"
+          ],
+          "is_current_code": false,
+          "concept_set_jaccard": 0.977,
+          "edge_set_jaccard": 0.8245,
+          "metric_spread": {
+            "class_count": {
+              "n": 4,
+              "mean": 1613.0,
+              "std": 32.3316,
+              "min": 1585,
+              "max": 1641,
+              "cv": 0.02
+            },
+            "concept_count": {
+              "n": 4,
+              "mean": 1596.0,
+              "std": 32.3316,
+              "min": 1568,
+              "max": 1624,
+              "cv": 0.0203
+            },
+            "max_depth": {
+              "n": 4,
+              "mean": 11.0,
+              "std": 0.0,
+              "min": 11,
+              "max": 11,
+              "cv": 0.0
+            },
+            "branching_factor": {
+              "n": 4,
+              "mean": 3.4345,
+              "std": 0.2135,
+              "min": 3.251,
+              "max": 3.65,
+              "cv": 0.0622
+            },
+            "orphan_ratio": {
+              "n": 4,
+              "mean": 0.065,
+              "std": 0.0656,
+              "min": 0.0314,
+              "max": 0.1633,
+              "cv": 1.009
+            },
+            "pct_with_property": {
+              "n": 4,
+              "mean": 0.2939,
+              "std": 0.0059,
+              "min": 0.2888,
+              "max": 0.2991,
+              "cv": 0.0202
+            },
+            "inheritance_richness": {
+              "n": 4,
+              "mean": 0.975,
+              "std": 0.0048,
+              "min": 0.9685,
+              "max": 0.9787,
+              "cv": 0.005
+            },
+            "relationship_richness": {
+              "n": 4,
+              "mean": 0.4018,
+              "std": 0.0059,
+              "min": 0.3967,
+              "max": 0.4076,
+              "cv": 0.0147
+            },
+            "attribute_richness": {
+              "n": 4,
+              "mean": 6.8895,
+              "std": 0.1181,
+              "min": 6.7873,
+              "max": 6.9918,
+              "cv": 0.0171
+            },
+            "leaf_ratio": {
+              "n": 4,
+              "mean": 0.7153,
+              "std": 0.0188,
+              "min": 0.699,
+              "max": 0.7331,
+              "cv": 0.0263
+            }
+          }
+        },
+        "eb24b73e": {
+          "n_runs": 2,
+          "runs": [
+            "20260816-101945",
+            "20260816-171810"
+          ],
+          "is_current_code": true,
+          "concept_set_jaccard": 0.9753,
+          "edge_set_jaccard": 0.8692,
+          "metric_spread": {
+            "class_count": {
+              "n": 2,
+              "mean": 1653.5,
+              "std": 17.6777,
+              "min": 1641,
+              "max": 1666,
+              "cv": 0.0107
+            },
+            "concept_count": {
+              "n": 2,
+              "mean": 1636.5,
+              "std": 17.6777,
+              "min": 1624,
+              "max": 1649,
+              "cv": 0.0108
+            },
+            "max_depth": {
+              "n": 2,
+              "mean": 11.0,
+              "std": 0.0,
+              "min": 11,
+              "max": 11,
+              "cv": 0.0
+            },
+            "branching_factor": {
+              "n": 2,
+              "mean": 3.247,
+              "std": 0.1004,
+              "min": 3.176,
+              "max": 3.318,
+              "cv": 0.0309
+            },
+            "orphan_ratio": {
+              "n": 2,
+              "mean": 0.0,
+              "std": 0.0,
+              "min": 0.0,
+              "max": 0.0,
+              "cv": 0.0
+            },
+            "pct_with_property": {
+              "n": 2,
+              "mean": 0.2866,
+              "std": 0.0031,
+              "min": 0.2844,
+              "max": 0.2888,
+              "cv": 0.0109
+            },
+            "inheritance_richness": {
+              "n": 2,
+              "mean": 0.997,
+              "std": 0.0,
+              "min": 0.997,
+              "max": 0.997,
+              "cv": 0.0
+            },
+            "relationship_richness": {
+              "n": 2,
+              "mean": 0.3905,
+              "std": 0.0025,
+              "min": 0.3887,
+              "max": 0.3923,
+              "cv": 0.0065
+            },
+            "attribute_richness": {
+              "n": 2,
+              "mean": 6.7439,
+              "std": 0.0614,
+              "min": 6.7005,
+              "max": 6.7873,
+              "cv": 0.0091
+            },
+            "leaf_ratio": {
+              "n": 2,
+              "mean": 0.6928,
+              "std": 0.0095,
+              "min": 0.6861,
+              "max": 0.6996,
+              "cv": 0.0138
+            }
+          }
+        },
+        "2ecbbeaa": {
+          "n_runs": 1,
+          "runs": [
+            "20260816-100010"
+          ],
+          "is_current_code": false
+        },
+        "6a90b3ce": {
+          "n_runs": 1,
+          "runs": [
+            "20260816-100114"
+          ],
+          "is_current_code": false
+        },
+        "13681e7f": {
+          "n_runs": 1,
+          "runs": [
+            "20260816-100926"
+          ],
+          "is_current_code": false
+        }
+      },
+      "pooled_within_code_std": {
+        "class_count": 22.1956,
+        "concept_count": 22.1956,
+        "max_depth": 0.0,
+        "branching_factor": 0.1448,
+        "orphan_ratio": 0.0569,
+        "pct_with_property": 0.0041,
+        "inheritance_richness": 0.0034,
+        "relationship_richness": 0.004,
+        "attribute_richness": 0.0807,
+        "leaf_ratio": 0.0129
+      }
+    },
+    "guided": {
+      "n_exports": 4,
+      "latest_code": "15832df2",
+      "skipped": [],
+      "code_groups": {
+        "15832df2": {
+          "n_runs": 4,
+          "runs": [
+            "20260828-083812",
+            "20260828-091827",
+            "20260828-122850",
+            "20260828-130730"
+          ],
+          "is_current_code": true,
+          "concept_set_jaccard": 0.9998,
+          "edge_set_jaccard": 0.996,
+          "metric_spread": {
+            "class_count": {
+              "n": 4,
+              "mean": 2121.75,
+              "std": 0.5,
+              "min": 2121,
+              "max": 2122,
+              "cv": 0.0002
+            },
+            "concept_count": {
+              "n": 4,
+              "mean": 2104.75,
+              "std": 0.5,
+              "min": 2104,
+              "max": 2105,
+              "cv": 0.0002
+            },
+            "max_depth": {
+              "n": 4,
+              "mean": 15.0,
+              "std": 0.0,
+              "min": 15,
+              "max": 15,
+              "cv": 0.0
+            },
+            "branching_factor": {
+              "n": 4,
+              "mean": 2.2938,
+              "std": 0.0025,
+              "min": 2.29,
+              "max": 2.295,
+              "cv": 0.0011
+            },
+            "orphan_ratio": {
+              "n": 4,
+              "mean": 0.0,
+              "std": 0.0,
+              "min": 0.0,
+              "max": 0.0,
+              "cv": 0.0
+            },
+            "pct_with_property": {
+              "n": 4,
+              "mean": 0.2394,
+              "std": 0.0,
+              "min": 0.2394,
+              "max": 0.2395,
+              "cv": 0.0002
+            },
+            "inheritance_richness": {
+              "n": 4,
+              "mean": 0.998,
+              "std": 0.0002,
+              "min": 0.9976,
+              "max": 0.9981,
+              "cv": 0.0003
+            },
+            "relationship_richness": {
+              "n": 4,
+              "mean": 0.3397,
+              "std": 0.0001,
+              "min": 0.3396,
+              "max": 0.3398,
+              "cv": 0.0003
+            },
+            "attribute_richness": {
+              "n": 4,
+              "mean": 4.9878,
+              "std": 0.001,
+              "min": 4.9873,
+              "max": 4.9892,
+              "cv": 0.0002
+            },
+            "leaf_ratio": {
+              "n": 4,
+              "mean": 0.5648,
+              "std": 0.0003,
+              "min": 0.5644,
+              "max": 0.565,
+              "cv": 0.0005
+            }
+          }
+        }
+      },
+      "pooled_within_code_std": {
+        "class_count": 0.5,
+        "concept_count": 0.5,
+        "max_depth": 0.0,
+        "branching_factor": 0.0025,
+        "orphan_ratio": 0.0,
+        "pct_with_property": 0.0,
+        "inheritance_richness": 0.0002,
+        "relationship_richness": 0.0001,
+        "attribute_richness": 0.001,
+        "leaf_ratio": 0.0003
+      }
+    }
+  },
+  "delta_vs_noise": {
+    "class_count": {
+      "delta_guided_minus_baseline": 40,
+      "run_to_run_noise_std": 22.1956,
+      "exceeds_2sigma_noise": false
+    },
+    "concept_count": {
+      "delta_guided_minus_baseline": 40,
+      "run_to_run_noise_std": 22.1956,
+      "exceeds_2sigma_noise": false
+    },
+    "max_depth": {
+      "delta_guided_minus_baseline": -1,
+      "run_to_run_noise_std": 0.0,
+      "exceeds_2sigma_noise": true
+    },
+    "branching_factor": {
+      "delta_guided_minus_baseline": 0.024,
+      "run_to_run_noise_std": 0.1448,
+      "exceeds_2sigma_noise": false
+    },
+    "orphan_ratio": {
+      "delta_guided_minus_baseline": 0.0,
+      "run_to_run_noise_std": 0.0569,
+      "exceeds_2sigma_noise": false
+    },
+    "pct_with_property": {
+      "delta_guided_minus_baseline": 0.0078,
+      "run_to_run_noise_std": 0.0041,
+      "exceeds_2sigma_noise": false
+    },
+    "inheritance_richness": {
+      "delta_guided_minus_baseline": 0.0001,
+      "run_to_run_noise_std": 0.0034,
+      "exceeds_2sigma_noise": false
+    },
+    "relationship_richness": {
+      "delta_guided_minus_baseline": 0.0063,
+      "run_to_run_noise_std": 0.004,
+      "exceeds_2sigma_noise": false
+    },
+    "attribute_richness": {
+      "delta_guided_minus_baseline": -1.0043,
+      "run_to_run_noise_std": 0.0807,
+      "exceeds_2sigma_noise": true
+    },
+    "leaf_ratio": {
+      "delta_guided_minus_baseline": 0.0042,
+      "run_to_run_noise_std": 0.0129,
+      "exceeds_2sigma_noise": false
+    }
+  },
+  "note": "Variance among reruns sharing a codehash is pure run-to-run (provider) noise; across codehashes it also reflects code evolution. 'delta_vs_noise' compares the latest guided-vs-baseline structural delta (v02) to the pooled within-code run-to-run std; exceeding ~2 sigma suggests the delta is not merely run noise. Note baseline's current-code group is small (n=2), so the pooled estimate borrows from older same-code groups."
+}

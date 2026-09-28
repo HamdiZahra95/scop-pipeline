@@ -1,0 +1,1051 @@
+{
+  "summary": {
+    "generated_concepts": 2112,
+    "reference_concepts": 706,
+    "exact": 96,
+    "lexical": 96,
+    "semantic": 210,
+    "union_matched": 210,
+    "precision": 0.099,
+    "recall": 0.156,
+    "f1": 0.121
+  },
+  "exact_matches": [
+    "action_recognition",
+    "adaboost",
+    "agglomerative_clustering",
+    "anomaly_detection",
+    "artificial_neural_network",
+    "audio_classification",
+    "autoencoder",
+    "average_precision",
+    "bayesian_linear_regression",
+    "bayesian_neural_network",
+    "binary_classification",
+    "boosted_decision_tree",
+    "canonical_correlation_analysis",
+    "catboost",
+    "classification",
+    "clustering",
+    "collaborative_filtering",
+    "community_detection",
+    "conditional_random_field",
+    "convolutional_neural_network",
+    "cross_validation",
+    "decision_stump",
+    "decision_tree",
+    "exponential_smoothing",
+    "f_measure",
+    "feature_extraction",
+    "feature_selection",
+    "feed_forward_neural_network",
+    "gated_recurrent_unit",
+    "gaussian_mixture_model",
+    "gaussian_process",
+    "generalized_linear_model",
+    "generative_adversarial_network",
+    "graph",
+    "hidden_markov_model",
+    "hierarchical_clustering",
+    "image",
+    "image_classification",
+    "image_segmentation",
+    "independent_component_analysis",
+    "k_means",
+    "k_nearest_neighbor",
+    "kernel_approximation",
+    "kernel_principal_component_analysis",
+    "kernel_ridge_regression",
+    "kernel_svm",
+    "lasso_regression",
+    "latent_dirichlet_allocation",
+    "light_gradient_boosting_machine",
+    "lightgbm",
+    "linear_discriminant_analysis",
+    "linear_regression",
+    "link_prediction",
+    "log_loss",
+    "logistic_regression",
+    "long_short_term_memory",
+    "loss_function",
+    "metric",
+    "missing_values",
+    "multiclass_classification",
+    "multilayer_perceptron",
+    "multivariate_regression",
+    "named_entity_recognition",
+    "normalized_discounted_cumulative_gain",
+    "object_detection",
+    "orthogonal_matching_pursuit",
+    "parameter",
+    "perceptron",
+    "performance",
+    "poisson_regression",
+    "principal_component_analysis",
+    "quadratic_discriminant_analysis",
+    "radial_basis_function_kernel",
+    "random_forest",
+    "regression",
+    "reinforcement_learning",
+    "residual_neural_network",
+    "sentiment_analysis",
+    "singular_value_decomposition",
+    "spectral_clustering",
+    "stacking_ensemble",
+    "stochastic_gradient_descent",
+    "summary_statistic",
+    "supervised_learning",
+    "support_vector_machine",
+    "support_vector_regression",
+    "temporal_fusion_transformer",
+    "tensorflow",
+    "text",
+    "text_classification",
+    "time",
+    "time_series_forecasting",
+    "time_series_forest",
+    "transformer",
+    "unsupervised_learning",
+    "xgboost"
+  ],
+  "lexical_matches": {
+    "action_recognition": "action_recognition",
+    "adaboost": "adaboost",
+    "agglomerative_clustering": "agglomerative_clustering",
+    "anomaly_detection": "anomaly_detection",
+    "artificial_neural_network": "artificial_neural_network",
+    "audio_classification": "audio_classification",
+    "autoencoder": "autoencoder",
+    "average_precision": "average_precision",
+    "bayesian_linear_regression": "bayesian_linear_regression",
+    "bayesian_neural_network": "bayesian_neural_network",
+    "binary_classification": "binary_classification",
+    "boosted_decision_tree": "boosted_decision_tree",
+    "canonical_correlation_analysis": "canonical_correlation_analysis",
+    "catboost": "catboost",
+    "classification": "classification",
+    "clustering": "clustering",
+    "collaborative_filtering": "collaborative_filtering",
+    "community_detection": "community_detection",
+    "conditional_random_field": "conditional_random_field",
+    "convolutional_neural_network": "convolutional_neural_network",
+    "cross_validation": "cross_validation",
+    "decision_stump": "decision_stump",
+    "decision_tree": "decision_tree",
+    "exponential_smoothing": "exponential_smoothing",
+    "f_measure": "f_measure",
+    "feature_extraction": "feature_extraction",
+    "feature_selection": "feature_selection",
+    "feed_forward_neural_network": "feed_forward_neural_network",
+    "gated_recurrent_unit": "gated_recurrent_unit",
+    "gaussian_mixture_model": "gaussian_mixture_model",
+    "gaussian_process": "gaussian_process",
+    "generalized_linear_model": "generalized_linear_model",
+    "generative_adversarial_network": "generative_adversarial_network",
+    "graph": "graph",
+    "hidden_markov_model": "hidden_markov_model",
+    "hierarchical_clustering": "hierarchical_clustering",
+    "image": "image",
+    "image_classification": "image_classification",
+    "image_segmentation": "image_segmentation",
+    "independent_component_analysis": "independent_component_analysis",
+    "k_means": "k_means",
+    "k_nearest_neighbor": "k_nearest_neighbor",
+    "kernel_approximation": "kernel_approximation",
+    "kernel_principal_component_analysis": "kernel_principal_component_analysis",
+    "kernel_ridge_regression": "kernel_ridge_regression",
+    "kernel_svm": "kernel_svm",
+    "lasso_regression": "lasso_regression",
+    "latent_dirichlet_allocation": "latent_dirichlet_allocation",
+    "light_gradient_boosting_machine": "light_gradient_boosting_machine",
+    "lightgbm": "lightgbm",
+    "linear_discriminant_analysis": "linear_discriminant_analysis",
+    "linear_regression": "linear_regression",
+    "link_prediction": "link_prediction",
+    "log_loss": "log_loss",
+    "logistic_regression": "logistic_regression",
+    "long_short_term_memory": "long_short_term_memory",
+    "loss_function": "loss_function",
+    "metric": "metric",
+    "missing_values": "missing_values",
+    "multiclass_classification": "multiclass_classification",
+    "multilayer_perceptron": "multilayer_perceptron",
+    "multivariate_regression": "multivariate_regression",
+    "named_entity_recognition": "named_entity_recognition",
+    "normalized_discounted_cumulative_gain": "normalized_discounted_cumulative_gain",
+    "object_detection": "object_detection",
+    "orthogonal_matching_pursuit": "orthogonal_matching_pursuit",
+    "parameter": "parameter",
+    "perceptron": "perceptron",
+    "performance": "performance",
+    "poisson_regression": "poisson_regression",
+    "principal_component_analysis": "principal_component_analysis",
+    "quadratic_discriminant_analysis": "quadratic_discriminant_analysis",
+    "radial_basis_function_kernel": "radial_basis_function_kernel",
+    "random_forest": "random_forest",
+    "regression": "regression",
+    "reinforcement_learning": "reinforcement_learning",
+    "residual_neural_network": "residual_neural_network",
+    "sentiment_analysis": "sentiment_analysis",
+    "singular_value_decomposition": "singular_value_decomposition",
+    "spectral_clustering": "spectral_clustering",
+    "stacking_ensemble": "stacking_ensemble",
+    "stochastic_gradient_descent": "stochastic_gradient_descent",
+    "summary_statistic": "summary_statistic",
+    "supervised_learning": "supervised_learning",
+    "support_vector_machine": "support_vector_machine",
+    "support_vector_regression": "support_vector_regression",
+    "temporal_fusion_transformer": "temporal_fusion_transformer",
+    "tensorflow": "tensorflow",
+    "text": "text",
+    "text_classification": "text_classification",
+    "time": "time",
+    "time_series_forecasting": "time_series_forecasting",
+    "time_series_forest": "time_series_forest",
+    "transformer": "transformer",
+    "unsupervised_learning": "unsupervised_learning",
+    "xgboost": "xgboost"
+  },
+  "semantic_matches": {
+    "action_recognition": [
+      "action_recognition",
+      1.0
+    ],
+    "adaboost": [
+      "adaboost",
+      1.0
+    ],
+    "agglomerative_clustering": [
+      "agglomerative_clustering",
+      1.0
+    ],
+    "analytical_ml_task": [
+      "ml_task",
+      0.845
+    ],
+    "anomaly_detection": [
+      "anomaly_detection",
+      1.0
+    ],
+    "anomaly_detection_models": [
+      "anomaly_detection",
+      0.836
+    ],
+    "artificial_neural_network": [
+      "artificial_neural_network",
+      1.0
+    ],
+    "audio_classification": [
+      "audio_classification",
+      1.0
+    ],
+    "auto_encoder": [
+      "autoencoder",
+      0.898
+    ],
+    "autoencoder": [
+      "autoencoder",
+      1.0
+    ],
+    "autoencoder_based_models": [
+      "autoencoder",
+      0.832
+    ],
+    "autoencoder_variant": [
+      "autoencoder",
+      0.893
+    ],
+    "average_precision": [
+      "average_precision",
+      1.0
+    ],
+    "bayesian_convolutional_neural_network": [
+      "bayesian_neural_network",
+      0.841
+    ],
+    "bayesian_inference": [
+      "bayesian",
+      0.906
+    ],
+    "bayesian_linear_regression": [
+      "bayesian_linear_regression",
+      1.0
+    ],
+    "bayesian_methods": [
+      "bayesian",
+      0.865
+    ],
+    "bayesian_network": [
+      "bayesian_neural_network",
+      0.858
+    ],
+    "bayesian_neural_network": [
+      "bayesian_neural_network",
+      1.0
+    ],
+    "bayesian_regression": [
+      "bayesian_linear_regression",
+      0.925
+    ],
+    "binary_classification": [
+      "binary_classification",
+      1.0
+    ],
+    "binary_classifier": [
+      "binary_classification",
+      0.864
+    ],
+    "boltzmann_machine": [
+      "boltzman_machine",
+      0.98
+    ],
+    "boosted_decision_tree": [
+      "boosted_decision_tree",
+      1.0
+    ],
+    "canonical_correlation_analysis": [
+      "canonical_correlation_analysis",
+      1.0
+    ],
+    "catboost": [
+      "catboost",
+      1.0
+    ],
+    "classification": [
+      "classification",
+      1.0
+    ],
+    "classification_model": [
+      "classification",
+      0.828
+    ],
+    "classifier": [
+      "classification",
+      0.817
+    ],
+    "clustering": [
+      "clustering",
+      1.0
+    ],
+    "clustering_algorithm": [
+      "clustering",
+      0.903
+    ],
+    "clustering_analysis": [
+      "clustering",
+      0.867
+    ],
+    "clustering_and_grouping": [
+      "clustering",
+      0.915
+    ],
+    "clustering_task": [
+      "clustering",
+      0.856
+    ],
+    "collaborative_filtering": [
+      "collaborative_filtering",
+      1.0
+    ],
+    "community_detection": [
+      "community_detection",
+      1.0
+    ],
+    "computer_vision_classification": [
+      "image_classification",
+      0.801
+    ],
+    "conditional_generative_adversarial_network": [
+      "generative_adversarial_network",
+      0.859
+    ],
+    "conditional_random_field": [
+      "conditional_random_field",
+      1.0
+    ],
+    "convolutional_neural_network": [
+      "convolutional_neural_network",
+      1.0
+    ],
+    "convolutional_neural_network_architecture": [
+      "convolutional_neural_network",
+      0.842
+    ],
+    "convolutional_neural_network_layer": [
+      "convolutional_neural_network",
+      0.889
+    ],
+    "core_ml_task": [
+      "ml_task",
+      0.84
+    ],
+    "cross_validation": [
+      "cross_validation",
+      1.0
+    ],
+    "data_type": [
+      "datatype",
+      0.934
+    ],
+    "dataset": [
+      "dataset_type",
+      0.833
+    ],
+    "decision_stump": [
+      "decision_stump",
+      1.0
+    ],
+    "decision_tree": [
+      "decision_tree",
+      1.0
+    ],
+    "deep_autoencoder": [
+      "autoencoder",
+      0.818
+    ],
+    "deep_boltzmann_machine": [
+      "boltzman_machine",
+      0.839
+    ],
+    "deep_convolutional_generative_adversarial_network": [
+      "generative_adversarial_network",
+      0.857
+    ],
+    "deep_convolutional_neural_network": [
+      "convolutional_neural_network",
+      0.905
+    ],
+    "deep_ensemble": [
+      "ensemble",
+      0.828
+    ],
+    "deep_gaussian_process": [
+      "gaussian_process",
+      0.811
+    ],
+    "deep_residual_network": [
+      "residual_neural_network",
+      0.89
+    ],
+    "document_classification": [
+      "text_classification",
+      0.87
+    ],
+    "ensemble_classifier": [
+      "ensemble",
+      0.836
+    ],
+    "ensemble_learning": [
+      "ensemble",
+      0.838
+    ],
+    "ensemble_method": [
+      "ensemble",
+      0.814
+    ],
+    "ensemble_methods": [
+      "ensemble",
+      0.814
+    ],
+    "ensemble_model": [
+      "ensemble",
+      0.861
+    ],
+    "evaluation_and_analysis": [
+      "evaluation_approach",
+      0.831
+    ],
+    "evaluation_model": [
+      "evaluation_approach",
+      0.849
+    ],
+    "exponential_smoothing": [
+      "exponential_smoothing",
+      1.0
+    ],
+    "f_measure": [
+      "f_measure",
+      1.0
+    ],
+    "feature_extraction": [
+      "feature_extraction",
+      1.0
+    ],
+    "feature_extraction_method": [
+      "feature_extraction",
+      0.914
+    ],
+    "feature_extraction_task": [
+      "feature_extraction",
+      0.902
+    ],
+    "feature_selection": [
+      "feature_selection",
+      1.0
+    ],
+    "feed_forward_neural_network": [
+      "feed_forward_neural_network",
+      1.0
+    ],
+    "feedforward_neural_network": [
+      "feed_forward_neural_network",
+      0.818
+    ],
+    "foundational_ml_task": [
+      "ml_task",
+      0.839
+    ],
+    "gated_recurrent_unit": [
+      "gated_recurrent_unit",
+      1.0
+    ],
+    "gaussian_mixture_model": [
+      "gaussian_mixture_model",
+      1.0
+    ],
+    "gaussian_process": [
+      "gaussian_process",
+      1.0
+    ],
+    "gaussian_process_model": [
+      "gaussian_process",
+      0.906
+    ],
+    "gaussian_process_prior": [
+      "gaussian_process",
+      0.833
+    ],
+    "gaussian_process_regression": [
+      "gaussian_process",
+      0.833
+    ],
+    "general_clustering": [
+      "clustering",
+      0.84
+    ],
+    "general_unsupervised_learning": [
+      "unsupervised_learning",
+      0.882
+    ],
+    "generalized_linear_model": [
+      "generalized_linear_model",
+      1.0
+    ],
+    "generative_adversarial_cnn_architecture": [
+      "generative_adversarial_network",
+      0.849
+    ],
+    "generative_adversarial_network": [
+      "generative_adversarial_network",
+      1.0
+    ],
+    "generative_network": [
+      "generative_adversarial_network",
+      0.815
+    ],
+    "generative_neural_network": [
+      "generative_adversarial_network",
+      0.815
+    ],
+    "gradient_boosting_algorithm": [
+      "gradient_boosting_tree",
+      0.828
+    ],
+    "gradient_boosting_decision_tree": [
+      "gradient_boosting_tree",
+      0.938
+    ],
+    "gradient_boosting_machine": [
+      "gradient_boosting_tree",
+      0.822
+    ],
+    "gradient_descent": [
+      "stochastic_gradient_descent",
+      0.807
+    ],
+    "graph": [
+      "graph",
+      1.0
+    ],
+    "graph_analysis": [
+      "graph",
+      0.813
+    ],
+    "hidden_markov_model": [
+      "hidden_markov_model",
+      1.0
+    ],
+    "hierarchical_clustering": [
+      "hierarchical_clustering",
+      1.0
+    ],
+    "hyper_parameter_optimization": [
+      "hyperparameter_optimization_approach",
+      0.839
+    ],
+    "hyperparameter": [
+      "hyperparameter_optimization_method",
+      0.815
+    ],
+    "hyperparameter_optimization": [
+      "hyperparameter_optimization_approach",
+      0.97
+    ],
+    "hyperparameter_tuning": [
+      "hyperparameter_optimization_approach",
+      0.812
+    ],
+    "image": [
+      "image",
+      1.0
+    ],
+    "image_classification": [
+      "image_classification",
+      1.0
+    ],
+    "image_recognition": [
+      "image_classification",
+      0.814
+    ],
+    "image_segmentation": [
+      "image_segmentation",
+      1.0
+    ],
+    "independent_component_analysis": [
+      "independent_component_analysis",
+      1.0
+    ],
+    "k_means": [
+      "k_means",
+      0.918
+    ],
+    "k_means_clustering": [
+      "k_means",
+      0.82
+    ],
+    "k_nearest_neighbor": [
+      "k_nearest_neighbor",
+      0.986
+    ],
+    "kernel_approximation": [
+      "kernel_approximation",
+      1.0
+    ],
+    "kernel_principal_component_analysis": [
+      "kernel_principal_component_analysis",
+      1.0
+    ],
+    "kernel_regression": [
+      "kernel_ridge_regression",
+      0.804
+    ],
+    "kernel_ridge_regression": [
+      "kernel_ridge_regression",
+      1.0
+    ],
+    "kernel_svm": [
+      "kernel_svm",
+      1.0
+    ],
+    "lasso_regression": [
+      "lasso_regression",
+      1.0
+    ],
+    "latent_dirichlet_allocation": [
+      "latent_dirichlet_allocation",
+      1.0
+    ],
+    "light_gradient_boosting_machine": [
+      "light_gradient_boosting_machine",
+      1.0
+    ],
+    "lightgbm": [
+      "lightgbm",
+      1.0
+    ],
+    "linear_discriminant_analysis": [
+      "linear_discriminant_analysis",
+      1.0
+    ],
+    "linear_regression": [
+      "linear_regression",
+      1.0
+    ],
+    "link_prediction": [
+      "link_prediction",
+      1.0
+    ],
+    "log_loss": [
+      "log_loss",
+      1.0
+    ],
+    "logistic_regression": [
+      "logistic_regression",
+      1.0
+    ],
+    "long_short_term_memory": [
+      "long_short_term_memory",
+      0.988
+    ],
+    "loss_function": [
+      "loss_function",
+      1.0
+    ],
+    "lossfunction": [
+      "loss_function",
+      0.87
+    ],
+    "metric": [
+      "metric",
+      1.0
+    ],
+    "missing_values": [
+      "missing_values",
+      1.0
+    ],
+    "mixture_model": [
+      "gaussian_mixture_model",
+      0.801
+    ],
+    "multiclass_classification": [
+      "multiclass_classification",
+      1.0
+    ],
+    "multilayer_perceptron": [
+      "multilayer_perceptron",
+      1.0
+    ],
+    "multivariate_regression": [
+      "multivariate_regression",
+      1.0
+    ],
+    "named_entity_recognition": [
+      "named_entity_recognition",
+      1.0
+    ],
+    "natural_language_classification": [
+      "text_classification",
+      0.818
+    ],
+    "nearest_neighbor_search": [
+      "k_nearest_neighbor",
+      0.828
+    ],
+    "neural_network": [
+      "artificial_neural_network",
+      0.884
+    ],
+    "neural_network_ensemble": [
+      "ensemble",
+      0.806
+    ],
+    "neural_network_model": [
+      "artificial_neural_network",
+      0.805
+    ],
+    "neural_networks": [
+      "artificial_neural_network",
+      0.803
+    ],
+    "neural_topic_model": [
+      "topic_modeling",
+      0.844
+    ],
+    "normalized_discounted_cumulative_gain": [
+      "normalized_discounted_cumulative_gain",
+      1.0
+    ],
+    "object_detection": [
+      "object_detection",
+      1.0
+    ],
+    "object_detection_system": [
+      "object_detection",
+      0.886
+    ],
+    "object_recognition": [
+      "object_detection",
+      0.852
+    ],
+    "object_tracking": [
+      "video_object_tracking",
+      0.89
+    ],
+    "orthogonal_matching_pursuit": [
+      "orthogonal_matching_pursuit",
+      1.0
+    ],
+    "parameter": [
+      "parameter",
+      1.0
+    ],
+    "perceptron": [
+      "perceptron",
+      1.0
+    ],
+    "performance": [
+      "performance",
+      1.0
+    ],
+    "poisson_regression": [
+      "poisson_regression",
+      1.0
+    ],
+    "principal_component_analysis": [
+      "principal_component_analysis",
+      1.0
+    ],
+    "probabilistic_linear_discriminant_analysis": [
+      "linear_discriminant_analysis",
+      0.853
+    ],
+    "quadratic_discriminant_analysis": [
+      "quadratic_discriminant_analysis",
+      1.0
+    ],
+    "radial_basis_function_kernel": [
+      "radial_basis_function_kernel",
+      1.0
+    ],
+    "random_forest": [
+      "random_forest",
+      1.0
+    ],
+    "random_forest_classifier": [
+      "random_forest",
+      0.852
+    ],
+    "ranking_task": [
+      "ranking",
+      0.806
+    ],
+    "recognition_ml_task": [
+      "ml_task",
+      0.839
+    ],
+    "regression": [
+      "regression",
+      1.0
+    ],
+    "regression_algorithm": [
+      "regression",
+      0.82
+    ],
+    "regression_analysis": [
+      "regression",
+      0.875
+    ],
+    "regression_model": [
+      "regression",
+      0.867
+    ],
+    "regression_task": [
+      "regression",
+      0.841
+    ],
+    "reinforcement_learning": [
+      "reinforcement_learning",
+      1.0
+    ],
+    "reinforcement_learning_algorithm": [
+      "reinforcement_learning",
+      0.849
+    ],
+    "reinforcement_learning_algorithms": [
+      "reinforcement_learning",
+      0.864
+    ],
+    "reinforcement_learning_environment": [
+      "reinforcement_learning",
+      0.821
+    ],
+    "reinforcement_learning_model": [
+      "reinforcement_learning",
+      0.85
+    ],
+    "reinforcement_learning_optimization": [
+      "reinforcement_learning",
+      0.861
+    ],
+    "reinforcement_learning_strategy": [
+      "reinforcement_learning",
+      0.877
+    ],
+    "reinforcement_learning_tasks": [
+      "reinforcement_learning",
+      0.86
+    ],
+    "residual_cnn": [
+      "residual_neural_network",
+      0.801
+    ],
+    "residual_learning": [
+      "residual_neural_network",
+      0.834
+    ],
+    "residual_network": [
+      "residual_neural_network",
+      0.883
+    ],
+    "residual_neural_network": [
+      "residual_neural_network",
+      1.0
+    ],
+    "security_and_anomaly_detection": [
+      "anomaly_detection",
+      0.857
+    ],
+    "sentiment_analysis": [
+      "sentiment_analysis",
+      1.0
+    ],
+    "singular_value_decomposition": [
+      "singular_value_decomposition",
+      1.0
+    ],
+    "sparse_gaussian_process": [
+      "gaussian_process",
+      0.819
+    ],
+    "sparse_principal_component_analysis": [
+      "principal_component_analysis",
+      0.814
+    ],
+    "spectral_clustering": [
+      "spectral_clustering",
+      1.0
+    ],
+    "stacking_ensemble": [
+      "stacking_ensemble",
+      1.0
+    ],
+    "statistical_discriminant_models": [
+      "linear_discriminant_analysis",
+      0.802
+    ],
+    "statistical_regression": [
+      "regression",
+      0.868
+    ],
+    "stochastic_gradient": [
+      "stochastic_gradient_descent",
+      0.871
+    ],
+    "stochastic_gradient_descent": [
+      "stochastic_gradient_descent",
+      1.0
+    ],
+    "summary_statistic": [
+      "summary_statistic",
+      1.0
+    ],
+    "supervised_classification": [
+      "supervised_learning",
+      0.889
+    ],
+    "supervised_learning": [
+      "supervised_learning",
+      1.0
+    ],
+    "supervised_learning_algorithm": [
+      "supervised_learning",
+      0.841
+    ],
+    "supervised_learning_paradigm": [
+      "supervised_learning",
+      0.843
+    ],
+    "supervised_learning_task": [
+      "supervised_learning",
+      0.838
+    ],
+    "supervised_model": [
+      "supervised_learning",
+      0.821
+    ],
+    "support_vector_data_description": [
+      "support_vector_machine",
+      0.83
+    ],
+    "support_vector_machine": [
+      "support_vector_machine",
+      1.0
+    ],
+    "support_vector_regression": [
+      "support_vector_regression",
+      1.0
+    ],
+    "temporal_dictionary_ensemble_model": [
+      "temporal_dictionary_ensemble",
+      0.955
+    ],
+    "temporal_fusion_transformer": [
+      "temporal_fusion_transformer",
+      1.0
+    ],
+    "tensorflow": [
+      "tensorflow",
+      1.0
+    ],
+    "text": [
+      "text",
+      1.0
+    ],
+    "text_classification": [
+      "text_classification",
+      1.0
+    ],
+    "time": [
+      "time",
+      1.0
+    ],
+    "time_series_forecasting": [
+      "time_series_forecasting",
+      0.97
+    ],
+    "time_series_forest": [
+      "time_series_forest",
+      1.0
+    ],
+    "time_series_prediction": [
+      "time_series_forecasting",
+      0.848
+    ],
+    "topic_model": [
+      "topic_modeling",
+      0.937
+    ],
+    "transformer": [
+      "transformer",
+      1.0
+    ],
+    "unsupervised_feature_learning": [
+      "unsupervised_learning",
+      0.865
+    ],
+    "unsupervised_learning": [
+      "unsupervised_learning",
+      1.0
+    ],
+    "unsupervised_learning_algorithm": [
+      "unsupervised_learning",
+      0.889
+    ],
+    "unsupervised_learning_method": [
+      "unsupervised_learning",
+      0.913
+    ],
+    "unsupervised_learning_task": [
+      "unsupervised_learning",
+      0.85
+    ],
+    "unsupervised_machine_learning": [
+      "unsupervised_learning",
+      0.864
+    ],
+    "xgboost": [
+      "xgboost",
+      1.0
+    ]
+  }
+}

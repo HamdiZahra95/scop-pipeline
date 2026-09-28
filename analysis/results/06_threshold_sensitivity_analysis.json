@@ -1,0 +1,19 @@
+{
+  "reference_gate": 10,
+  "present_gated_out": 66,
+  "scenarios": {
+    "low_threshold_5": {
+      "expected_gain_from_gated_out": 66,
+      "coverage_direction": "more recall, more noise"
+    },
+    "current_threshold_10": {
+      "expected_gain_from_gated_out": 0,
+      "coverage_direction": "balanced recall/precision"
+    },
+    "high_threshold_20": {
+      "expected_gain_from_gated_out": 0,
+      "coverage_direction": "more precision, less recall"
+    }
+  },
+  "thesis_takeaway": "The frequency gate is the single strongest lever affecting the guided-vs-baseline difference. Lowering the threshold would recover concept breadth; raising it would increase semantic discipline but shrink the ontology further."
+}

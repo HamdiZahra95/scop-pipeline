@@ -1,0 +1,65 @@
+{
+  "schema_version": "s09a-ablation-v1",
+  "protocol_id": "s09a-ablation-protocol-v1.6",
+  "study": "frozen-input S09a semantic taxonomy-repair ablation",
+  "status": "complete",
+  "created_at_utc": "2026-09-07T12:46:17+00:00",
+  "updated_at_utc": "2026-09-07T12:46:18+00:00",
+  "experiment_id": "s09a_fallback_smoke_validation_v10",
+  "input": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/artifacts/s09_qa_repair/20260815-122647__03e5db99.json",
+    "sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+    "bytes": 3562558
+  },
+  "conditions": [
+    "fallback"
+  ],
+  "replicates": 1,
+  "primary_replicate": 1,
+  "seed": 42,
+  "model": "gemma-4-31b-it",
+  "initial_temperature": 0,
+  "output_root": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_fallback_smoke_validation_v10",
+  "cache_root": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_fallback_smoke_validation_v10/cache",
+  "trace_path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_fallback_smoke_validation_v10/logs/llm_trace.jsonl",
+  "source_sha256": {
+    "ablation_runner": "1749e6a6357a61872a1acffa231464d33e7f8b997dde918426a5466af055fec8",
+    "s09a_stage": "03e2d2513daa061988ccebc113e1154d06888af0cbd9b8c4186bd4e1abe50d49",
+    "pipeline_common": "3efce31d767e160acfa94a0a18a5d6383b2a86ac064a5563e6b8964748127906"
+  },
+  "tunables": {
+    "floater_batch": 12,
+    "refine_batch": 15,
+    "max_passes": 5,
+    "max_refine_level": 3,
+    "fuzzy_threshold": 0.85,
+    "request_timeout_seconds": 200.0,
+    "max_output_tokens": 8192,
+    "llm_schema_attempts": 3,
+    "llm_rate_retries": 6
+  },
+  "runtime": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "executable": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/bin/python",
+    "SCOP_mode_at_launch": "baseline"
+  },
+  "design": {
+    "same_input_all_conditions": true,
+    "phase1_shared_with_full_within_replicate": true,
+    "physically_isolated_cache_per_replicate": true,
+    "fresh_cache_rule": "namespace must not exist for a new experiment; --resume may only reuse the namespace recorded by this same configuration",
+    "primary_comparison": "fallback versus full",
+    "secondary_comparison": "phase1 versus full",
+    "structural_metrics_are_secondary": true
+  },
+  "replicate_status": {
+    "1": "complete"
+  },
+  "warnings": [
+    "Primary fallback-versus-full design is incomplete; this run is a smoke/partial experiment and must not support the headline inference."
+  ],
+  "started_at_utc": "2026-09-07T12:46:17+00:00",
+  "completed_at_utc": "2026-09-07T12:46:18+00:00",
+  "stability_summary": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_fallback_smoke_validation_v10/stability_summary.json"
+}

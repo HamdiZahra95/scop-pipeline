@@ -1,0 +1,139 @@
+{
+  "schema_version": "s09a-ablation-v1",
+  "protocol_id": "s09a-ablation-protocol-v1.6",
+  "status": "complete",
+  "replicate": 4,
+  "primary": false,
+  "started_at_utc": "2026-09-10T20:16:36+00:00",
+  "input_sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+  "source_sha256": {
+    "ablation_runner": "1749e6a6357a61872a1acffa231464d33e7f8b997dde918426a5466af055fec8",
+    "s09a_stage": "760c68cc0cce361991acbd8709f0fe14984334b0dc592afdff988efa941ada97",
+    "pipeline_common": "f7d89e809e4056b74e4ac763008dbed496da7f7bfadc9b438c50409d142e59a6"
+  },
+  "conditions": [
+    "fallback",
+    "phase1",
+    "full"
+  ],
+  "seed": 42,
+  "model": "gemma-4-31b-it",
+  "cache_namespace": "replicate_004",
+  "cache_at_start": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/cache/replicate_004",
+    "exists": true,
+    "file_count": 2,
+    "bytes": 97306,
+    "files": [
+      {
+        "relative_path": "llm_cache.json",
+        "sha256": "0a98889eee2a581ade98536d9a874f6352f555eb928e4e51341060a080379e34",
+        "bytes": 86888
+      },
+      {
+        "relative_path": "map_cache.json",
+        "sha256": "8a40527b3282e068749864ca6900e6a21a6419fb29ab9f5c8e623cda7d43ddba",
+        "bytes": 10418
+      }
+    ]
+  },
+  "condition_outputs": {
+    "fallback": {
+      "condition": "fallback",
+      "artifact": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/fallback.json",
+      "artifact_sha256": "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648",
+      "artifact_bytes": 3566502,
+      "movement_ledger": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/fallback.movements.jsonl",
+      "movement_ledger_sha256": "82a30b20b3a5adc6f957b5a8e086ba34fb16b46a3f53d0208d7b5143b08b5a14",
+      "movement_rows": 1605,
+      "counts": {
+        "rehomed_flags_reset": 0,
+        "slug_duplicates_merged": 20,
+        "referenced_materialized": 53,
+        "root_swept": 53,
+        "condition": "fallback",
+        "nodes_total": 1585,
+        "original_nodes_total": 1552,
+        "eligible_original_nodes": 1535,
+        "generated_nodes_total": 53,
+        "changed_original_parents": 49,
+        "bypassed_excluded": 0,
+        "orphan_count_excluding_bypassed": 0
+      }
+    },
+    "phase1": {
+      "condition": "phase1",
+      "artifact": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/phase1.json",
+      "artifact_sha256": "ed920413948b9a848420045fe95f2faf3856626793d3f6eb62479bcb07151b0d",
+      "artifact_bytes": 3572420,
+      "movement_ledger": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/phase1.movements.jsonl",
+      "movement_ledger_sha256": "f62d2f0d89080382fd4fd57b98d48b070e3e24d0b94477482f442f75774757e6",
+      "movement_rows": 1630,
+      "counts": {
+        "rehomed_flags_reset": 0,
+        "slug_duplicates_merged": 20,
+        "referenced_materialized": 53,
+        "floaters_total": 53,
+        "floaters_placed": 53,
+        "floaters_created_parent": 25,
+        "root_swept": 0,
+        "condition": "phase1",
+        "nodes_total": 1610,
+        "original_nodes_total": 1552,
+        "eligible_original_nodes": 1535,
+        "generated_nodes_total": 78,
+        "changed_original_parents": 49,
+        "bypassed_excluded": 0,
+        "orphan_count_excluding_bypassed": 0
+      }
+    },
+    "full": {
+      "condition": "full",
+      "artifact": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/full.json",
+      "artifact_sha256": "20d6280ad2b526393bc4830e65f2f5cfeef02b92ce6c3e5b9fc99f07eb9e7084",
+      "artifact_bytes": 3589910,
+      "movement_ledger": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/replicates/replicate_004/full.movements.jsonl",
+      "movement_ledger_sha256": "f3e255b9fb57241b65037233f8e27173e476acf719b28150dbf36e0c9d37a86d",
+      "movement_rows": 1659,
+      "counts": {
+        "rehomed_flags_reset": 0,
+        "slug_duplicates_merged": 20,
+        "referenced_materialized": 53,
+        "floaters_total": 53,
+        "floaters_placed": 53,
+        "floaters_created_parent": 25,
+        "refine_moves": 117,
+        "refine_frozen": 625,
+        "refine_passes": 3,
+        "root_swept": 0,
+        "condition": "full",
+        "nodes_total": 1639,
+        "original_nodes_total": 1552,
+        "eligible_original_nodes": 1535,
+        "generated_nodes_total": 107,
+        "changed_original_parents": 135,
+        "bypassed_excluded": 0,
+        "orphan_count_excluding_bypassed": 0
+      }
+    }
+  },
+  "cache_at_end": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/cache/replicate_004",
+    "exists": true,
+    "file_count": 2,
+    "bytes": 100103,
+    "files": [
+      {
+        "relative_path": "llm_cache.json",
+        "sha256": "7d9c7bd7716672ee9a3759ef97bf14668d1c5a402cb680e4bf31ebae87c49c0a",
+        "bytes": 89685
+      },
+      {
+        "relative_path": "map_cache.json",
+        "sha256": "8a40527b3282e068749864ca6900e6a21a6419fb29ab9f5c8e623cda7d43ddba",
+        "bytes": 10418
+      }
+    ]
+  },
+  "completed_at_utc": "2026-09-10T20:43:16+00:00"
+}

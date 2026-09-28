@@ -1,0 +1,56 @@
+{
+  "schema_version": "s09a-ablation-v1",
+  "protocol_id": "s09a-ablation-protocol-v1.6",
+  "generated_at_utc": "2026-09-11T08:31:12+00:00",
+  "input_sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+  "completed_replicates": 5,
+  "requested_replicates": 5,
+  "conditions": {
+    "fallback": {
+      "completed_replicates": 5,
+      "artifact_sha256": [
+        "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648",
+        "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648",
+        "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648",
+        "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648",
+        "c4925cf47650e24f1b088e3afdaa7321ffee49580140ff8fc98b3841b9759648"
+      ],
+      "unique_artifact_sha256": 1,
+      "mean_pairwise_parent_agreement": 1.0,
+      "mean_pairwise_edge_jaccard": 1.0,
+      "variable_parent_concepts": 0,
+      "eligible_original_concepts": 1515
+    },
+    "phase1": {
+      "completed_replicates": 5,
+      "artifact_sha256": [
+        "65adb5fc4a37db0816e8e5c2e8a7e27f105dd2d951da1a93ae521b3a4776f2c6",
+        "daf3ea0105d675554d1d6399796160e4e7ee4ec90b61fcc3aedba93ecc85614f",
+        "daf3ea0105d675554d1d6399796160e4e7ee4ec90b61fcc3aedba93ecc85614f",
+        "ed920413948b9a848420045fe95f2faf3856626793d3f6eb62479bcb07151b0d",
+        "ed920413948b9a848420045fe95f2faf3856626793d3f6eb62479bcb07151b0d"
+      ],
+      "unique_artifact_sha256": 3,
+      "mean_pairwise_parent_agreement": 1.0,
+      "mean_pairwise_edge_jaccard": 1.0,
+      "variable_parent_concepts": 0,
+      "eligible_original_concepts": 1515
+    },
+    "full": {
+      "completed_replicates": 5,
+      "artifact_sha256": [
+        "27cd3392e4ece0aaa8b90e7eeee1c5e65350d4454c00db8b811a62f1dbcc08de",
+        "5a4cc3e52c051a4a2f785e96d3bcab4fa4d2781ad5824419affa8fc7ef7d11b0",
+        "661827422491a8fa94e05a669aa8f3bfc456663ca777bc7c3196cfdf610a53b6",
+        "20d6280ad2b526393bc4830e65f2f5cfeef02b92ce6c3e5b9fc99f07eb9e7084",
+        "b6c25c4e92c8e6bbc99ecd68173b2045ffc4903f8b853915c86c6b91aea5a229"
+      ],
+      "unique_artifact_sha256": 5,
+      "mean_pairwise_parent_agreement": 0.979934,
+      "mean_pairwise_edge_jaccard": 0.96083,
+      "variable_parent_concepts": 64,
+      "eligible_original_concepts": 1515
+    }
+  },
+  "interpretation": "Agreement describes isolated-cache realizations under the recorded provider/model settings; it is not an estimate from independent corpora or domains."
+}

@@ -1,0 +1,100 @@
+{"id": 0, "concept_name": "statistical learning", "definition": "A computational framework that constructs a predictor of a random variable based on a training sample from a joint distribution."}
+{"id": 1, "concept_name": "average consensus", "definition": "A distributed algorithm that enables all nodes in a network to reach a common value through iterative local interactions."}
+{"id": 2, "concept_name": "multi-armed bandit problem", "definition": "A probabilistic model that explores the trade-off between choosing the best known option and exploring new alternatives to minimize cumulative loss."}
+{"id": 3, "concept_name": "ordinal regression", "definition": "A supervised learning task that predicts a target variable consisting of ordered categories."}
+{"id": 4, "concept_name": "blackbox optimization", "definition": "A methodology for finding the global optimum of an objective function whose internal structure is unknown or computationally expensive to evaluate."}
+{"id": 5, "concept_name": "not applicable", "definition": "A placeholder for a document that contains no substantive technical content."}
+{"id": 6, "concept_name": "correlation clustering", "definition": "A graph partitioning task that seeks to group vertices based on similarity and dissimilarity edge labels."}
+{"id": 7, "concept_name": "universal source coding", "definition": "A data compression methodology that allows for the encoding of a source without prior knowledge of its distribution."}
+{"id": 8, "concept_name": "feature selection", "definition": "A dimensionality reduction process that identifies the most relevant subset of input variables for a predictive model."}
+{"id": 9, "concept_name": "max-product belief propagation", "definition": "An iterative message-passing algorithm used to find the most likely state of a probability distribution."}
+{"id": 10, "concept_name": "speaker identification", "definition": "A biometric task that recognizes individuals based on the unique characteristics of their voice."}
+{"id": 11, "concept_name": "perceptron learning", "definition": "An iterative algorithm that adjusts weights of a linear classifier to minimize the error between predicted and target outputs."}
+{"id": 12, "concept_name": "convex optimization", "definition": "A mathematical framework that finds the global minimum of a convex function over a convex set."}
+{"id": 13, "concept_name": "mixed membership stochastic blockmodel", "definition": "A probabilistic model that represents relational data by assigning objects to multiple latent groups."}
+{"id": 14, "concept_name": "loop corrected belief propagation", "definition": "An inference algorithm that modifies standard message-passing to account for cyclic dependencies in graphical models."}
+{"id": 15, "concept_name": "sequential minimal optimization", "definition": "A decomposition method that solves the quadratic programming problem required for training support vector machines."}
+{"id": 16, "concept_name": "probabilistic graphical model", "definition": "A framework that uses graph-based representations to encode conditional dependencies between random variables."}
+{"id": 17, "concept_name": "conformal prediction", "definition": "A methodology that generates prediction regions with a user-specified confidence level based on past data."}
+{"id": 18, "concept_name": "vc dimension", "definition": "A capacity measure that quantifies the complexity of a hypothesis space by the largest set of points it can shatter."}
+{"id": 19, "concept_name": "sequential decision-making process", "definition": "A framework where an agent makes a series of choices over time to optimize a long-term cumulative reward."}
+{"id": 20, "concept_name": "sparse principal component analysis", "definition": "A dimensionality reduction technique that finds linear combinations of variables with few non-zero coefficients."}
+{"id": 21, "concept_name": "l1-norm penalty", "definition": "A regularization method that encourages sparsity in the estimated parameters of a statistical model."}
+{"id": 22, "concept_name": "semidefinite relaxation", "definition": "A convex optimization technique that approximates a hard combinatorial problem by relaxing it into a semidefinite program."}
+{"id": 23, "concept_name": "chebyshev inequality", "definition": "A probability theorem that provides a bound on the deviation of a random variable from its mean."}
+{"id": 24, "concept_name": "cluster analysis", "definition": "An unsupervised learning task that groups similar objects together based on shared characteristics."}
+{"id": 25, "concept_name": "active LZ algorithm", "definition": "An optimal control method based on universal data compression used to minimize long-term average cost in an environment."}
+{"id": 26, "concept_name": "group lasso", "definition": "A regularization technique that promotes sparsity by penalizing groups of variables together using Euclidean norms."}
+{"id": 27, "concept_name": "quantum algorithm", "definition": "A computational procedure that leverages quantum mechanical phenomena to solve a problem more efficiently than classical methods."}
+{"id": 28, "concept_name": "kernel method", "definition": "A technique that maps input data into a high-dimensional feature space to perform linear operations on non-linear data."}
+{"id": 29, "concept_name": "rate-distortion theory", "definition": "An information theoretic framework that determines the minimum bit rate required to represent a source within a given distortion limit."}
+{"id": 30, "concept_name": "active learning", "definition": "A machine learning paradigm that strategically selects the most informative data points for labeling to improve model performance with fewer samples."}
+{"id": 31, "concept_name": "defensive forecasting", "definition": "A prediction method that transforms probabilistic laws into algorithms to remain competitive against expert advice."}
+{"id": 32, "concept_name": "causal inference", "definition": "A process of determining the structural relationships and directional dependencies between variables in a dynamical system."}
+{"id": 33, "concept_name": "universal semimeasure", "definition": "A theoretical construct used in algorithmic induction to predict sequences based on all computable measures."}
+{"id": 34, "concept_name": "defensive forecasting", "definition": "A game-theoretic approach for creating forecasting algorithms based on the moves of a skeptic."}
+{"id": 35, "concept_name": "minimum cost homomorphism problem", "definition": "A combinatorial optimization task that seeks an assignment of values to variables minimizing total weight subject to constraints."}
+{"id": 36, "concept_name": "maximum entropy in the mean", "definition": "An estimation technique that uses the principle of maximum entropy to improve parametric estimation under high noise."}
+{"id": 37, "concept_name": "universal sequence prediction", "definition": "An inductive reasoning framework that utilizes a formal choice of model class and prior to predict unknown sequences."}
+{"id": 38, "concept_name": "best response learning", "definition": "An algorithmic strategy where agents optimize their actions based on the observed rewards and policies of competitors."}
+{"id": 39, "concept_name": "mutual information", "definition": "An information-theoretic measure used for feature selection to quantify the dependency between input variables and model output."}
+{"id": 40, "concept_name": "self-organizing map", "definition": "An unsupervised neural network that produces a low-dimensional projection and clustering of input data."}
+{"id": 41, "concept_name": "self-organizing map", "definition": "A type of artificial neural network used to map high-dimensional data onto a lower-dimensional grid."}
+{"id": 42, "concept_name": "self-organizing map", "definition": "A dimensionality reduction method adapted here to handle non-vector symbolic data."}
+{"id": 43, "concept_name": "feature selection", "definition": "A preprocessing step that identifies a subset of relevant variables to improve model interpretability and performance."}
+{"id": 44, "concept_name": "forward feature selection", "definition": "An iterative search algorithm that adds variables one by one to a feature set based on a specific optimality criterion."}
+{"id": 45, "concept_name": "incremental learning", "definition": "A machine learning capability that allows a model to incorporate new data or classes without retraining from scratch."}
+{"id": 46, "concept_name": "support vector machine", "definition": "A supervised learning model that finds an optimal hyperplane to separate data into distinct classes."}
+{"id": 47, "concept_name": "prediction algorithm", "definition": "A computational procedure that utilizes learning rates and substitution functions to forecast outcomes of events."}
+{"id": 48, "concept_name": "association rule mining", "definition": "A data mining task that discovers interesting relationships and dependencies between items in large datasets."}
+{"id": 49, "concept_name": "unsupervised learning", "definition": "A type of machine learning that identifies hidden patterns or structures in input data without using labeled responses."}
+{"id": 50, "concept_name": "trace norm minimization", "definition": "A regularization technique that estimates low rank rectangular matrices by minimizing the sum of singular values."}
+{"id": 51, "concept_name": "ranking", "definition": "A machine learning task that involves ordering elements based on a preference function or binary classification reduction."}
+{"id": 52, "concept_name": "ensemble learning", "definition": "A methodology that combines predictions from multiple different models to improve accuracy and robustness."}
+{"id": 53, "concept_name": "spectral clustering", "definition": "A clustering algorithm that utilizes the eigenvalues of a graph Laplacian to partition data into groups."}
+{"id": 54, "concept_name": "inductive logic programming", "definition": "A machine learning approach that uses logic programming to automate the acquisition of rules from background knowledge and examples."}
+{"id": 55, "concept_name": "higher-order tensor decomposition", "definition": "A dimensionality reduction method that generalizes singular value decomposition to arrays with three or more modes."}
+{"id": 56, "concept_name": "sequential estimation", "definition": "A statistical procedure that continues sampling until a specific precision and confidence level are guaranteed for the estimated mean."}
+{"id": 57, "concept_name": "support vector machine", "definition": "A supervised classification algorithm that finds an optimal hyperplane to separate classes in a high-dimensional space."}
+{"id": 58, "concept_name": "clustering", "definition": "An unsupervised learning task that groups data samples into clusters based on similarity measures like transitive distance."}
+{"id": 59, "concept_name": "normalized mutual information", "definition": "An information-theoretic metric used to evaluate the performance of classifiers by measuring the shared information between predictions and labels."}
+{"id": 60, "concept_name": "principal component analysis", "definition": "A dimensionality reduction technique that transforms categorical data into a set of orthogonal components for variable selection."}
+{"id": 61, "concept_name": "Bayesian similarity measure", "definition": "A probabilistic model of conditional distribution used as an optimal similarity metric for nearest neighbor classification."}
+{"id": 62, "concept_name": "tabu search", "definition": "A metaheuristic local search algorithm that uses a feedback-based scheme to avoid local optima during nonword generation."}
+{"id": 63, "concept_name": "singular statistical model", "definition": "A type of learning machine with a hierarchical structure where the Fisher information matrix is non-invertible."}
+{"id": 64, "concept_name": "universal kernel", "definition": "A kernel function that allows any regular language to be represented as linearly separable in a feature space."}
+{"id": 65, "concept_name": "unsupervised learning", "definition": "A machine learning paradigm that discovers hidden patterns in data without the use of labeled outcomes."}
+{"id": 66, "concept_name": "markov random field", "definition": "A probabilistic graphical model used to represent high dimensional distributions via a dependency structure."}
+{"id": 67, "concept_name": "markov decision process", "definition": "A mathematical framework for modeling decision making in environments where outcomes are partly random and partly under the control of a decision maker."}
+{"id": 68, "concept_name": "density estimation", "definition": "A statistical task that involves estimating an unknown probability distribution from a set of given samples."}
+{"id": 69, "concept_name": "graph kernel", "definition": "A similarity measure that applies kernel methods to structured data such as point clouds by representing them as graphs."}
+{"id": 70, "concept_name": "piecewise linear separation", "definition": "A neural model architecture that partitions data using linear boundaries in localized regions."}
+{"id": 71, "concept_name": "collaborative filtering", "definition": "A recommendation technique that predicts user preferences based on the behavior of similar users."}
+{"id": 72, "concept_name": "expectation-maximisation algorithm", "definition": "An iterative optimization method that finds maximum likelihood estimates of parameters in latent variable models."}
+{"id": 73, "concept_name": "economic aggregator", "definition": "A mathematical function that summarizes heterogeneous data into a single representative value."}
+{"id": 74, "concept_name": "cross-entropy method", "definition": "A Monte Carlo optimization algorithm that iteratively refines a probability distribution to find a global optimum."}
+{"id": 75, "concept_name": "factored value iteration", "definition": "An approximate dynamic programming algorithm designed to solve Markov decision processes with structured state spaces."}
+{"id": 76, "concept_name": "assignment kernel", "definition": "A similarity measure used to embed labeled graphs or tuples into a Hilbert space."}
+{"id": 77, "concept_name": "kolmogorov complexity", "definition": "A measure of the computational resources required to specify an object as the length of its shortest description."}
+{"id": 78, "concept_name": "growth function", "definition": "A measure of the capacity of a function class based on the maximum number of distinct dichotomies it can induce on a sample."}
+{"id": 79, "concept_name": "pls path modelling", "definition": "A variance-based structural equation modeling method used to estimate relationships between latent variables."}
+{"id": 80, "concept_name": "clustering", "definition": "A task that partitions a set of objects into groups such that members of the same group are more similar to each other than to those in other groups."}
+{"id": 81, "concept_name": "nonlinear dimension reduction", "definition": "A process that transforms high-dimensional data into a lower-dimensional representation while preserving non-linear structures."}
+{"id": 82, "concept_name": "spectral regularization", "definition": "A technique that constrains the eigenvalues of a linear operator to improve the generalization of a learning model."}
+{"id": 83, "concept_name": "hidden markov model", "definition": "A statistical model where the system is assumed to be a Markov process with unobserved states."}
+{"id": 84, "concept_name": "space-filling design", "definition": "A sampling strategy that ensures points are distributed as uniformly as possible across a multidimensional domain."}
+{"id": 85, "concept_name": "compressed counting", "definition": "A streaming algorithm that uses random projections to estimate frequency moments of a data signal."}
+{"id": 86, "concept_name": "sign language recognition", "definition": "A computer vision task that identifies specific gestures and expressions from video input."}
+{"id": 87, "concept_name": "multi-armed bandit", "definition": "A decision problem where an agent must choose between multiple options to maximize reward while balancing exploration and exploitation."}
+{"id": 88, "concept_name": "ontology", "definition": "A formal representation of knowledge within a domain using a set of concepts and their interrelationships."}
+{"id": 89, "concept_name": "differential privacy", "definition": "A mathematical framework that ensures the output of an algorithm does not reveal whether a specific individual's data was included in the training set."}
+{"id": 90, "concept_name": "decision tree induction", "definition": "A supervised learning method that constructs a flowchart-like model for classification or regression."}
+{"id": 91, "concept_name": "associative memory", "definition": "A cognitive computing architecture that retrieves information based on content rather than explicit addresses."}
+{"id": 92, "concept_name": "support vector machine", "definition": "A supervised learning model that finds an optimal hyperplane to maximize the margin between different classes."}
+{"id": 93, "concept_name": "evolutionary programming", "definition": "A stochastic optimization technique based on the principles of mutation and selection."}
+{"id": 94, "concept_name": "indefinite kernel", "definition": "A non-positive definite function used in machine learning to map data into high-dimensional feature spaces."}
+{"id": 95, "concept_name": "manifold learning", "definition": "An unsupervised learning approach that recovers the low-dimensional structure of a high-dimensional dataset."}
+{"id": 96, "concept_name": "lasso", "definition": "A regression analysis method that performs both variable selection and regularization via an l1-norm penalty."}
+{"id": 97, "concept_name": "kernelization", "definition": "A process of transforming a linear algorithm into a non-linear one by using a kernel function."}
+{"id": 98, "concept_name": "isotropic PCA", "definition": "A dimensionality reduction technique that is invariant to affine transformations of the input data."}
+{"id": 99, "concept_name": "k-junta learning", "definition": "A computational task involving the identification of a small number of relevant variables in a Boolean function."}

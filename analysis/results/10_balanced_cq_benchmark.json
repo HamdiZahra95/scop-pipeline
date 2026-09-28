@@ -1,0 +1,2994 @@
+{
+  "benchmark_id": "balanced_corpus_cq_v1",
+  "input_inventory": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/reports/reference_in_definitions.json",
+  "strategy": {
+    "objective": "Create a corpus-grounded, frequency-balanced CQ benchmark that avoids over-representing generic high-frequency concepts.",
+    "bands": [
+      "high_frequency",
+      "medium_frequency",
+      "low_frequency_important"
+    ],
+    "target_total_concepts": 50,
+    "ratio": {
+      "high_frequency": 0.4,
+      "medium_frequency": 0.4,
+      "low_frequency_important": 0.2
+    },
+    "question_types": [
+      "class_identity",
+      "hierarchy",
+      "relation",
+      "property",
+      "distinction",
+      "evidence"
+    ]
+  },
+  "concepts_selected": [
+    {
+      "term": "reinforcement learning",
+      "frequency": 2113,
+      "band": "high_frequency"
+    },
+    {
+      "term": "time",
+      "frequency": 2058,
+      "band": "high_frequency"
+    },
+    {
+      "term": "classification",
+      "frequency": 2043,
+      "band": "high_frequency"
+    },
+    {
+      "term": "graph",
+      "frequency": 2008,
+      "band": "high_frequency"
+    },
+    {
+      "term": "performance",
+      "frequency": 1854,
+      "band": "high_frequency"
+    },
+    {
+      "term": "image",
+      "frequency": 1471,
+      "band": "high_frequency"
+    },
+    {
+      "term": "target",
+      "frequency": 1385,
+      "band": "high_frequency"
+    },
+    {
+      "term": "text",
+      "frequency": 1104,
+      "band": "high_frequency"
+    },
+    {
+      "term": "accuracy",
+      "frequency": 1089,
+      "band": "high_frequency"
+    },
+    {
+      "term": "used for",
+      "frequency": 1056,
+      "band": "high_frequency"
+    },
+    {
+      "term": "random",
+      "frequency": 919,
+      "band": "high_frequency"
+    },
+    {
+      "term": "regression",
+      "frequency": 792,
+      "band": "high_frequency"
+    },
+    {
+      "term": "metric",
+      "frequency": 770,
+      "band": "high_frequency"
+    },
+    {
+      "term": "bayesian",
+      "frequency": 717,
+      "band": "high_frequency"
+    },
+    {
+      "term": "supervised learning",
+      "frequency": 699,
+      "band": "high_frequency"
+    },
+    {
+      "term": "clustering",
+      "frequency": 697,
+      "band": "high_frequency"
+    },
+    {
+      "term": "parameter",
+      "frequency": 642,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "hardware",
+      "frequency": 553,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "loss function",
+      "frequency": 521,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "audio",
+      "frequency": 496,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "time series",
+      "frequency": 490,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "video",
+      "frequency": 490,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "unsupervised learning",
+      "frequency": 428,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "ensemble",
+      "frequency": 404,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "group",
+      "frequency": 340,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "sum",
+      "frequency": 327,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "recommendation",
+      "frequency": 276,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "transformer",
+      "frequency": 248,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "feature extraction",
+      "frequency": 240,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "mean",
+      "frequency": 217,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "translation",
+      "frequency": 212,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "convolutional neural network",
+      "frequency": 211,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "precision",
+      "frequency": 207,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "ranking",
+      "frequency": 201,
+      "band": "medium_frequency"
+    },
+    {
+      "term": "category",
+      "frequency": 192,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "required",
+      "frequency": 174,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "generative adversarial network",
+      "frequency": 156,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "anomaly detection",
+      "frequency": 150,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "scalable",
+      "frequency": 146,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "categorical",
+      "frequency": 146,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "feature selection",
+      "frequency": 143,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "accurate",
+      "frequency": 142,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "Gaussian process",
+      "frequency": 133,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "autoencoder",
+      "frequency": 131,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "stochastic gradient descent",
+      "frequency": 121,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "object detection",
+      "frequency": 115,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "binary classification",
+      "frequency": 111,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "image classification",
+      "frequency": 102,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "linear regression",
+      "frequency": 97,
+      "band": "low_frequency_important"
+    },
+    {
+      "term": "image segmentation",
+      "frequency": 93,
+      "band": "low_frequency_important"
+    }
+  ],
+  "counts_by_band": {
+    "high_frequency": 96,
+    "medium_frequency": 108,
+    "low_frequency_important": 96
+  },
+  "counts_by_question_type": {
+    "class_identity": 50,
+    "hierarchy": 50,
+    "relation": 50,
+    "property": 50,
+    "distinction": 50,
+    "evidence": 50
+  },
+  "total_questions": 300,
+  "questions": [
+    {
+      "cq_id": "cq_reinforcement_learning_class_identity",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is reinforcement learning in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_reinforcement_learning_hierarchy",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is reinforcement learning a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_reinforcement_learning_relation",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects reinforcement learning to time? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_reinforcement_learning_property",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes reinforcement learning, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_reinforcement_learning_distinction",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does reinforcement learning differ from time, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_reinforcement_learning_evidence",
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including reinforcement learning in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 2113
+    },
+    {
+      "cq_id": "cq_time_class_identity",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is time in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_time_hierarchy",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is time a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_time_relation",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects time to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_time_property",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes time, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_time_distinction",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does time differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_time_evidence",
+      "term": "time",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including time in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 2058
+    },
+    {
+      "cq_id": "cq_classification_class_identity",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is classification in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_classification_hierarchy",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is classification a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_classification_relation",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects classification to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_classification_property",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes classification, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_classification_distinction",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does classification differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_classification_evidence",
+      "term": "classification",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including classification in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 2043
+    },
+    {
+      "cq_id": "cq_graph_class_identity",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is graph in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_graph_hierarchy",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is graph a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_graph_relation",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects graph to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_graph_property",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes graph, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_graph_distinction",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does graph differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_graph_evidence",
+      "term": "graph",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including graph in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 2008
+    },
+    {
+      "cq_id": "cq_performance_class_identity",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is performance in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_performance_hierarchy",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is performance a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_performance_relation",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects performance to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_performance_property",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes performance, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_performance_distinction",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does performance differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_performance_evidence",
+      "term": "performance",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including performance in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1854
+    },
+    {
+      "cq_id": "cq_image_class_identity",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is image in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_image_hierarchy",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is image a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_image_relation",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects image to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_image_property",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes image, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_image_distinction",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does image differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_image_evidence",
+      "term": "image",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including image in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1471
+    },
+    {
+      "cq_id": "cq_target_class_identity",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is target in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_target_hierarchy",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is target a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_target_relation",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects target to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_target_property",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes target, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_target_distinction",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does target differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_target_evidence",
+      "term": "target",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including target in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1385
+    },
+    {
+      "cq_id": "cq_text_class_identity",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is text in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_text_hierarchy",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is text a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_text_relation",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects text to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_text_property",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes text, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_text_distinction",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does text differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_text_evidence",
+      "term": "text",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including text in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1104
+    },
+    {
+      "cq_id": "cq_accuracy_class_identity",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is accuracy in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_accuracy_hierarchy",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is accuracy a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_accuracy_relation",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects accuracy to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_accuracy_property",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes accuracy, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_accuracy_distinction",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does accuracy differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_accuracy_evidence",
+      "term": "accuracy",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including accuracy in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1089
+    },
+    {
+      "cq_id": "cq_used_for_class_identity",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is used for in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_used_for_hierarchy",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is used for a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_used_for_relation",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects used for to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_used_for_property",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes used for, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_used_for_distinction",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does used for differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_used_for_evidence",
+      "term": "used for",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including used for in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 1056
+    },
+    {
+      "cq_id": "cq_random_class_identity",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is random in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_random_hierarchy",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is random a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_random_relation",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects random to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_random_property",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes random, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_random_distinction",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does random differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_random_evidence",
+      "term": "random",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including random in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 919
+    },
+    {
+      "cq_id": "cq_regression_class_identity",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is regression in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_regression_hierarchy",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is regression a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_regression_relation",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects regression to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_regression_property",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes regression, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_regression_distinction",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does regression differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_regression_evidence",
+      "term": "regression",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including regression in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 792
+    },
+    {
+      "cq_id": "cq_metric_class_identity",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is metric in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_metric_hierarchy",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is metric a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_metric_relation",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects metric to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_metric_property",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes metric, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_metric_distinction",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does metric differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_metric_evidence",
+      "term": "metric",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including metric in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 770
+    },
+    {
+      "cq_id": "cq_bayesian_class_identity",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is bayesian in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_bayesian_hierarchy",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is bayesian a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_bayesian_relation",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects bayesian to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_bayesian_property",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes bayesian, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_bayesian_distinction",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does bayesian differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_bayesian_evidence",
+      "term": "bayesian",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including bayesian in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 717
+    },
+    {
+      "cq_id": "cq_supervised_learning_class_identity",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is supervised learning in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_supervised_learning_hierarchy",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is supervised learning a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_supervised_learning_relation",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects supervised learning to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_supervised_learning_property",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes supervised learning, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_supervised_learning_distinction",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does supervised learning differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_supervised_learning_evidence",
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including supervised learning in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 699
+    },
+    {
+      "cq_id": "cq_clustering_class_identity",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "class_identity",
+      "prompt": "What is clustering in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_clustering_hierarchy",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "hierarchy",
+      "prompt": "Is clustering a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_clustering_relation",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects clustering to reinforcement learning? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_clustering_property",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes clustering, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_clustering_distinction",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "distinction",
+      "prompt": "How does clustering differ from reinforcement learning, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_clustering_evidence",
+      "term": "clustering",
+      "band": "high_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including clustering in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 697
+    },
+    {
+      "cq_id": "cq_parameter_class_identity",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is parameter in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_parameter_hierarchy",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is parameter a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_parameter_relation",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects parameter to hardware? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_parameter_property",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes parameter, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_parameter_distinction",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does parameter differ from hardware, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_parameter_evidence",
+      "term": "parameter",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including parameter in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 642
+    },
+    {
+      "cq_id": "cq_hardware_class_identity",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is hardware in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_hardware_hierarchy",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is hardware a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_hardware_relation",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects hardware to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_hardware_property",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes hardware, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_hardware_distinction",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does hardware differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_hardware_evidence",
+      "term": "hardware",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including hardware in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 553
+    },
+    {
+      "cq_id": "cq_loss_function_class_identity",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is loss function in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_loss_function_hierarchy",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is loss function a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_loss_function_relation",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects loss function to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_loss_function_property",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes loss function, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_loss_function_distinction",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does loss function differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_loss_function_evidence",
+      "term": "loss function",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including loss function in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 521
+    },
+    {
+      "cq_id": "cq_audio_class_identity",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is audio in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_audio_hierarchy",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is audio a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_audio_relation",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects audio to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_audio_property",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes audio, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_audio_distinction",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does audio differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_audio_evidence",
+      "term": "audio",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including audio in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 496
+    },
+    {
+      "cq_id": "cq_time_series_class_identity",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is time series in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_time_series_hierarchy",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is time series a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_time_series_relation",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects time series to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_time_series_property",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes time series, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_time_series_distinction",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does time series differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_time_series_evidence",
+      "term": "time series",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including time series in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_class_identity",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is video in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_hierarchy",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is video a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_relation",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects video to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_property",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes video, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_distinction",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does video differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_video_evidence",
+      "term": "video",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including video in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 490
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_class_identity",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is unsupervised learning in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_hierarchy",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is unsupervised learning a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_relation",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects unsupervised learning to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_property",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes unsupervised learning, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_distinction",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does unsupervised learning differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_unsupervised_learning_evidence",
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including unsupervised learning in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 428
+    },
+    {
+      "cq_id": "cq_ensemble_class_identity",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is ensemble in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_ensemble_hierarchy",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is ensemble a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_ensemble_relation",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects ensemble to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_ensemble_property",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes ensemble, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_ensemble_distinction",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does ensemble differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_ensemble_evidence",
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including ensemble in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 404
+    },
+    {
+      "cq_id": "cq_group_class_identity",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is group in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_group_hierarchy",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is group a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_group_relation",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects group to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_group_property",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes group, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_group_distinction",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does group differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_group_evidence",
+      "term": "group",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including group in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 340
+    },
+    {
+      "cq_id": "cq_sum_class_identity",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is sum in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_sum_hierarchy",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is sum a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_sum_relation",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects sum to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_sum_property",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes sum, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_sum_distinction",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does sum differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_sum_evidence",
+      "term": "sum",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including sum in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 327
+    },
+    {
+      "cq_id": "cq_recommendation_class_identity",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is recommendation in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_recommendation_hierarchy",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is recommendation a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_recommendation_relation",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects recommendation to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_recommendation_property",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes recommendation, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_recommendation_distinction",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does recommendation differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_recommendation_evidence",
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including recommendation in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 276
+    },
+    {
+      "cq_id": "cq_transformer_class_identity",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is transformer in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_transformer_hierarchy",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is transformer a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_transformer_relation",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects transformer to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_transformer_property",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes transformer, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_transformer_distinction",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does transformer differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_transformer_evidence",
+      "term": "transformer",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including transformer in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 248
+    },
+    {
+      "cq_id": "cq_feature_extraction_class_identity",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is feature extraction in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_feature_extraction_hierarchy",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is feature extraction a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_feature_extraction_relation",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects feature extraction to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_feature_extraction_property",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes feature extraction, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_feature_extraction_distinction",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does feature extraction differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_feature_extraction_evidence",
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including feature extraction in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 240
+    },
+    {
+      "cq_id": "cq_mean_class_identity",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is mean in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_mean_hierarchy",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is mean a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_mean_relation",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects mean to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_mean_property",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes mean, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_mean_distinction",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does mean differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_mean_evidence",
+      "term": "mean",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including mean in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 217
+    },
+    {
+      "cq_id": "cq_translation_class_identity",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is translation in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_translation_hierarchy",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is translation a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_translation_relation",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects translation to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_translation_property",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes translation, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_translation_distinction",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does translation differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_translation_evidence",
+      "term": "translation",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including translation in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 212
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_class_identity",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is convolutional neural network in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_hierarchy",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is convolutional neural network a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_relation",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects convolutional neural network to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_property",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes convolutional neural network, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_distinction",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does convolutional neural network differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_convolutional_neural_network_evidence",
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including convolutional neural network in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 211
+    },
+    {
+      "cq_id": "cq_precision_class_identity",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is precision in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_precision_hierarchy",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is precision a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_precision_relation",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects precision to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_precision_property",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes precision, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_precision_distinction",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does precision differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_precision_evidence",
+      "term": "precision",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including precision in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 207
+    },
+    {
+      "cq_id": "cq_ranking_class_identity",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "class_identity",
+      "prompt": "What is ranking in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_ranking_hierarchy",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "hierarchy",
+      "prompt": "Is ranking a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_ranking_relation",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects ranking to parameter? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_ranking_property",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "property",
+      "prompt": "Which property best characterizes ranking, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_ranking_distinction",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "distinction",
+      "prompt": "How does ranking differ from parameter, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_ranking_evidence",
+      "term": "ranking",
+      "band": "medium_frequency",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including ranking in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 201
+    },
+    {
+      "cq_id": "cq_category_class_identity",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is category in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_category_hierarchy",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is category a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_category_relation",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects category to required? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_category_property",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes category, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_category_distinction",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does category differ from required, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_category_evidence",
+      "term": "category",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including category in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 192
+    },
+    {
+      "cq_id": "cq_required_class_identity",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is required in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_required_hierarchy",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is required a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_required_relation",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects required to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_required_property",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes required, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_required_distinction",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does required differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_required_evidence",
+      "term": "required",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including required in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 174
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_class_identity",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is generative adversarial network in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_hierarchy",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is generative adversarial network a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_relation",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects generative adversarial network to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_property",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes generative adversarial network, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_distinction",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does generative adversarial network differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_generative_adversarial_network_evidence",
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including generative adversarial network in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 156
+    },
+    {
+      "cq_id": "cq_anomaly_detection_class_identity",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is anomaly detection in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_anomaly_detection_hierarchy",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is anomaly detection a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_anomaly_detection_relation",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects anomaly detection to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_anomaly_detection_property",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes anomaly detection, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_anomaly_detection_distinction",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does anomaly detection differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_anomaly_detection_evidence",
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including anomaly detection in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 150
+    },
+    {
+      "cq_id": "cq_scalable_class_identity",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is scalable in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_scalable_hierarchy",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is scalable a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_scalable_relation",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects scalable to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_scalable_property",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes scalable, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_scalable_distinction",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does scalable differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_scalable_evidence",
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including scalable in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_class_identity",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is categorical in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_hierarchy",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is categorical a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_relation",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects categorical to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_property",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes categorical, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_distinction",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does categorical differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_categorical_evidence",
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including categorical in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 146
+    },
+    {
+      "cq_id": "cq_feature_selection_class_identity",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is feature selection in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_feature_selection_hierarchy",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is feature selection a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_feature_selection_relation",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects feature selection to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_feature_selection_property",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes feature selection, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_feature_selection_distinction",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does feature selection differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_feature_selection_evidence",
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including feature selection in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 143
+    },
+    {
+      "cq_id": "cq_accurate_class_identity",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is accurate in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_accurate_hierarchy",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is accurate a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_accurate_relation",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects accurate to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_accurate_property",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes accurate, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_accurate_distinction",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does accurate differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_accurate_evidence",
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including accurate in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 142
+    },
+    {
+      "cq_id": "cq_gaussian_process_class_identity",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is Gaussian process in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_gaussian_process_hierarchy",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is Gaussian process a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_gaussian_process_relation",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects Gaussian process to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_gaussian_process_property",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes Gaussian process, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_gaussian_process_distinction",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does Gaussian process differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_gaussian_process_evidence",
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including Gaussian process in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 133
+    },
+    {
+      "cq_id": "cq_autoencoder_class_identity",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is autoencoder in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_autoencoder_hierarchy",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is autoencoder a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_autoencoder_relation",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects autoencoder to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_autoencoder_property",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes autoencoder, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_autoencoder_distinction",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does autoencoder differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_autoencoder_evidence",
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including autoencoder in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 131
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_class_identity",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is stochastic gradient descent in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_hierarchy",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is stochastic gradient descent a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_relation",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects stochastic gradient descent to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_property",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes stochastic gradient descent, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_distinction",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does stochastic gradient descent differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_stochastic_gradient_descent_evidence",
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including stochastic gradient descent in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 121
+    },
+    {
+      "cq_id": "cq_object_detection_class_identity",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is object detection in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_object_detection_hierarchy",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is object detection a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_object_detection_relation",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects object detection to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_object_detection_property",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes object detection, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_object_detection_distinction",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does object detection differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_object_detection_evidence",
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including object detection in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 115
+    },
+    {
+      "cq_id": "cq_binary_classification_class_identity",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is binary classification in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_binary_classification_hierarchy",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is binary classification a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_binary_classification_relation",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects binary classification to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_binary_classification_property",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes binary classification, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_binary_classification_distinction",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does binary classification differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_binary_classification_evidence",
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including binary classification in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 111
+    },
+    {
+      "cq_id": "cq_image_classification_class_identity",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is image classification in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_image_classification_hierarchy",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is image classification a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_image_classification_relation",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects image classification to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_image_classification_property",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes image classification, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_image_classification_distinction",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does image classification differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_image_classification_evidence",
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including image classification in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 102
+    },
+    {
+      "cq_id": "cq_linear_regression_class_identity",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is linear regression in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_linear_regression_hierarchy",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is linear regression a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_linear_regression_relation",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects linear regression to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_linear_regression_property",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes linear regression, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_linear_regression_distinction",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does linear regression differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_linear_regression_evidence",
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including linear regression in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 97
+    },
+    {
+      "cq_id": "cq_image_segmentation_class_identity",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "class_identity",
+      "prompt": "What is image segmentation in the ontology, and what distinguishes it from a closely related concept?",
+      "answer_type": "concept_definition",
+      "frequency": 93
+    },
+    {
+      "cq_id": "cq_image_segmentation_hierarchy",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "hierarchy",
+      "prompt": "Is image segmentation a type, subtype, or sibling of another concept in the ontology? Identify the most plausible parent or superordinate class.",
+      "answer_type": "hierarchy",
+      "frequency": 93
+    },
+    {
+      "cq_id": "cq_image_segmentation_relation",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "relation",
+      "prompt": "Which relation or property most naturally connects image segmentation to category? Explain the semantic connection.",
+      "answer_type": "relation",
+      "frequency": 93
+    },
+    {
+      "cq_id": "cq_image_segmentation_property",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "property",
+      "prompt": "Which property best characterizes image segmentation, and why is it more appropriate than neighboring terms in the same domain?",
+      "answer_type": "property",
+      "frequency": 93
+    },
+    {
+      "cq_id": "cq_image_segmentation_distinction",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "distinction",
+      "prompt": "How does image segmentation differ from category, and under what conditions would one be preferred over the other?",
+      "answer_type": "distinction",
+      "frequency": 93
+    },
+    {
+      "cq_id": "cq_image_segmentation_evidence",
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "type": "evidence",
+      "prompt": "Which corpus evidence or definitional support most strongly justifies including image segmentation in the ontology?",
+      "answer_type": "evidence",
+      "frequency": 93
+    }
+  ]
+}

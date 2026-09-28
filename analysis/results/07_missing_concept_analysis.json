@@ -1,0 +1,69 @@
+{
+  "reference_labels": 709,
+  "definitions_scanned": 103231,
+  "attested_in_definitions": 182,
+  "not_attested": 527,
+  "top_mentioned_concepts": [
+    [
+      "reinforcement learning",
+      2113
+    ],
+    [
+      "time",
+      2058
+    ],
+    [
+      "classification",
+      2043
+    ],
+    [
+      "graph",
+      2008
+    ],
+    [
+      "performance",
+      1854
+    ],
+    [
+      "image",
+      1471
+    ],
+    [
+      "target",
+      1385
+    ],
+    [
+      "text",
+      1104
+    ],
+    [
+      "accuracy",
+      1089
+    ],
+    [
+      "used for",
+      1056
+    ],
+    [
+      "random",
+      919
+    ],
+    [
+      "regression",
+      792
+    ],
+    [
+      "metric",
+      770
+    ],
+    [
+      "bayesian",
+      717
+    ],
+    [
+      "supervised learning",
+      699
+    ]
+  ],
+  "not_found_in_farmed": 504
+}

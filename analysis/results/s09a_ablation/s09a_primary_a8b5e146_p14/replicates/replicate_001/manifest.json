@@ -1,0 +1,30 @@
+{
+  "schema_version": "s09a-ablation-v1",
+  "protocol_id": "s09a-ablation-protocol-v1.4",
+  "status": "running",
+  "replicate": 1,
+  "primary": true,
+  "started_at_utc": "2026-09-07T10:27:39+00:00",
+  "input_sha256": "a8b5e146ae00f586ed01a39cda7cde76e58e993eefcfecc66ddf419b7e744c4e",
+  "source_sha256": {
+    "ablation_runner": "8ed7eae81e48137b2e2580a3510ad75c11887ae3a838deed70ed836429d39ef5",
+    "s09a_stage": "e84ec223048354b69b165f951ad3ee8c7a714ea1ab878ec79ee5ecd102f5d70d",
+    "pipeline_common": "3efce31d767e160acfa94a0a18a5d6383b2a86ac064a5563e6b8964748127906"
+  },
+  "conditions": [
+    "fallback",
+    "phase1",
+    "full"
+  ],
+  "seed": 42,
+  "model": "gemma-4-31b-it",
+  "cache_namespace": "replicate_001",
+  "cache_at_start": {
+    "path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p14/cache/replicate_001",
+    "exists": false,
+    "file_count": 0,
+    "bytes": 0,
+    "files": []
+  },
+  "condition_outputs": {}
+}

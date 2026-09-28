@@ -1,0 +1,529 @@
+{
+  "config": {
+    "boot": 2000,
+    "threshold": 0.85,
+    "use_semantic": true,
+    "seed": 42
+  },
+  "golds": {
+    "ccs": {
+      "blurb": "ACM CCS 2012 (institutional human curation; skos:broader)",
+      "concepts": 2299
+    },
+    "ito": {
+      "blurb": "ITO (manual expert curation; AI task hierarchy)",
+      "concepts": 1097
+    },
+    "aio": {
+      "blurb": "AIO (expert + LLM-assisted; ML model/architecture is-a) — supplementary",
+      "concepts": 442
+    }
+  },
+  "results": {
+    "ccs": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.0738,
+            "ci": [
+              0.0627,
+              0.0854
+            ]
+          },
+          "guided": {
+            "point": 0.0758,
+            "ci": [
+              0.0653,
+              0.0871
+            ]
+          },
+          "diff": {
+            "point": 0.0019,
+            "ci": [
+              -0.0144,
+              0.0178
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.0579,
+            "ci": [
+              0.0487,
+              0.0679
+            ]
+          },
+          "guided": {
+            "point": 0.06,
+            "ci": [
+              0.0509,
+              0.07
+            ]
+          },
+          "diff": {
+            "point": 0.0022,
+            "ci": [
+              -0.0035,
+              0.0074
+            ],
+            "significant": false,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 17,
+            "guided_only": 22,
+            "discordant": 39,
+            "p_value": 0.5224
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.0714,
+            "ci": [
+              0.0,
+              0.2222
+            ]
+          },
+          "guided": {
+            "point": 0.1667,
+            "ci": [
+              0.027,
+              0.3153
+            ]
+          },
+          "diff": {
+            "point": 0.0952,
+            "ci": [
+              -0.1165,
+              0.2853
+            ],
+            "p_two_sided": 0.348,
+            "significant": false
+          }
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.1149,
+            "ci": [
+              0.1009,
+              0.1284
+            ]
+          },
+          "guided": {
+            "point": 0.1207,
+            "ci": [
+              0.1075,
+              0.1359
+            ]
+          },
+          "diff": {
+            "point": 0.0059,
+            "ci": [
+              -0.0137,
+              0.0256
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.0687,
+            "ci": [
+              0.0583,
+              0.0796
+            ]
+          },
+          "guided": {
+            "point": 0.0731,
+            "ci": [
+              0.0622,
+              0.0839
+            ]
+          },
+          "diff": {
+            "point": 0.0043,
+            "ci": [
+              -0.0017,
+              0.0104
+            ],
+            "significant": false,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 19,
+            "guided_only": 29,
+            "discordant": 48,
+            "p_value": 0.1934
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.1205,
+            "ci": [
+              0.0175,
+              0.2647
+            ]
+          },
+          "guided": {
+            "point": 0.1854,
+            "ci": [
+              0.0613,
+              0.3206
+            ]
+          },
+          "diff": {
+            "point": 0.0649,
+            "ci": [
+              -0.1163,
+              0.235
+            ],
+            "p_two_sided": 0.5,
+            "significant": false
+          }
+        }
+      }
+    },
+    "ito": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.0565,
+            "ci": [
+              0.0468,
+              0.0666
+            ]
+          },
+          "guided": {
+            "point": 0.0507,
+            "ci": [
+              0.0417,
+              0.0601
+            ]
+          },
+          "diff": {
+            "point": -0.0058,
+            "ci": [
+              -0.0197,
+              0.008
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.1067,
+            "ci": [
+              0.0884,
+              0.1249
+            ]
+          },
+          "guided": {
+            "point": 0.0957,
+            "ci": [
+              0.0784,
+              0.1121
+            ]
+          },
+          "diff": {
+            "point": -0.0109,
+            "ci": [
+              -0.0201,
+              -0.0018
+            ],
+            "significant": true,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 20,
+            "guided_only": 8,
+            "discordant": 28,
+            "p_value": 0.0357
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.1194,
+            "ci": [
+              0.0,
+              0.3846
+            ]
+          },
+          "guided": {
+            "point": 0.0323,
+            "ci": [
+              0.0,
+              0.2353
+            ]
+          },
+          "diff": {
+            "point": -0.0871,
+            "ci": [
+              -0.3,
+              0.0126
+            ],
+            "p_two_sided": 0.366,
+            "significant": false
+          }
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.0922,
+            "ci": [
+              0.0796,
+              0.1047
+            ]
+          },
+          "guided": {
+            "point": 0.0857,
+            "ci": [
+              0.0739,
+              0.0975
+            ]
+          },
+          "diff": {
+            "point": -0.0065,
+            "ci": [
+              -0.0236,
+              0.0109
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.1231,
+            "ci": [
+              0.103,
+              0.1422
+            ]
+          },
+          "guided": {
+            "point": 0.1176,
+            "ci": [
+              0.0985,
+              0.1367
+            ]
+          },
+          "diff": {
+            "point": -0.0055,
+            "ci": [
+              -0.0146,
+              0.0036
+            ],
+            "significant": false,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 15,
+            "guided_only": 9,
+            "discordant": 24,
+            "p_value": 0.3075
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.16,
+            "ci": [
+              0.0204,
+              0.4082
+            ]
+          },
+          "guided": {
+            "point": 0.04,
+            "ci": [
+              0.0,
+              0.1967
+            ]
+          },
+          "diff": {
+            "point": -0.12,
+            "ci": [
+              -0.3381,
+              0.0
+            ],
+            "p_two_sided": 0.054,
+            "significant": false
+          }
+        }
+      }
+    },
+    "aio": {
+      "strict": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.0309,
+            "ci": [
+              0.0241,
+              0.0386
+            ]
+          },
+          "guided": {
+            "point": 0.0298,
+            "ci": [
+              0.0227,
+              0.0374
+            ]
+          },
+          "diff": {
+            "point": -0.0011,
+            "ci": [
+              -0.0115,
+              0.0093
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.1448,
+            "ci": [
+              0.1131,
+              0.1787
+            ]
+          },
+          "guided": {
+            "point": 0.1425,
+            "ci": [
+              0.1109,
+              0.1765
+            ]
+          },
+          "diff": {
+            "point": -0.0023,
+            "ci": [
+              -0.0204,
+              0.0158
+            ],
+            "significant": false,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 8,
+            "guided_only": 7,
+            "discordant": 15,
+            "p_value": 1.0
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.069,
+            "ci": [
+              0.0,
+              0.2449
+            ]
+          },
+          "guided": {
+            "point": 0.0417,
+            "ci": [
+              0.0,
+              0.2195
+            ]
+          },
+          "diff": {
+            "point": -0.0273,
+            "ci": [
+              -0.2222,
+              0.1935
+            ],
+            "p_two_sided": 0.981,
+            "significant": false
+          }
+        }
+      },
+      "with_semantic": {
+        "coverage_of_generated": {
+          "baseline": {
+            "point": 0.069,
+            "ci": [
+              0.0584,
+              0.0801
+            ]
+          },
+          "guided": {
+            "point": 0.0616,
+            "ci": [
+              0.0516,
+              0.0724
+            ]
+          },
+          "diff": {
+            "point": -0.0075,
+            "ci": [
+              -0.0223,
+              0.0074
+            ],
+            "significant": false,
+            "paired": false
+          }
+        },
+        "recall_of_gold": {
+          "baseline": {
+            "point": 0.181,
+            "ci": [
+              0.1471,
+              0.2195
+            ]
+          },
+          "guided": {
+            "point": 0.181,
+            "ci": [
+              0.1471,
+              0.2172
+            ]
+          },
+          "diff": {
+            "point": 0.0,
+            "ci": [
+              -0.0181,
+              0.0181
+            ],
+            "significant": false,
+            "paired": true
+          },
+          "mcnemar": {
+            "base_only": 8,
+            "guided_only": 8,
+            "discordant": 16,
+            "p_value": 1.0
+          }
+        },
+        "taxonomic_f1": {
+          "baseline": {
+            "point": 0.1923,
+            "ci": [
+              0.0274,
+              0.4196
+            ]
+          },
+          "guided": {
+            "point": 0.1159,
+            "ci": [
+              0.0116,
+              0.3
+            ]
+          },
+          "diff": {
+            "point": -0.0764,
+            "ci": [
+              -0.2994,
+              0.1338
+            ],
+            "p_two_sided": 0.476,
+            "significant": false
+          }
+        }
+      }
+    }
+  },
+  "note": "CIs reflect sampling over the concept/pair population within the single latest baseline/guided ontologies, NOT LLM run-to-run variance (see v07). recall = paired (McNemar + paired bootstrap); coverage = unpaired (different concept sets); taxonomic F1 = paired weighted cluster bootstrap over covered gold concepts."
+}

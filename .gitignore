@@ -1,0 +1,42 @@
+# Environment variables & secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.hypothesis/
+
+# Runtime logs, temporary caches, and run artifacts
+logs/
+caches/
+runs/
+artifacts/
+.DS_Store
+
+# LaTeX build artifacts & drafts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+paper/
+
+# Large gold standard datasets (>100MB exceeds GitHub push limits)
+analysis/gold/ITO.owl
+analysis/gold/ITO.owl.zip
+
+# Manuscript figure generation scripts
+analysis/make_figures.py
+analysis/make_ablation_figures.py
+
+

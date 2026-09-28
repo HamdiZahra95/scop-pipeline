@@ -1,0 +1,491 @@
+{
+  "benchmark_id": "balanced_corpus_cq_v1",
+  "ontology_used_for_guidance": "ML_Ontology.ttl",
+  "ontology_path": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/ML_Ontology.ttl",
+  "total_concepts": 50,
+  "covered_concepts": 50,
+  "coverage_rate": 1.0,
+  "by_band": {
+    "high_frequency": {
+      "total": 16,
+      "covered": 16,
+      "coverage_rate": 1.0,
+      "missing": []
+    },
+    "medium_frequency": {
+      "total": 18,
+      "covered": 18,
+      "coverage_rate": 1.0,
+      "missing": []
+    },
+    "low_frequency_important": {
+      "total": 16,
+      "covered": 16,
+      "coverage_rate": 1.0,
+      "missing": []
+    }
+  },
+  "match_distribution": {
+    "exact": 50,
+    "lexical": 0,
+    "semantic": 0,
+    "none": 0
+  },
+  "details": [
+    {
+      "term": "reinforcement learning",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "reinforcement learning",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "time",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "time",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "classification",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "classification",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "graph",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "graph",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "performance",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "performance",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "image",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "image",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "target",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "target",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "text",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "text",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "accuracy",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "accuracy",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "used for",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "used for",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "random",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "random",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "regression",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "regression",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "metric",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "metric",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "bayesian",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "bayesian",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "supervised learning",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "supervised learning",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "clustering",
+      "band": "high_frequency",
+      "match_kind": "exact",
+      "ref_term": "clustering",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "parameter",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "parameter",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "hardware",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "hardware",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "loss function",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "loss function",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "audio",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "audio",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "time series",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "time series",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "video",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "video",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "unsupervised learning",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "unsupervised learning",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "ensemble",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "ensemble",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "group",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "group",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "sum",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "sum",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "recommendation",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "recommendation",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "transformer",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "transformer",
+      "ref_parent": "artificial_neural_network",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "feature extraction",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "feature extraction",
+      "ref_parent": "feature_reduction",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "mean",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "mean",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "translation",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "translation",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "convolutional neural network",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "convolutional neural network",
+      "ref_parent": "artificial_neural_network",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "precision",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "precision",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "ranking",
+      "band": "medium_frequency",
+      "match_kind": "exact",
+      "ref_term": "ranking",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "category",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "category",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "required",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "required",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "generative adversarial network",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "generative adversarial network",
+      "ref_parent": "artificial_neural_network",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "anomaly detection",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "anomaly detection",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "scalable",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "scalable",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "categorical",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "categorical",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "feature selection",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "feature selection",
+      "ref_parent": "feature_reduction",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "accurate",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "accurate",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "Gaussian process",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "Gaussian process",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "autoencoder",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "autoencoder",
+      "ref_parent": "artificial_neural_network",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "stochastic gradient descent",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "stochastic gradient descent",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "object detection",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "object detection",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "binary classification",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "binary classification",
+      "ref_parent": "classification",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "image classification",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "image classification",
+      "ref_parent": "classification",
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "linear regression",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "linear regression",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    },
+    {
+      "term": "image segmentation",
+      "band": "low_frequency_important",
+      "match_kind": "exact",
+      "ref_term": "image segmentation",
+      "ref_parent": null,
+      "score": 1.0,
+      "covered": true
+    }
+  ],
+  "context": {
+    "baseline_coverage_rate": 0.78,
+    "guided_coverage_rate": 0.86,
+    "reference_ontology_vs_guided_delta": -0.14
+  }
+}

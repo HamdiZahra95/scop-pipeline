@@ -1,0 +1,25 @@
+{
+  "overlap_summary": {
+    "generated_concepts": 2112,
+    "reference_concepts": 706,
+    "exact": 96,
+    "lexical": 96,
+    "semantic": 210,
+    "union_matched": 210,
+    "precision": 0.099,
+    "recall": 0.156,
+    "f1": 0.121
+  },
+  "coverage_summary": {
+    "present_high_freq": 67,
+    "present_gated_out": 66,
+    "lexically_present": 133,
+    "semantic_additional": 73,
+    "not_found": 504
+  },
+  "thesis_takeaway": {
+    "semantic_fidelity_is_not_same_as_answerability": true,
+    "guided_precision_is_better_if_phraseology_is_grounded": true,
+    "external_CQ_benchmark_cannot_capture_all_semantic_breadth": true
+  }
+}

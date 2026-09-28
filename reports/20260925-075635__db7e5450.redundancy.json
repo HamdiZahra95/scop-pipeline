@@ -1,0 +1,3043 @@
+{
+  "exact_duplicates": [
+    {
+      "concept": "multilayer perceptron",
+      "appears_under": [
+        {
+          "name": "multilayer perceptron",
+          "parent": "Neural_Architectures"
+        },
+        {
+          "name": "multi-layer perceptron",
+          "parent": "Connectionist_Neural_Network"
+        }
+      ]
+    },
+    {
+      "concept": "multitask learning",
+      "appears_under": [
+        {
+          "name": "multitask learning",
+          "parent": "Cross_Task_Knowledge_Leveraging_Protocol"
+        },
+        {
+          "name": "multi-task learning",
+          "parent": "Learning_Paradigm_ML_Task"
+        }
+      ]
+    },
+    {
+      "concept": "multimodal learning",
+      "appears_under": [
+        {
+          "name": "multimodal learning",
+          "parent": "Learning_Paradigm_ML_Task"
+        },
+        {
+          "name": "multi-modal learning",
+          "parent": "Core_Learning_Paradigm"
+        }
+      ]
+    },
+    {
+      "concept": "bilevel optimization",
+      "appears_under": [
+        {
+          "name": "bilevel optimization",
+          "parent": "Optimization_and_Training_Algorithm"
+        },
+        {
+          "name": "bi-level optimization",
+          "parent": "Hierarchical_Optimization_Algorithm"
+        }
+      ]
+    },
+    {
+      "concept": "nonconvex optimization",
+      "appears_under": [
+        {
+          "name": "nonconvex optimization",
+          "parent": "Optimization_Problem_Type"
+        },
+        {
+          "name": "non-convex optimization",
+          "parent": "Mathematical_Optimization_and_Analysis"
+        }
+      ]
+    }
+  ],
+  "semantic_duplicates": [
+    {
+      "concept1": "topic model",
+      "concept2": "topic modeling",
+      "similarity": 0.87,
+      "parent1": "Latent_Representation_Model",
+      "parent2": "Unsupervised_ML_Task"
+    },
+    {
+      "concept1": "deep learning",
+      "concept2": "deep q-learning",
+      "similarity": 0.96,
+      "parent1": "Architectural_Learning_Paradigm",
+      "parent2": "Value_Based_Algorithm"
+    },
+    {
+      "concept1": "kernel method",
+      "concept2": "Kernel_Methods",
+      "similarity": 0.96,
+      "parent1": "Manifold_and_Kernel_Operator",
+      "parent2": "ML_Feature_Representation"
+    },
+    {
+      "concept1": "deep q-network",
+      "concept2": "deep network",
+      "similarity": 0.96,
+      "parent1": "Value_Based_Methods",
+      "parent2": "deep learning model"
+    },
+    {
+      "concept1": "generalization",
+      "concept2": "Generalization_Task",
+      "similarity": 0.88,
+      "parent1": "Generalization_Property",
+      "parent2": "Performance_Evaluation_Task"
+    },
+    {
+      "concept1": "generalization",
+      "concept2": "generalization risk",
+      "similarity": 0.88,
+      "parent1": "Generalization_Property",
+      "parent2": "Stability_and_Robustness"
+    },
+    {
+      "concept1": "neural network",
+      "concept2": "Deep_Neural_Network",
+      "similarity": 0.87,
+      "parent1": "Parametric_Neural_Network",
+      "parent2": "Hierarchical_Representation_Models"
+    },
+    {
+      "concept1": "PAC-Bayes bound",
+      "concept2": "PAC-Bayesian bound",
+      "similarity": 0.9,
+      "parent1": "Generalization_Bounds",
+      "parent2": "Generalization_Analysis_Method"
+    },
+    {
+      "concept1": "computer vision",
+      "concept2": "Computer_Vision_Task",
+      "similarity": 0.88,
+      "parent1": "Visual_Perception_ML",
+      "parent2": "Perceptual_Analysis_Task"
+    },
+    {
+      "concept1": "metric learning",
+      "concept2": "deep metric learning",
+      "similarity": 0.88,
+      "parent1": "Relational_Representation_Task",
+      "parent2": "representation learning"
+    },
+    {
+      "concept1": "object detector",
+      "concept2": "object detection",
+      "similarity": 0.9,
+      "parent1": "Localization_Model",
+      "parent2": "Localization_and_Detection"
+    },
+    {
+      "concept1": "causal inference",
+      "concept2": "[NEW]_Causal_Inference",
+      "similarity": 0.91,
+      "parent1": "Structural_Relational_ML_Task",
+      "parent2": "Learning_Theory_and_Statistics"
+    },
+    {
+      "concept1": "change detection",
+      "concept2": "change-point detection",
+      "similarity": 0.86,
+      "parent1": "Image_Analysis_Task",
+      "parent2": "Change_Detection_Task"
+    },
+    {
+      "concept1": "change detection",
+      "concept2": "Change_Detection_Task",
+      "similarity": 0.88,
+      "parent1": "Image_Analysis_Task",
+      "parent2": "Unsupervised_Learning_Task"
+    },
+    {
+      "concept1": "generative model",
+      "concept2": "deep generative model",
+      "similarity": 0.88,
+      "parent1": "Core_Generative_Model",
+      "parent2": "Deep_Learning_Framework_Paradigm"
+    },
+    {
+      "concept1": "generative model",
+      "concept2": "graph generative model",
+      "similarity": 0.86,
+      "parent1": "Core_Generative_Model",
+      "parent2": "graph generative model"
+    },
+    {
+      "concept1": "generative model",
+      "concept2": "Core_Generative_Model",
+      "similarity": 0.88,
+      "parent1": "Core_Generative_Model",
+      "parent2": "Foundational_Generative_Model"
+    },
+    {
+      "concept1": "object detection",
+      "concept2": "3D object detection",
+      "similarity": 0.94,
+      "parent1": "Localization_and_Detection",
+      "parent2": "Perception_Task"
+    },
+    {
+      "concept1": "predictive model",
+      "concept2": "predictive modeling",
+      "similarity": 0.91,
+      "parent1": "Core_Discriminative_Model",
+      "parent2": "Core_Regression_Task"
+    },
+    {
+      "concept1": "residual network",
+      "concept2": "deep residual network",
+      "similarity": 0.88,
+      "parent1": "Neural_Architecture",
+      "parent2": "Feedforward_Architectures"
+    },
+    {
+      "concept1": "super-resolution",
+      "concept2": "image super-resolution",
+      "similarity": 0.86,
+      "parent1": "Signal_Enhancement",
+      "parent2": "High_Dimensional_Regression"
+    },
+    {
+      "concept1": "anomaly detection",
+      "concept2": "Anomaly_Detection_Task",
+      "similarity": 0.89,
+      "parent1": "Pattern_Recognition_Task",
+      "parent2": "Inference_and_Recognition_Task"
+    },
+    {
+      "concept1": "bayesian learning",
+      "concept2": "bayesian deep learning",
+      "similarity": 0.89,
+      "parent1": "Learning_Principles",
+      "parent2": "Probabilistic_Learning_Objective"
+    },
+    {
+      "concept1": "bayesian learning",
+      "concept2": "Bayesian learning rule",
+      "similarity": 0.89,
+      "parent1": "Learning_Principles",
+      "parent2": "Learning_Strategy"
+    },
+    {
+      "concept1": "boltzmann machine",
+      "concept2": "deep boltzmann machine",
+      "similarity": 0.89,
+      "parent1": "Energy_Based_Models",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "domain adaptation",
+      "concept2": "Domain_Adaptation_Task",
+      "similarity": 0.89,
+      "parent1": "Adaptive_Learning_Task",
+      "parent2": "Transfer_Learning_Task"
+    },
+    {
+      "concept1": "ensemble learning",
+      "concept2": "Ensemble_Learning_Model",
+      "similarity": 0.86,
+      "parent1": "Ensemble_Algorithm",
+      "parent2": "Composite_Model"
+    },
+    {
+      "concept1": "few-shot learning",
+      "concept2": "one-shot learning",
+      "similarity": 0.87,
+      "parent1": "Adaptive_Learning_Task",
+      "parent2": "Few_Shot_Generalization"
+    },
+    {
+      "concept1": "graph autoencoder",
+      "concept2": "graph encoder",
+      "similarity": 0.86,
+      "parent1": "Autoencoding_Models",
+      "parent2": "Graph_Representations"
+    },
+    {
+      "concept1": "kernel regression",
+      "concept2": "kernel ridge regression",
+      "similarity": 0.86,
+      "parent1": "Kernel_Methods",
+      "parent2": "Linear_Models"
+    },
+    {
+      "concept1": "policy evaluation",
+      "concept2": "off-policy evaluation",
+      "similarity": 0.91,
+      "parent1": "Optimization_and_Control_Task",
+      "parent2": "Offline_RL_Tasks"
+    },
+    {
+      "concept1": "predictive coding",
+      "concept2": "predictive modeling",
+      "similarity": 0.88,
+      "parent1": "Structural_Inference_Model",
+      "parent2": "Core_Regression_Task"
+    },
+    {
+      "concept1": "quantum algorithm",
+      "concept2": "Quantum_ML_Algorithm",
+      "similarity": 0.94,
+      "parent1": "Quantum_ML_Algorithm",
+      "parent2": "Computational_Paradigm"
+    },
+    {
+      "concept1": "sequence labeling",
+      "concept2": "Sequence_Labeling_Task",
+      "similarity": 0.89,
+      "parent1": "Structured_Prediction_Task",
+      "parent2": "Structured_Output_Task"
+    },
+    {
+      "concept1": "action recognition",
+      "concept2": "emotion recognition",
+      "similarity": 0.86,
+      "parent1": "Signal_Processing_Task",
+      "parent2": "Perception_Task"
+    },
+    {
+      "concept1": "adversarial attack",
+      "concept2": "Adversarial_Task",
+      "similarity": 0.88,
+      "parent1": "Core_ML_Workflow_and_Protocol",
+      "parent2": "Reasoning_and_Optimization_Task"
+    },
+    {
+      "concept1": "behavioral cloning",
+      "concept2": "behavior cloning",
+      "similarity": 0.94,
+      "parent1": "Optimization_and_Learning_Algorithm",
+      "parent2": "Imitation_Learning_Algorithm"
+    },
+    {
+      "concept1": "behavioral cloning",
+      "concept2": "Behavioral_Learning",
+      "similarity": 0.86,
+      "parent1": "Optimization_and_Learning_Algorithm",
+      "parent2": "Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "continual learning",
+      "concept2": "Continual_Learning_Tasks",
+      "similarity": 0.87,
+      "parent1": "lifelong learning",
+      "parent2": "Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "density estimation",
+      "concept2": "Density_Estimation_Model",
+      "similarity": 0.87,
+      "parent1": "Probabilistic_Modeling",
+      "parent2": "generative model"
+    },
+    {
+      "concept1": "energy-based model",
+      "concept2": "Energy_Based_Models",
+      "similarity": 0.97,
+      "parent1": "Energy_Distribution_Model",
+      "parent2": "generative model"
+    },
+    {
+      "concept1": "evolution strategy",
+      "concept2": "evolutionary strategy",
+      "similarity": 0.92,
+      "parent1": "Optimization_and_Learning_Algorithm",
+      "parent2": "evolutionary algorithm"
+    },
+    {
+      "concept1": "feature extraction",
+      "concept2": "Feature_Extraction_Task",
+      "similarity": 0.89,
+      "parent1": "Data_Representation",
+      "parent2": "Core_ML_Task"
+    },
+    {
+      "concept1": "multi-armed bandit",
+      "concept2": "Multi_Armed_Bandit_Tasks",
+      "similarity": 0.86,
+      "parent1": "Optimization_and_Control_Task",
+      "parent2": "Reinforcement_Learning_Task"
+    },
+    {
+      "concept1": "convex optimization",
+      "concept2": "nonconvex optimization",
+      "similarity": 0.92,
+      "parent1": "Optimization_Frameworks",
+      "parent2": "Optimization_Problem_Type"
+    },
+    {
+      "concept1": "convex optimization",
+      "concept2": "online convex optimization",
+      "similarity": 0.86,
+      "parent1": "Optimization_Frameworks",
+      "parent2": "online optimization"
+    },
+    {
+      "concept1": "dimension reduction",
+      "concept2": "dimensionality reduction",
+      "similarity": 0.88,
+      "parent1": "Feature_Transformation_Task",
+      "parent2": "Manifold_and_Structure_Learning"
+    },
+    {
+      "concept1": "emotion recognition",
+      "concept2": "speech emotion recognition",
+      "similarity": 0.86,
+      "parent1": "Perception_Task",
+      "parent2": "Audio_Classification_Task"
+    },
+    {
+      "concept1": "fair classification",
+      "concept2": "classification",
+      "similarity": 0.88,
+      "parent1": "Algorithmic_Fairness_Domain_Specific_ML_Task",
+      "parent2": "Categorical_Prediction_Task"
+    },
+    {
+      "concept1": "machine translation",
+      "concept2": "neural machine translation",
+      "similarity": 0.86,
+      "parent1": "NLP_Domain_Specific_ML_Task",
+      "parent2": "Translation_Task"
+    },
+    {
+      "concept1": "multimodal learning",
+      "concept2": "multimodal deep learning",
+      "similarity": 0.9,
+      "parent1": "Learning_Paradigm_ML_Task",
+      "parent2": "Specialized_Neural_Network"
+    },
+    {
+      "concept1": "pattern recognition",
+      "concept2": "Pattern_Recognition_Task",
+      "similarity": 0.9,
+      "parent1": "Recognition_and_Matching_Task",
+      "parent2": "Inference_and_Recognition_Task"
+    },
+    {
+      "concept1": "predictive modeling",
+      "concept2": "Predictive_Modeling_Task",
+      "similarity": 0.9,
+      "parent1": "Core_Regression_Task",
+      "parent2": "ML_Task"
+    },
+    {
+      "concept1": "probabilistic model",
+      "concept2": "Core_Probabilistic_Model",
+      "similarity": 0.9,
+      "parent1": "Core_Probabilistic_Model",
+      "parent2": "Foundational_Probabilistic_Models"
+    },
+    {
+      "concept1": "probabilistic model",
+      "concept2": "Probabilistic_Modeling",
+      "similarity": 0.92,
+      "parent1": "Core_Probabilistic_Model",
+      "parent2": "Predictive_Analysis_Task"
+    },
+    {
+      "concept1": "speaker recognition",
+      "concept2": "speech recognition",
+      "similarity": 0.86,
+      "parent1": "Recognition_and_Matching_Task",
+      "parent2": "Audio_Analysis_Task"
+    },
+    {
+      "concept1": "subspace clustering",
+      "concept2": "sparse subspace clustering",
+      "similarity": 0.86,
+      "parent1": "clustering algorithm",
+      "parent2": "Sparse_Representation_Algorithm"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "self-supervised learning",
+      "similarity": 0.9,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "Learning_Paradigm"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "semi-supervised learning",
+      "similarity": 0.9,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "Learning_Paradigm"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "weakly supervised learning",
+      "similarity": 0.86,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "Learning_Strategy_ML"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "Unsupervised_Learning_Task",
+      "similarity": 0.86,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "ML_Task"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "Supervised_Learning_Task",
+      "similarity": 0.9,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "supervised learning",
+      "concept2": "Supervised_Learning_Model",
+      "similarity": 0.88,
+      "parent1": "Label_Based_Learning_Paradigm",
+      "parent2": "Learning_Paradigm_Model"
+    },
+    {
+      "concept1": "text classification",
+      "concept2": "classification",
+      "similarity": 0.88,
+      "parent1": "supervised classification",
+      "parent2": "Categorical_Prediction_Task"
+    },
+    {
+      "concept1": "classification model",
+      "concept2": "Core_Classification_Model",
+      "similarity": 0.9,
+      "parent1": "Core_Classification_Model",
+      "parent2": "classification model"
+    },
+    {
+      "concept1": "contrastive learning",
+      "concept2": "graph contrastive learning",
+      "similarity": 0.88,
+      "parent1": "Optimization_and_Training_Algorithm",
+      "parent2": "Contrastive_Learning_Methods"
+    },
+    {
+      "concept1": "generalization bound",
+      "concept2": "generalization error bound",
+      "similarity": 0.88,
+      "parent1": "Generalization_Analysis_Method",
+      "parent2": "Generalization_Bounds"
+    },
+    {
+      "concept1": "generalization bound",
+      "concept2": "Generalization_Bounds",
+      "similarity": 0.97,
+      "parent1": "Generalization_Analysis_Method",
+      "parent2": "Statistical_Learning_Theory_Framework"
+    },
+    {
+      "concept1": "generalization error",
+      "concept2": "generalization error bound",
+      "similarity": 0.88,
+      "parent1": "Generalization_Property",
+      "parent2": "Generalization_Bounds"
+    },
+    {
+      "concept1": "generalization error",
+      "concept2": "Generalization_Theory",
+      "similarity": 0.87,
+      "parent1": "Generalization_Property",
+      "parent2": "statistical learning theory"
+    },
+    {
+      "concept1": "incremental learning",
+      "concept2": "class-incremental learning",
+      "similarity": 0.88,
+      "parent1": "Core_Model_Optimization_Protocol",
+      "parent2": "Continual_Learning_Tasks"
+    },
+    {
+      "concept1": "min-max optimization",
+      "concept2": "minimax optimization",
+      "similarity": 0.97,
+      "parent1": "Hierarchical_Optimization_Algorithm",
+      "parent2": "Core_Optimization_Objective"
+    },
+    {
+      "concept1": "predictive analytics",
+      "concept2": "predictive analysis",
+      "similarity": 0.92,
+      "parent1": "Analytical_Modeling_Task",
+      "parent2": "General_Predictive_Modeling"
+    },
+    {
+      "concept1": "adversarial detection",
+      "concept2": "adversarial example detection",
+      "similarity": 0.85,
+      "parent1": "Security_and_Robustness",
+      "parent2": "Core_Classification_Task"
+    },
+    {
+      "concept1": "binary neural network",
+      "concept2": "binarized neural network",
+      "similarity": 0.88,
+      "parent1": "Specialized_Architecture_Neural_Network",
+      "parent2": "Neural_Network_Variant"
+    },
+    {
+      "concept1": "denoising autoencoder",
+      "concept2": "stacked denoising autoencoder",
+      "similarity": 0.85,
+      "parent1": "Autoencoder_Model",
+      "parent2": "Generative_Architectures"
+    },
+    {
+      "concept1": "fair machine learning",
+      "concept2": "Machine_Learning",
+      "similarity": 0.88,
+      "parent1": "Robustness_and_Ethics_Constraint_Learning",
+      "parent2": "Artificial_Intelligence"
+    },
+    {
+      "concept1": "masked language model",
+      "concept2": "masked language modeling",
+      "similarity": 0.93,
+      "parent1": "neural language model",
+      "parent2": "Sequence_Labeling_Task"
+    },
+    {
+      "concept1": "off-policy evaluation",
+      "concept2": "off-policy policy evaluation",
+      "similarity": 0.86,
+      "parent1": "Offline_RL_Tasks",
+      "parent2": "Reinforcement_Learning_ML_Task"
+    },
+    {
+      "concept1": "sparse neural network",
+      "concept2": "siamese neural network",
+      "similarity": 0.87,
+      "parent1": "Neural_Architectures",
+      "parent2": "Connectionist_Neural_Network"
+    },
+    {
+      "concept1": "sparse representation",
+      "concept2": "Sparse_Representation_Vector",
+      "similarity": 0.87,
+      "parent1": "Structural_Representations",
+      "parent2": "ML_Representation_Vector"
+    },
+    {
+      "concept1": "stochastic blockmodel",
+      "concept2": "stochastic model",
+      "similarity": 0.86,
+      "parent1": "graph generative model",
+      "parent2": "Probabilistic Frameworks"
+    },
+    {
+      "concept1": "structured prediction",
+      "concept2": "Structured_Prediction_Task",
+      "similarity": 0.91,
+      "parent1": "Complex_Output_Modeling",
+      "parent2": "Complex_Output_Task"
+    },
+    {
+      "concept1": "system identification",
+      "concept2": "linear system identification",
+      "similarity": 0.87,
+      "parent1": "Dynamic_System_Modeling",
+      "parent2": "System Analysis"
+    },
+    {
+      "concept1": "variational inference",
+      "concept2": "Variational_Inference_Methods",
+      "similarity": 0.85,
+      "parent1": "Inference_Algorithm",
+      "parent2": "Probabilistic_Inference_Algorithm"
+    },
+    {
+      "concept1": "collaborative learning",
+      "concept2": "collaborative filtering",
+      "similarity": 0.88,
+      "parent1": "Knowledge_and_Information_Sharing_Learning",
+      "parent2": "Recommendation_Algorithms"
+    },
+    {
+      "concept1": "function approximation",
+      "concept2": "Function_Approximator",
+      "similarity": 0.93,
+      "parent1": "Deterministic_Regression",
+      "parent2": "Discriminative_Model"
+    },
+    {
+      "concept1": "nonconvex optimization",
+      "concept2": "online convex optimization",
+      "similarity": 0.89,
+      "parent1": "Optimization_Problem_Type",
+      "parent2": "online optimization"
+    },
+    {
+      "concept1": "self-attention network",
+      "concept2": "attention network",
+      "similarity": 0.89,
+      "parent1": "Connectionist_Neural_Network",
+      "parent2": "Neural_Network_Variant"
+    },
+    {
+      "concept1": "sequential monte carlo",
+      "concept2": "Sequential_Monte_Carlo_Methods",
+      "similarity": 0.85,
+      "parent1": "Sequential_Monte_Carlo_Methods",
+      "parent2": "Probabilistic_Inference_Algorithm"
+    },
+    {
+      "concept1": "graph attention network",
+      "concept2": "attention network",
+      "similarity": 0.86,
+      "parent1": "Attention_Based_GNN",
+      "parent2": "Neural_Network_Variant"
+    },
+    {
+      "concept1": "graph signal processing",
+      "concept2": "Signal Processing",
+      "similarity": 0.86,
+      "parent1": "[NEW]_Signal_Processing_and_Graph_Theory",
+      "parent2": "Engineering"
+    },
+    {
+      "concept1": "multi-instance learning",
+      "concept2": "multiple instance learning",
+      "similarity": 0.93,
+      "parent1": "Supervision_Variant_Learning",
+      "parent2": "Core_Core_ML_Algorithm"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "fair representation learning",
+      "similarity": 0.92,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Robustness_and_Fairness_ML_Task"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "graph representation learning",
+      "similarity": 0.9,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "General_Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "state representation learning",
+      "similarity": 0.9,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Core_Representation_Learning_Task"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "causal representation learning",
+      "similarity": 0.88,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Supervised_or_Structured_Representation_Learning"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "network representation learning",
+      "similarity": 0.86,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Supervised_or_Structured_Representation_Learning"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "Representation_Learning_Task",
+      "similarity": 0.92,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Feature_Extraction_Task"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "Guided_Representation_Learning",
+      "similarity": 0.88,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "Representation_Learning_Task"
+    },
+    {
+      "concept1": "representation learning",
+      "concept2": "Representation_Learning_Models",
+      "similarity": 0.88,
+      "parent1": "Core_Learning_Paradigm",
+      "parent2": "ML_Model"
+    },
+    {
+      "concept1": "stochastic optimization",
+      "concept2": "stochastic convex optimization",
+      "similarity": 0.88,
+      "parent1": "Mathematical_Programming_Technique",
+      "parent2": "Optimization_Methods"
+    },
+    {
+      "concept1": "stochastic optimization",
+      "concept2": "Stochastic_Optimization_Method",
+      "similarity": 0.88,
+      "parent1": "Mathematical_Programming_Technique",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "submodular maximization",
+      "concept2": "submodular optimization",
+      "similarity": 0.86,
+      "parent1": "Optimization_and_Search_Task",
+      "parent2": "Mathematical_Programming_Technique"
+    },
+    {
+      "concept1": "unsupervised clustering",
+      "concept2": "semi-supervised clustering",
+      "similarity": 0.87,
+      "parent1": "Manifold_and_Structure_Learning",
+      "parent2": "Clustering_and_Grouping"
+    },
+    {
+      "concept1": "block coordinate descent",
+      "concept2": "coordinate descent",
+      "similarity": 0.87,
+      "parent1": "Coordinate_Descent_Algorithm",
+      "parent2": "Iterative_Optimization_Algorithm"
+    },
+    {
+      "concept1": "generalized linear model",
+      "concept2": "Generalized Linear Models",
+      "similarity": 0.98,
+      "parent1": "Linear_Statistical_Model",
+      "parent2": "Probabilistic Modeling & Statistics"
+    },
+    {
+      "concept1": "recursive neural network",
+      "concept2": "Recurrent_Neural_Network",
+      "similarity": 0.86,
+      "parent1": "Architectural_Neural_Network",
+      "parent2": "Discriminative_Neural_Network"
+    },
+    {
+      "concept1": "self-supervised learning",
+      "concept2": "weakly supervised learning",
+      "similarity": 0.87,
+      "parent1": "Learning_Paradigm",
+      "parent2": "Learning_Strategy_ML"
+    },
+    {
+      "concept1": "semi-supervised learning",
+      "concept2": "semi-supervised clustering",
+      "similarity": 0.87,
+      "parent1": "Learning_Paradigm",
+      "parent2": "Clustering_and_Grouping"
+    },
+    {
+      "concept1": "variational auto-encoder",
+      "concept2": "beta-variational autoencoder",
+      "similarity": 0.92,
+      "parent1": "Architectural_Neural_Network",
+      "parent2": "Generative_Architectures"
+    },
+    {
+      "concept1": "artificial neural network",
+      "concept2": "Core_Artificial_Neural_Network",
+      "similarity": 0.92,
+      "parent1": "Core_Artificial_Neural_Network",
+      "parent2": "artificial neural network"
+    },
+    {
+      "concept1": "hypergraph neural network",
+      "concept2": "Graph_Neural_Network",
+      "similarity": 0.88,
+      "parent1": "Non_Standard_Topology_GNN",
+      "parent2": "Structural_Data_Models"
+    },
+    {
+      "concept1": "knowledge base completion",
+      "concept2": "knowledge graph completion",
+      "similarity": 0.85,
+      "parent1": "Knowledge_Reasoning_ML_Task",
+      "parent2": "Completion_Task"
+    },
+    {
+      "concept1": "online learning algorithm",
+      "concept2": "machine learning algorithm",
+      "similarity": 0.85,
+      "parent1": "Core_Learning_Paradigm_Algorithm",
+      "parent2": "Learning_Algorithm"
+    },
+    {
+      "concept1": "probabilistic forecasting",
+      "concept2": "Probabilistic_Reasoning",
+      "similarity": 0.87,
+      "parent1": "Continuous_Value_Prediction_Task",
+      "parent2": "ML_Foundations_and_Theory"
+    },
+    {
+      "concept1": "probabilistic programming",
+      "concept2": "probabilistic programming language",
+      "similarity": 0.86,
+      "parent1": "Programmatic_ML_Paradigm",
+      "parent2": "ML_Software_Framework_and_Language"
+    },
+    {
+      "concept1": "supervised classification",
+      "concept2": "semi-supervised classification",
+      "similarity": 0.92,
+      "parent1": "Categorical_Prediction_Task",
+      "parent2": "Learning_Paradigms"
+    },
+    {
+      "concept1": "topological data analysis",
+      "concept2": "Topological_Analysis",
+      "similarity": 0.9,
+      "parent1": "ML_Data_Representation_Structure",
+      "parent2": "Analysis & Dynamical Systems"
+    },
+    {
+      "concept1": "generalization error bound",
+      "concept2": "Generalization_Bounds",
+      "similarity": 0.86,
+      "parent1": "Generalization_Bounds",
+      "parent2": "Statistical_Learning_Theory_Framework"
+    },
+    {
+      "concept1": "image-to-image translation",
+      "concept2": "unpaired image-to-image translation",
+      "similarity": 0.85,
+      "parent1": "Visual_Transformation",
+      "parent2": "Translation_Task"
+    },
+    {
+      "concept1": "multi-label classification",
+      "concept2": "multiclass classification",
+      "similarity": 0.88,
+      "parent1": "Learning_Tasks",
+      "parent2": "Categorical_Prediction_Task"
+    },
+    {
+      "concept1": "neural architecture search",
+      "concept2": "Neural_Architecture",
+      "similarity": 0.86,
+      "parent1": "Automated_Architecture_Design",
+      "parent2": "Connectionist_Structure"
+    },
+    {
+      "concept1": "neural architecture search",
+      "concept2": "Neural_Architectures",
+      "similarity": 0.88,
+      "parent1": "Automated_Architecture_Design",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "stochastic gradient method",
+      "concept2": "stochastic gradient",
+      "similarity": 0.86,
+      "parent1": "First_Order_Optimization",
+      "parent2": "Sampling_Based_Optimization"
+    },
+    {
+      "concept1": "undirected graphical model",
+      "concept2": "Directed_Graphical_Model",
+      "similarity": 0.96,
+      "parent1": "undirected graphical model",
+      "parent2": "probabilistic graphical model"
+    },
+    {
+      "concept1": "flow-based generative model",
+      "concept2": "score-based generative model",
+      "similarity": 0.86,
+      "parent1": "Generative_Probabilistic_Model",
+      "parent2": "Iterative_Refinement_Model"
+    },
+    {
+      "concept1": "fully convolutional network",
+      "concept2": "fully convolutional neural network",
+      "similarity": 0.89,
+      "parent1": "Standard_Architectures",
+      "parent2": "Architectural_Variant_Convolutional_Neural_Network"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "batch reinforcement learning",
+      "similarity": 0.86,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Learning_Algorithm"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "bayesian reinforcement learning",
+      "similarity": 0.85,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Model_Based_Reinforcement_Learning_Algorithm"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "multi-task reinforcement learning",
+      "similarity": 0.87,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Optimization_and_Control_Task"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "model-based reinforcement learning",
+      "similarity": 0.86,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Environment_Model_Based_RL_Algorithm"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "multi-agent reinforcement learning",
+      "similarity": 0.86,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Agent_Configuration_Based_RL_Algorithm"
+    },
+    {
+      "concept1": "meta-reinforcement learning",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.91,
+      "parent1": "Higher_Order_Learning_Algorithm",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "positive-unlabeled learning",
+      "concept2": "positive and unlabeled learning",
+      "similarity": 0.94,
+      "parent1": "Learning_Paradigms",
+      "parent2": "weakly supervised learning"
+    },
+    {
+      "concept1": "statistical learning theory",
+      "concept2": "Statistical_Learning_Methods",
+      "similarity": 0.86,
+      "parent1": "Mathematical_Foundations",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "adversarial machine learning",
+      "concept2": "adversarial imitation learning",
+      "similarity": 0.85,
+      "parent1": "Secure_and_Robust_ML",
+      "parent2": "Learning_Paradigms"
+    },
+    {
+      "concept1": "batch reinforcement learning",
+      "concept2": "robust reinforcement learning",
+      "similarity": 0.87,
+      "parent1": "Learning_Algorithm",
+      "parent2": "Secure_and_Robust_ML"
+    },
+    {
+      "concept1": "batch reinforcement learning",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.89,
+      "parent1": "Learning_Algorithm",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "conditional generative model",
+      "concept2": "Foundational_Generative_Model",
+      "similarity": 0.91,
+      "parent1": "Generative_Architectures",
+      "parent2": "generative model"
+    },
+    {
+      "concept1": "fair representation learning",
+      "concept2": "graph representation learning",
+      "similarity": 0.87,
+      "parent1": "Robustness_and_Fairness_ML_Task",
+      "parent2": "General_Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "fair representation learning",
+      "concept2": "state representation learning",
+      "similarity": 0.87,
+      "parent1": "Robustness_and_Fairness_ML_Task",
+      "parent2": "Core_Representation_Learning_Task"
+    },
+    {
+      "concept1": "fair representation learning",
+      "concept2": "causal representation learning",
+      "similarity": 0.85,
+      "parent1": "Robustness_and_Fairness_ML_Task",
+      "parent2": "Supervised_or_Structured_Representation_Learning"
+    },
+    {
+      "concept1": "fair representation learning",
+      "concept2": "Guided_Representation_Learning",
+      "similarity": 0.85,
+      "parent1": "Robustness_and_Fairness_ML_Task",
+      "parent2": "Representation_Learning_Task"
+    },
+    {
+      "concept1": "maximum likelihood estimator",
+      "concept2": "maximum likelihood estimate",
+      "similarity": 0.94,
+      "parent1": "Optimization_and_Estimation_Algorithm",
+      "parent2": "Parameter_Estimation_Methods"
+    },
+    {
+      "concept1": "multi-objective optimization",
+      "concept2": "multi-objective Bayesian optimization",
+      "similarity": 0.87,
+      "parent1": "Core_ML_Objective_and_Constraint",
+      "parent2": "Optimization_Strategies"
+    },
+    {
+      "concept1": "principal component analysis",
+      "concept2": "kernel principal component analysis",
+      "similarity": 0.9,
+      "parent1": "Linear_Projection_Algorithm",
+      "parent2": "Dimensionality_Reduction_Algorithm"
+    },
+    {
+      "concept1": "principal component analysis",
+      "concept2": "robust principal component analysis",
+      "similarity": 0.9,
+      "parent1": "Linear_Projection_Algorithm",
+      "parent2": "Dimensionality_Reduction_Algorithm"
+    },
+    {
+      "concept1": "principal component analysis",
+      "concept2": "sparse principal component analysis",
+      "similarity": 0.9,
+      "parent1": "Linear_Projection_Algorithm",
+      "parent2": "Dimensionality_Reduction_Algorithm"
+    },
+    {
+      "concept1": "score-based generative model",
+      "concept2": "Core_Generative_Model",
+      "similarity": 0.86,
+      "parent1": "Iterative_Refinement_Model",
+      "parent2": "Foundational_Generative_Model"
+    },
+    {
+      "concept1": "deep recurrent neural network",
+      "concept2": "Recurrent_Neural_Network",
+      "similarity": 0.92,
+      "parent1": "neural network",
+      "parent2": "Discriminative_Neural_Network"
+    },
+    {
+      "concept1": "graph representation learning",
+      "concept2": "state representation learning",
+      "similarity": 0.85,
+      "parent1": "General_Learning_Paradigm_Task",
+      "parent2": "Core_Representation_Learning_Task"
+    },
+    {
+      "concept1": "maximum likelihood estimation",
+      "concept2": "maximum likelihood estimate",
+      "similarity": 0.92,
+      "parent1": "Optimization_and_Estimation_Algorithm",
+      "parent2": "Parameter_Estimation_Methods"
+    },
+    {
+      "concept1": "probabilistic graphical model",
+      "concept2": "Probabilistic_Graphical_Model_Task",
+      "similarity": 0.93,
+      "parent1": "Probabilistic_and_Decision_Model",
+      "parent2": "Methodological_Task"
+    },
+    {
+      "concept1": "probabilistic graphical model",
+      "concept2": "Core_Probabilistic_Graphical_Model",
+      "similarity": 0.93,
+      "parent1": "Probabilistic_and_Decision_Model",
+      "parent2": "probabilistic graphical model"
+    },
+    {
+      "concept1": "probabilistic graphical model",
+      "concept2": "Core_Core_Probabilistic_Graphical_Model",
+      "similarity": 0.87,
+      "parent1": "Probabilistic_and_Decision_Model",
+      "parent2": "Core_Probabilistic_Graphical_Model"
+    },
+    {
+      "concept1": "probabilistic graphical model",
+      "concept2": "[NEW]_Probabilistic_Graphical_Models",
+      "similarity": 0.93,
+      "parent1": "Probabilistic_and_Decision_Model",
+      "parent2": "Probabilistic_Reasoning"
+    },
+    {
+      "concept1": "radial basis function network",
+      "concept2": "radial basis function neural network",
+      "similarity": 0.9,
+      "parent1": "feedforward neural network",
+      "parent2": "Discriminative_Model"
+    },
+    {
+      "concept1": "robust reinforcement learning",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.88,
+      "parent1": "Secure_and_Robust_ML",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "state representation learning",
+      "concept2": "causal representation learning",
+      "similarity": 0.87,
+      "parent1": "Core_Representation_Learning_Task",
+      "parent2": "Supervised_or_Structured_Representation_Learning"
+    },
+    {
+      "concept1": "state representation learning",
+      "concept2": "disentangled representation learning",
+      "similarity": 0.85,
+      "parent1": "Core_Representation_Learning_Task",
+      "parent2": "Manifold_and_Structure_Learning"
+    },
+    {
+      "concept1": "gradient boosted decision tree",
+      "concept2": "gradient boosting decision tree",
+      "similarity": 0.91,
+      "parent1": "Probabilistic_and_Decision_Model",
+      "parent2": "Ensemble_Learning_Model"
+    },
+    {
+      "concept1": "implicit neural representation",
+      "concept2": "Implicit_Neural_Representations",
+      "similarity": 0.98,
+      "parent1": "Coordinate_Based_Neural_Representation",
+      "parent2": "ML_Data_Representation_Embedding"
+    },
+    {
+      "concept1": "inverse reinforcement learning",
+      "concept2": "offline reinforcement learning",
+      "similarity": 0.86,
+      "parent1": "Reward_Inference_Tasks",
+      "parent2": "Offline_RL_Tasks"
+    },
+    {
+      "concept1": "inverse reinforcement learning",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.86,
+      "parent1": "Reward_Inference_Tasks",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "offline reinforcement learning",
+      "concept2": "off-policy reinforcement learning",
+      "similarity": 0.9,
+      "parent1": "Offline_RL_Tasks",
+      "parent2": "Core_Model_Free_Reinforcement_Learning_Algorithm"
+    },
+    {
+      "concept1": "offline reinforcement learning",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.86,
+      "parent1": "Offline_RL_Tasks",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "probabilistic generative model",
+      "concept2": "Core_Probabilistic_Generative_Model",
+      "similarity": 0.93,
+      "parent1": "Generative_Probabilistic_Models",
+      "parent2": "Foundational_Probabilistic_Models"
+    },
+    {
+      "concept1": "unsupervised domain adaptation",
+      "concept2": "semi-supervised domain adaptation",
+      "similarity": 0.9,
+      "parent1": "Domain_Adaptation_Task",
+      "parent2": "weakly supervised learning"
+    },
+    {
+      "concept1": "unsupervised feature selection",
+      "concept2": "unsupervised feature extraction",
+      "similarity": 0.88,
+      "parent1": "Representation_Optimization",
+      "parent2": "Unsupervised_ML_Task"
+    },
+    {
+      "concept1": "3D convolutional neural network",
+      "concept2": "deep convolutional neural network",
+      "similarity": 0.93,
+      "parent1": "Spatio_Temporal_Convolutional_Neural_Network",
+      "parent2": "Architectural_Variant_Convolutional_Neural_Network"
+    },
+    {
+      "concept1": "3D convolutional neural network",
+      "concept2": "fully convolutional neural network",
+      "similarity": 0.88,
+      "parent1": "Spatio_Temporal_Convolutional_Neural_Network",
+      "parent2": "Architectural_Variant_Convolutional_Neural_Network"
+    },
+    {
+      "concept1": "3D convolutional neural network",
+      "concept2": "dilated convolutional neural network",
+      "similarity": 0.89,
+      "parent1": "Spatio_Temporal_Convolutional_Neural_Network",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "3D convolutional neural network",
+      "concept2": "residual convolutional neural network",
+      "similarity": 0.87,
+      "parent1": "Spatio_Temporal_Convolutional_Neural_Network",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "3D convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.96,
+      "parent1": "Spatio_Temporal_Convolutional_Neural_Network",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "reproducing kernel Hilbert space",
+      "concept2": "Reproducing_Kernel_Hilbert_Spaces",
+      "similarity": 0.98,
+      "parent1": "Linear_Algebraic_Foundations",
+      "parent2": "statistical learning theory"
+    },
+    {
+      "concept1": "stochastic differential equation",
+      "concept2": "neural stochastic differential equation",
+      "similarity": 0.91,
+      "parent1": "Stochastic_Control_and_Dynamics",
+      "parent2": "Bayesian_Neural_Architectures"
+    },
+    {
+      "concept1": "deep convolutional neural network",
+      "concept2": "dilated convolutional neural network",
+      "similarity": 0.89,
+      "parent1": "Architectural_Variant_Convolutional_Neural_Network",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "deep convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.93,
+      "parent1": "Architectural_Variant_Convolutional_Neural_Network",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "model-free reinforcement learning",
+      "concept2": "model-based reinforcement learning",
+      "similarity": 0.89,
+      "parent1": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "parent2": "Environment_Model_Based_RL_Algorithm"
+    },
+    {
+      "concept1": "model-free reinforcement learning",
+      "concept2": "Model_Free_Reinforcement_Learning_Algorithm",
+      "similarity": 0.87,
+      "parent1": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "parent2": "Model_Dependency_Strategy"
+    },
+    {
+      "concept1": "multi-task reinforcement learning",
+      "concept2": "multi-agent reinforcement learning",
+      "similarity": 0.89,
+      "parent1": "Optimization_and_Control_Task",
+      "parent2": "Agent_Configuration_Based_RL_Algorithm"
+    },
+    {
+      "concept1": "differentiable architecture search",
+      "concept2": "differentiable neural architecture search",
+      "similarity": 0.91,
+      "parent1": "Model_Design_Automation",
+      "parent2": "Automated_ML_Optimization"
+    },
+    {
+      "concept1": "fully convolutional neural network",
+      "concept2": "residual convolutional neural network",
+      "similarity": 0.86,
+      "parent1": "Architectural_Variant_Convolutional_Neural_Network",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "fully convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.91,
+      "parent1": "Architectural_Variant_Convolutional_Neural_Network",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "model-based reinforcement learning",
+      "concept2": "Model_Based_Reinforcement_Learning_Algorithm",
+      "similarity": 0.87,
+      "parent1": "Environment_Model_Based_RL_Algorithm",
+      "parent2": "Model_Dependency_Strategy"
+    },
+    {
+      "concept1": "multi-agent reinforcement learning",
+      "concept2": "multi-agent deep reinforcement learning",
+      "similarity": 0.94,
+      "parent1": "Agent_Configuration_Based_RL_Algorithm",
+      "parent2": "Agent_Architectures"
+    },
+    {
+      "concept1": "nonlinear dimensionality reduction",
+      "concept2": "nonlinear dimension reduction",
+      "similarity": 0.92,
+      "parent1": "Manifold_and_Structure_Learning",
+      "parent2": "Representation_Optimization"
+    },
+    {
+      "concept1": "cycle-consistent adversarial network",
+      "concept2": "cycle-consistent generative adversarial network",
+      "similarity": 0.87,
+      "parent1": "generative model",
+      "parent2": "Constrained_GAN"
+    },
+    {
+      "concept1": "dilated convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.88,
+      "parent1": "Neural_Architectures",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "disentangled representation learning",
+      "concept2": "disentangled representation",
+      "similarity": 0.87,
+      "parent1": "Manifold_and_Structure_Learning",
+      "parent2": "Representation_Property"
+    },
+    {
+      "concept1": "unsupervised representation learning",
+      "concept2": "self-supervised representation learning",
+      "similarity": 0.91,
+      "parent1": "Core_Unsupervised_Representation_Learning",
+      "parent2": "self-supervised learning"
+    },
+    {
+      "concept1": "unsupervised representation learning",
+      "concept2": "Core_Unsupervised_Representation_Learning",
+      "similarity": 0.94,
+      "parent1": "Core_Unsupervised_Representation_Learning",
+      "parent2": "unsupervised representation learning"
+    },
+    {
+      "concept1": "bayesian convolutional neural network",
+      "concept2": "residual convolutional neural network",
+      "similarity": 0.88,
+      "parent1": "probabilistic inference",
+      "parent2": "Neural_Architectures"
+    },
+    {
+      "concept1": "bayesian convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.87,
+      "parent1": "probabilistic inference",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "residual convolutional neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.87,
+      "parent1": "Neural_Architectures",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "convolutional recurrent neural network",
+      "concept2": "Convolutional_Neural_Network",
+      "similarity": 0.85,
+      "parent1": "convolutional recurrent neural network",
+      "parent2": "Architectural_Pattern"
+    },
+    {
+      "concept1": "self-supervised representation learning",
+      "concept2": "Core_Unsupervised_Representation_Learning",
+      "similarity": 0.89,
+      "parent1": "self-supervised learning",
+      "parent2": "unsupervised representation learning"
+    },
+    {
+      "concept1": "Machine_Learning",
+      "concept2": "machine learning model",
+      "similarity": 0.86,
+      "parent1": "Artificial_Intelligence",
+      "parent2": "General_Purpose_Model"
+    },
+    {
+      "concept1": "ML_Data_and_Representation",
+      "concept2": "Core_ML_Data_and_Representation",
+      "similarity": 0.92,
+      "parent1": "Machine_Learning",
+      "parent2": "ML_Data_Foundations"
+    },
+    {
+      "concept1": "ML_Data_and_Representation",
+      "concept2": "Data_Representation",
+      "similarity": 0.88,
+      "parent1": "Machine_Learning",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "ML_Objective_and_Constraint",
+      "concept2": "Core_ML_Objective_and_Constraint",
+      "similarity": 0.92,
+      "parent1": "Machine_Learning",
+      "parent2": "Foundational_Definitions"
+    },
+    {
+      "concept1": "ML_Workflow_and_Protocol",
+      "concept2": "Core_ML_Workflow_and_Protocol",
+      "similarity": 0.91,
+      "parent1": "Machine_Learning",
+      "parent2": "General_ML_Frameworks"
+    },
+    {
+      "concept1": "ML_Foundations_and_Theory",
+      "concept2": "Core_ML_Foundations_and_Theory",
+      "similarity": 0.92,
+      "parent1": "Machine_Learning",
+      "parent2": "General_ML_Foundations"
+    },
+    {
+      "concept1": "ML_Infrastructure_and_Environment",
+      "concept2": "Core_ML_Infrastructure_and_Environment",
+      "similarity": 0.94,
+      "parent1": "Machine_Learning",
+      "parent2": "ML_Infrastructure_and_Environment"
+    },
+    {
+      "concept1": "ML_Infrastructure_and_Environment",
+      "concept2": "Core_Core_ML_Infrastructure_and_Environment",
+      "similarity": 0.88,
+      "parent1": "Machine_Learning",
+      "parent2": "Core_ML_Infrastructure_and_Environment"
+    },
+    {
+      "concept1": "ML_Property_and_Quality_Attribute",
+      "concept2": "Core_ML_Property_and_Quality_Attribute",
+      "similarity": 0.94,
+      "parent1": "Machine_Learning",
+      "parent2": "ML_Property_and_Quality_Attribute"
+    },
+    {
+      "concept1": "ML_Methodology_and_Science_Provenance",
+      "concept2": "Core_ML_Methodology_and_Science_Provenance",
+      "similarity": 0.94,
+      "parent1": "Machine_Learning",
+      "parent2": "Foundational_Provenance"
+    },
+    {
+      "concept1": "Unsupervised_Learning_Task",
+      "concept2": "Supervised_Learning_Task",
+      "similarity": 0.96,
+      "parent1": "ML_Task",
+      "parent2": "Learning_Paradigm_Task"
+    },
+    {
+      "concept1": "Generative_ML_Task",
+      "concept2": "Generative_Task",
+      "similarity": 0.93,
+      "parent1": "ML_Task",
+      "parent2": "Computer_Vision_Task"
+    },
+    {
+      "concept1": "Adversarial_Task",
+      "concept2": "Adversarial_ML_Task",
+      "similarity": 0.94,
+      "parent1": "Reasoning_and_Optimization_Task",
+      "parent2": "Robustness_and_Security_Task"
+    },
+    {
+      "concept1": "Representation_Learning_Task",
+      "concept2": "Core_Representation_Learning_Task",
+      "similarity": 0.93,
+      "parent1": "Feature_Extraction_Task",
+      "parent2": "Fundamental_Representation_Tasks"
+    },
+    {
+      "concept1": "Representation_Learning_Task",
+      "concept2": "Representation_Learning_Models",
+      "similarity": 0.85,
+      "parent1": "Feature_Extraction_Task",
+      "parent2": "ML_Model"
+    },
+    {
+      "concept1": "Signal_Processing_Task",
+      "concept2": "Signal Processing",
+      "similarity": 0.89,
+      "parent1": "Perceptual_Analysis_Task",
+      "parent2": "Engineering"
+    },
+    {
+      "concept1": "Classification_Task",
+      "concept2": "Audio_Classification_Task",
+      "similarity": 0.88,
+      "parent1": "Categorical_Prediction_Task",
+      "parent2": "Signal_Processing_Task"
+    },
+    {
+      "concept1": "Classification_Task",
+      "concept2": "Core_Classification_Task",
+      "similarity": 0.9,
+      "parent1": "Categorical_Prediction_Task",
+      "parent2": "Fundamental_Classification"
+    },
+    {
+      "concept1": "Regression_Task",
+      "concept2": "Core_Regression_Task",
+      "similarity": 0.88,
+      "parent1": "Continuous_Prediction_Task",
+      "parent2": "Fundamental_Regression_Methods"
+    },
+    {
+      "concept1": "Regression_Task",
+      "concept2": "Regression_Tasks",
+      "similarity": 0.97,
+      "parent1": "Continuous_Prediction_Task",
+      "parent2": "Supervised_Learning_Task"
+    },
+    {
+      "concept1": "Learning_Paradigm_Task",
+      "concept2": "Learning_Paradigm_ML_Task",
+      "similarity": 0.95,
+      "parent1": "Methodological_Task",
+      "parent2": "Learning_Framework_Task"
+    },
+    {
+      "concept1": "Learning_Paradigm_Task",
+      "concept2": "General_Learning_Paradigm_Task",
+      "similarity": 0.85,
+      "parent1": "Methodological_Task",
+      "parent2": "Core_Learning_Task"
+    },
+    {
+      "concept1": "Learning_Paradigm_Task",
+      "concept2": "Learning_Paradigm",
+      "similarity": 0.89,
+      "parent1": "Methodological_Task",
+      "parent2": "Conceptual_Framework"
+    },
+    {
+      "concept1": "Learning_Paradigm_Task",
+      "concept2": "Learning_Paradigms",
+      "similarity": 0.92,
+      "parent1": "Methodological_Task",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Predictive_Analysis_Task",
+      "concept2": "predictive analysis",
+      "similarity": 0.9,
+      "parent1": "Analytical_Task",
+      "parent2": "General_Predictive_Modeling"
+    },
+    {
+      "concept1": "Probabilistic_Graphical_Model_Task",
+      "concept2": "Core_Probabilistic_Graphical_Model",
+      "similarity": 0.87,
+      "parent1": "Methodological_Task",
+      "parent2": "probabilistic graphical model"
+    },
+    {
+      "concept1": "Probabilistic_Graphical_Model_Task",
+      "concept2": "[NEW]_Probabilistic_Graphical_Models",
+      "similarity": 0.9,
+      "parent1": "Methodological_Task",
+      "parent2": "Probabilistic_Reasoning"
+    },
+    {
+      "concept1": "Domain_Specific_ML_Task",
+      "concept2": "NLP_Domain_Specific_ML_Task",
+      "similarity": 0.93,
+      "parent1": "Applied_Task",
+      "parent2": "Language_Processing_ML"
+    },
+    {
+      "concept1": "Learning_Paradigm_ML_Task",
+      "concept2": "Learning_Paradigms",
+      "similarity": 0.87,
+      "parent1": "Learning_Framework_Task",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Functional_Regression_Task",
+      "concept2": "functional regression",
+      "similarity": 0.91,
+      "parent1": "Deterministic_Regression",
+      "parent2": "Regression_Tasks"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Task",
+      "concept2": "Reinforcement_Learning_ML_Task",
+      "similarity": 0.96,
+      "parent1": "Learning_Framework_Task",
+      "parent2": "Optimization_ML_Task"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Task",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.91,
+      "parent1": "Learning_Framework_Task",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Task",
+      "concept2": "Reinforcement_Learning_Strategies",
+      "similarity": 0.86,
+      "parent1": "Learning_Framework_Task",
+      "parent2": "Learning_Paradigm_Algorithm"
+    },
+    {
+      "concept1": "Data_Completion_Task",
+      "concept2": "Completion_Task",
+      "similarity": 0.88,
+      "parent1": "Structured_Output_Task",
+      "parent2": "Generative_ML_Task"
+    },
+    {
+      "concept1": "Predictive_ML_Task",
+      "concept2": "predictive task",
+      "similarity": 0.93,
+      "parent1": "Analytical_ML_Task",
+      "parent2": "Prediction_Task"
+    },
+    {
+      "concept1": "Categorical_Prediction_Task",
+      "concept2": "Categorical_Prediction",
+      "similarity": 0.91,
+      "parent1": "Supervised_Learning_Task",
+      "parent2": "Discriminative_Model"
+    },
+    {
+      "concept1": "Continuous_Value_Prediction_Task",
+      "concept2": "Continuous_Value_Prediction",
+      "similarity": 0.93,
+      "parent1": "Predictive_ML_Task",
+      "parent2": "Supervised_Learning_Task"
+    },
+    {
+      "concept1": "Continuous_Value_Prediction_Task",
+      "concept2": "Continuous_Prediction_Task",
+      "similarity": 0.91,
+      "parent1": "Predictive_ML_Task",
+      "parent2": "Supervised_Learning_Task"
+    },
+    {
+      "concept1": "Reinforcement_Learning_ML_Task",
+      "concept2": "Reinforcement_Learning_Model",
+      "similarity": 0.87,
+      "parent1": "Optimization_ML_Task",
+      "parent2": "Learning_Paradigm_Model"
+    },
+    {
+      "concept1": "Reinforcement_Learning_ML_Task",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.88,
+      "parent1": "Optimization_ML_Task",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Generalization_Task",
+      "concept2": "generalization risk",
+      "similarity": 0.89,
+      "parent1": "Performance_Evaluation_Task",
+      "parent2": "Stability_and_Robustness"
+    },
+    {
+      "concept1": "Optimization_and_Control_Task",
+      "concept2": "Optimization_and_Control_Theory",
+      "similarity": 0.85,
+      "parent1": "Decision_and_Control_Task",
+      "parent2": "ML_Foundations_and_Theory"
+    },
+    {
+      "concept1": "Neural_Network_Architecture",
+      "concept2": "Core_Neural_Network_Architecture",
+      "similarity": 0.93,
+      "parent1": "Connectionist_Framework",
+      "parent2": "Fundamental_Architectures"
+    },
+    {
+      "concept1": "Transformer_Architecture",
+      "concept2": "transformer-based architecture",
+      "similarity": 0.9,
+      "parent1": "Attention_Based_Architectures",
+      "parent2": "Transformer_Model"
+    },
+    {
+      "concept1": "Neural_Architecture_Model",
+      "concept2": "Neural_Architecture",
+      "similarity": 0.88,
+      "parent1": "Connectionist_Framework",
+      "parent2": "Connectionist_Structure"
+    },
+    {
+      "concept1": "Neural_Architecture_Model",
+      "concept2": "Neural_Architectures",
+      "similarity": 0.86,
+      "parent1": "Connectionist_Framework",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Model",
+      "concept2": "Reinforcement_Learning",
+      "similarity": 0.89,
+      "parent1": "Learning_Paradigm_Model",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Discriminative_Model",
+      "concept2": "Core_Discriminative_Model",
+      "similarity": 0.9,
+      "parent1": "Learning_Paradigm",
+      "parent2": "General_Discriminative_Frameworks"
+    },
+    {
+      "concept1": "Neural_Architecture",
+      "concept2": "Neural_Architectures",
+      "similarity": 0.97,
+      "parent1": "Connectionist_Structure",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Deep_Neural_Network",
+      "concept2": "Core_Deep_Neural_Network",
+      "similarity": 0.89,
+      "parent1": "Hierarchical_Representation_Models",
+      "parent2": "Deep_Neural_Network"
+    },
+    {
+      "concept1": "Generative_Probabilistic_Model",
+      "concept2": "Generative_Probabilistic_Models",
+      "similarity": 0.98,
+      "parent1": "Generative_Frameworks",
+      "parent2": "Directed_Graphical_Model"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Architecture",
+      "concept2": "Reinforcement_Learning_Architectures",
+      "similarity": 0.99,
+      "parent1": "Agentic_Model",
+      "parent2": "Core_ML_Model"
+    },
+    {
+      "concept1": "Statistical_Learning_Model",
+      "concept2": "Statistical_Learning_Methods",
+      "similarity": 0.88,
+      "parent1": "Statistical_Inference_Model",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Differential_Equation_Model",
+      "concept2": "differential equation",
+      "similarity": 0.89,
+      "parent1": "Mathematical_Physics_Model",
+      "parent2": "Dynamical_Systems"
+    },
+    {
+      "concept1": "Objective_Function_GAN",
+      "concept2": "objective function",
+      "similarity": 0.92,
+      "parent1": "Generative_Adversarial_Network",
+      "parent2": "Core_ML_Objective_and_Constraint"
+    },
+    {
+      "concept1": "Core_ML_Algorithm",
+      "concept2": "Core_Core_ML_Algorithm",
+      "similarity": 0.88,
+      "parent1": "Model_Aggregation_Method",
+      "parent2": "Predictive_Modeling_Algorithms"
+    },
+    {
+      "concept1": "Learning_Strategy",
+      "concept2": "Learning_Strategy_ML",
+      "similarity": 0.94,
+      "parent1": "Training_Paradigm",
+      "parent2": "ML_Optimization_Approaches"
+    },
+    {
+      "concept1": "Optimization_Algorithm",
+      "concept2": "Model_Optimization_Algorithm",
+      "similarity": 0.89,
+      "parent1": "ML_Algorithm",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "Optimization_Algorithm",
+      "concept2": "Core_Optimization_Algorithm",
+      "similarity": 0.91,
+      "parent1": "ML_Algorithm",
+      "parent2": "Fundamental_Optimization"
+    },
+    {
+      "concept1": "Optimization_Algorithm",
+      "concept2": "Optimization_Algorithms",
+      "similarity": 0.98,
+      "parent1": "ML_Algorithm",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Algorithm",
+      "concept2": "Model_Based_Reinforcement_Learning_Algorithm",
+      "similarity": 0.86,
+      "parent1": "Agentic_Learning_Algorithm",
+      "parent2": "Model_Dependency_Strategy"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Algorithm",
+      "concept2": "Model_Free_Reinforcement_Learning_Algorithm",
+      "similarity": 0.87,
+      "parent1": "Agentic_Learning_Algorithm",
+      "parent2": "Model_Dependency_Strategy"
+    },
+    {
+      "concept1": "Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Reinforcement_Learning_Algorithm",
+      "similarity": 0.94,
+      "parent1": "Agentic_Learning_Algorithm",
+      "parent2": "Foundational_RL_Framework"
+    },
+    {
+      "concept1": "Model_Optimization_Algorithm",
+      "concept2": "Core_Optimization_Algorithm",
+      "similarity": 0.9,
+      "parent1": "Optimization_Algorithm",
+      "parent2": "Fundamental_Optimization"
+    },
+    {
+      "concept1": "Model_Optimization_Algorithm",
+      "concept2": "Optimization_Algorithms",
+      "similarity": 0.88,
+      "parent1": "Optimization_Algorithm",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Probabilistic_Inference_Algorithm",
+      "concept2": "Core_Probabilistic_Inference_Algorithm",
+      "similarity": 0.94,
+      "parent1": "Statistical_Learning_Algorithm",
+      "parent2": "Fundamental_Inference_Methods"
+    },
+    {
+      "concept1": "Classical_ML_Algorithm",
+      "concept2": "Core_Classical_ML_Algorithm",
+      "similarity": 0.91,
+      "parent1": "Computational_Paradigm",
+      "parent2": "Classical_ML_Algorithm"
+    },
+    {
+      "concept1": "Supervised_Learning_Algorithm",
+      "concept2": "Unsupervised_Learning_Algorithms",
+      "similarity": 0.95,
+      "parent1": "Classical_ML_Algorithm",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Unsupervised_Learning_Algorithm",
+      "concept2": "Unsupervised_Learning_Algorithms",
+      "similarity": 0.98,
+      "parent1": "Classical_ML_Algorithm",
+      "parent2": "Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Optimization_and_Learning_Algorithm",
+      "concept2": "Optimization_and_Training_Algorithm",
+      "similarity": 0.91,
+      "parent1": "Learning_Mechanism",
+      "parent2": "Training_Algorithm"
+    },
+    {
+      "concept1": "Optimization_and_Learning_Algorithm",
+      "concept2": "Imitation_Learning_Algorithm",
+      "similarity": 0.86,
+      "parent1": "Learning_Mechanism",
+      "parent2": "Supervised_and_Unsupervised_Learning"
+    },
+    {
+      "concept1": "Iterative_Optimization_Algorithm",
+      "concept2": "Core_Iterative_Optimization_Algorithm",
+      "similarity": 0.94,
+      "parent1": "Optimization_Algorithm",
+      "parent2": "Iterative_Optimization_Algorithm"
+    },
+    {
+      "concept1": "Learning_Paradigm",
+      "concept2": "ML_Learning_Paradigm",
+      "similarity": 0.94,
+      "parent1": "Conceptual_Framework",
+      "parent2": "Learning_Frameworks"
+    },
+    {
+      "concept1": "Learning_Paradigm",
+      "concept2": "Core_Learning_Paradigm",
+      "similarity": 0.89,
+      "parent1": "Conceptual_Framework",
+      "parent2": "Learning_Paradigm"
+    },
+    {
+      "concept1": "Learning_Paradigm",
+      "concept2": "Learning_Paradigms",
+      "similarity": 0.97,
+      "parent1": "Conceptual_Framework",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Learning_Paradigm",
+      "concept2": "Learning_Paradigm_Model",
+      "similarity": 0.86,
+      "parent1": "Conceptual_Framework",
+      "parent2": "ML_Model"
+    },
+    {
+      "concept1": "Learning_Paradigm_Algorithm",
+      "concept2": "Core_Learning_Paradigm_Algorithm",
+      "similarity": 0.93,
+      "parent1": "Conceptual_Framework",
+      "parent2": "Fundamental_Learning_Frameworks"
+    },
+    {
+      "concept1": "ML_Representation_Vector",
+      "concept2": "Dense_Representation_Vector",
+      "similarity": 0.85,
+      "parent1": "ML_Vector_Representations",
+      "parent2": "ML_Representation_Vector"
+    },
+    {
+      "concept1": "Data_Representation_Embedding",
+      "concept2": "ML_Data_Representation_Embedding",
+      "similarity": 0.96,
+      "parent1": "ML_Vector_Representations",
+      "parent2": "Feature_and_Embedding_Spaces"
+    },
+    {
+      "concept1": "Structured_Data_Representation",
+      "concept2": "Structural_Representations",
+      "similarity": 0.87,
+      "parent1": "ML_Structured_Representations",
+      "parent2": "ML_Feature_Representation"
+    },
+    {
+      "concept1": "Structured_Data_Representation",
+      "concept2": "Structural_Representation",
+      "similarity": 0.88,
+      "parent1": "ML_Structured_Representations",
+      "parent2": "ML_Feature_Representation"
+    },
+    {
+      "concept1": "Structured_Data_Representation",
+      "concept2": "ML_Structured_Representations",
+      "similarity": 0.87,
+      "parent1": "ML_Structured_Representations",
+      "parent2": "ML_Data_and_Representation"
+    },
+    {
+      "concept1": "ML_Feature_Representation",
+      "concept2": "feature representation",
+      "similarity": 0.95,
+      "parent1": "Feature_and_Embedding_Spaces",
+      "parent2": "Structural_Representation"
+    },
+    {
+      "concept1": "Optimization_Objective",
+      "concept2": "Core_Optimization_Objective",
+      "similarity": 0.91,
+      "parent1": "Performance_Objectives",
+      "parent2": "Fundamental_Objectives"
+    },
+    {
+      "concept1": "Optimization_Objective",
+      "concept2": "Maximization_Objective",
+      "similarity": 0.86,
+      "parent1": "Performance_Objectives",
+      "parent2": "Optimization_Objective"
+    },
+    {
+      "concept1": "Optimization_Objective",
+      "concept2": "Minimization_Objective",
+      "similarity": 0.86,
+      "parent1": "Performance_Objectives",
+      "parent2": "Optimization_Objective"
+    },
+    {
+      "concept1": "Risk_Minimization_Objective",
+      "concept2": "Minimization_Objective",
+      "similarity": 0.91,
+      "parent1": "Performance_Objectives",
+      "parent2": "Optimization_Objective"
+    },
+    {
+      "concept1": "Distributed_Learning_Protocol",
+      "concept2": "Distributed_Learning_Protocols",
+      "similarity": 0.98,
+      "parent1": "Model_Performance_Protocols",
+      "parent2": "ML_Workflow_and_Protocol"
+    },
+    {
+      "concept1": "Model_Optimization_Protocol",
+      "concept2": "Model_Capacity_Optimization_Protocol",
+      "similarity": 0.86,
+      "parent1": "Model_Performance_Protocols",
+      "parent2": "Structural_Optimization_Protocol"
+    },
+    {
+      "concept1": "Model_Optimization_Protocol",
+      "concept2": "Core_Model_Optimization_Protocol",
+      "similarity": 0.93,
+      "parent1": "Model_Performance_Protocols",
+      "parent2": "Structural_Optimization_Protocol"
+    },
+    {
+      "concept1": "Model_Optimization_Protocol",
+      "concept2": "Model_Optimization_Protocols",
+      "similarity": 0.98,
+      "parent1": "Model_Performance_Protocols",
+      "parent2": "ML_Workflow_and_Protocol"
+    },
+    {
+      "concept1": "Core_Model_Optimization_Protocol",
+      "concept2": "Model_Optimization_Protocols",
+      "similarity": 0.91,
+      "parent1": "Structural_Optimization_Protocol",
+      "parent2": "ML_Workflow_and_Protocol"
+    },
+    {
+      "concept1": "Automated_ML_Workflow",
+      "concept2": "Core_Automated_ML_Workflow",
+      "similarity": 0.9,
+      "parent1": "General_ML_Frameworks",
+      "parent2": "Automated_ML_Workflow"
+    },
+    {
+      "concept1": "Optimization_Frameworks",
+      "concept2": "General_Optimization_Frameworks",
+      "similarity": 0.86,
+      "parent1": "Reinforcement_Learning_Task",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "Mathematical_Optimization_Method",
+      "concept2": "Mathematical_Optimization",
+      "similarity": 0.89,
+      "parent1": "Optimization_and_Control_Theory",
+      "parent2": "ML_Algorithm"
+    },
+    {
+      "concept1": "Mathematical_Optimization_and_Control",
+      "concept2": "Core_Mathematical_Optimization_and_Control",
+      "similarity": 0.94,
+      "parent1": "Optimization_and_Control_Theory",
+      "parent2": "Mathematical_Optimization_and_Control"
+    },
+    {
+      "concept1": "Core_ML_Infrastructure_and_Environment",
+      "concept2": "Core_Core_ML_Infrastructure_and_Environment",
+      "similarity": 0.94,
+      "parent1": "ML_Infrastructure_and_Environment",
+      "parent2": "Core_ML_Infrastructure_and_Environment"
+    },
+    {
+      "concept1": "ML_Trustworthiness_and_Ethics_Property",
+      "concept2": "Core_ML_Trustworthiness_and_Ethics_Property",
+      "similarity": 0.94,
+      "parent1": "ML_Property_and_Quality_Attribute",
+      "parent2": "Foundational_Trustworthiness_Properties"
+    },
+    {
+      "concept1": "ML_Learning_Paradigm",
+      "concept2": "Learning_Paradigms",
+      "similarity": 0.91,
+      "parent1": "Learning_Frameworks",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Computational_Paradigm_ML",
+      "concept2": "Computational_Paradigm",
+      "similarity": 0.95,
+      "parent1": "ML_Execution_Frameworks",
+      "parent2": "ML_Algorithm"
+    },
+    {
+      "concept1": "Stochastic_Optimization_Algorithm",
+      "concept2": "Heuristic_Optimization_Algorithm",
+      "similarity": 0.85,
+      "parent1": "Optimization_Algorithm",
+      "parent2": "Non_Calculus_Optimization"
+    },
+    {
+      "concept1": "Core_Core_ML_Algorithm",
+      "concept2": "Core_Core_Core_ML_Algorithm",
+      "similarity": 0.9,
+      "parent1": "Predictive_Modeling_Algorithms",
+      "parent2": "Core_Core_ML_Algorithm"
+    },
+    {
+      "concept1": "Supervised_Learning_Model",
+      "concept2": "Core_Supervised_Learning_Model",
+      "similarity": 0.92,
+      "parent1": "Learning_Paradigm_Model",
+      "parent2": "Supervised_Learning_Model"
+    },
+    {
+      "concept1": "Sequence_Model",
+      "concept2": "sequence modeling",
+      "similarity": 0.9,
+      "parent1": "Architectural_Pattern",
+      "parent2": "Sequence_Labeling_Task"
+    },
+    {
+      "concept1": "Core_Learning_Paradigm",
+      "concept2": "Learning_Paradigms",
+      "similarity": 0.86,
+      "parent1": "Learning_Paradigm",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "First_Order_Gradient_Method",
+      "concept2": "Core_First_Order_Gradient_Method",
+      "similarity": 0.92,
+      "parent1": "Deterministic_Gradient_Method",
+      "parent2": "First_Order_Gradient_Method"
+    },
+    {
+      "concept1": "Core_Optimization_Algorithm",
+      "concept2": "Optimization_Algorithms",
+      "similarity": 0.89,
+      "parent1": "Fundamental_Optimization",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Gradient_Based_Optimization",
+      "concept2": "Non_Gradient_Based_Optimization",
+      "similarity": 0.94,
+      "parent1": "Calculus_Based_Optimization",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "Deterministic_Gradient_Optimization",
+      "concept2": "Deterministic_Optimization",
+      "similarity": 0.86,
+      "parent1": "Gradient_Based_Optimization",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "Policy_Gradient_Optimization",
+      "concept2": "Non_Gradient_Optimization",
+      "similarity": 0.86,
+      "parent1": "Gradient_Based_Optimization",
+      "parent2": "Optimization_Method"
+    },
+    {
+      "concept1": "Model_Based_Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "similarity": 0.87,
+      "parent1": "Model_Dependency_Strategy",
+      "parent2": "Model_Free_Reinforcement_Learning_Algorithm"
+    },
+    {
+      "concept1": "Model_Based_Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Reinforcement_Learning_Algorithm",
+      "similarity": 0.86,
+      "parent1": "Model_Dependency_Strategy",
+      "parent2": "Foundational_RL_Framework"
+    },
+    {
+      "concept1": "Model_Free_Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "similarity": 0.95,
+      "parent1": "Model_Dependency_Strategy",
+      "parent2": "Model_Free_Reinforcement_Learning_Algorithm"
+    },
+    {
+      "concept1": "Model_Free_Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Reinforcement_Learning_Algorithm",
+      "similarity": 0.9,
+      "parent1": "Model_Dependency_Strategy",
+      "parent2": "Foundational_RL_Framework"
+    },
+    {
+      "concept1": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "concept2": "Core_Reinforcement_Learning_Algorithm",
+      "similarity": 0.88,
+      "parent1": "Model_Free_Reinforcement_Learning_Algorithm",
+      "parent2": "Foundational_RL_Framework"
+    },
+    {
+      "concept1": "Core_Probabilistic_Graphical_Model",
+      "concept2": "Core_Core_Probabilistic_Graphical_Model",
+      "similarity": 0.94,
+      "parent1": "probabilistic graphical model",
+      "parent2": "Core_Probabilistic_Graphical_Model"
+    },
+    {
+      "concept1": "Core_Probabilistic_Graphical_Model",
+      "concept2": "[NEW]_Probabilistic_Graphical_Models",
+      "similarity": 0.9,
+      "parent1": "probabilistic graphical model",
+      "parent2": "Probabilistic_Reasoning"
+    },
+    {
+      "concept1": "Bayesian_Nonparametric_Model",
+      "concept2": "Core_Bayesian_Nonparametric_Model",
+      "similarity": 0.93,
+      "parent1": "probabilistic graphical model",
+      "parent2": "Bayesian_Nonparametric_Model"
+    },
+    {
+      "concept1": "Bayesian_Nonparametric_Model",
+      "concept2": "Bayesian_Nonparametric_Models",
+      "similarity": 0.98,
+      "parent1": "probabilistic graphical model",
+      "parent2": "[NEW]_Probabilistic_Graphical_Models"
+    },
+    {
+      "concept1": "Core_Bayesian_Nonparametric_Model",
+      "concept2": "Bayesian_Nonparametric_Models",
+      "similarity": 0.91,
+      "parent1": "Bayesian_Nonparametric_Model",
+      "parent2": "[NEW]_Probabilistic_Graphical_Models"
+    },
+    {
+      "concept1": "Feature_Transformation_Task",
+      "concept2": "Feature_Transformation",
+      "similarity": 0.91,
+      "parent1": "Fundamental_Representation_Tasks",
+      "parent2": "ML_Algorithm"
+    },
+    {
+      "concept1": "Non_Gradient_Optimization",
+      "concept2": "Non_Gradient_Based_Optimization",
+      "similarity": 0.9,
+      "parent1": "Optimization_Method",
+      "parent2": "Optimization_Algorithm"
+    },
+    {
+      "concept1": "Prediction_Task",
+      "concept2": "predictive task",
+      "similarity": 0.86,
+      "parent1": "Inference_Task",
+      "parent2": "Prediction_Task"
+    },
+    {
+      "concept1": "statistical inference",
+      "concept2": "Statistical_Inference_Model",
+      "similarity": 0.89,
+      "parent1": "Inference & Estimation",
+      "parent2": "ML_Model"
+    },
+    {
+      "concept1": "graph representation",
+      "concept2": "Graph_Representations",
+      "similarity": 0.97,
+      "parent1": "Structured_Data_Representation",
+      "parent2": "Graph_Neural_Network"
+    },
+    {
+      "concept1": "part-based representation",
+      "concept2": "Exemplar_Based_Representation",
+      "similarity": 0.88,
+      "parent1": "Structural_Representations",
+      "parent2": "ML_Feature_Representation"
+    },
+    {
+      "concept1": "vector representation",
+      "concept2": "Vector_Space_Representation",
+      "similarity": 0.89,
+      "parent1": "ML_Representation_Vector",
+      "parent2": "ML_Feature_Representation"
+    },
+    {
+      "concept1": "vector representation",
+      "concept2": "ML_Vector_Representations",
+      "similarity": 0.93,
+      "parent1": "ML_Representation_Vector",
+      "parent2": "ML_Data_and_Representation"
+    },
+    {
+      "concept1": "optimization problem",
+      "concept2": "Optimization_Problem_Type",
+      "similarity": 0.9,
+      "parent1": "Optimization_Frameworks",
+      "parent2": "Mathematical_Optimization_Method"
+    },
+    {
+      "concept1": "approximate inference",
+      "concept2": "General_Approximate_Inference",
+      "similarity": 0.85,
+      "parent1": "Inference_Algorithm",
+      "parent2": "Probabilistic_Inference_Algorithm"
+    },
+    {
+      "concept1": "linear model",
+      "concept2": "Linear_Models",
+      "similarity": 0.96,
+      "parent1": "Linear_Statistical_Model",
+      "parent2": "Supervised_Learning_Algorithm"
+    },
+    {
+      "concept1": "latent space representation",
+      "concept2": "latent representation",
+      "similarity": 0.89,
+      "parent1": "Abstract_Embedding_Concepts",
+      "parent2": "Data_Representation_Embedding"
+    },
+    {
+      "concept1": "pre-trained model",
+      "concept2": "[NEW]_Pretrained_Model",
+      "similarity": 0.91,
+      "parent1": "[NEW]_Pretrained_Model",
+      "parent2": "Model_Distribution_State"
+    },
+    {
+      "concept1": "latent representation",
+      "concept2": "Latent_Representation_Model",
+      "similarity": 0.89,
+      "parent1": "Data_Representation_Embedding",
+      "parent2": "probabilistic generative model"
+    },
+    {
+      "concept1": "[NEW]_Neural_Network_Component",
+      "concept2": "Neural_Network_Components",
+      "similarity": 0.92,
+      "parent1": "Structural_Element",
+      "parent2": "Miscellaneous_ML_Concepts"
+    },
+    {
+      "concept1": "Regularization_Techniques",
+      "concept2": "Regularization_Mechanism",
+      "similarity": 0.85,
+      "parent1": "Miscellaneous_ML_Concepts",
+      "parent2": "Model_Constraint"
+    },
+    {
+      "concept1": "Regularization_Techniques",
+      "concept2": "Relaxation_Techniques",
+      "similarity": 0.86,
+      "parent1": "Miscellaneous_ML_Concepts",
+      "parent2": "Mathematical_Optimization_Method"
+    },
+    {
+      "concept1": "Computer_Vision_Architectures",
+      "concept2": "Comparison_Architectures",
+      "similarity": 0.88,
+      "parent1": "Miscellaneous_ML_Concepts",
+      "parent2": "Neural_Network_Architecture"
+    },
+    {
+      "concept1": "Optimization_Methods",
+      "concept2": "Optimization_Method",
+      "similarity": 0.97,
+      "parent1": "Miscellaneous_ML_Concepts",
+      "parent2": "ML_Algorithm"
+    },
+    {
+      "concept1": "General_Discriminative_Frameworks",
+      "concept2": "Discriminative_Frameworks",
+      "similarity": 0.87,
+      "parent1": "Discriminative_Model",
+      "parent2": "probabilistic model"
+    },
+    {
+      "concept1": "Neural_Probabilistic_Models",
+      "concept2": "Temporal_Probabilistic_Models",
+      "similarity": 0.88,
+      "parent1": "probabilistic generative model",
+      "parent2": "Directed_Graphical_Model"
+    },
+    {
+      "concept1": "Neural_Probabilistic_Models",
+      "concept2": "Generative_Probabilistic_Models",
+      "similarity": 0.85,
+      "parent1": "probabilistic generative model",
+      "parent2": "Directed_Graphical_Model"
+    },
+    {
+      "concept1": "Distance_and_Similarity_Metrics",
+      "concept2": "Distance_and_Similarity",
+      "similarity": 0.86,
+      "parent1": "Core_ML_Data_and_Representation",
+      "parent2": "Core_ML_Foundations_and_Theory"
+    },
+    {
+      "concept1": "Density_Estimation_Methods",
+      "concept2": "Density_Estimation_Model",
+      "similarity": 0.87,
+      "parent1": "Sampling_and_Estimation_Algorithm",
+      "parent2": "generative model"
+    },
+    {
+      "concept1": "Predictive_Modeling_Algorithms",
+      "concept2": "Predictive_Modeling_Algorithm",
+      "similarity": 0.98,
+      "parent1": "Core_ML_Algorithm",
+      "parent2": "ML_Algorithm"
+    },
+    {
+      "concept1": "Theoretical_Frameworks",
+      "concept2": "ML_Theoretical_Framework",
+      "similarity": 0.93,
+      "parent1": "Core_ML_Foundations_and_Theory",
+      "parent2": "Machine_Learning"
+    },
+    {
+      "concept1": "Optimization_and_Inference",
+      "concept2": "Optimization_and_Convergence",
+      "similarity": 0.88,
+      "parent1": "Core_ML_Foundations_and_Theory",
+      "parent2": "Statistical_Learning_Theory_Framework"
+    },
+    {
+      "concept1": "Architectural_Pattern_Model",
+      "concept2": "Architectural_Pattern",
+      "similarity": 0.89,
+      "parent1": "Core_ML_Model",
+      "parent2": "ML_Model"
+    },
+    {
+      "concept1": "Structural_Representations",
+      "concept2": "ML_Structured_Representations",
+      "similarity": 0.88,
+      "parent1": "ML_Feature_Representation",
+      "parent2": "ML_Data_and_Representation"
+    },
+    {
+      "concept1": "Structural_Representation",
+      "concept2": "ML_Structured_Representations",
+      "similarity": 0.86,
+      "parent1": "ML_Feature_Representation",
+      "parent2": "ML_Data_and_Representation"
+    },
+    {
+      "concept1": "Learning_Framework_Task",
+      "concept2": "Learning_Frameworks",
+      "similarity": 0.92,
+      "parent1": "ML_Task",
+      "parent2": "ML_Methodology_and_Science_Provenance"
+    }
+  ],
+  "multi_level_repetitions": [
+    {
+      "parent": "ensemble model",
+      "child": "ensemble model",
+      "grandchild_also_direct_child": "random forest"
+    },
+    {
+      "parent": "ensemble model",
+      "child": "ensemble model",
+      "grandchild_also_direct_child": "ensemble model"
+    },
+    {
+      "parent": "ensemble model",
+      "child": "ensemble model",
+      "grandchild_also_direct_child": "mixture of experts"
+    },
+    {
+      "parent": "ensemble model",
+      "child": "ensemble model",
+      "grandchild_also_direct_child": "ensemble of neural networks"
+    },
+    {
+      "parent": "ensemble model",
+      "child": "ensemble model",
+      "grandchild_also_direct_child": "ensemble of decision trees"
+    },
+    {
+      "parent": "policy gradient algorithm",
+      "child": "policy gradient algorithm",
+      "grandchild_also_direct_child": "policy gradient"
+    },
+    {
+      "parent": "policy gradient algorithm",
+      "child": "policy gradient algorithm",
+      "grandchild_also_direct_child": "policy gradient algorithm"
+    },
+    {
+      "parent": "policy gradient algorithm",
+      "child": "policy gradient algorithm",
+      "grandchild_also_direct_child": "proximal policy optimization"
+    },
+    {
+      "parent": "regression model",
+      "child": "regression model",
+      "grandchild_also_direct_child": "regression model"
+    },
+    {
+      "parent": "online optimization",
+      "child": "online optimization",
+      "grandchild_also_direct_child": "online optimization"
+    },
+    {
+      "parent": "online optimization",
+      "child": "online optimization",
+      "grandchild_also_direct_child": "online convex optimization"
+    },
+    {
+      "parent": "online optimization",
+      "child": "online optimization",
+      "grandchild_also_direct_child": "online linear optimization"
+    },
+    {
+      "parent": "neural language model",
+      "child": "neural language model",
+      "grandchild_also_direct_child": "masked language model"
+    },
+    {
+      "parent": "neural language model",
+      "child": "neural language model",
+      "grandchild_also_direct_child": "neural language model"
+    },
+    {
+      "parent": "neural language model",
+      "child": "neural language model",
+      "grandchild_also_direct_child": "large language model"
+    },
+    {
+      "parent": "graph generative model",
+      "child": "graph generative model",
+      "grandchild_also_direct_child": "stochastic blockmodel"
+    },
+    {
+      "parent": "graph generative model",
+      "child": "graph generative model",
+      "grandchild_also_direct_child": "graph generative model"
+    },
+    {
+      "parent": "graph generative model",
+      "child": "graph generative model",
+      "grandchild_also_direct_child": "stochastic block model"
+    },
+    {
+      "parent": "actor-critic algorithm",
+      "child": "actor-critic algorithm",
+      "grandchild_also_direct_child": "actor-critic algorithm"
+    },
+    {
+      "parent": "undirected graphical model",
+      "child": "undirected graphical model",
+      "grandchild_also_direct_child": "conditional random field"
+    },
+    {
+      "parent": "undirected graphical model",
+      "child": "undirected graphical model",
+      "grandchild_also_direct_child": "gaussian graphical model"
+    },
+    {
+      "parent": "undirected graphical model",
+      "child": "undirected graphical model",
+      "grandchild_also_direct_child": "undirected graphical model"
+    },
+    {
+      "parent": "bidirectional recurrent neural network",
+      "child": "bidirectional recurrent neural network",
+      "grandchild_also_direct_child": "bidirectional long short-term memory"
+    },
+    {
+      "parent": "bidirectional recurrent neural network",
+      "child": "bidirectional recurrent neural network",
+      "grandchild_also_direct_child": "bidirectional recurrent neural network"
+    },
+    {
+      "parent": "convolutional recurrent neural network",
+      "child": "convolutional recurrent neural network",
+      "grandchild_also_direct_child": "convolutional long short-term memory"
+    },
+    {
+      "parent": "convolutional recurrent neural network",
+      "child": "convolutional recurrent neural network",
+      "grandchild_also_direct_child": "convolutional recurrent neural network"
+    }
+  ],
+  "parent_child_name_conflicts": [
+    {
+      "parent": "Boosting_Algorithm",
+      "child": "boosting",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Stacking_Algorithm",
+      "child": "stacking",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Generalization_Property",
+      "child": "generalization",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Parametric_Neural_Network",
+      "child": "neural network",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Stochastic_Neural_Process",
+      "child": "neural process",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "General_Regularization",
+      "child": "regularization",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Core_Probabilistic_Graphical_Model",
+      "child": "graphical model",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Sequential_Monte_Carlo_Methods",
+      "child": "sequential monte carlo",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "policy gradient algorithm",
+      "child": "policy gradient",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Generative_Model",
+      "child": "generative model",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "classification model",
+      "child": "Core_Classification_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Optimal_Transport_Theory",
+      "child": "optimal transport",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Probabilistic_Model",
+      "child": "probabilistic model",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Classification_Model",
+      "child": "classification model",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Distributed_Learning_Protocol",
+      "child": "distributed learning",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "mixture model",
+      "child": "finite mixture model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "mixture model",
+      "child": "gaussian mixture model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "image segmentation",
+      "child": "medical image segmentation",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Mathematical_Optimization_and_Control",
+      "child": "Core_Mathematical_Optimization_and_Control",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Distributed_Optimization_Algorithm",
+      "child": "distributed optimization",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Learning_Paradigm",
+      "child": "Core_Learning_Paradigm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Core_Artificial_Neural_Network",
+      "child": "artificial neural network",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Core_ML_Algorithm",
+      "child": "Core_Core_Core_ML_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Sequence_Model",
+      "child": "sequence-to-sequence model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Learning_Algorithm",
+      "child": "machine learning algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "neural network",
+      "child": "complex-valued neural network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "neural network",
+      "child": "deep recurrent neural network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "neural network",
+      "child": "Non_Von_Neumann_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "neural network",
+      "child": "Connectionist_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Core_Unsupervised_Representation_Learning",
+      "child": "unsupervised representation learning",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "child": "model-free reinforcement learning",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "generative model",
+      "child": "Foundational_Generative_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "generative model",
+      "child": "Neural_Generative_Models",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Generative_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Foundational_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Cognitive_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Analytical_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Optimization_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Task",
+      "child": "Trustworthiness_ML_Task",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Model",
+      "child": "Classical_ML_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Deep_Neural_Network",
+      "child": "Core_Deep_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "probabilistic model",
+      "child": "Foundational_Probabilistic_Models",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "artificial neural network",
+      "child": "Core_Artificial_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Optimization_Algorithm",
+      "child": "Model_Optimization_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Optimization_Algorithm",
+      "child": "Iterative_Optimization_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Optimization_Algorithm",
+      "child": "Stochastic_Optimization_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Classical_ML_Algorithm",
+      "child": "Core_Classical_ML_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Training_Algorithm",
+      "child": "Optimization_and_Training_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Iterative_Optimization_Algorithm",
+      "child": "Core_Iterative_Optimization_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Automated_ML_Workflow",
+      "child": "Core_Automated_ML_Workflow",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Federated_ML_Workflow",
+      "child": "Centralized_Federated_ML_Workflow",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Federated_ML_Workflow",
+      "child": "Decentralized_Federated_ML_Workflow",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Infrastructure_and_Environment",
+      "child": "Core_ML_Infrastructure_and_Environment",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Core_ML_Infrastructure_and_Environment",
+      "child": "Core_Core_ML_Infrastructure_and_Environment",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "ML_Property_and_Quality_Attribute",
+      "child": "Core_ML_Property_and_Quality_Attribute",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Robustness_and_Stability",
+      "child": "robustness",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Equity_and_Fairness_Properties",
+      "child": "fairness",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Trustworthy_and_Transparent_ML",
+      "child": "Transparent_ML",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Supervised_Learning_Model",
+      "child": "Core_Supervised_Learning_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "sequence-to-sequence model",
+      "child": "Recurrent_Sequence_to_Sequence_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "sequence-to-sequence model",
+      "child": "Attention_Based_Sequence_to_Sequence_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "sequence-to-sequence model",
+      "child": "Architectural_Sequence_to_Sequence_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Convolutional_Neural_Network",
+      "child": "Spatio_Temporal_Convolutional_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Convolutional_Neural_Network",
+      "child": "Architectural_Variant_Convolutional_Neural_Network",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "First_Order_Gradient_Method",
+      "child": "Core_First_Order_Gradient_Method",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Deterministic_Optimization",
+      "child": "Iterative_Deterministic_Optimization_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Model_Free_Reinforcement_Learning_Algorithm",
+      "child": "Core_Model_Free_Reinforcement_Learning_Algorithm",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "probabilistic graphical model",
+      "child": "Core_Probabilistic_Graphical_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Core_Probabilistic_Graphical_Model",
+      "child": "Core_Core_Probabilistic_Graphical_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Bayesian_Nonparametric_Model",
+      "child": "Core_Bayesian_Nonparametric_Model",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "unsupervised representation learning",
+      "child": "Core_Unsupervised_Representation_Learning",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "activation function",
+      "child": "periodic activation function",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Distance & Divergence Measures",
+      "child": "divergence",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "[NEW]_ML_Data_Distribution_Shift",
+      "child": "distribution shift",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Optimization_Theory",
+      "child": "optimization",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Regret_Analysis",
+      "child": "regret",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Physics",
+      "child": "Computational Physics",
+      "issue": "Child name contains parent name"
+    },
+    {
+      "parent": "Analysis & Dynamical Systems",
+      "child": "Dynamical_Systems",
+      "issue": "Parent name contains child name"
+    },
+    {
+      "parent": "Optimization & Metric Geometry",
+      "child": "Metric_Geometry",
+      "issue": "Parent name contains child name"
+    }
+  ]
+}

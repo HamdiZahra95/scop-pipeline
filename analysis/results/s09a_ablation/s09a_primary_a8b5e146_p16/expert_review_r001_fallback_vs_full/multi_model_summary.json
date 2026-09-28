@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-09-11T13:34:11+00:00",
+  "total_items": 301,
+  "models_evaluated": [
+    {
+      "id": "reviewer_1",
+      "model": "deepseek-v4.1-flash",
+      "description": "DeepSeek V4.1 Flash (1.6T MoE)"
+    },
+    {
+      "id": "reviewer_2",
+      "model": "qwen3.5:397b",
+      "description": "Qwen 3.5 397B (Alibaba MoE)"
+    },
+    {
+      "id": "reviewer_3",
+      "model": "mistral-large-3:675b",
+      "description": "Mistral Large 3 (675B MoE)"
+    },
+    {
+      "id": "reviewer_4",
+      "model": "nemotron-3-ultra",
+      "description": "Nemotron 3 Ultra (NVIDIA Flagship)"
+    },
+    {
+      "id": "reviewer_5",
+      "model": "gpt-oss:120b",
+      "description": "GPT-OSS 120B (Open Weights)"
+    },
+    {
+      "id": "reviewer_6",
+      "model": "kimi-k3",
+      "description": "Kimi K3 (Moonshot 1.56T MoE)"
+    },
+    {
+      "id": "reviewer_7",
+      "model": "glm-5.3",
+      "description": "GLM 5.3 (Zhipu 755B MoE)"
+    },
+    {
+      "id": "reviewer_8",
+      "model": "minimax-m3",
+      "description": "MiniMax M3 (MiniMax MoE)"
+    },
+    {
+      "id": "reviewer_9",
+      "model": "nemotron-3-super",
+      "description": "Nemotron 3 Super (NVIDIA Super)"
+    },
+    {
+      "id": "reviewer_10",
+      "model": "deepseek-v4-pro:0813",
+      "description": "DeepSeek V4 Pro (1.6T MoE)"
+    }
+  ],
+  "fleiss_kappa": 0.4233,
+  "pairwise_cohen_kappas": {
+    "reviewer_1__vs__reviewer_2": 0.5778,
+    "reviewer_1__vs__reviewer_3": 0.2975,
+    "reviewer_1__vs__reviewer_4": 0.4348,
+    "reviewer_1__vs__reviewer_5": 0.3775,
+    "reviewer_1__vs__reviewer_6": 0.4546,
+    "reviewer_1__vs__reviewer_7": 0.3621,
+    "reviewer_1__vs__reviewer_8": 0.3345,
+    "reviewer_1__vs__reviewer_9": 0.327,
+    "reviewer_1__vs__reviewer_10": 0.6528,
+    "reviewer_2__vs__reviewer_3": 0.3232,
+    "reviewer_2__vs__reviewer_4": 0.5289,
+    "reviewer_2__vs__reviewer_5": 0.3699,
+    "reviewer_2__vs__reviewer_6": 0.4715,
+    "reviewer_2__vs__reviewer_7": 0.3918,
+    "reviewer_2__vs__reviewer_8": 0.3086,
+    "reviewer_2__vs__reviewer_9": 0.3785,
+    "reviewer_2__vs__reviewer_10": 0.5884,
+    "reviewer_3__vs__reviewer_4": 0.3071,
+    "reviewer_3__vs__reviewer_5": 0.3319,
+    "reviewer_3__vs__reviewer_6": 0.3057,
+    "reviewer_3__vs__reviewer_7": 0.3232,
+    "reviewer_3__vs__reviewer_8": 0.3077,
+    "reviewer_3__vs__reviewer_9": 0.3197,
+    "reviewer_3__vs__reviewer_10": 0.2691,
+    "reviewer_4__vs__reviewer_5": 0.5,
+    "reviewer_4__vs__reviewer_6": 0.5965,
+    "reviewer_4__vs__reviewer_7": 0.5155,
+    "reviewer_4__vs__reviewer_8": 0.4658,
+    "reviewer_4__vs__reviewer_9": 0.506,
+    "reviewer_4__vs__reviewer_10": 0.5076,
+    "reviewer_5__vs__reviewer_6": 0.5142,
+    "reviewer_5__vs__reviewer_7": 0.4481,
+    "reviewer_5__vs__reviewer_8": 0.4395,
+    "reviewer_5__vs__reviewer_9": 0.4743,
+    "reviewer_5__vs__reviewer_10": 0.4329,
+    "reviewer_6__vs__reviewer_7": 0.5051,
+    "reviewer_6__vs__reviewer_8": 0.4604,
+    "reviewer_6__vs__reviewer_9": 0.4816,
+    "reviewer_6__vs__reviewer_10": 0.5185,
+    "reviewer_7__vs__reviewer_8": 0.4806,
+    "reviewer_7__vs__reviewer_9": 0.4769,
+    "reviewer_7__vs__reviewer_10": 0.3596,
+    "reviewer_8__vs__reviewer_9": 0.4185,
+    "reviewer_8__vs__reviewer_10": 0.3442,
+    "reviewer_9__vs__reviewer_10": 0.4205
+  },
+  "adjudication_consensus_distribution": {
+    "5/10": 37,
+    "10/10": 109,
+    "8/10": 29,
+    "6/10": 40,
+    "7/10": 45,
+    "9/10": 36,
+    "4/10": 5
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "modes": [
+    "baseline",
+    "guided"
+  ],
+  "comparison": {
+    "baseline": {
+      "latest_cycle_free": true,
+      "all_cycle_free": true,
+      "runs_with_cycles": 0,
+      "max_cycles_any_run": 0,
+      "latest_consistency": "consistent"
+    },
+    "guided": {
+      "latest_cycle_free": true,
+      "all_cycle_free": true,
+      "runs_with_cycles": 0,
+      "max_cycles_any_run": 0,
+      "latest_consistency": "consistent"
+    }
+  },
+  "verdict": {
+    "baseline_sound": true,
+    "guided_sound": true
+  },
+  "runs": {
+    "baseline": {
+      "n_runs": 1,
+      "latest_cycle_free": true,
+      "all_cycle_free": true,
+      "runs_with_cycles": [],
+      "max_cycles_any_run": 0,
+      "total_self_loops_any_run": 0,
+      "latest": {
+        "run": "scop_baseline.owl",
+        "classes": 2089,
+        "subclass_edges": 2084,
+        "self_loops": 0,
+        "cycles": 0
+      },
+      "consistency_checked": [
+        {
+          "run": "scop_baseline.owl",
+          "status": "consistent",
+          "unsatisfiable_classes": [],
+          "reasoner_error": null
+        }
+      ],
+      "per_run": [
+        {
+          "run": "scop_baseline.owl",
+          "classes": 2089,
+          "subclass_edges": 2084,
+          "self_loops": 0,
+          "cycles": 0
+        }
+      ]
+    },
+    "guided": {
+      "n_runs": 1,
+      "latest_cycle_free": true,
+      "all_cycle_free": true,
+      "runs_with_cycles": [],
+      "max_cycles_any_run": 0,
+      "total_self_loops_any_run": 0,
+      "latest": {
+        "run": "scop_guided.owl",
+        "classes": 2129,
+        "subclass_edges": 2124,
+        "self_loops": 0,
+        "cycles": 0
+      },
+      "consistency_checked": [
+        {
+          "run": "scop_guided.owl",
+          "status": "consistent",
+          "unsatisfiable_classes": [],
+          "reasoner_error": null
+        }
+      ],
+      "per_run": [
+        {
+          "run": "scop_guided.owl",
+          "classes": 2129,
+          "subclass_edges": 2124,
+          "self_loops": 0,
+          "cycles": 0
+        }
+      ]
+    }
+  },
+  "note": "'unchecked' = the reasoner could not run or the curated axioms fall outside HermiT's DL subset; it is NOT a contradiction and does not fail the logical-soundness verdict. Subclass cycles (structural) always fail."
+}

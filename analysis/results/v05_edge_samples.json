@@ -1,0 +1,1682 @@
+[
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Periodic_Activation_Function",
+    "parent": "[NEW]_Neural_Network_Component",
+    "verdict": "correct",
+    "reason": "Activation functions are components of neural networks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "intrinsic reward",
+    "parent": "[NEW]_Reward_and_Utility",
+    "verdict": "correct",
+    "reason": "Intrinsic reward is a specific type of reward."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "pre-trained model",
+    "parent": "ML_Model",
+    "verdict": "correct",
+    "reason": "A pre-trained model is a type of ML model."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "similarity learning",
+    "parent": "representation learning",
+    "verdict": "correct",
+    "reason": "Similarity learning is a form of representation learning."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Stochastic_Gradient_Descent",
+    "parent": "Stochastic_Gradient_Based_Optimization",
+    "verdict": "correct",
+    "reason": "SGD is a stochastic gradient-based optimization method."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "memory-augmented neural network",
+    "parent": "Core_Neural_and_Quantum_Architecture",
+    "verdict": "correct",
+    "reason": "MANNs are a specific neural network architecture."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Conditional_Gradient_Method",
+    "parent": "Deterministic_Gradient_Based_Optimization",
+    "verdict": "correct",
+    "reason": "Conditional gradient is a deterministic gradient-based method."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "long short-term memory",
+    "parent": "Recurrent Architectures",
+    "verdict": "correct",
+    "reason": "LSTM is a specific type of recurrent architecture."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Graph_Based_Model",
+    "parent": "General_Graphical_Frameworks",
+    "verdict": "correct",
+    "reason": "Graph-based models are types of graphical frameworks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "model_calibration",
+    "parent": "Model_Optimization_and_Refinement",
+    "verdict": "correct",
+    "reason": "Calibration is a method for model refinement."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "nonlinear_dimensionality_reduction",
+    "parent": "Dimensionality_Reduction_and_Selection_Task",
+    "verdict": "correct",
+    "reason": "Nonlinear dimensionality reduction is a type of dimensionality reduction task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Causal_Inference",
+    "parent": "Causal_ML_Task",
+    "verdict": "correct",
+    "reason": "Causal inference is a core task within causal ML."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "causal model",
+    "parent": "Machine_Learning",
+    "verdict": "incorrect",
+    "reason": "A causal model is a tool/artifact, not a field of ML."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "contextual embedding",
+    "parent": "Word_Embedding",
+    "verdict": "correct",
+    "reason": "Contextual embeddings are a specific type of word embedding."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "spike-timing dependent plasticity",
+    "parent": "Biology",
+    "verdict": "incorrect",
+    "reason": "STDP is a biological process, not a kind of biology."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "long short-term memory network",
+    "parent": "Recurrent Neural Network",
+    "verdict": "correct",
+    "reason": "LSTM is a specific architecture of recurrent neural networks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "binary classifier",
+    "parent": "Classification_Model",
+    "verdict": "correct",
+    "reason": "A binary classifier is a specific type of classification model."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Fake News Detection",
+    "parent": "Detection Task",
+    "verdict": "correct",
+    "reason": "Fake news detection is a specific instance of a detection task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "generalized zero-shot learning",
+    "parent": "Learning_Paradigm",
+    "verdict": "correct",
+    "reason": "Generalized zero-shot learning is a specific learning paradigm."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Wasserstein GAN",
+    "parent": "Machine_Learning",
+    "verdict": "incorrect",
+    "reason": "WGAN is a specific model, not a kind of ML."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "predictive maintenance",
+    "parent": "Time Series Analysis",
+    "verdict": "incorrect",
+    "reason": "Predictive maintenance is an application, not a type of analysis."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "autoencoder",
+    "parent": "Bottleneck_Architecture",
+    "verdict": "correct",
+    "reason": "Autoencoders use a bottleneck architecture by definition."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "first-order logic",
+    "parent": "Mathematics",
+    "verdict": "correct",
+    "reason": "First-order logic is a branch of mathematics/logic."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Dense_Prediction",
+    "parent": "Dense_Prediction_Task",
+    "verdict": "incorrect",
+    "reason": "Dense prediction is the capability, not a specific task type."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Named_Entity_Recognition",
+    "parent": "Text_Analysis_and_Extraction",
+    "verdict": "correct",
+    "reason": "NER is a specific type of text extraction."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "bayesian additive regression trees",
+    "parent": "ensemble learning",
+    "verdict": "correct",
+    "reason": "BARTs are an ensemble of regression trees."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Semantic_Similarity",
+    "parent": "Natural_Language_Processing_Task",
+    "verdict": "correct",
+    "reason": "Semantic similarity is a specific NLP task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "3D U-Net",
+    "parent": "Neural Network Architectures",
+    "verdict": "correct",
+    "reason": "3D U-Net is a specific neural network architecture."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Adversarial_Perturbation",
+    "parent": "Adversarial_Data_Representations",
+    "verdict": "correct",
+    "reason": "Adversarial perturbations are types of adversarial data representations."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Self_Supervised_Pretraining",
+    "parent": "Model_Training_and_Selection_Protocol",
+    "verdict": "correct",
+    "reason": "Self-supervised pretraining is a specific training protocol."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Evaluation_Metric",
+    "parent": "ML_Performance_Measurement_Metric",
+    "verdict": "correct",
+    "reason": "Evaluation metrics are a type of performance measurement metric."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "generalization error",
+    "parent": "ML_Generalization_Attribute",
+    "verdict": "correct",
+    "reason": "Generalization error is a specific attribute of ML generalization."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "tensor factorization",
+    "parent": "Mathematics",
+    "verdict": "incorrect",
+    "reason": "Tensor factorization is a technique/method, not a branch of mathematics."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "data_augmentation",
+    "parent": "Data_Sampling_and_Augmentation_Strategies",
+    "verdict": "correct",
+    "reason": "Data augmentation is a strategy for data sampling and augmentation."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "markov decision process",
+    "parent": "Reinforcement_Learning_Frameworks",
+    "verdict": "correct",
+    "reason": "MDP is a formal framework for reinforcement learning."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "linear decision boundary",
+    "parent": "Decision Boundary",
+    "verdict": "correct",
+    "reason": "A linear decision boundary is a specific type of decision boundary."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "predictive task",
+    "parent": "Machine Learning Task",
+    "verdict": "correct",
+    "reason": "Predictive tasks are a subclass of machine learning tasks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "graph",
+    "parent": "Discrete Structures",
+    "verdict": "correct",
+    "reason": "Graphs are a fundamental type of discrete structure."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "source-free domain adaptation",
+    "parent": "domain adaptation",
+    "verdict": "correct",
+    "reason": "Source-free domain adaptation is a specific type of domain adaptation."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Decision_Function",
+    "parent": "Decision_Model",
+    "verdict": "incorrect",
+    "reason": "A decision function is a component of a model, not a model."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Combinatorial_Optimization",
+    "parent": "Specialized_Optimization_Frameworks",
+    "verdict": "correct",
+    "reason": "Combinatorial optimization is a specialized optimization framework."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "multi-view learning",
+    "parent": "Learning_Paradigm",
+    "verdict": "correct",
+    "reason": "Multi-view learning is a learning paradigm."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "multi-agent deep reinforcement learning",
+    "parent": "reinforcement learning",
+    "verdict": "correct",
+    "reason": "Multi-agent deep RL is a type of reinforcement learning."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "linear discriminant analysis",
+    "parent": "Classification_Algorithms",
+    "verdict": "correct",
+    "reason": "LDA is a classification algorithm."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "multivariate normal distribution",
+    "parent": "Probability_and_Statistics",
+    "verdict": "correct",
+    "reason": "Multivariate normal distribution is a probability and statistics concept."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "knowledge transfer",
+    "parent": "Transfer_Learning",
+    "verdict": "correct",
+    "reason": "Knowledge transfer is a core part of transfer learning."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "stochastic differential equation",
+    "parent": "Differential Equation",
+    "verdict": "correct",
+    "reason": "Stochastic differential equations are a type of differential equation."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "knowledge graph",
+    "parent": "ML_Graph_Representations",
+    "verdict": "correct",
+    "reason": "Knowledge graphs are a type of ML graph representation."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "cost function",
+    "parent": "ML_Objective_and_Constraint",
+    "verdict": "correct",
+    "reason": "Cost function is a type of ML objective."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "heterogeneous treatment effect",
+    "parent": "Causal_Inference",
+    "verdict": "correct",
+    "reason": "Heterogeneous treatment effect is a concept in causal inference."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Non-Intrusive Load Monitoring",
+    "parent": "Time_Series_Analysis_Task",
+    "verdict": "correct",
+    "reason": "NILM is a specific time series analysis task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "automated machine learning",
+    "parent": "Automated_ML_Workflow",
+    "verdict": "incorrect",
+    "reason": "AutoML is the field, not a subclass of a workflow."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "differentiable model",
+    "parent": "Neural_and_Connectionist_Models",
+    "verdict": "incorrect",
+    "reason": "Differentiable models include non-neural models like linear regression."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Conformal_Prediction",
+    "parent": "Prediction_and_Robustness_Methods",
+    "verdict": "correct",
+    "reason": "Conformal prediction is a method for robust prediction."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "ensemble of neural networks",
+    "parent": "ensemble learning",
+    "verdict": "correct",
+    "reason": "Ensemble of NNs is a specific type of ensemble learning."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Fair_Representation_Learning",
+    "parent": "Representation_Learning_Task",
+    "verdict": "correct",
+    "reason": "Fair representation learning is a specific representation learning task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Bayesian_inference",
+    "parent": "Probabilistic_and_Statistical_Inference",
+    "verdict": "correct",
+    "reason": "Bayesian inference is a type of probabilistic inference."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "parameterized quantum circuit",
+    "parent": "Quantum_Computing",
+    "verdict": "incorrect",
+    "reason": "A circuit is a component/instance, not a subclass of computing."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "Hierarchical_Clustering",
+    "parent": "Unsupervised_Learning_Algorithm",
+    "verdict": "correct",
+    "reason": "Hierarchical clustering is an unsupervised learning algorithm."
+  },
+  {
+    "mode": "baseline",
+    "kind": "is_a",
+    "child": "quantile regression",
+    "parent": "Regression_Task",
+    "verdict": "correct",
+    "reason": "Quantile regression is a specific type of regression task."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "variational autoencoder",
+    "property": "hasComponent",
+    "target": "convolutional neural network",
+    "verdict": "correct",
+    "reason": "VAEs often use CNNs as encoders and decoders."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "principal component analysis",
+    "property": "hasComponent",
+    "target": "orthogonal transformation",
+    "verdict": "correct",
+    "reason": "PCA uses orthogonal transformation to find principal components."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Finite_Mixture_Model",
+    "property": "hasComponent",
+    "target": "kernel density estimator",
+    "verdict": "incorrect",
+    "reason": "FMMs and KDEs are different density estimation methods."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Causal_Structure_Learning",
+    "property": "producesOutput",
+    "target": "causal mechanism",
+    "verdict": "correct",
+    "reason": "Causal structure learning aims to identify causal mechanisms."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "linear classifier",
+    "property": "hasCharacteristic",
+    "target": "classification",
+    "verdict": "correct",
+    "reason": "Linear classifiers are used for classification tasks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "feature extraction",
+    "property": "hasComponent",
+    "target": "classification",
+    "verdict": "incorrect",
+    "reason": "Feature extraction is a preprocessing step, not classification."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Natural_Gradient_Descent",
+    "property": "hasComponent",
+    "target": "fisher information matrix",
+    "verdict": "correct",
+    "reason": "Natural gradient descent uses the Fisher Information Matrix."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "variational quantum algorithm",
+    "property": "optimizes",
+    "target": "parameterized quantum circuit",
+    "verdict": "correct",
+    "reason": "VQAs optimize parameters of a parameterized quantum circuit."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "likelihood-free inference",
+    "property": "hasComponent",
+    "target": "likelihood function",
+    "verdict": "incorrect",
+    "reason": "Likelihood-free inference is used when likelihood is intractable."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "deep metric learning",
+    "property": "learnsFrom",
+    "target": "embedding space",
+    "verdict": "correct",
+    "reason": "Deep metric learning optimizes the distance in embedding space."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "multilayer perceptron",
+    "property": "hasComponent",
+    "target": "multiclass classification",
+    "verdict": "incorrect",
+    "reason": "Multiclass classification is a task, not a component of MLP."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "random forest",
+    "property": "integrates",
+    "target": "decision tree",
+    "verdict": "correct",
+    "reason": "Random forest is an ensemble of decision trees."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "deep metric learning",
+    "property": "optimizes",
+    "target": "embedding space",
+    "verdict": "correct",
+    "reason": "Deep metric learning aims to optimize the embedding space."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Graph_Convolutional_Neural_Network",
+    "property": "producesOutput",
+    "target": "node embedding",
+    "verdict": "correct",
+    "reason": "GCNs typically produce node embeddings as output."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "causal bayesian network",
+    "property": "transforms",
+    "target": "causal mechanism",
+    "verdict": "incorrect",
+    "reason": "Causal Bayesian networks represent causal mechanisms, not transform them."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "sparse bayesian learning",
+    "property": "hasComponent",
+    "target": "hierarchical prior",
+    "verdict": "correct",
+    "reason": "SBL often uses hierarchical priors for sparsity."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Extreme_Learning_Machine",
+    "property": "hasComponent",
+    "target": "regularization",
+    "verdict": "correct",
+    "reason": "ELMs often incorporate regularization to prevent overfitting."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "bayesian neural network",
+    "property": "hasComponent",
+    "target": "periodic activation function",
+    "verdict": "incorrect",
+    "reason": "Periodic activation functions are not standard components of BNNs."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Active_Inference",
+    "property": "hasCharacteristic",
+    "target": "world model",
+    "verdict": "correct",
+    "reason": "Active inference relies on a generative world model."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "adversarial autoencoder",
+    "property": "producesOutput",
+    "target": "adversarial example",
+    "verdict": "incorrect",
+    "reason": "Adversarial autoencoders produce latent representations, not adversarial examples."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "nonnegative matrix factorization",
+    "property": "hasComponent",
+    "target": "quasi-Newton method",
+    "verdict": "incorrect",
+    "reason": "NMF is an algorithm, quasi-Newton is an optimization method."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Monte_Carlo_Tree_Search",
+    "property": "hasComponent",
+    "target": "decision tree",
+    "verdict": "incorrect",
+    "reason": "MCTS uses search trees, not standard decision trees."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "synthetic data generation",
+    "property": "hasComponent",
+    "target": "generative model",
+    "verdict": "correct",
+    "reason": "Generative models are used to generate synthetic data."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "neural network",
+    "property": "hasComponent",
+    "target": "synthetic data",
+    "verdict": "incorrect",
+    "reason": "Synthetic data is input, not a component of neural networks."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Anomaly_Detection",
+    "property": "hasComponent",
+    "target": "online learning",
+    "verdict": "incorrect",
+    "reason": "Online learning is a paradigm, not a component of anomaly detection."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "autoencoder",
+    "property": "learnsFrom",
+    "target": "compressed representation",
+    "verdict": "incorrect",
+    "reason": "Autoencoders learn to produce compressed representations."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Dynamic_Mode_Decomposition",
+    "property": "producesOutput",
+    "target": "koopman operator",
+    "verdict": "correct",
+    "reason": "DMD is a numerical approximation of the Koopman operator."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "subspace clustering",
+    "property": "hasComponent",
+    "target": "convex program",
+    "verdict": "correct",
+    "reason": "Many subspace clustering methods use convex optimization."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "rectified linear unit",
+    "property": "hasCharacteristic",
+    "target": "sparsity",
+    "verdict": "correct",
+    "reason": "ReLU induces sparsity in activations."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "information bottleneck",
+    "property": "selects",
+    "target": "mutual information",
+    "verdict": "incorrect",
+    "reason": "Information bottleneck optimizes mutual information, not selects it."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "bilevel optimization",
+    "property": "hasComponent",
+    "target": "hyperparameter tuning",
+    "verdict": "correct",
+    "reason": "Hyperparameter tuning is often formulated as a bilevel optimization problem."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Stochastic_Gradient_Descent",
+    "property": "optimizes",
+    "target": "generalization error",
+    "verdict": "incorrect",
+    "reason": "SGD optimizes the empirical risk/loss, not directly the generalization error."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "multi-agent deep reinforcement learning",
+    "property": "learnsFrom",
+    "target": "optimal policy",
+    "verdict": "incorrect",
+    "reason": "MADRL learns to find an optimal policy, not from it."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "extreme gradient boosting",
+    "property": "hasComponent",
+    "target": "decision tree",
+    "verdict": "correct",
+    "reason": "XGBoost is an ensemble of decision trees."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Gaussian_Process",
+    "property": "producesOutput",
+    "target": "regret bound",
+    "verdict": "incorrect",
+    "reason": "Gaussian Processes provide a distribution; regret bounds are theoretical analysis."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Combinatorial_Optimization",
+    "property": "hasComponent",
+    "target": "graph neural network",
+    "verdict": "incorrect",
+    "reason": "GNNs can solve combinatorial optimization, but aren't a component of it."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "score-based generative model",
+    "property": "hasComponent",
+    "target": "stochastic differential equation",
+    "verdict": "correct",
+    "reason": "Score-based models are often formulated using SDEs."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Online Mirror Descent",
+    "property": "processesData",
+    "target": "dynamic learning rate",
+    "verdict": "incorrect",
+    "reason": "Dynamic learning rate is a parameter, not the data processed."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Anomaly_Detection",
+    "property": "hasComponent",
+    "target": "recurrent neural network",
+    "verdict": "unsure",
+    "reason": "RNNs can be used for anomaly detection, but aren't a component."
+  },
+  {
+    "mode": "baseline",
+    "kind": "property",
+    "subject": "Bayesian_Convolutional_Neural_Network",
+    "property": "hasComponent",
+    "target": "Bayesian inference",
+    "verdict": "correct",
+    "reason": "BCNNs use Bayesian inference to estimate weight distributions."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "sparse representation",
+    "parent": "Vector_Space_Representations",
+    "verdict": "correct",
+    "reason": "Sparse representations are a type of vector space representation."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "local model",
+    "parent": "Deployment_Configurations",
+    "verdict": "incorrect",
+    "reason": "Local model is a deployment choice, not a configuration type."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "secure inference",
+    "parent": "Model_Evaluation_and_ssecurity",
+    "verdict": "incorrect",
+    "reason": "Secure inference is a process, not a category of evaluation/security."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "feature embedding",
+    "parent": "Tabular_Embeddings",
+    "verdict": "incorrect",
+    "reason": "Feature embeddings are broader than just tabular embeddings."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "stochastic differential equation",
+    "parent": "Stochastic_Analysis",
+    "verdict": "correct",
+    "reason": "SDEs are a central object of study in stochastic analysis."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "regularization",
+    "parent": "Regularization_Techniques",
+    "verdict": "correct",
+    "reason": "Regularization is the general concept and technique category."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "high-probability bound",
+    "parent": "Probabilistic_Bounds",
+    "verdict": "correct",
+    "reason": "High-probability bounds are a specific type of probabilistic bound."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "temporal point process",
+    "parent": "Core_Probabilistic_Graphical_Model_Temporal",
+    "verdict": "incorrect",
+    "reason": "Temporal point processes are not necessarily graphical models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "decentralized federated learning",
+    "parent": "Federated_ML_Protocol",
+    "verdict": "correct",
+    "reason": "Decentralized FL is a specific federated learning protocol."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "multi-view learning",
+    "parent": "Specialized_Learning_Criterions",
+    "verdict": "incorrect",
+    "reason": "Multi-view learning is a learning paradigm, not a criterion."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "trusted execution environment",
+    "parent": "Security Architectures",
+    "verdict": "correct",
+    "reason": "TEE is a specific type of security architecture."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "off-policy policy evaluation",
+    "parent": "Probabilistic_and_Policy_Evaluation_Task",
+    "verdict": "correct",
+    "reason": "Off-policy evaluation is a specific policy evaluation task."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "ensemble model",
+    "parent": "Ensemble_Learning_Model",
+    "verdict": "correct",
+    "reason": "Ensemble models are the core of ensemble learning."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "encoder-decoder architecture",
+    "parent": "Structural_Architectures",
+    "verdict": "correct",
+    "reason": "Encoder-decoder is a specific structural architecture."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "temporal difference learning",
+    "parent": "Value_and_Policy_Optimization_RL",
+    "verdict": "correct",
+    "reason": "TD learning is a value-based RL optimization method."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "graph representation learning",
+    "parent": "Representation Learning Method",
+    "verdict": "correct",
+    "reason": "Graph representation learning is a type of representation learning."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "fair machine learning",
+    "parent": "Fair_ML",
+    "verdict": "correct",
+    "reason": "Fair machine learning is synonymous with Fair ML."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "lasso regression",
+    "parent": "Linear_and_Kernel_Algorithms",
+    "verdict": "correct",
+    "reason": "Lasso is a linear regression algorithm."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "fully convolutional neural network",
+    "parent": "Convolutional_Neural_Network",
+    "verdict": "correct",
+    "reason": "FCN is a specific type of CNN."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "predictive model",
+    "parent": "General_Model_Types",
+    "verdict": "correct",
+    "reason": "Predictive models are a general category of models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "out-of-distribution detection",
+    "parent": "Detection_Task",
+    "verdict": "correct",
+    "reason": "Out-of-distribution detection is a specific type of detection task."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "log loss",
+    "parent": "loss function",
+    "verdict": "correct",
+    "reason": "Log loss is a specific type of loss function."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "non-intrusive load monitoring",
+    "parent": "Core_Applied_ML_Task",
+    "verdict": "correct",
+    "reason": "NILM is a core applied machine learning task."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "weight quantization",
+    "parent": "Clustering_and_Quantization",
+    "verdict": "correct",
+    "reason": "Weight quantization is a form of quantization."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "bayesian optimisation",
+    "parent": "Optimization_and_Algorithms",
+    "verdict": "correct",
+    "reason": "Bayesian optimization is a type of optimization algorithm."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "model-free reinforcement learning",
+    "parent": "Reinforcement Learning Paradigm",
+    "verdict": "correct",
+    "reason": "Model-free RL is a paradigm of reinforcement learning."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "invariant risk minimization",
+    "parent": "Domain_and_Risk_Generalization_Algorithm",
+    "verdict": "correct",
+    "reason": "IRM is a domain generalization algorithm."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "Summary statistic",
+    "parent": "Descriptive Statistics",
+    "verdict": "correct",
+    "reason": "Summary statistics are a kind of descriptive statistics."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "markov chain",
+    "parent": "Stochastic Processes",
+    "verdict": "correct",
+    "reason": "Markov chains are a type of stochastic process."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "evasion attack",
+    "parent": "Adversarial_ML_Task",
+    "verdict": "correct",
+    "reason": "Evasion attacks are a type of adversarial ML task."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "inverse reinforcement learning",
+    "parent": "Goal_and_Reward_Learning_Task",
+    "verdict": "correct",
+    "reason": "IRL is a specific type of reward learning task."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "Faster R-CNN",
+    "parent": "ML_Architectures_and_Models",
+    "verdict": "correct",
+    "reason": "Faster R-CNN is a specific ML model architecture."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "beta-variational autoencoder",
+    "parent": "variational autoencoder",
+    "verdict": "correct",
+    "reason": "Beta-VAE is a specialized variant of VAE."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "particle swarm optimization",
+    "parent": "Population_Based_Optimization",
+    "verdict": "correct",
+    "reason": "PSO is a population-based optimization method."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "link prediction",
+    "parent": "Graph_and_Relational_Task",
+    "verdict": "correct",
+    "reason": "Link prediction is a task performed on graphs."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "regret bound",
+    "parent": "Learning_Theory",
+    "verdict": "incorrect",
+    "reason": "Regret bound is a metric/result, not a learning theory."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "counterfactual fairness",
+    "parent": "ML_Fairness_Attribute",
+    "verdict": "correct",
+    "reason": "Counterfactual fairness is a specific fairness definition/attribute."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "federated edge learning",
+    "parent": "Decentralized_Distributed_ML",
+    "verdict": "correct",
+    "reason": "Federated edge learning is a type of decentralized ML."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "federated learning",
+    "parent": "ML_Theory_and_Paradigms",
+    "verdict": "correct",
+    "reason": "Federated learning is a paradigm for distributed ML."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "model complexity",
+    "parent": "Model_Capacity",
+    "verdict": "incorrect",
+    "reason": "Complexity and capacity are related but distinct concepts."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "metric",
+    "parent": "Distance Measures",
+    "verdict": "incorrect",
+    "reason": "Metric is a general concept; distance measures are specific metrics."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "machine learning classifier",
+    "parent": "Discriminative_Models",
+    "verdict": "correct",
+    "reason": "Classifiers are typically discriminative models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "Bayesian estimation",
+    "parent": "Bayesian_Inference_Methods",
+    "verdict": "correct",
+    "reason": "Bayesian estimation is a method of Bayesian inference."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "variational approach",
+    "parent": "Optimization_Methods",
+    "verdict": "correct",
+    "reason": "Variational approaches are used for optimization."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "randomized smoothing",
+    "parent": "Optimization_and_Regularization_Techniques",
+    "verdict": "correct",
+    "reason": "Randomized smoothing is a regularization technique."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "binary neuron",
+    "parent": "Network_Components",
+    "verdict": "correct",
+    "reason": "A binary neuron is a component of a network."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "restless multi-armed bandit",
+    "parent": "Sequential_Models",
+    "verdict": "incorrect",
+    "reason": "Bandits are decision problems, not sequential models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "hyper-parameter optimization",
+    "parent": "ML_Optimization_Techniques",
+    "verdict": "correct",
+    "reason": "Hyper-parameter optimization is an ML optimization technique."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "decentralized learning",
+    "parent": "Decentralized_Distributed_ML",
+    "verdict": "correct",
+    "reason": "Decentralized learning is a type of decentralized distributed ML."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "bidirectional long short-term memory",
+    "parent": "Recurrent_Neural_Network",
+    "verdict": "correct",
+    "reason": "BiLSTM is a specific type of Recurrent Neural Network."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "Bayesian regularization",
+    "parent": "Regularization_Methods",
+    "verdict": "correct",
+    "reason": "Bayesian regularization is a specific type of regularization method."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "pre-trained language model",
+    "parent": "Sequence_Model",
+    "verdict": "correct",
+    "reason": "Pre-trained language models are types of sequence models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "generative neural network",
+    "parent": "Neural_Network_Architecture",
+    "verdict": "correct",
+    "reason": "Generative neural networks are a category of neural network architectures."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "time series forest",
+    "parent": "Non_Neural_Network_Model",
+    "verdict": "correct",
+    "reason": "Time series forest is a non-neural network model."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "non-parametric regression",
+    "parent": "regression model",
+    "verdict": "correct",
+    "reason": "Non-parametric regression is a subclass of regression models."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "novelty detection",
+    "parent": "anomaly detection",
+    "verdict": "correct",
+    "reason": "Novelty detection is a specific form of anomaly detection."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "bidirectional encoder representations from transformers",
+    "parent": "Transformer_Language_Models",
+    "verdict": "correct",
+    "reason": "BERT is a specific type of Transformer language model."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "spectral method",
+    "parent": "Spectral_Methods",
+    "verdict": "correct",
+    "reason": "Spectral method is a member of spectral methods."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "regularizer",
+    "parent": "Regularization_Techniques",
+    "verdict": "incorrect",
+    "reason": "A regularizer is a component, not a technique itself."
+  },
+  {
+    "mode": "guided",
+    "kind": "is_a",
+    "child": "gradient boosted decision tree",
+    "parent": "Ensemble_Methods",
+    "verdict": "correct",
+    "reason": "GBDT is a specific type of ensemble method."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "structural causal model",
+    "property": "producesOutput",
+    "target": "counterfactual inference",
+    "verdict": "correct",
+    "reason": "SCMs are used to perform counterfactual reasoning."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "rectified linear unit",
+    "property": "optimizes",
+    "target": "sparsity",
+    "verdict": "correct",
+    "reason": "ReLU induces sparsity by zeroing negative inputs."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "surrogate model",
+    "property": "producesOutput",
+    "target": "adversarial example",
+    "verdict": "incorrect",
+    "reason": "Surrogate models are used to generate adversarial examples, not output them."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "convolutional sparse coding",
+    "property": "learnsFrom",
+    "target": "feature map",
+    "verdict": "incorrect",
+    "reason": "CSC typically learns the dictionary/filters, not from feature maps."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "probabilistic model",
+    "property": "hasComponent",
+    "target": "neural network",
+    "verdict": "incorrect",
+    "reason": "Neural networks are not inherently probabilistic models."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "curriculum learning",
+    "property": "learnsFrom",
+    "target": "generative network",
+    "verdict": "incorrect",
+    "reason": "Curriculum learning is a training strategy, not dependent on generative networks."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "gaussian graphical model",
+    "property": "hasComponent",
+    "target": "graph",
+    "verdict": "correct",
+    "reason": "GGMs are defined by a graph structure."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "adversarial attack",
+    "property": "selects",
+    "target": "perturbation",
+    "verdict": "correct",
+    "reason": "Adversarial attacks find a specific perturbation to fool models."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "inverse reinforcement learning",
+    "property": "producesOutput",
+    "target": "reward function",
+    "verdict": "correct",
+    "reason": "IRL aims to recover the reward function from demonstrations."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "Faster R-CNN",
+    "property": "hasComponent",
+    "target": "region proposal network",
+    "verdict": "correct",
+    "reason": "RPN is a core component of Faster R-CNN."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "graph transformer",
+    "property": "integrates",
+    "target": "graph representation",
+    "verdict": "correct",
+    "reason": "Graph transformers are used for graph representation learning."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "contrastive predictive coding",
+    "property": "hasComponent",
+    "target": "contrastive loss",
+    "verdict": "correct",
+    "reason": "Contrastive loss is a core component of CPC."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "cyclegan",
+    "property": "hasPurpose",
+    "target": "unpaired image-to-image translation",
+    "verdict": "correct",
+    "reason": "CycleGAN is designed for unpaired image-to-image translation."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "spectral clustering",
+    "property": "processesData",
+    "target": "community detection",
+    "verdict": "incorrect",
+    "reason": "Spectral clustering is a method for community detection, not data."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "adversarial domain adaptation",
+    "property": "hasComponent",
+    "target": "adversarial loss",
+    "verdict": "correct",
+    "reason": "Adversarial domain adaptation uses adversarial loss functions."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "stochastic gradient descent",
+    "property": "optimizes",
+    "target": "generalization error",
+    "verdict": "incorrect",
+    "reason": "SGD optimizes training loss, not directly generalization error."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "fully convolutional neural network",
+    "property": "hasComponent",
+    "target": "image segmentation",
+    "verdict": "incorrect",
+    "reason": "Image segmentation is a task, not a component of FCN."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "image inpainting",
+    "property": "hasComponent",
+    "target": "deep learning model",
+    "verdict": "incorrect",
+    "reason": "Deep learning models are used for inpainting, not components."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "u-net",
+    "property": "hasPurpose",
+    "target": "image-to-image translation",
+    "verdict": "correct",
+    "reason": "U-Net is widely used for image-to-image translation tasks."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "neural topic model",
+    "property": "hasComponent",
+    "target": "neural network embedding",
+    "verdict": "correct",
+    "reason": "Neural topic models use embeddings to represent topics/words."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "unsupervised representation learning",
+    "property": "hasComponent",
+    "target": "hierarchical decomposition",
+    "verdict": "incorrect",
+    "reason": "Hierarchical decomposition is not a standard component of unsupervised learning."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "gaussian process",
+    "property": "processesData",
+    "target": "regression",
+    "verdict": "incorrect",
+    "reason": "Regression is a task, not the data processed by GP."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "intrusion detection system",
+    "property": "hasComponent",
+    "target": "deep network",
+    "verdict": "unsure",
+    "reason": "Deep networks can be used in IDS, but not a required component."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "temporal convolutional network",
+    "property": "hasComponent",
+    "target": "causal convolution",
+    "verdict": "correct",
+    "reason": "TCNs use causal convolutions to prevent leakage from future."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "spectral clustering",
+    "property": "producesOutput",
+    "target": "community detection",
+    "verdict": "correct",
+    "reason": "Spectral clustering is often used for community detection in graphs."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "privacy-preserving machine learning",
+    "property": "hasComponent",
+    "target": "differential privacy",
+    "verdict": "correct",
+    "reason": "Differential privacy is a core technique in PPML."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "graph kernel",
+    "property": "hasComponent",
+    "target": "feature map",
+    "verdict": "correct",
+    "reason": "Graph kernels map graphs to a feature space."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "deep belief network",
+    "property": "hasComponent",
+    "target": "data representation",
+    "verdict": "incorrect",
+    "reason": "Data representation is a goal, not a component of DBN."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "sparse bayesian learning",
+    "property": "hasComponent",
+    "target": "hierarchical prior",
+    "verdict": "correct",
+    "reason": "SBL typically employs hierarchical priors for sparsity."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "auto-encoder",
+    "property": "learnsFrom",
+    "target": "compressed representation",
+    "verdict": "incorrect",
+    "reason": "Auto-encoders learn to produce a compressed representation."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "model distillation",
+    "property": "hasComponent",
+    "target": "unsupervised clustering",
+    "verdict": "incorrect",
+    "reason": "Distillation uses a teacher-student model, not unsupervised clustering."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "geometric deep learning",
+    "property": "hasComponent",
+    "target": "deep network",
+    "verdict": "correct",
+    "reason": "Geometric deep learning uses deep neural networks on non-Euclidean data."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "maximum likelihood estimation",
+    "property": "producesOutput",
+    "target": "parameter",
+    "verdict": "correct",
+    "reason": "MLE estimates the parameters of a statistical model."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "bidirectional encoder representations from transformers",
+    "property": "hasComponent",
+    "target": "bidirectional transformer",
+    "verdict": "correct",
+    "reason": "BERT is based on the bidirectional transformer architecture."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "stein variational gradient descent",
+    "property": "hasComponent",
+    "target": "functional gradient descent",
+    "verdict": "correct",
+    "reason": "SVGD is a particle-based functional gradient descent method."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "restricted boltzmann machine",
+    "property": "hasCharacteristic",
+    "target": "time",
+    "verdict": "incorrect",
+    "reason": "RBMs are static energy-based models, not temporal models."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "bayesian optimization",
+    "property": "hasComponent",
+    "target": "hyperparameter tuning",
+    "verdict": "incorrect",
+    "reason": "Bayesian optimization is a method for hyperparameter tuning."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "self-supervised learning",
+    "property": "hasComponent",
+    "target": "auxiliary task",
+    "verdict": "correct",
+    "reason": "Self-supervised learning often uses auxiliary pretext tasks."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "knowledge transfer",
+    "property": "learnsFrom",
+    "target": "pre-trained model",
+    "verdict": "correct",
+    "reason": "Knowledge transfer typically leverages a pre-trained model."
+  },
+  {
+    "mode": "guided",
+    "kind": "property",
+    "subject": "hamiltonian monte carlo",
+    "property": "hasComponent",
+    "target": "gradient information",
+    "verdict": "correct",
+    "reason": "HMC uses gradients of the log-posterior for sampling."
+  }
+]

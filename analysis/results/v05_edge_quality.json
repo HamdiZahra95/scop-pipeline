@@ -1,0 +1,81 @@
+{
+  "config": {
+    "isa": 60,
+    "prop": 40,
+    "batch": 10,
+    "seed": 42,
+    "model": "gemma-4-31b-it",
+    "judge": "LLM-as-judge (single model, no human validation)"
+  },
+  "summary": {
+    "baseline": {
+      "is_a": {
+        "sampled": 60,
+        "correct": 50,
+        "incorrect": 10,
+        "unsure": 0,
+        "precision_excl_unsure": 0.8333,
+        "precision_ci": [
+          0.7333,
+          0.9167
+        ],
+        "correct_rate_incl_unsure": 0.8333,
+        "unsure_rate": 0.0
+      },
+      "property": {
+        "sampled": 40,
+        "correct": 21,
+        "incorrect": 18,
+        "unsure": 1,
+        "precision_excl_unsure": 0.5385,
+        "precision_ci": [
+          0.3846,
+          0.6923
+        ],
+        "correct_rate_incl_unsure": 0.525,
+        "unsure_rate": 0.025
+      }
+    },
+    "guided": {
+      "is_a": {
+        "sampled": 60,
+        "correct": 50,
+        "incorrect": 10,
+        "unsure": 0,
+        "precision_excl_unsure": 0.8333,
+        "precision_ci": [
+          0.7333,
+          0.9167
+        ],
+        "correct_rate_incl_unsure": 0.8333,
+        "unsure_rate": 0.0
+      },
+      "property": {
+        "sampled": 40,
+        "correct": 24,
+        "incorrect": 15,
+        "unsure": 1,
+        "precision_excl_unsure": 0.6154,
+        "precision_ci": [
+          0.4615,
+          0.7692
+        ],
+        "correct_rate_incl_unsure": 0.6,
+        "unsure_rate": 0.025
+      }
+    }
+  },
+  "comparison": {
+    "is_a": {
+      "baseline": 0.8333,
+      "guided": 0.8333,
+      "delta": 0.0
+    },
+    "property": {
+      "baseline": 0.5385,
+      "guided": 0.6154,
+      "delta": 0.0769
+    }
+  },
+  "caveat": "LLM-as-judge only: the judge shares a model family with the pipeline and may share its biases; verdicts are INDICATIVE, not validated accuracy. Judgments saved to v05_edge_samples.json for a future human kappa subset. Precision excludes 'unsure'."
+}

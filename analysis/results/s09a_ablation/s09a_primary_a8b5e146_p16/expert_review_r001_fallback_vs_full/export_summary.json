@@ -1,0 +1,13 @@
+{
+  "review_directory": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/expert_review_r001_fallback_vs_full",
+  "blinding_key": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/analysis/results/s09a_ablation/s09a_primary_a8b5e146_p16/expert_review_r001_fallback_vs_full/blinding_key.json",
+  "reviewers": 2,
+  "review_items_per_reviewer": 301,
+  "sampled_concepts": 188,
+  "changed_concepts": 113,
+  "unchanged_negative_controls": 75,
+  "comparison": {
+    "control": "fallback",
+    "treatment": "full"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "floater_map_v4_fe0bccd6f0f9efcbe9828e30": {
+    "batch": [
+      "adversarial sample",
+      "classification",
+      "concurrent learning",
+      "contextual embedding",
+      "convex program",
+      "deep learning classifier",
+      "deep network",
+      "denoising",
+      "distribution shift",
+      "domain shift",
+      "dynamic learning rate",
+      "dynamical system"
+    ],
+    "cache_key": "floater_llm_v4_82866c142afe908cfbd6e372",
+    "placements": [
+      {
+        "concept": "adversarial sample",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Input Perturbation"
+      },
+      {
+        "concept": "classification",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Supervised Learning Task"
+      },
+      {
+        "concept": "concurrent learning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Paradigm"
+      },
+      {
+        "concept": "contextual embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Embedding"
+      },
+      {
+        "concept": "convex program",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Optimization Problem"
+      },
+      {
+        "concept": "deep learning classifier",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Classifier"
+      },
+      {
+        "concept": "deep network",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Neural Network Architecture"
+      },
+      {
+        "concept": "denoising",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Signal Processing Task"
+      },
+      {
+        "concept": "distribution shift",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dataset Shift"
+      },
+      {
+        "concept": "domain shift",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dataset Shift"
+      },
+      {
+        "concept": "dynamic learning rate",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Optimization Parameter"
+      },
+      {
+        "concept": "dynamical system",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Mathematical Model"
+      }
+    ]
+  },
+  "floater_map_v4_0c3a0c03cd8d80481d3481ba": {
+    "batch": [
+      "epistemic uncertainty",
+      "explanation",
+      "feature embedding",
+      "feature representation learning",
+      "generalization bound",
+      "generative network",
+      "graph representation",
+      "graph theory",
+      "hyperparameter tuning",
+      "invariant predictor",
+      "kernel function",
+      "learning rate schedule"
+    ],
+    "cache_key": "floater_llm_v4_250fb0fd7cc85e498091039d",
+    "placements": [
+      {
+        "concept": "epistemic uncertainty",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Uncertainty Quantification"
+      },
+      {
+        "concept": "explanation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Explainable AI"
+      },
+      {
+        "concept": "feature embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Representation Learning"
+      },
+      {
+        "concept": "feature representation learning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Representation Learning"
+      },
+      {
+        "concept": "generalization bound",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Theory"
+      },
+      {
+        "concept": "generative network",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Generative Model"
+      },
+      {
+        "concept": "graph representation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Representation"
+      },
+      {
+        "concept": "graph theory",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Discrete Mathematics"
+      },
+      {
+        "concept": "hyperparameter tuning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Optimization"
+      },
+      {
+        "concept": "invariant predictor",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Invariant Learning"
+      },
+      {
+        "concept": "kernel function",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Kernel Method"
+      },
+      {
+        "concept": "learning rate schedule",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Optimization Strategy"
+      }
+    ]
+  },
+  "floater_map_v4_0d78a2121a6f7dd6fcdefba8": {
+    "batch": [
+      "linear decision boundary",
+      "machine learning algorithm",
+      "maximum likelihood estimator",
+      "model generalization",
+      "model uncertainty",
+      "multi-label classification",
+      "neural network embedding",
+      "non-convex optimization",
+      "nonlinear dimension reduction",
+      "overfitting",
+      "parameter tuning",
+      "prediction error"
+    ],
+    "cache_key": "floater_llm_v4_325b886a1fb6ccea03aa2fad",
+    "placements": [
+      {
+        "concept": "linear decision boundary",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Decision Boundary"
+      },
+      {
+        "concept": "machine learning algorithm",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Algorithm"
+      },
+      {
+        "concept": "maximum likelihood estimator",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Estimator"
+      },
+      {
+        "concept": "model generalization",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Property"
+      },
+      {
+        "concept": "model uncertainty",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Property"
+      },
+      {
+        "concept": "multi-label classification",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Supervised Learning Task"
+      },
+      {
+        "concept": "neural network embedding",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Embedding"
+      },
+      {
+        "concept": "non-convex optimization",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Optimization Problem"
+      },
+      {
+        "concept": "nonlinear dimension reduction",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Dimension Reduction Technique"
+      },
+      {
+        "concept": "overfitting",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Error"
+      },
+      {
+        "concept": "parameter tuning",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Model Optimization"
+      },
+      {
+        "concept": "prediction error",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Performance Metric"
+      }
+    ]
+  },
+  "floater_map_v4_4fdf96e922e3cfeceec39a30": {
+    "batch": [
+      "prediction interval",
+      "predictive analysis",
+      "predictive model",
+      "predictive task",
+      "projection-free algorithm",
+      "robust classifier",
+      "robust learner",
+      "scattering transform",
+      "scenario generation",
+      "self-supervised pre-training",
+      "similarity measure",
+      "stochastic differential equation"
+    ],
+    "cache_key": "floater_llm_v4_b31e96b687afb7230974354b",
+    "placements": [
+      {
+        "concept": "prediction interval",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Statistical Interval"
+      },
+      {
+        "concept": "predictive analysis",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Analysis"
+      },
+      {
+        "concept": "predictive model",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Machine Learning Model"
+      },
+      {
+        "concept": "predictive task",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Machine Learning Task"
+      },
+      {
+        "concept": "projection-free algorithm",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Mathematical Optimization Method"
+      },
+      {
+        "concept": "robust classifier",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Classifier"
+      },
+      {
+        "concept": "robust learner",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Learning Method"
+      },
+      {
+        "concept": "scattering transform",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Feature Transform"
+      },
+      {
+        "concept": "scenario generation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Generation Method"
+      },
+      {
+        "concept": "self-supervised pre-training",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Training Strategy"
+      },
+      {
+        "concept": "similarity measure",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Metric"
+      },
+      {
+        "concept": "stochastic differential equation",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Stochastic Equation"
+      }
+    ]
+  },
+  "floater_map_v4_e08fa58192e1ded33d6435a7": {
+    "batch": [
+      "stochastic gradient",
+      "synthetic training data",
+      "transformer-based architecture",
+      "unpaired image-to-image translation",
+      "vector representation"
+    ],
+    "cache_key": "floater_llm_v4_18b164137fdf12cd8eb744f9",
+    "placements": [
+      {
+        "concept": "stochastic gradient",
+        "target_domain": "Mathematics",
+        "proposed_parent": "Gradient Estimate"
+      },
+      {
+        "concept": "synthetic training data",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Training Data"
+      },
+      {
+        "concept": "transformer-based architecture",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Neural Network Architecture"
+      },
+      {
+        "concept": "unpaired image-to-image translation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Image Translation Task"
+      },
+      {
+        "concept": "vector representation",
+        "target_domain": "Computer_Science",
+        "proposed_parent": "Data Representation"
+      }
+    ]
+  }
+}

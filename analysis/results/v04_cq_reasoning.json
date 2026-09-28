@@ -1,0 +1,213 @@
+{
+  "modes": [
+    "baseline",
+    "guided"
+  ],
+  "rollup": {
+    "baseline": {
+      "asserted_answerable": 11,
+      "materialized_answerable": 11,
+      "consistency": "consistent"
+    },
+    "guided": {
+      "asserted_answerable": 11,
+      "materialized_answerable": 11,
+      "consistency": "consistent"
+    }
+  },
+  "comparison": [
+    {
+      "id": "CQ1",
+      "question": "What are the subtypes of unsupervised learning?",
+      "category": "subsumption",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ2",
+      "question": "Which concepts are a kind of ML model?",
+      "category": "subsumption",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ3",
+      "question": "Is every concept reachable from a top-level domain?",
+      "category": "subsumption-coverage",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ4",
+      "question": "What does an algorithm optimize?",
+      "category": "object-property",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ5",
+      "question": "What optimizes cross-entropy / loss functions?",
+      "category": "object-property-targeted",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ6",
+      "question": "Which models perform classification?",
+      "category": "object-property-crossleaf",
+      "baseline_asserted": "gap",
+      "baseline_materialized": "gap",
+      "guided_asserted": "gap",
+      "guided_materialized": "gap",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ7",
+      "question": "What are the components of a neural network?",
+      "category": "object-property-transitive",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ8",
+      "question": "Given an objective, which algorithms optimize it?",
+      "category": "inverse-property",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ9",
+      "question": "What data does a model learn from, and what processes it?",
+      "category": "inverse-property",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ10",
+      "question": "What is the definition of gradient descent?",
+      "category": "annotation",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ11",
+      "question": "What alternative labels does a concept carry?",
+      "category": "annotation",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    },
+    {
+      "id": "CQ12",
+      "question": "Is the ontology consistent and are top-level domains disjoint?",
+      "category": "disjointness-consistency",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
+      "gained_by_inference": {
+        "baseline": false,
+        "guided": false
+      }
+    }
+  ],
+  "stability": {
+    "baseline": {
+      "runs_used": 1,
+      "answerable_rate": {
+        "CQ1": 1.0,
+        "CQ10": 1.0,
+        "CQ11": 1.0,
+        "CQ12": 0.0,
+        "CQ2": 1.0,
+        "CQ3": 1.0,
+        "CQ4": 1.0,
+        "CQ5": 1.0,
+        "CQ6": 0.0,
+        "CQ7": 1.0,
+        "CQ8": 1.0,
+        "CQ9": 1.0
+      }
+    },
+    "guided": {
+      "runs_used": 1,
+      "answerable_rate": {
+        "CQ1": 1.0,
+        "CQ10": 1.0,
+        "CQ11": 1.0,
+        "CQ12": 0.0,
+        "CQ2": 1.0,
+        "CQ3": 1.0,
+        "CQ4": 1.0,
+        "CQ5": 1.0,
+        "CQ6": 0.0,
+        "CQ7": 1.0,
+        "CQ8": 1.0,
+        "CQ9": 1.0
+      }
+    }
+  },
+  "note": "Real graph/reasoner CQ queries (S12 logic), not substring matching. 'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive semantics explicit in rdflib (faithful proxy for DL property inference); a CQ gained_by_inference is answerable by entailment. CQ12 consistency uses HermiT on the latest export; stability sweep is asserted-only (CQ12 uninformative there)."
+}

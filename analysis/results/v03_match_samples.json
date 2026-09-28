@@ -1,0 +1,1352 @@
+[
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Reinforcement Learning Policy",
+    "gold_label": "Reinforcement learning",
+    "score": 0.859,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Clustering",
+    "gold_label": "Unsupervised learning and clustering",
+    "score": 0.921,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Supervised Machine Learning",
+    "gold_label": "Supervised learning",
+    "score": 0.933,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Object Detector",
+    "gold_label": "Object detection",
+    "score": 0.874,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Sequential Monte Carlo",
+    "gold_label": "Sequential Monte Carlo methods",
+    "score": 0.921,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Adversarial Inverse Reinforcement Learning",
+    "gold_label": "Inverse reinforcement learning",
+    "score": 0.86,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Bayesian Inference",
+    "gold_label": "Bayesian analysis",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Structured Prediction Task",
+    "gold_label": "Structured prediction",
+    "score": 0.922,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Factorization Machine",
+    "gold_label": "Factorization methods",
+    "score": 0.866,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Distributed Computing Architecture",
+    "gold_label": "Distributed architectures",
+    "score": 0.871,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Nonnegative Matrix Factorization",
+    "gold_label": "Non-negative matrix factorization",
+    "score": 0.923,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Maximum Entropy",
+    "gold_label": "Maximum entropy modeling",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Dimensionality Reduction Technique",
+    "gold_label": "Dimensionality reduction",
+    "score": 0.93,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Learning Paradigm Model",
+    "gold_label": "Learning paradigms",
+    "score": 0.882,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Supervised Learning Classifier",
+    "gold_label": "Supervised learning",
+    "score": 0.869,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Computational Optimization",
+    "gold_label": "Optimization algorithms",
+    "score": 0.882,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Data Compression Representation",
+    "gold_label": "Data compression",
+    "score": 0.909,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Variational Approach",
+    "gold_label": "Variational methods",
+    "score": 0.944,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Probabilistic Inference Algorithm",
+    "gold_label": "Probabilistic inference problems",
+    "score": 0.867,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Object Tracking",
+    "gold_label": "Tracking",
+    "score": 0.864,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Gaussian Process Models",
+    "gold_label": "Gaussian processes",
+    "score": 0.905,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Probabilistic Graphical Model",
+    "gold_label": "Learning in probabilistic graphical models",
+    "score": 0.851,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Ensemble Learning Techniques",
+    "gold_label": "Ensemble methods",
+    "score": 0.897,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Hardware Security Architectures",
+    "gold_label": "Hardware security implementation",
+    "score": 0.883,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Mathematical Optimization And Analysis",
+    "gold_label": "Mathematical optimization",
+    "score": 0.909,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Stochastic Convex Optimization",
+    "gold_label": "Stochastic optimization",
+    "score": 0.875,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Image Generation Task",
+    "gold_label": "Image generation",
+    "score": 0.93,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Topic Model",
+    "gold_label": "Topic modeling",
+    "score": 0.937,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Compressed Sensing",
+    "gold_label": "Compressive sensing",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Object Detector",
+    "gold_label": "Object detection",
+    "score": 0.874,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Human Activity Recognition",
+    "gold_label": "Activity recognition",
+    "score": 0.911,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Information Retrieval Task",
+    "gold_label": "Information retrieval",
+    "score": 0.852,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Model Compression Algorithm",
+    "gold_label": "Model compression",
+    "score": 0.916,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Change Detection",
+    "gold_label": "Change point detection",
+    "score": 0.861,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Causal Model",
+    "gold_label": "Causal inference",
+    "score": 0.852,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Automatic Speech Recognition",
+    "gold_label": "Speech recognition",
+    "score": 0.865,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Semi-Supervised Learning",
+    "gold_label": "Semi-supervised image classification",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Representation Learning Algorithm",
+    "gold_label": "Representation learning",
+    "score": 0.865,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Source-Free Domain Adaptation",
+    "gold_label": "Domain adaptation",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Multilabel Classification Task",
+    "gold_label": "Multi-label classification",
+    "score": 0.867,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Causal Analysis",
+    "gold_label": "Causal inference",
+    "score": 0.857,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Multi-Source Domain Adaptation",
+    "gold_label": "Domain adaptation",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Probabilistic Inference",
+    "gold_label": "Bayesian inference",
+    "score": 0.85,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Adversarial Attack Types",
+    "gold_label": "Adversarial attack",
+    "score": 0.859,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Clustering Algorithm",
+    "gold_label": "Clustering",
+    "score": 0.903,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Representation Learning Task",
+    "gold_label": "Representation learning",
+    "score": 0.877,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Neural Architecture Search Algorithm",
+    "gold_label": "Neural architecture search",
+    "score": 0.945,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Black Box Adversarial Attack",
+    "gold_label": "Adversarial attack",
+    "score": 0.857,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Reasoning And Inference Task",
+    "gold_label": "Inference and reasoning",
+    "score": 0.905,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Ml Representation Learning",
+    "gold_label": "Representation learning",
+    "score": 0.853,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Data Preparation And Processing",
+    "gold_label": "Data Preparation",
+    "score": 0.936,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Dimensionality Reduction Algorithm",
+    "gold_label": "Dimensionality Reduction",
+    "score": 0.911,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Deep Convolutional Neural Network",
+    "gold_label": "Deep Convolutional Network",
+    "score": 0.959,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Manifold Learning Embedding",
+    "gold_label": "Manifold Learning",
+    "score": 0.857,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Regression",
+    "gold_label": "Regression Analysis",
+    "score": 0.875,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Lifelong Learning",
+    "gold_label": "Lifelong Learning LLM",
+    "score": 0.878,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Boltzmann Machine",
+    "gold_label": "Boltzmann Machine Network",
+    "score": 0.882,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Dimensionality Reduction Technique",
+    "gold_label": "Dimensionality Reduction",
+    "score": 0.93,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Neural Network",
+    "gold_label": "Artificial Neural Network",
+    "score": 0.884,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Learning Algorithm",
+    "gold_label": "Unsupervised Learning",
+    "score": 0.889,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Self Supervised Learning Task",
+    "gold_label": "Self-supervised Learning",
+    "score": 0.876,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Deep Network",
+    "gold_label": "Deep Neural Network",
+    "score": 0.942,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Convolutional Long Short-Term Memory",
+    "gold_label": "Long Short Term Memory",
+    "score": 0.854,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "K-Nearest Neighbors",
+    "gold_label": "K-nearest Neighbor Algorithm",
+    "score": 0.9,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Reinforcement Learning Policy",
+    "gold_label": "Reinforcement Learning",
+    "score": 0.859,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Feature Extraction Task",
+    "gold_label": "Feature Extraction",
+    "score": 0.902,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Clustering Task",
+    "gold_label": "Clustering",
+    "score": 0.856,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Bayesian Neural Network",
+    "gold_label": "Bayesian Network",
+    "score": 0.858,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Deep Recurrent Neural Network",
+    "gold_label": "Recurrent Neural Network",
+    "score": 0.915,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Supervised Classification",
+    "gold_label": "Supervised Learning",
+    "score": 0.889,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Variational Autoencoder",
+    "gold_label": "Variational Auto Encoder",
+    "score": 0.954,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Federated Machine Learning",
+    "gold_label": "Federated Learning",
+    "score": 0.873,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Deep Learning",
+    "gold_label": "Deep Neural Network",
+    "score": 0.872,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Convolutional Neural Network",
+    "gold_label": "Deep Convolutional Network",
+    "score": 0.902,
+    "correct": null
+  },
+  {
+    "mode": "baseline",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Nonlinear Dimensionality Reduction",
+    "gold_label": "Dimensionality Reduction",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Mathematical Game Theory",
+    "gold_label": "Algorithmic game theory",
+    "score": 0.89,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Nonlinear Dimensionality Reduction",
+    "gold_label": "Dimensionality reduction",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Multi-Agent Deep Reinforcement Learning",
+    "gold_label": "Multi-agent reinforcement learning",
+    "score": 0.874,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Mathematical Optimization And Analysis",
+    "gold_label": "Mathematical optimization",
+    "score": 0.909,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Factorization Machine",
+    "gold_label": "Factorization methods",
+    "score": 0.866,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Sequential Decision Task",
+    "gold_label": "Sequential decision making",
+    "score": 0.888,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Maximum Likelihood Estimator",
+    "gold_label": "Maximum likelihood estimation",
+    "score": 0.928,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Maximum Entropy",
+    "gold_label": "Maximum entropy modeling",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "General Unsupervised Learning",
+    "gold_label": "Unsupervised learning",
+    "score": 0.882,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Modeling & Simulation",
+    "gold_label": "Modeling and simulation",
+    "score": 0.968,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Learning Algorithm",
+    "gold_label": "Unsupervised learning",
+    "score": 0.889,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Information Theory Methods",
+    "gold_label": "Information theory",
+    "score": 0.879,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Ensemble Learning Algorithm",
+    "gold_label": "Ensemble methods",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Foundational Trust Framework",
+    "gold_label": "Trust frameworks",
+    "score": 0.858,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "General Architectures",
+    "gold_label": "Architectures",
+    "score": 0.891,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Estimation Model",
+    "gold_label": "Estimation",
+    "score": 0.858,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Feature Learning",
+    "gold_label": "Unsupervised learning",
+    "score": 0.865,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Quantum Computing Model",
+    "gold_label": "Quantum computing",
+    "score": 0.875,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "General Frameworks",
+    "gold_label": "Frameworks",
+    "score": 0.895,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Approximate Bayesian Computation",
+    "gold_label": "Bayesian computation",
+    "score": 0.854,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Boosting Algorithm",
+    "gold_label": "Boosting",
+    "score": 0.897,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Sequential Monte Carlo",
+    "gold_label": "Sequential Monte Carlo methods",
+    "score": 0.921,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Task Specific Models",
+    "gold_label": "Task models",
+    "score": 0.929,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Bayesian Methods",
+    "gold_label": "Bayesian analysis",
+    "score": 0.888,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ccs",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Clustering",
+    "gold_label": "Unsupervised learning and clustering",
+    "score": 0.921,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Synthetic Data",
+    "gold_label": "Synthetic data generation",
+    "score": 0.851,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Classification",
+    "gold_label": "General classification",
+    "score": 0.869,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Causal Model",
+    "gold_label": "Causal inference",
+    "score": 0.852,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Adversarial Defense Mechanism",
+    "gold_label": "Adversarial defense",
+    "score": 0.918,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Information Retrieval Task",
+    "gold_label": "Information retrieval",
+    "score": 0.852,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Quantization Algorithm",
+    "gold_label": "Quantization",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Reinforcement Learning Strategy",
+    "gold_label": "Reinforcement learning",
+    "score": 0.877,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Source-Free Domain Adaptation",
+    "gold_label": "Domain adaptation",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Meta Learning Algorithms",
+    "gold_label": "Meta-learning",
+    "score": 0.866,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Deep Metric Learning",
+    "gold_label": "Metric learning",
+    "score": 0.851,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Hyperparameter",
+    "gold_label": "Hyperparameter optimization",
+    "score": 0.851,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Adversarial Attack Types",
+    "gold_label": "Adversarial attack",
+    "score": 0.859,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Multi-Agent Deep Reinforcement Learning",
+    "gold_label": "Multi-agent reinforcement learning",
+    "score": 0.874,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Few Shot Classification",
+    "gold_label": "Generalized few-shot classification",
+    "score": 0.915,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Stochastic Optimization Algorithm",
+    "gold_label": "Stochastic optimization",
+    "score": 0.926,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Sparse Representation",
+    "gold_label": "Sparse representation-based classification",
+    "score": 0.867,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Vertical Federated Learning",
+    "gold_label": "Federated learning",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Continual Learning Algorithms",
+    "gold_label": "Continual learning",
+    "score": 0.9,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Adversarial Models",
+    "gold_label": "Adversarial attack",
+    "score": 0.868,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Decentralized Federated Learning",
+    "gold_label": "Federated learning",
+    "score": 0.889,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Ensemble Clustering",
+    "gold_label": "Clustering ensemble",
+    "score": 0.983,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Posterior Inference",
+    "gold_label": "Bayesian inference",
+    "score": 0.871,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Bayesian Methods",
+    "gold_label": "Bayesian inference",
+    "score": 0.852,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Multi Target Regression Task",
+    "gold_label": "Multi-target regression",
+    "score": 0.918,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "ito",
+    "kind": "semantic",
+    "generated_label": "Knowledge Base",
+    "gold_label": "Knowledge base process",
+    "score": 0.858,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Normalization Regularization",
+    "gold_label": "Normalization",
+    "score": 0.875,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Continual Learning Algorithms",
+    "gold_label": "Continual Learning",
+    "score": 0.9,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Radial Basis Function Network",
+    "gold_label": "Radial Basis Network",
+    "score": 0.931,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Graph Convolutional Neural Network",
+    "gold_label": "Graph Convolutional Network",
+    "score": 0.949,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Bayesian Neural Network",
+    "gold_label": "Bayesian Network",
+    "score": 0.858,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Clustering Algorithm",
+    "gold_label": "Clustering",
+    "score": 0.903,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Ensemble Methods",
+    "gold_label": "Ensemble Learning",
+    "score": 0.867,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Kernel Ridge Regression",
+    "gold_label": "Ridge Regression",
+    "score": 0.871,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Feature Extraction Method",
+    "gold_label": "Feature Extraction",
+    "score": 0.914,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Nonlinear Dimensionality Reduction",
+    "gold_label": "Dimensionality Reduction",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Reinforcement Learning Optimization",
+    "gold_label": "Reinforcement Learning",
+    "score": 0.861,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Clustering Analysis",
+    "gold_label": "Clustering",
+    "score": 0.867,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Representation Learning Algorithm",
+    "gold_label": "Representation Learning",
+    "score": 0.865,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Vertical Federated Learning",
+    "gold_label": "Federated Learning",
+    "score": 0.881,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Reinforcement Learning Strategy",
+    "gold_label": "Reinforcement Learning",
+    "score": 0.877,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Multimodallearning",
+    "gold_label": "Multimodal Learning",
+    "score": 0.88,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Spatial Regression Task",
+    "gold_label": "Spatial Regression",
+    "score": 0.919,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Conditional Variational Autoencoder",
+    "gold_label": "Variational Auto Encoder",
+    "score": 0.868,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Feed-Forward Neural Network",
+    "gold_label": "Deep Feed-Forward Network",
+    "score": 0.863,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Supervised Classification",
+    "gold_label": "Supervised Learning",
+    "score": 0.889,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Unsupervised Feature Learning",
+    "gold_label": "Unsupervised Learning",
+    "score": 0.865,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Topic Model",
+    "gold_label": "Probabilistic Topic Model",
+    "score": 0.851,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Feature Extraction Task",
+    "gold_label": "Feature Extraction",
+    "score": 0.902,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Clustering And Grouping",
+    "gold_label": "Clustering",
+    "score": 0.915,
+    "correct": null
+  },
+  {
+    "mode": "guided",
+    "gold": "aio",
+    "kind": "semantic",
+    "generated_label": "Binary Classifier",
+    "gold_label": "Binary Classification",
+    "score": 0.864,
+    "correct": null
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "stage": "s12_quality_gate",
+  "run_id": "20260911-180019",
+  "input_owl": "runs/guided/artifacts/s11_export_owl/20260828-130730__15832df2.owl",
+  "verdict": "pass",
+  "hard_failures": [],
+  "consistency": {
+    "status": "consistent",
+    "inconsistent_classes": [],
+    "reasoner_error": null
+  },
+  "subclass_cycles": [],
+  "metrics": {
+    "class_count": 2121,
+    "concept_count": 2104,
+    "skeleton_count": 17,
+    "max_depth": 15,
+    "branching_factor": 2.29,
+    "pct_with_parent": 1.0,
+    "pct_with_property": 0.2395,
+    "orphan_count": 0,
+    "orphan_ratio": 0.0
+  },
+  "metric_warnings": [],
+  "orphans": [],
+  "pitfalls": [],
+  "competency_questions": {
+    "total": 12,
+    "answerable": 11,
+    "gaps": 1,
+    "results": [
+      {
+        "id": "CQ1",
+        "question": "What are the subtypes of unsupervised learning?",
+        "category": "subsumption",
+        "status": "answerable",
+        "detail": "13 direct subclasses, 29 descendants across 5 root(s)"
+      },
+      {
+        "id": "CQ2",
+        "question": "Which concepts are a kind of ML model?",
+        "category": "subsumption",
+        "status": "answerable",
+        "detail": "302 descendants"
+      },
+      {
+        "id": "CQ3",
+        "question": "Is every concept reachable from a top-level domain?",
+        "category": "subsumption-coverage",
+        "status": "answerable",
+        "detail": "5/5 top-level roots present"
+      },
+      {
+        "id": "CQ4",
+        "question": "What does an algorithm optimize?",
+        "category": "object-property",
+        "status": "answerable",
+        "detail": "93 optimizes edges"
+      },
+      {
+        "id": "CQ5",
+        "question": "What optimizes cross-entropy / loss functions?",
+        "category": "object-property-targeted",
+        "status": "answerable",
+        "detail": "2 optimizers targeting 2 loss class(es)"
+      },
+      {
+        "id": "CQ6",
+        "question": "Which models perform classification?",
+        "category": "object-property-crossleaf",
+        "status": "answerable",
+        "detail": "1 performers targeting 2 classification class(es)"
+      },
+      {
+        "id": "CQ7",
+        "question": "What are the components of a neural network?",
+        "category": "object-property-transitive",
+        "status": "answerable",
+        "detail": "18 architectural components across 28 neural network classes"
+      },
+      {
+        "id": "CQ8",
+        "question": "Given an objective, which algorithms optimize it?",
+        "category": "inverse-property",
+        "status": "answerable",
+        "detail": "14 optimizers targeting 2 objective class(es)"
+      },
+      {
+        "id": "CQ9",
+        "question": "What data does a model learn from, and what processes it?",
+        "category": "inverse-property",
+        "status": "answerable",
+        "detail": "5 data learning/processing edges targeting 5 data class(es)"
+      },
+      {
+        "id": "CQ10",
+        "question": "What is the definition of gradient descent?",
+        "category": "annotation",
+        "status": "answerable",
+        "detail": "15 definition/comment literals"
+      },
+      {
+        "id": "CQ11",
+        "question": "What alternative labels does a concept carry?",
+        "category": "annotation",
+        "status": "gap",
+        "detail": "0 altLabels"
+      },
+      {
+        "id": "CQ12",
+        "question": "Is the ontology consistent and are top-level domains disjoint?",
+        "category": "disjointness-consistency",
+        "status": "answerable",
+        "detail": "consistent (HermiT verified); top-level disjointness declared=True"
+      }
+    ]
+  },
+  "functional_archetypes": {
+    "population_classes": 2104,
+    "subtypes_coverage": {
+      "count": 907,
+      "rate": 0.4311
+    },
+    "categorisation_coverage": {
+      "count": 1692,
+      "rate": 0.8042
+    },
+    "definition_coverage": {
+      "count": 886,
+      "rate": 0.4211
+    },
+    "relation_subject_coverage": {
+      "count": 504,
+      "rate": 0.2395
+    },
+    "relation_object_coverage": {
+      "count": 433,
+      "rate": 0.2058
+    }
+  },
+  "thresholds": {
+    "min_class_count": 10,
+    "min_max_depth": 2,
+    "max_max_depth": 15,
+    "min_pct_with_parent": 0.9,
+    "min_pct_with_property": 0.05,
+    "max_orphan_ratio": 0.1
+  }
+}
