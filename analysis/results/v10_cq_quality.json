@@ -5,137 +5,137 @@
     "ito_full": false
   },
   "owls": {
-    "baseline": "/home/hamdi/Desktop/Ontololgy/undermind.ai/ssep_pipeline/test_result/pipeline_v2/ontologies/scop_baseline.owl",
-    "guided": "/home/hamdi/Desktop/Ontololgy/undermind.ai/ssep_pipeline/test_result/pipeline_v2/ontologies/scop_guided.owl"
+    "baseline": "/home/hamdi/Desktop/ICAART_2027/ontologies/scop_baseline.owl",
+    "guided": "/home/hamdi/Desktop/ICAART_2027/ontologies/scop_guided.owl"
   },
   "part_a": {
     "baseline": {
       "define": {
-        "rate": 0.3919,
-        "answerable": 812,
-        "population": 2072,
+        "rate": 0.3962,
+        "answerable": 807,
+        "population": 2037,
         "ci": [
-          0.3711,
-          0.4126
+          0.376,
+          0.4188
         ]
       },
       "comment": {
-        "rate": 0.3958,
-        "answerable": 820,
-        "population": 2072,
+        "rate": 0.4094,
+        "answerable": 834,
+        "population": 2037,
         "ci": [
-          0.375,
-          0.417
+          0.3888,
+          0.4325
         ]
       },
       "synonyms": {
-        "rate": 0.1153,
-        "answerable": 239,
-        "population": 2072,
+        "rate": 0.1168,
+        "answerable": 238,
+        "population": 2037,
         "ci": [
-          0.1023,
-          0.1284
+          0.1036,
+          0.1311
         ]
       },
       "subtypes": {
-        "rate": 0.4194,
-        "answerable": 869,
-        "population": 2072,
+        "rate": 0.4089,
+        "answerable": 833,
+        "population": 2037,
         "ci": [
-          0.3977,
-          0.4416
+          0.3868,
+          0.4315
         ]
       },
       "categorise": {
-        "rate": 0.7563,
-        "answerable": 1567,
-        "population": 2072,
+        "rate": 0.785,
+        "answerable": 1599,
+        "population": 2037,
         "ci": [
-          0.7365,
-          0.7736
+          0.7673,
+          0.8022
         ]
       },
       "relates_out": {
-        "rate": 0.2138,
-        "answerable": 443,
-        "population": 2072,
+        "rate": 0.2165,
+        "answerable": 441,
+        "population": 2037,
         "ci": [
-          0.1969,
-          0.2317
+          0.1988,
+          0.2351
         ]
       },
       "relates_in": {
-        "rate": 0.194,
-        "answerable": 402,
-        "population": 2072,
+        "rate": 0.1969,
+        "answerable": 401,
+        "population": 2037,
         "ci": [
-          0.1766,
-          0.2104
+          0.1807,
+          0.2135
         ]
       }
     },
     "guided": {
       "define": {
-        "rate": 0.3996,
-        "answerable": 844,
-        "population": 2112,
+        "rate": 0.4067,
+        "answerable": 843,
+        "population": 2073,
         "ci": [
-          0.3783,
-          0.4209
+          0.3854,
+          0.4293
         ]
       },
       "comment": {
-        "rate": 0.4048,
-        "answerable": 855,
-        "population": 2112,
+        "rate": 0.4178,
+        "answerable": 866,
+        "population": 2073,
         "ci": [
-          0.3835,
-          0.4257
+          0.396,
+          0.4399
         ]
       },
       "synonyms": {
-        "rate": 0.1146,
+        "rate": 0.1167,
         "answerable": 242,
-        "population": 2112,
+        "population": 2073,
         "ci": [
-          0.1018,
-          0.1288
+          0.1032,
+          0.1302
         ]
       },
       "subtypes": {
-        "rate": 0.4152,
-        "answerable": 877,
-        "population": 2112,
+        "rate": 0.4033,
+        "answerable": 836,
+        "population": 2073,
         "ci": [
-          0.3925,
-          0.4366
+          0.3825,
+          0.424
         ]
       },
       "categorise": {
-        "rate": 0.7277,
-        "answerable": 1537,
-        "population": 2112,
+        "rate": 0.7419,
+        "answerable": 1538,
+        "population": 2073,
         "ci": [
-          0.7093,
-          0.7467
+          0.7231,
+          0.7612
         ]
       },
       "relates_out": {
-        "rate": 0.2211,
-        "answerable": 467,
-        "population": 2112,
+        "rate": 0.2248,
+        "answerable": 466,
+        "population": 2073,
         "ci": [
-          0.205,
-          0.2396
+          0.2079,
+          0.2431
         ]
       },
       "relates_in": {
-        "rate": 0.196,
+        "rate": 0.1997,
         "answerable": 414,
-        "population": 2112,
+        "population": 2073,
         "ci": [
-          0.1804,
-          0.2126
+          0.1823,
+          0.2156
         ]
       }
     }
@@ -145,86 +145,86 @@
       "blurb": "ACM CCS 2012 (institutional human curation; skos:broader)",
       "baseline": {
         "strict": {
-          "matched_concepts": 133,
+          "matched_concepts": 128,
           "subsumption_recall": {
-            "point": 0.0263,
+            "point": 0.1714,
             "ci": [
-              0.0,
-              0.0789
+              0.0571,
+              0.2857
             ],
-            "n_expert_pairs": 38
+            "n_expert_pairs": 35
           },
           "subsumption_precision": {
-            "point": 0.1667,
+            "point": 0.5,
             "ci": [
-              0.0,
-              0.4167
+              0.2143,
+              0.7857
             ],
-            "n_asserted_pairs": 12
+            "n_asserted_pairs": 14
           },
-          "subsumption_f1": 0.0454
+          "subsumption_f1": 0.2553
         },
         "with_semantic": {
-          "matched_concepts": 158,
+          "matched_concepts": 160,
           "subsumption_recall": {
-            "point": 0.0816,
+            "point": 0.1633,
             "ci": [
-              0.0204,
-              0.1633
+              0.0612,
+              0.2653
             ],
             "n_expert_pairs": 49
           },
           "subsumption_precision": {
-            "point": 0.1515,
+            "point": 0.25,
             "ci": [
-              0.0303,
-              0.2727
+              0.1071,
+              0.4286
             ],
-            "n_asserted_pairs": 33
+            "n_asserted_pairs": 28
           },
-          "subsumption_f1": 0.1061
+          "subsumption_f1": 0.1976
         }
       },
       "guided": {
         "strict": {
-          "matched_concepts": 138,
+          "matched_concepts": 131,
           "subsumption_recall": {
-            "point": 0.1538,
+            "point": 0.1176,
             "ci": [
-              0.0513,
-              0.2821
+              0.0294,
+              0.2353
             ],
-            "n_expert_pairs": 39
+            "n_expert_pairs": 34
           },
           "subsumption_precision": {
-            "point": 0.3529,
+            "point": 0.3333,
             "ci": [
-              0.1176,
-              0.5882
+              0.0833,
+              0.5833
             ],
-            "n_asserted_pairs": 17
+            "n_asserted_pairs": 12
           },
-          "subsumption_f1": 0.2142
+          "subsumption_f1": 0.1739
         },
         "with_semantic": {
-          "matched_concepts": 168,
+          "matched_concepts": 162,
           "subsumption_recall": {
-            "point": 0.1887,
+            "point": 0.1667,
             "ci": [
-              0.0943,
-              0.3019
+              0.0625,
+              0.2917
             ],
-            "n_expert_pairs": 53
+            "n_expert_pairs": 48
           },
           "subsumption_precision": {
-            "point": 0.2571,
+            "point": 0.2759,
             "ci": [
-              0.1143,
-              0.4
+              0.1379,
+              0.4483
             ],
-            "n_asserted_pairs": 35
+            "n_asserted_pairs": 29
           },
-          "subsumption_f1": 0.2177
+          "subsumption_f1": 0.2078
         }
       }
     },
@@ -232,49 +232,49 @@
       "blurb": "ITO (manual expert curation; AI task hierarchy)",
       "baseline": {
         "strict": {
-          "matched_concepts": 117,
+          "matched_concepts": 116,
           "subsumption_recall": {
-            "point": 0.08,
+            "point": 0.0417,
             "ci": [
               0.0,
-              0.2
+              0.125
             ],
-            "n_expert_pairs": 25
+            "n_expert_pairs": 24
           },
           "subsumption_precision": {
-            "point": 0.25,
+            "point": 0.1429,
             "ci": [
               0.0,
-              0.5
+              0.4286
             ],
-            "n_asserted_pairs": 8
+            "n_asserted_pairs": 7
           },
-          "subsumption_f1": 0.1212
+          "subsumption_f1": 0.0646
         },
         "with_semantic": {
           "matched_concepts": 135,
           "subsumption_recall": {
-            "point": 0.1538,
+            "point": 0.1429,
             "ci": [
-              0.0513,
-              0.2821
+              0.0571,
+              0.2571
             ],
-            "n_expert_pairs": 39
+            "n_expert_pairs": 35
           },
           "subsumption_precision": {
-            "point": 0.3333,
+            "point": 0.4444,
             "ci": [
-              0.1333,
-              0.6
+              0.2222,
+              0.6667
             ],
-            "n_asserted_pairs": 15
+            "n_asserted_pairs": 18
           },
-          "subsumption_f1": 0.2105
+          "subsumption_f1": 0.2163
         }
       },
       "guided": {
         "strict": {
-          "matched_concepts": 105,
+          "matched_concepts": 104,
           "subsumption_recall": {
             "point": 0.0417,
             "ci": [
@@ -294,7 +294,7 @@
           "subsumption_f1": 0.0625
         },
         "with_semantic": {
-          "matched_concepts": 129,
+          "matched_concepts": 128,
           "subsumption_recall": {
             "point": 0.027,
             "ci": [
@@ -319,44 +319,44 @@
       "blurb": "AIO (expert + LLM-assisted; ML model/architecture is-a) — supplementary",
       "baseline": {
         "strict": {
-          "matched_concepts": 64,
+          "matched_concepts": 65,
           "subsumption_recall": {
-            "point": 0.0323,
+            "point": 0.0,
             "ci": [
               0.0,
-              0.0968
+              0.0
             ],
-            "n_expert_pairs": 31
+            "n_expert_pairs": 49
           },
           "subsumption_precision": {
-            "point": 0.5,
+            "point": 1.0,
             "ci": [
-              0.0,
+              1.0,
               1.0
             ],
-            "n_asserted_pairs": 2
+            "n_asserted_pairs": 1
           },
-          "subsumption_f1": 0.0607
+          "subsumption_f1": 0.0
         },
         "with_semantic": {
-          "matched_concepts": 80,
+          "matched_concepts": 82,
           "subsumption_recall": {
-            "point": 0.2045,
+            "point": 0.0968,
             "ci": [
-              0.0909,
-              0.3409
+              0.0323,
+              0.1774
             ],
-            "n_expert_pairs": 44
+            "n_expert_pairs": 62
           },
           "subsumption_precision": {
-            "point": 0.3333,
+            "point": 0.2105,
             "ci": [
-              0.1111,
-              0.5556
+              0.0526,
+              0.4211
             ],
-            "n_asserted_pairs": 18
+            "n_asserted_pairs": 19
           },
-          "subsumption_f1": 0.2535
+          "subsumption_f1": 0.1326
         }
       },
       "guided": {
@@ -381,24 +381,24 @@
           "subsumption_f1": 0.069
         },
         "with_semantic": {
-          "matched_concepts": 80,
+          "matched_concepts": 78,
           "subsumption_recall": {
-            "point": 0.1,
+            "point": 0.1017,
             "ci": [
-              0.0333,
-              0.1833
+              0.0339,
+              0.1864
             ],
-            "n_expert_pairs": 60
+            "n_expert_pairs": 59
           },
           "subsumption_precision": {
-            "point": 0.25,
+            "point": 0.2222,
             "ci": [
               0.0,
-              0.5
+              0.5556
             ],
-            "n_asserted_pairs": 12
+            "n_asserted_pairs": 9
           },
-          "subsumption_f1": 0.1429
+          "subsumption_f1": 0.1395
         }
       }
     }

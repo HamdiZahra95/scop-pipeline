@@ -5,82 +5,82 @@
   ],
   "per_mode": {
     "baseline": {
-      "concepts_total": 2088,
-      "content_concepts": 1173,
-      "scaffolding_concepts": 915,
-      "corpus_attestation_rate": 0.6922,
+      "concepts_total": 2049,
+      "content_concepts": 1162,
+      "scaffolding_concepts": 887,
+      "corpus_attestation_rate": 0.6954,
       "f_bands": {
-        "f0_not_attested": 361,
+        "f0_not_attested": 354,
         "f_1_10": 0,
-        "f_gt_10": 812
+        "f_gt_10": 808
       },
-      "object_property_edges": 950,
-      "literal_annotations": 8472,
-      "demotion_ratio": 0.8992,
-      "dangling_target_rate": 0.2979,
-      "dangling_targets": 283,
+      "object_property_edges": 948,
+      "literal_annotations": 8435,
+      "demotion_ratio": 0.899,
+      "dangling_target_rate": 0.2627,
+      "dangling_targets": 249,
       "edge_provenance_rate": 1.0,
-      "owl_concept_classes": 2072,
-      "definition_coverage": 0.3919,
-      "altlabel_coverage": 0.1153,
-      "comment_coverage": 0.3958,
-      "_s10": "20260925-161821__88cb791f.json",
+      "owl_concept_classes": 2037,
+      "definition_coverage": 0.3962,
+      "altlabel_coverage": 0.1168,
+      "comment_coverage": 0.4094,
+      "_s10": "20260928-200257__88cb791f.json",
       "_owl": "scop_baseline.owl"
     },
     "guided": {
-      "concepts_total": 2130,
-      "content_concepts": 1215,
-      "scaffolding_concepts": 915,
-      "corpus_attestation_rate": 0.6947,
+      "concepts_total": 2089,
+      "content_concepts": 1213,
+      "scaffolding_concepts": 876,
+      "corpus_attestation_rate": 0.695,
       "f_bands": {
-        "f0_not_attested": 371,
+        "f0_not_attested": 370,
         "f_1_10": 31,
-        "f_gt_10": 813
+        "f_gt_10": 812
       },
-      "object_property_edges": 997,
-      "literal_annotations": 8595,
-      "demotion_ratio": 0.8961,
-      "dangling_target_rate": 0.2477,
-      "dangling_targets": 247,
+      "object_property_edges": 995,
+      "literal_annotations": 8605,
+      "demotion_ratio": 0.8964,
+      "dangling_target_rate": 0.2492,
+      "dangling_targets": 248,
       "edge_provenance_rate": 1.0,
-      "owl_concept_classes": 2112,
-      "definition_coverage": 0.3996,
-      "altlabel_coverage": 0.1146,
-      "comment_coverage": 0.4048,
-      "_s10": "20260925-125956__88cb791f.json",
+      "owl_concept_classes": 2073,
+      "definition_coverage": 0.4067,
+      "altlabel_coverage": 0.1167,
+      "comment_coverage": 0.4178,
+      "_s10": "20260928-210116__88cb791f.json",
       "_owl": "scop_guided.owl"
     }
   },
   "comparison": {
     "content_concepts": {
-      "baseline": 1173,
-      "guided": 1215,
-      "delta": 42
+      "baseline": 1162,
+      "guided": 1213,
+      "delta": 51
     },
     "corpus_attestation_rate": {
-      "baseline": 0.6922,
-      "guided": 0.6947,
-      "delta": 0.0025
+      "baseline": 0.6954,
+      "guided": 0.695,
+      "delta": -0.0004
     },
     "object_property_edges": {
-      "baseline": 950,
-      "guided": 997,
+      "baseline": 948,
+      "guided": 995,
       "delta": 47
     },
     "literal_annotations": {
-      "baseline": 8472,
-      "guided": 8595,
-      "delta": 123
+      "baseline": 8435,
+      "guided": 8605,
+      "delta": 170
     },
     "demotion_ratio": {
-      "baseline": 0.8992,
-      "guided": 0.8961,
-      "delta": -0.0031
+      "baseline": 0.899,
+      "guided": 0.8964,
+      "delta": -0.0026
     },
     "dangling_target_rate": {
-      "baseline": 0.2979,
-      "guided": 0.2477,
-      "delta": -0.0502
+      "baseline": 0.2627,
+      "guided": 0.2492,
+      "delta": -0.0135
     },
     "edge_provenance_rate": {
       "baseline": 1.0,
@@ -88,19 +88,19 @@
       "delta": 0.0
     },
     "definition_coverage": {
-      "baseline": 0.3919,
-      "guided": 0.3996,
-      "delta": 0.0077
+      "baseline": 0.3962,
+      "guided": 0.4067,
+      "delta": 0.0105
     },
     "altlabel_coverage": {
-      "baseline": 0.1153,
-      "guided": 0.1146,
-      "delta": -0.0007
+      "baseline": 0.1168,
+      "guided": 0.1167,
+      "delta": -0.0001
     },
     "comment_coverage": {
-      "baseline": 0.3958,
-      "guided": 0.4048,
-      "delta": 0.009
+      "baseline": 0.4094,
+      "guided": 0.4178,
+      "delta": 0.0084
     }
   },
   "note": "Grounding/provenance from the final formalized DB (S10); definition/altLabel coverage from the S11 OWL. corpus_attestation_rate = content concepts with corpus frequency f>0; f==0 content are promoted/materialized/reference-injected concepts that are structurally present but not corpus-attested. dangling_target_rate is a hallucination/ungrounded-target proxy (edge targets that are not a node)."

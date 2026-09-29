@@ -1,0 +1,1646 @@
+# Ontology Tree
+
+Source: `20260816-101945__eb24b73e.owl`  
+Total named classes: **1641**
+
+- Biology  _(1)_
+  - Spike-Timing Dependent Plasticity
+- Computer Science  _(18)_
+  - Algorithms  _(1)_
+    - Distributed Algorithm
+  - Artificial Intelligence  _(12)_
+    - Abductive Reasoning
+    - Ai Applications And Evaluation  _(2)_
+      - Ai Systems  _(1)_
+        - Recommendation System  _(1)_
+          - Session-Based Recommendation
+      - Ai Tasks  _(4)_
+        - Audio Classification Task  _(1)_
+          - Acoustic Scene Classification
+        - Ctr Prediction Task
+        - Detection Task  _(1)_
+          - Fake News Detection
+        - Recognition Task  _(2)_
+          - Emotion Recognition
+          - Gesture Recognition
+    - Automated Theorem Proving
+    - Heuristic Search Algorithm  _(1)_
+      - Evolutionary Computation  _(1)_
+        - Genetic Programming
+    - Knowledge Acquisition
+    - Knowledge Representation  _(1)_
+      - Knowledge Graph  _(1)_
+        - Gene Interaction Graph
+    - Machine Learning  _(107)_
+      - Adversarial Sample
+      - Bandit Algorithm  _(1)_
+        - Upper Confidence Bound Algorithm
+      - Concurrent Learning
+      - Contextual Embedding
+      - Convex Program
+      - Data Analytics
+      - Deep Gaussian Process
+      - Deep Generative Model
+      - Deep Image Prior
+      - Deep Learning
+      - Deep Learning Classifier
+      - Deep Network
+      - Denoising
+      - Diffusion Model
+      - Diffusion Probabilistic Model
+      - Distribution Shift
+      - Domain Shift
+      - Dynamic Learning Rate
+      - Dynamical System
+      - Epistemic Uncertainty
+      - Explanation
+      - Feature Embedding
+      - Feature Representation Learning
+      - Few-Shot Learning
+      - Game Theory  _(1)_
+        - Nash Equilibrium
+      - Gaussian Process Regression
+      - Generalization Bound
+      - Generative Model  _(7)_
+        - Autoencoder-Based Models  _(3)_
+          - Autoencoder Based Model  _(1)_
+            - Graph Autoencoder
+          - Conditional Variational Autoencoder
+          - World Model
+        - Diffusion And Score-Based Models  _(1)_
+          - Score-Based Generative Model
+        - Flow-Based Models  _(2)_
+          - Flow-Based Generative Model
+          - Remove (Redundant With Flow-Based Generative Model)  _(1)_
+            - Normalizing Flow
+        - Gan-Based Models
+        - Gaussian Mixture Model
+        - Generative Neural Network  _(2)_
+          - Remove (Redundant With Generative Neural Network)
+          - Wasserstein Autoencoder
+        - Probabilistic And Functional Model  _(3)_
+          - Adaptive Neuro Fuzzy Inference System
+          - Neural Ordinary Differential Equation
+          - Radial Basis Function Neural Network
+      - Generative Network
+      - Graph Representation
+      - Hidden Markov Model
+      - Hyperparameter Tuning
+      - Imitation Learning
+      - Invariant Predictor
+      - Kernel Function
+      - Kernel Methods  _(2)_
+        - Positive Definite Kernel
+        - Reproducing Kernel Hilbert Space
+      - Learning Paradigm  _(23)_
+        - Advanced Learning Paradigms  _(1)_
+          - Meta-Learning  _(2)_
+            - Meta Algorithm  _(1)_
+              - Model-Agnostic Meta-Learning
+            - Meta-Learner
+        - Collaborative Learning
+        - Continual Learning
+        - Core Learning Paradigms  _(3)_
+          - Motivation Driven Learning  _(1)_
+            - Intrinsic Motivation
+          - Optimization Based Learning
+          - Transfer Learning  _(2)_
+            - Domain Adaptation Technique  _(2)_
+              - Adversarial Domain Adaptation
+              - Multi-Source Domain Adaptation
+            - Knowledge Transfer
+        - Core Ml Learning Paradigms
+        - End-To-End Learning
+        - Fewshotlearning
+        - Generalized Zero-Shot Learning
+        - Generative Supervised Learning  _(2)_
+          - Style Transfer
+          - Text To Speech
+        - Learning Strategy  _(4)_
+          - Batch Reinforcement Learning
+          - Domain Generalization
+          - Elastic Weight Consolidation
+          - Feature Learning
+        - Lifelong Learning
+        - Multi-Instance Learning
+        - Multi-Task Learning
+        - Multi-View Learning
+        - Off-Policy Reinforcement Learning
+        - One-Shot Learning
+        - Relational Learning
+        - Self-Supervised Learning
+        - Semi-Supervised Learning  _(1)_
+          - Semi-Supervised Classification
+        - Semisupervisedlearning  _(2)_
+          - Graph-Based Semi-Supervised Learning
+          - Semi-Supervised Domain Adaptation
+        - Supervised Learning Variants  _(3)_
+          - Adversarial Learning
+          - Supervised Learning  _(1)_
+            - Classification  _(1)_
+              - Classification-System
+          - Supervision Signal Variants  _(2)_
+            - Self Supervision
+            - Weak Supervision
+        - Supervised Model
+        - Weakly Supervised Learning  _(1)_
+          - Invariant Risk Minimization
+      - Learning Rate Schedule
+      - Learning Theory And Paradigms  _(3)_
+        - Concept Learning
+        - Instance-Based Learning  _(2)_
+          - Case-Based Reasoning
+          - K-Nearest Neighbors
+        - Reinforcement Learning  _(16)_
+          - Constrained Reinforcement Learning
+          - Deep Reinforcement Learning
+          - Exploration And Exploitation  _(1)_
+            - Exploration
+          - Inverse Reinforcement Learning
+          - Multi-Agent Deep Reinforcement Learning
+          - Multi-Objective Reinforcement Learning
+          - Off-Policy Learning
+          - Offline Reinforcement Learning
+          - Policy  _(1)_
+            - Stochastic Policy
+          - Policy-Based Rl Algorithm  _(2)_
+            - Actor-Critic Method  _(3)_
+              - Actor Critic Rl Algorithm
+              - Asynchronous Advantage Actor Critic
+              - Soft Actor Critic
+            - Policy Gradient  _(1)_
+              - Proximal Policy Optimization
+          - Rl Algorithm  _(3)_
+            - Episodic Reinforcement Learning
+            - Hierarchical Reinforcement Learning
+            - Model-Based Reinforcement Learning
+          - Rl Concept  _(1)_
+            - Option
+          - Rl Problem Formulation  _(1)_
+            - Multi-Armed Bandit
+          - Robust Reinforcement Learning
+          - Temporal Difference Learning
+          - Upper Confidence Bound
+      - Linear Decision Boundary
+      - Machine Learning Algorithm
+      - Markov Random Field
+      - Maximum Likelihood Estimator
+      - Miscellaneous Ml Concepts
+      - Mixture Model
+      - Ml Algorithm  _(43)_
+        - Actor-Critic Algorithm
+        - Adversarial Learning Algorithm  _(2)_
+          - Adversarial Imitation Learning
+          - Adversarial Multi Armed Bandit
+        - Approximate Message Passing
+        - Boosting
+        - Channel Pruning
+        - Contrastive Predictive Coding
+        - Convolutional Sparse Coding
+        - Core Ml Algorithm  _(4)_
+          - Case Inconsistency (Lowercase) And Redundant With Parent Node.
+          - Inference And Estimation Algorithms  _(2)_
+            - Attribution Method
+            - Estimation And Inference Algorithm  _(1)_
+              - Point Estimation Algorithm  _(2)_
+                - Expectation Maximization Algorithm
+                - Maximum Likelihood Estimation
+          - Optimization And Search Algorithms  _(2)_
+            - Optimization And Search Algorithm  _(2)_
+              - Genetic Algorithm
+              - Policy Iteration
+            - Spectral Normalization
+          - Specialized Learning Algorithms  _(4)_
+            - Dynamic Learning Algorithm  _(3)_
+              - Active Inference
+              - Adaptive Control
+              - Online Learning Algorithm
+            - Kernel Learning
+            - One Class Classification Algorithm  _(2)_
+              - One Class Support Vector Machine
+              - Support Vector Data Description
+            - Transductive Learning
+        - Counterfactual Regret Minimization
+        - Deep Deterministic Policy Gradient
+        - Deep Learning Algorithm  _(2)_
+          - Deep Reinforcement Learning Algorithm  _(1)_
+            - Monte Carlo Tree Search
+          - Geometric Deep Learning  _(1)_
+            - Graph Neural Networks
+        - Distance Metric  _(1)_
+          - Dynamic Time Warping
+        - Embedding-Based Method
+        - Ensemble Learning  _(7)_
+          - Bayesian Additive Regression Trees
+          - Ensemble Of Decision Trees
+          - Ensemble Of Neural Networks
+          - Gradient Boosted Decision Tree
+          - Gradient Boosting
+          - Gradient Boosting Decision Tree
+          - Gradient Boosting Machine
+        - Ensemble Learning Algorithm  _(4)_
+          - Adaptive Boosting
+          - Deep Ensemble Methods
+          - Stacked Generalization
+          - Weighted Aggregation
+        - Imitation Learning Algorithm  _(4)_
+          - Adversarial Inverse Reinforcement Learning
+          - Behavior Cloning
+          - Behavioral Cloning
+          - Generative Adversarial Imitation Learning
+        - Kernel Method
+        - Learning Paradigm Algorithm  _(5)_
+          - Contrastive Self-Supervised Learning
+          - Differentiable Neural Architecture Search
+          - Likelihood-Free Inference
+          - Online Learning  _(1)_
+            - Follow The Perturbed Leader
+          - Supervised Contrastive Learning
+        - Learning Vector Quantization
+        - Matrix Factorization Technique  _(1)_
+          - Singular Value Decomposition
+        - Meta Learning Algorithm
+        - Ml Interpretability Algorithm  _(4)_
+          - Interpretability Method  _(2)_
+            - Interpretable Machine Learning
+            - Saliency Method
+          - Layer-Wise Relevance Propagation
+          - Local Interpretable Model-Agnostic Explanations
+          - Shapley Additive Explanations
+        - Model Adaptation Algorithm  _(2)_
+          - Deeptransferlearning
+          - Ensemblekalmanfilter
+        - Optimization And Efficiency  _(2)_
+          - Efficiency And Compression Methods  _(2)_
+            - Model Compression  _(3)_
+              - Knowledge Distillation
+              - Low Rank Approximation
+              - Neural Network Pruning
+            - Optimization And Quantization Algorithm  _(2)_
+              - Bilevel Optimization
+              - Weight Quantization
+          - Optimization Methods  _(5)_
+            - Optimization Algorithm  _(6)_
+              - Automatic Differentiation
+              - Derivative Free Methods  _(3)_
+                - Acquisition Function
+                - Probabilistic Optimization  _(2)_
+                  - Bayesian Optimisation
+                  - Bayesian Optimization
+                - Stochastic And Heuristic Optimization  _(1)_
+                  - Simulated Annealing
+              - Direct Feedback Alignment
+              - Evolutionary Strategy
+              - Gradient Based Methods  _(5)_
+                - First Order Optimization  _(2)_
+                  - Deterministic First Order Optimization  _(1)_
+                    - Projected Gradient Descent
+                  - Stochastic First Order Optimization  _(2)_
+                    - Stochastic Gradient Method
+                    - Stochastic Mirror Descent
+                - First-Order Optimization Algorithm  _(2)_
+                  - Gradient-Based Optimization Algorithm  _(7)_
+                    - Deterministic Gradient Based Optimization  _(2)_
+                      - Accelerated Gradient Descent
+                      - Conditional Gradient Method
+                    - Gradient Descent
+                    - Natural Gradient
+                    - Natural Gradient Descent
+                    - Primal-Dual Algorithm
+                    - Second Order Optimization
+                    - Stochastic Gradient Based Optimization  _(3)_
+                      - Stochastic Dual Coordinate Ascent
+                      - Stochastic Gradient Descent
+                      - Stochastic Gradient Mcmc
+                  - Projection-Based Optimization Algorithm  _(2)_
+                    - Frank-Wolfe Algorithm
+                    - Online Mirror Descent
+                - Functional Gradient Descent
+                - Gradient Approximation
+                - Second-Order Optimization Algorithm  _(1)_
+                  - Quasi-Newton Method
+              - Stochastic Convex Optimization
+            - Optimization Algorithms  _(16)_
+              - Alternating Minimization
+              - Asynchronous Stochastic Gradient Descent
+              - Block Coordinate Descent
+              - Distributed Stochastic Gradient Descent
+              - Expectation Maximization
+              - Gradient Flow
+              - Mirror Descent
+              - Multi-Objective Bayesian Optimization
+              - Online Gradient Descent
+              - Particle Swarm Optimization
+              - Riemannian Gradient Descent
+              - Riemannian Optimization
+              - Stochastic Gradient Langevin Dynamics
+              - Stochastic Optimization
+              - Stochastic Variance Reduced Gradient
+              - Submodular Maximization
+            - Optimization And Training Algorithm  _(1)_
+              - Backpropagation
+            - Regularized Learning Algorithm  _(4)_
+              - Multiple Kernel Learning
+              - Regularized Empirical Risk Minimization
+              - Sparse Bayesian Learning
+              - Sparse Linear Regression
+            - Training Strategy  _(3)_
+              - Neuroevolution
+              - Score Matching
+              - Self-Training
+        - Policy Gradient Algorithm
+        - Policy Gradient Method
+        - Probabilistic And Statistical Learning  _(5)_
+          - Bayesian Ml Algorithm  _(3)_
+            - Approximate Bayesian Computation
+            - Bayesian Estimation
+            - Bayesian Learning Rule
+          - Probabilistic Inference Algorithm  _(2)_
+            - Deterministic Approximate Inference  _(4)_
+              - Belief Propagation
+              - Expectation Propagation
+              - Variational Bayes
+              - Variational Inference
+            - Sampling Based Inference  _(5)_
+              - Hamiltonian Monte Carlo
+              - Particle Filter
+              - Sequential Monte Carlo
+              - Simulation Based Inference
+              - Thompson Sampling
+          - Probabilistic Learning Algorithm  _(5)_
+            - Bayesian Learning
+            - Denoising Score Matching
+            - Kernel Regression
+            - Moment Matching
+            - Noise Contrastive Estimation
+          - Sampling Algorithm  _(4)_
+            - Bayesian Model Averaging
+            - Markov Chain Monte Carlo
+            - Neighborhood Sampling
+            - Sampling Strategy
+          - Variational Inference Algorithm  _(3)_
+            - Amortized Variational Inference
+            - Stein Variational Gradient Descent
+            - Stochastic Variational Inference
+        - Quantum Algorithm  _(1)_
+          - Quantum Annealing
+        - Quantum Ml Algorithm
+        - Reinforcement Learning Algorithm  _(2)_
+          - Model Free Rl Algorithm  _(3)_
+            - Core Core Core Reinforcement Learning Algorithm  _(3)_
+              - Approximate Dynamic Programming
+              - Bayesian Reinforcement Learning
+              - Transfer Reinforcement Learning
+            - Model Free Rl
+            - Multi-Task Reinforcement Learning
+          - Reinforcement Learning Variants  _(2)_
+            - Learning From Demonstration
+            - Meta Reinforcement Learning
+        - Reservoir Computing
+        - Robustness Algorithm  _(1)_
+          - Randomized Smoothing
+        - Sampling Technique  _(1)_
+          - Importance Sampling
+        - Semi Supervised Learning Algorithm  _(1)_
+          - Co Training
+        - Spectral Algorithm
+        - Stacking
+        - Structural And Representation Algorithms  _(6)_
+          - Dimensionality Reduction Algorithm  _(2)_
+            - Linear Dimensionality Reduction  _(5)_
+              - Canonical Correlation Analysis
+              - Independent Component Analysis
+              - Probabilistic Linear Discriminant Analysis
+              - Robust Principal Component Analysis
+              - Sparse Coding
+            - Nonlinear Dimensionality Reduction  _(3)_
+              - Diffusion Map
+              - Kernel Principal Component Analysis
+              - T-Distributed Stochastic Neighbor Embedding
+          - Dimensionality Reduction And Representation Learning  _(4)_
+            - Dynamic Mode Decomposition
+            - Graph Contrastive Learning
+            - Hyperdimensional Computing
+            - Topic Modeling
+          - Hashing Algorithm  _(1)_
+            - Locality Sensitive Hashing
+          - Matrix Factorization Algorithm  _(2)_
+            - Boolean Matrix Factorization
+            - Randomized Matrix Factorization
+          - Representation Learning Algorithm  _(3)_
+            - Contrastive Learning
+            - Deep Metric Learning
+            - Matrix Factorization  _(2)_
+              - Non-Negative Matrix Factorization
+              - Nonnegative Matrix Factorization
+          - Symbolic And Logic Learning  _(1)_
+            - Inductive Logic Programming
+        - Supervised Learning Algorithm  _(2)_
+          - Classification Algorithms  _(1)_
+            - Linear Discriminant Analysis
+          - Regression Algorithms  _(5)_
+            - Functional Regression
+            - Kernel Ridge Regression
+            - Lasso
+            - Linear Regression
+            - Non-Parametric Regression
+        - Unsupervised Learning Algorithm  _(7)_
+          - Collaborative Filtering
+          - Hierarchical Clustering
+          - Kmeans Clustering
+          - Label Propagation
+          - Manifold Learning
+          - Sparse Subspace Clustering
+          - Word2Vec
+        - Variational Bayesian Inference
+        - Variational Information Bottleneck
+        - Variational Quantum Algorithm
+        - Zero-Shot Learning
+      - Ml Application Domain  _(6)_
+        - Computer Vision  _(1)_
+          - Image Classification
+        - Image Analysis
+        - Predictive Analytics
+        - Process Mining
+        - Text-To-Speech Synthesis
+        - Video Analysis Task  _(3)_
+          - Action Recognition
+          - Deepfake Detection
+          - Video Prediction
+      - Ml Component  _(5)_
+        - Activation Function
+        - Attention Mechanism
+        - Causal Convolution
+        - Self-Attention
+        - Structural Components  _(5)_
+          - Attention Layer
+          - Binary Neuron
+          - Convolutional Kernel
+          - Pooling Layer
+          - Topological Layer
+      - Ml Data And Representation  _(22)_
+        - Adversarial Data Representations  _(3)_
+          - Adversarial Example  _(1)_
+            - Universal Adversarial Perturbation
+          - Adversarial Noise
+          - Adversarial Perturbation
+        - Binary Representation
+        - Context Vectors
+        - Contextual Representation
+        - Core Ml Data And Representation  _(3)_
+          - Background Knowledge
+          - Data Representation
+          - Latent Space
+        - Data Embedding
+        - Data Representation Methods  _(4)_
+          - Embedding Representations  _(4)_
+            - Cross-Lingual Word Embedding
+            - Distributed Representation
+            - Feature Representation
+            - Semantic Representation
+          - Latent Space Representations  _(3)_
+            - Compressed Representation
+            - Disentangled Latent Representation
+            - Latent Representation
+          - Sparse Dimensionality Reduction  _(1)_
+            - Sparse Principal Component Analysis
+          - Structural Representations  _(2)_
+            - Part-Based Representation
+            - Prototype Representation
+        - Dataset
+        - Embedding
+        - Embedding Space
+        - Feature Map
+        - Heterogeneous Information Network
+        - Low-Dimensional Embedding
+        - Mathematical Data Representations  _(6)_
+          - Approximate Representations  _(1)_
+            - Sparse Representation
+          - Graph Representations  _(1)_
+            - Directed Acyclic Graph
+          - Kernel Functions
+          - Optimal Transport Representations
+          - Scattering Transforms
+          - Vector Representations
+        - Ml Data Representation Artifacts  _(1)_
+          - Saliency Map
+        - Ml Embedding Techniques  _(4)_
+          - Architecture Based Embedding Techniques  _(1)_
+            - Neural Network Embedding Techniques
+          - Core Ml Embedding Techniques
+          - Embedding Properties  _(1)_
+            - Contextual Embedding Techniques
+          - Modality Based Embedding Techniques  _(3)_
+            - Feature Embedding Techniques
+            - Graph Embedding Techniques  _(3)_
+              - Graph Level Embedding
+              - Node Embedding
+              - Spectral Embedding
+            - Text Embedding Techniques  _(2)_
+              - Sentence Embedding
+              - Word Embedding
+        - Ml Graph Representations  _(3)_
+          - Graph Kernel
+          - Graph Laplacian
+          - Molecular Graph
+        - Random Fourier Features
+        - Semantic Word Vector
+        - Synthetic Data
+        - Weakly Labeled Data
+        - Word Representation
+      - Ml Data Engineering  _(2)_
+        - Ml Data Analysis And Sampling  _(3)_
+          - Coreset
+          - Determinantal Point Process
+          - Topological Data Analysis
+        - [New] Ml Data Generation
+      - Ml Evaluation  _(2)_
+        - Ml Analysis And Discovery Methods  _(3)_
+          - Data Mining
+          - Sensitivity Analysis
+          - Visual Analytics
+        - [New] Representation Metrics  _(1)_
+          - Similaritymeasure
+      - Ml Foundations And Theory  _(34)_
+        - Bregman Divergence
+        - Compressed Sensing
+        - Core Ml Foundations And Theory  _(2)_
+          - Mathematical Tools And Methods  _(8)_
+            - Dynamical Systems And Statistical Mechanics  _(2)_
+              - Ising Model
+              - Koopman Operator
+            - Graph Signal Processing
+            - Influence Function
+            - Mathematical Optimization And Analysis  _(5)_
+              - Continuous Relaxation
+              - Convex Optimization
+              - Convex Relaxation
+              - Optimal Transport
+              - Robust Optimization
+            - Optimization And Estimation  _(2)_
+              - Mathematical Programming  _(3)_
+                - Online Convex Optimization
+                - Online Linear Optimization
+                - Semidefinite Programming
+              - Statistical Estimation
+            - Persistent Homology
+            - Reachability Analysis
+            - Stochastic Differential Equations
+          - Theoretical Frameworks  _(5)_
+            - Game Theory And Decision Theory
+            - Information And Probability Theory  _(3)_
+              - Approximate Inference Methods  _(5)_
+                - Approximate Inference
+                - Posterior Inference
+                - Variational Approach
+                - Variational Distribution
+                - Variational Lower Bound
+              - Information Theoretic Principles  _(4)_
+                - Information Bottleneck Principle
+                - Information Measures  _(2)_
+                  - Mutual Information
+                  - Wasserstein Distance
+                - Maximum Entropy Principle
+                - Minimum Description Length
+              - Probabilistic Model Components  _(2)_
+                - Hidden Variable
+                - Hierarchical Prior
+            - Neural Network Approximation Theory
+            - Optimization Theory  _(3)_
+              - Constrained Optimization
+              - Distributed Optimization  _(1)_
+                - Federated Averaging
+              - Nonconvex Optimization
+            - Probabilistic And Statistical Inference  _(2)_
+              - Bayesian Inference
+              - Granger Causality
+        - Fisher Information Matrix
+        - Function Approximation
+        - Generalization
+        - Generalization Risk
+        - High-Probability Bound
+        - Hilbert-Schmidt Independence Criterion
+        - Implicit Regularization
+        - Inductive Bias
+        - Learning And Optimization  _(2)_
+          - Learning Tasks  _(9)_
+            - Association Rule Mining
+            - Best Arm Identification
+            - Blind Source Separation
+            - Clustering Algorithm  _(5)_
+              - Consensus Clustering
+              - Fuzzy Clustering
+              - Spectral Clustering
+              - Subspace Clustering
+              - Vector Quantization
+            - Distribution Regression
+            - Predictive Modeling  _(3)_
+              - Predictive Model Optimization  _(2)_
+                - Algorithm Selection
+                - Variable Selection
+              - Predictive Task Types  _(1)_
+                - Recognition And Detection Tasks  _(1)_
+                  - 3D Object Detection
+              - Regression
+            - Structured Prediction
+            - System Identification
+            - Trajectory Prediction
+          - Representation Learning  _(9)_
+            - Dictionary Learning
+            - Disentangled Representation Learning
+            - Manifold And Projection Learning  _(3)_
+              - Dimensionality Reduction  _(1)_
+                - Principal Component Analysis
+              - Distance Metric Learning
+              - Low-Rank Matrix Recovery
+            - Metric Learning
+            - Self-Supervised Representation Learning
+            - Similarity Learning
+            - Structure Learning
+            - Unsupervised Clustering
+            - Unsupervised Representation Learning
+        - Learning Paradigms  _(1)_
+          - Unsupervised Learning  _(7)_
+            - Clustering Task  _(2)_
+              - Co-Clustering
+              - Deep Clustering
+            - Correlation Clustering
+            - Cross-Domain Recommendation
+            - Influence Maximization
+            - Semi-Supervised Clustering
+            - Unsupervised Anomaly Detection
+            - Unsupervised Feature Extraction
+        - Learning Theory
+        - Likelihood Function
+        - Link Function
+        - Lipschitz Constant
+        - Loss Landscape
+        - No-Regret Learning
+        - Optimization  _(8)_
+          - Gradient Information
+          - Lagrangian Duality
+          - Linear Convergence
+          - Mathematical Optimization And Inference  _(1)_
+            - Mathematical Optimization
+          - Model Compression And Efficiency  _(1)_
+            - Model Optimization  _(1)_
+              - Network Compression
+          - Online Optimization Algorithm  _(1)_
+            - Online Optimization
+          - Saddle Point
+          - Specialized Optimization Frameworks  _(3)_
+            - Combinatorial Optimization  _(1)_
+              - Submodular Optimization
+            - Decentralized Optimization
+            - Stochastic Optimal Control
+        - Optimization And Regularization Techniques  _(3)_
+          - Batch Normalization
+          - Gradient Compression
+          - Variance Reduction
+        - Optimization Paradigms  _(2)_
+          - Core First Order Optimization
+          - Projection Free Optimization
+        - Pac-Bayesian Bound
+        - Prior Distribution
+        - Probabilistic And Causal Systems  _(3)_
+          - Causal Models  _(2)_
+            - Causal Bayesian Network
+            - Structural Causal Model
+          - Probabilistic Graphical Models  _(5)_
+            - Kalman Filter
+            - Linear Dynamical System
+            - Probabilistic Inference  _(1)_
+              - Gibbs Sampling
+            - Stochastic Block Model
+            - Temporal Point Process
+          - Reinforcement Learning Frameworks  _(1)_
+            - Markov Decision Process
+        - Randomization
+        - Regret
+        - Regret Bound
+        - Sample Complexity
+        - Statistical Inference And Learning Theory  _(2)_
+          - Item Response Theory
+          - Selective Inference
+        - Statistical Learning Theory  _(3)_
+          - Complexity Measures  _(2)_
+            - Maximum Mean Discrepancy
+            - Rademacher Complexity
+          - Generalization Bounds  _(4)_
+            - Generalization Error Bound
+            - Generalization Guarantee
+            - Pac-Bayes Bound
+            - Probabilistic Bounds And Tools  _(2)_
+              - Concentration Inequality
+              - Random Matrix Theory
+          - Learning Frameworks  _(2)_
+            - Core Statistical Learning Theory  _(2)_
+              - Information Bottleneck
+              - Neural Tangent Kernel
+            - Probably Approximately Correct Learning
+        - Submodular Function
+        - Wasserstein Barycenter
+        - Wasserstein Metric
+      - Ml Framework  _(1)_
+        - Actor-Critic Framework
+      - Ml Infrastructure And Environment  _(4)_
+        - Hardware Architecture  _(2)_
+          - In-Memory Computing
+          - Neuromorphic Computing  _(1)_
+            - Tsetlin Machine
+        - Ml Computing And Infrastructure  _(5)_
+          - Distributed Ml Infrastructure  _(2)_
+            - Distributed Machine Learning
+            - Parameter Server
+          - Inference Engine
+          - Ml Computing Paradigms  _(2)_
+            - Advanced Ml Computing Paradigms  _(2)_
+              - Split Into 'Distributed Computing' And 'Quantum Computing'
+              - Split Into 'Probabilistic Computing' And 'Differentiable Computing'  _(2)_
+                - Bayesian Deep Learning
+                - Differentiable Programming
+            - Approximate Computing
+          - Ml Security And Privacy Computing  _(2)_
+            - Fully Homomorphic Encryption
+            - [New] Ml Security And Privacy  _(1)_
+              - Secure Inference
+          - Neuromorphic Hardware
+        - Ml Environments And Interfaces  _(3)_
+          - Cybersecurity Ml Interfaces  _(1)_
+            - Intrusiondetectionsystem
+          - Human Machine Ml Interfaces  _(1)_
+            - Brain Computer Interface
+          - Reinforcement Learning Environment
+        - Ml Frameworks And Languages  _(3)_
+          - Deeplearningframework  _(1)_
+            - Physics-Informed Deep Learning
+          - Machinelearningframework
+          - Probabilisticprogramminglanguage
+      - Ml Mathematics  _(1)_
+        - Similarity Function
+      - Ml Method  _(9)_
+        - Adversarial Training
+        - Approximation Method  _(1)_
+          - Surrogate Model
+        - Kernel Trick
+        - Multimodal Fusion
+        - Noise Injection
+        - Policy Optimization
+        - Random Projection
+        - Residual Learning
+        - Stochastic Regularization
+      - Ml Methodology And Science Provenance  _(1)_
+        - Trustworthy And Ethical Ml  _(3)_
+          - Fairness  _(2)_
+            - Fair Machine Learning
+            - Privacy Preserving Machine Learning
+          - Interpretability And Explainability  _(2)_
+            - Explainable Artificial Intelligence
+            - Explainable Machine Learning
+          - Robustness  _(1)_
+            - Adversarial Machine Learning  _(1)_
+              - Evasion Attack
+      - Ml Model  _(26)_
+        - Classical And Algorithmic Models  _(3)_
+          - Decision Model  _(5)_
+            - Classification Model  _(2)_
+              - Binary Classifier
+              - Linear Classifier
+            - Combinatorial Bandit
+            - Decision Function
+            - One Class Classifier
+            - Value Function
+          - Kernel Based Model  _(4)_
+            - Gaussian Process Prior
+            - Inducing Point
+            - Spectral Mixture Kernel
+            - Support Vector Machine
+          - The Parent Node Is A Placeholder And Lacks Semantic Meaning; It Must Be Renamed To A Valid Ml Concept (E.G., 'Advanced Ml Techniques').  _(2)_
+            - Deep Q-Network
+            - Hypernetwork
+        - Classical Ml Model  _(2)_
+          - Random Forest Classifier
+          - Support Vector Regression
+        - Core Core Ml Model
+        - Core Ml Model  _(2)_
+          - Learning Paradigm Models  _(2)_
+            - Reinforcement Learning Model  _(6)_
+              - Control Policy
+              - Double Deep Q Network
+              - Linear Bandit
+              - Optimal Policy
+              - Restless Multi Armed Bandit
+              - Reward Model
+            - Supervised Learning Model  _(1)_
+              - Decision Tree
+          - Statistical Models  _(2)_
+            - Bandit Model  _(3)_
+              - Contextual Multi Armed Bandit
+              - Linear Contextual Bandit
+              - Stochastic Multi Armed Bandit
+            - Recommendation Model  _(2)_
+              - Factorization Machine
+              - Recommender System
+        - Encoder-Decoder Model
+        - End-To-End Model
+        - Image Generation Cnn  _(1)_
+          - Cyclegan
+        - Language Model
+        - Latent Factor Model
+        - Latent Variable Model
+        - Learned Index
+        - Machine Learning Classifier
+        - Machine Learning Model
+        - Metamodel
+        - Neural And Connectionist Models  _(5)_
+          - Differentiable Model
+          - Neural Network Architecture  _(2)_
+            - Complex Valued Neural Network
+            - Extreme Learning Machine
+          - Neural Network Model  _(5)_
+            - Coordinate-Based Neural Network
+            - Deep Belief Network
+            - Deep Learning Model
+            - Large Language Model
+            - Multi-Modal Deep Neural Network
+          - Sequence Model  _(4)_
+            - Attention Based Model  _(1)_
+              - Transformer Architecture  _(1)_
+                - Transformer Encoder
+            - Attention Network
+            - Bidirectional Transformer
+            - Pre-Trained Transformer
+          - [New] Neural Network Component  _(2)_
+            - Nonlinear Activation Function
+            - Periodic Activation Function
+        - Neural Model  _(2)_
+          - Pre-Trained Language Model
+          - Region Proposal Network
+        - Pre-Trained Model
+        - Probabilistic And Statistical Models  _(5)_
+          - Discriminative Model  _(5)_
+            - Deeplearningclassifier
+            - Invariantpredictor
+            - Isolation Forest
+            - Residual Network
+            - Robustclassifier
+          - Gaussian Process Latent Variable Model
+          - Generalized Linear Model  _(1)_
+            - Logistic Regression
+          - Probabilistic Classifier  _(1)_
+            - Naive Bayes Classifier
+          - Statistical Model  _(5)_
+            - Classifier
+            - Generalized Additive Model
+            - Linear Model
+            - Local Model
+            - Quadratic Model
+        - Probabilistic Model  _(11)_
+          - Bayesian Network Structure Learning
+          - Bayesian Regression
+          - Energy-Based Model  _(2)_
+            - Boltzmann Machine
+            - Restricted Boltzmann Machine
+          - Neural Topic Model
+          - Nonparametric Mixture Model
+          - Probabilistic Circuit
+          - Sparse Gaussian Process
+          - State-Space Model
+          - Submodular Function Maximization
+          - Survival Analysis
+          - Uncertainty Estimation
+        - Regression Model
+        - Relu Network
+        - Sequential Model
+        - Specialized Convolutional Neural Network  _(2)_
+          - Bayesian Convolutional Neural Network
+          - Graph Convolutional Neural Network
+        - Specialized Topology Network  _(2)_
+          - Continuous Topology Network  _(1)_
+            - Neural Operator
+          - Structural Topology Network  _(3)_
+            - Capsule Network
+            - Pointer Network
+            - Siamese Network
+        - Stochastic Model
+        - Transformer Network
+      - Ml Model Architecture  _(5)_
+        - Deep Learning Architecture
+        - Generative Architecture
+        - Model Architectures  _(13)_
+          - Architectural Features  _(3)_
+            - External Memory
+            - Receptive Field
+            - Weight Sharing
+          - Architecture Types  _(4)_
+            - Core Neural Network Architecture  _(1)_
+              - Perceptron
+            - Graph Encoder
+            - Specialized Neural Network Architecture  _(4)_
+              - Attention-Based Architecture  _(2)_
+                - Bert
+                - Transformer
+              - Convolutional Neural Network Architecture  _(1)_
+                - Temporal Convolutional Network
+              - Mixture Of Experts Architecture
+              - Vision Transformer Architecture
+            - Twin Network
+          - Autoencoders  _(6)_
+            - Adversarial Autoencoder
+            - Beta-Variational Autoencoder
+            - Convolutional Autoencoder
+            - Stacked Denoising Autoencoder
+            - Variational Autoencoder
+            - Vector Quantized Variational Autoencoder
+          - Bottleneck Architecture  _(2)_
+            - Auto-Encoder
+            - Autoencoder  _(2)_
+              - Denoising Autoencoder
+              - Stacked Autoencoder
+          - Composite Ml Model  _(1)_
+            - Hybrid Ml Model
+          - Connectivity Mechanisms  _(3)_
+            - Gating Mechanism
+            - Shortcut Connection
+            - Skip Connection
+          - Ensemble Methods  _(7)_
+            - Adaboost
+            - Deep Ensemble
+            - Ensemble Classifier
+            - Ensemble Model
+            - Extreme Gradient Boosting
+            - Random Forest
+            - Xgboost
+          - Generative Models  _(7)_
+            - Conditional Generative Adversarial Network
+            - Cycle-Consistent Generative Adversarial Network
+            - Deep Boltzmann Machine
+            - Deep Convolutional Generative Adversarial Network
+            - Generative Adversarial Network  _(1)_
+              - Wasserstein Gan
+            - Mixture Density Network
+            - Wasserstein Generative Adversarial Network
+          - Graph-Based Architectures  _(5)_
+            - Graph Attention Network
+            - Graph Network
+            - Graph Neural Network  _(3)_
+              - Heterogeneous Graph Neural Network
+              - Mechanism  _(1)_
+                - Message Passing
+              - Message Passing Neural Network
+            - Hypergraph Neural Network
+            - Relational Graph Convolutional Network
+          - Neural Architecture Model  _(2)_
+            - Core Neural And Quantum Architecture  _(2)_
+              - Memory-Augmented Neural Network
+              - Neural Stochastic Differential Equation
+            - Quantum Neural Architecture  _(1)_
+              - Variational Quantum Circuit
+          - Neural Network Architectures  _(30)_
+            - 3D Convolutional Neural Network
+            - 3D U-Net
+            - Bayesian Neural Network
+            - Bidirectional Encoder Representations From Transformers
+            - Binary Neural Network
+            - Convolutional Neural Network  _(3)_
+              - Dilated Convolutional Neural Network
+              - Fully Convolutional Neural Network
+              - Layer Type  _(3)_
+                - Dilated Convolution
+                - Graph Convolution
+                - Graph Pooling
+            - Deep Convolutional Neural Network
+            - Deep Operator Network
+            - Encoder-Decoder Architecture
+            - Encoder-Decoder Network
+            - Equivariant Neural Network
+            - Feed-Forward Neural Network
+            - Feedforward Neural Network
+            - Hierarchical Attention Network
+            - Hybrid Neural Network
+            - Implicit Neural Representation
+            - Invertible Neural Network
+            - Multi-Layer Perceptron
+            - Multilayer Perceptron
+            - Neural Language Model
+            - Neural Radiance Field
+            - Prototypical Network
+            - Quantum Neural Network
+            - Residual Convolutional Neural Network
+            - Residual Neural Network
+            - Self-Attention Network
+            - Self-Organizing Map
+            - Siamese Neural Network
+            - Sparse Neural Network
+            - Spiking Neural Network
+          - Recurrent Architectures  _(7)_
+            - Bidirectional Recurrent Neural Network
+            - Convolutional Recurrent Neural Network
+            - Deep Recurrent Neural Network
+            - Echo State Network
+            - Long Short-Term Memory
+            - Neural Turing Machine
+            - Sequence-To-Sequence Model
+          - Sequence-To-Sequence Learning
+        - Neural Architecture  _(1)_
+          - Graph Transformer
+        - Task Specific Architecture  _(1)_
+          - Deepautoencoder
+      - Ml Model Parameter  _(1)_
+        - Hyperparameter
+      - Ml Objective And Constraint  _(12)_
+        - Cost Function
+        - Cumulative Regret
+        - Empirical Risk
+        - Loss Function  _(4)_
+          - Adversarial Loss
+          - Connectionist Temporal Classification
+          - Contrastive Loss
+          - Triplet Loss
+        - Objective Function
+        - Ranking Function
+        - Regularization  _(7)_
+          - Bayesian Regularization
+          - Entropic Penalization
+          - Graph-Based Regularization
+          - L1 Regularization
+          - Nonconvex Regularizer
+          - Regularizer
+          - Structured Sparsity
+        - Regularization Technique  _(1)_
+          - Monte Carlo Dropout
+        - Scoring Function
+        - Transformer Based Learning Objective
+        - [New] General Objective  _(1)_
+          - Mutual Information Maximization
+        - [New] Reward And Utility  _(3)_
+          - Intrinsic Reward
+          - Reward Function
+          - Utility Function
+      - Ml Optimization  _(4)_
+        - Core Gradient Based Optimization  _(1)_
+          - Alternating Direction Method Of Multipliers
+        - Derivative-Free Optimization  _(4)_
+          - Black-Box Optimization
+          - Evolutionary Algorithm
+          - Stochastic Approximation
+          - Zeroth-Order Optimization
+        - Optimization Components  _(2)_
+          - Learning Rate Scheduling
+          - Momentum
+        - Optimization Framework  _(4)_
+          - Distributionally Robust Optimization
+          - Empirical Risk Minimization
+          - Minimax Optimization
+          - Multi-Objective Optimization
+      - Ml Preprocessing  _(3)_
+        - Data Imputation
+        - Feature Extraction
+        - Graph Augmentation
+      - Ml Property And Quality Attribute  _(12)_
+        - Algorithmic Fairness  _(1)_
+          - Fair Classification
+        - Differential Privacy
+        - Interpretability  _(1)_
+          - Explainable Ai
+        - Local Differential Privacy
+        - Ml Model Interpretability Attribute  _(1)_
+          - Feature Importance
+        - Ml Performance And Generalization Attribute  _(2)_
+          - Ml Generalization Phenomena  _(5)_
+            - Ml Distribution Shift
+            - Ml Domain Shift
+            - Ml Generalization Attribute  _(1)_
+              - Generalization Error
+            - Ml Model Generalization
+            - Ml Overfitting
+          - Ml Performance Metrics  _(3)_
+            - Ml Performance Measurement Metric  _(1)_
+              - Evaluation Metric
+            - Ml Prediction Error
+            - Performance Metric
+        - Ml Security  _(3)_
+          - Adversarial Ml  _(3)_
+            - Adversarial Attack  _(1)_
+              - Backdoor Attack
+            - Adversarial Inference
+            - Model Extraction Attack
+          - Blackboxattack
+          - Modelinversionattack
+        - Ml Trustworthiness Attribute  _(3)_
+          - Ml Robustness Attribute (Duplicate)
+          - Trustworthiness Dimensions  _(6)_
+            - Ml Explainability Attribute
+            - Ml Explanation Artifact
+            - Ml Fairness Attribute  _(1)_
+              - Counterfactual Fairness
+            - Ml Privacy Attribute
+            - Ml Robust Model  _(1)_
+              - Prediction And Robustness Methods  _(2)_
+                - Adversarial Defense
+                - Conformal Prediction
+            - Ml Robustness Attribute  _(2)_
+              - Adversarial Robustness
+              - Algorithmic Stability
+          - Uncertainty Types  _(3)_
+            - Ml Epistemic Uncertainty Attribute
+            - Ml Prediction Interval Metric
+            - Ml Uncertainty Attribute
+        - Out-Of-Distribution Generalization
+        - Probability Calibration
+        - [New] Ml Learning And Optimization Attribute  _(2)_
+          - Catastrophic Forgetting
+          - Vanishing Gradient
+        - [New] Ml Structural Attribute  _(4)_
+          - Activation Sparsity
+          - Boundary Linearity
+          - Model Complexity
+          - Sparsity
+      - Ml Security Threat  _(1)_
+        - Ml Security Attack  _(1)_
+          - Membership Inference Attack
+      - Ml Strategy  _(1)_
+        - Algorithmic Strategy  _(1)_
+          - Greedy Algorithm
+      - Ml Task  _(27)_
+        - Analysis Task  _(2)_
+          - Model Interpretation
+          - Time Series Analysis  _(4)_
+            - Change Detection
+            - Predictive Maintenance
+            - Time Series Classification
+            - Time Series Forecasting
+        - Analytical And Structural Tasks  _(4)_
+          - Analytical And Inference Tasks  _(3)_
+            - Causal Ml Task  _(3)_
+              - Causal Discovery
+              - Causal Inference  _(5)_
+                - Causal Graph
+                - Causal Mechanism
+                - Do-Calculus
+                - Heterogeneous Treatment Effect
+                - Uplift Modeling
+              - Counterfactual Inference
+            - Pattern And Graph Analysis Task  _(2)_
+              - Community Detection
+              - Graph Signal Reconstruction
+            - Time Series Analysis Task  _(1)_
+              - Non-Intrusive Load Monitoring
+          - Generative Tasks  _(1)_
+            - Generative Ml Task  _(5)_
+              - Content Generation Task  _(2)_
+                - Image-To-Image Translation
+                - Synthetic Data Generation
+              - Data Completion Task  _(3)_
+                - Knowledge Graph Completion
+                - Low-Rank Matrix Completion
+                - Low-Rank Tensor Completion
+              - Denoising Task
+              - Scenario Generation Task
+              - Unpaired Image To Image Translation Task
+          - Predictive Tasks  _(1)_
+            - Predictive Ml Task  _(3)_
+              - Classification Task  _(3)_
+                - Core Classification Task  _(2)_
+                  - Multilabel Classification
+                  - Supervised Classification
+                - Sentiment Analysis
+                - Specialized Classification Task  _(2)_
+                  - Human Activity Recognition
+                  - Word Sense Disambiguation
+              - Probability Estimation Task  _(1)_
+                - Density Estimation
+              - Regression Task  _(4)_
+                - Ordinal Regression
+                - Quantile Regression
+                - Regression Analysis
+                - Symbolic Regression
+          - Structural And Representation Tasks  _(4)_
+            - Dimensionality Reduction And Selection Task  _(1)_
+              - Unsupervised Feature Selection
+            - Knowledge Representation Task  _(2)_
+              - Causal Structure Learning
+              - Knowledge Graph Embedding
+            - Relational Ml Task  _(3)_
+              - Entity Alignment
+              - Learning To Rank
+              - Link Prediction
+            - Representation Learning Task  _(7)_
+              - Causal Representation Learning
+              - Fair Representation Learning
+              - Graph Representation Learning
+              - Pretext Task
+              - State Representation Learning
+              - Unsupervised Feature Learning
+              - Visual Representation Learning
+        - Anomaly And Pattern Detection  _(1)_
+          - Automatic Detection
+        - Applied Ml Tasks  _(3)_
+          - Aspect Based Sentiment Analysis
+          - Contextual Bandit
+          - Knowledge Tracing
+        - Auxiliary Task
+        - Causal Inference Task  _(1)_
+          - Conditional Average Treatment Effect
+        - Core Ml Security And Reliability Task  _(1)_
+          - Natural Language Processing  _(7)_
+            - Document Classification
+            - Information Extraction
+            - Machine Reading Comprehension
+            - Multimodal Sentiment Analysis
+            - Natural Language Generation
+            - Neural Machine Translation
+            - Text Classification
+        - Core Ml Task
+        - Core Natural Language Processing Task
+        - Domain Adaptation  _(3)_
+          - Out-Of-Distribution Detection
+          - Source-Free Domain Adaptation
+          - Unsupervised Domain Adaptation
+        - Domain Specific Tasks  _(7)_
+          - Audio And Speech Task  _(2)_
+            - Speech Recognition
+            - Voice Conversion
+          - Audio Processing Task  _(2)_
+            - Speech Enhancement
+            - Speech Separation
+          - Computer Vision Task  _(2)_
+            - Dense Prediction Task  _(3)_
+              - Dense Prediction
+              - Instance Segmentation
+              - Semantic Segmentation
+            - Image Synthesis Task  _(3)_
+              - Image Inpainting
+              - Neural Style Transfer
+              - Super Resolution
+          - Information Retrieval And Ranking  _(2)_
+            - Rank Aggregation
+            - Similarity Search
+          - Information Retrieval Task  _(1)_
+            - Nearest Neighbor Search
+          - Natural Language Processing Task  _(6)_
+            - Machine Translation
+            - Masked Language Modeling
+            - Neural Language Processing
+            - Semantic Similarity
+            - Text Analysis And Extraction  _(1)_
+              - Named Entity Recognition
+            - Text Generation And Synthesis  _(1)_
+              - Abstractive Summarization
+          - Perceptual Ml Task  _(2)_
+            - Auditory Perceptual Ml Task  _(1)_
+              - Keyword Spotting
+            - Visual Perceptual Ml Task  _(3)_
+              - Face Recognition
+              - Image Captioning
+              - Object Tracking
+        - Image Analysis Task  _(7)_
+          - Facial Expression Recognition
+          - Few Shot Classification
+          - Image Recognition
+          - Image Segmentation
+          - Object Detection  _(1)_
+            - Object Detection Cnn  _(2)_
+              - Faster R-Cnn
+              - Mask R-Cnn
+          - Object Recognition
+          - Scene Graph Generation
+        - Image Segmentation Cnn  _(1)_
+          - U-Net
+        - Learning Paradigm Task  _(5)_
+          - Incremental Learning
+          - Multi-Label Learning
+          - Partial Label Learning
+          - Positive-Unlabeled Learning
+          - Supervised Machine Learning
+        - Ml Security And Reliability Task  _(2)_
+          - Adversarial Example Detection
+          - Ml Reliability And Verification Task  _(2)_
+            - Neural Network Verification
+            - Uncertainty Quantification
+        - Ml Security Task
+        - Off-Policy Evaluation
+        - Pattern And Anomaly Detection  _(2)_
+          - Change-Point Detection
+          - Constrained Clustering
+        - Regression And Segmentation Ml Task  _(3)_
+          - Class Incremental Learning
+          - Medical Image Segmentation
+          - Monocular Depth Estimation
+        - Reinforcement Learning Task  _(3)_
+          - Decision Making
+          - Policy Evaluation
+          - Sequential Decision Problem
+        - Robustness And Security Tasks  _(2)_
+          - Anomaly And Threat Detection  _(2)_
+            - Anomaly Detection  _(2)_
+              - Novelty Detection
+              - Outlier Detection
+            - Malware Detection
+          - Evaluation And Attack Task  _(1)_
+            - Black-Box Adversarial Attack
+        - Sequence Modeling
+        - Specialized Ml Task  _(2)_
+          - Matrix Completion
+          - Program Synthesis
+        - Supervised Learning Task  _(3)_
+          - Application Specific Tasks  _(3)_
+            - Person Reidentification
+            - Sarcasm Detection
+            - Signal Classification
+          - Click-Through Rate Prediction
+          - General Supervised Tasks  _(5)_
+            - Multiclass Classification
+            - One Class Classification
+            - Probabilistic Forecasting
+            - Sequence Labeling
+            - Sparse Regression
+        - Tasks And Applications  _(2)_
+          - General Classification And Learning  _(3)_
+            - Binary Classification
+            - Hierarchical Classification
+            - Network Representation Learning
+          - Speech And Audio Processing  _(5)_
+            - Automatic Speech Recognition
+            - Speaker Recognition
+            - Speaker Verification
+            - Speech Emotion Recognition
+            - Spoken Language Understanding
+        - Tensor Completion
+        - Unsupervised Learning Task  _(1)_
+          - Clustering
+      - Ml Workflow And Protocol  _(13)_
+        - Automated Ml Workflow  _(4)_
+          - Automated Machine Learning
+          - Automated Ml Architecture Search  _(1)_
+            - Neural Architecture Search
+          - Automated Ml Optimization Process  _(2)_
+            - Hyper-Parameter Optimization
+            - Hyperparameter Optimization
+          - Core Core Automated Ml Workflow
+        - Core Ml Workflow And Protocol  _(1)_
+          - Machine Learning Pipeline
+        - Data Fairness Protocol  _(1)_
+          - Bias Mitigation
+        - Data Refinement Protocol  _(2)_
+          - Label Refinement Protocol  _(2)_
+            - Active Learning
+            - Pseudo Labeling
+          - Split Into Two Distinct Nodes: Data Augmentation Protocol And Data Sampling Protocol  _(1)_
+            - Oversampling
+        - Distributed Learning Protocol  _(5)_
+          - Concurrent Learning Protocol
+          - Decentralized Learning Protocol  _(1)_
+            - Decentralized Learning
+          - Distributed Deep Learning
+          - Distributed Learning
+          - Federated Learning Protocol  _(1)_
+            - Federated Edge Learning
+        - Federated Ml Workflow  _(3)_
+          - Federated Ml
+          - Personalized Fl
+          - Vertical Fl
+        - Model Compression Workflow  _(2)_
+          - Post Training Quantization
+          - Quantization Aware Training
+        - Model Optimization And Refinement  _(2)_
+          - Feature Selection
+          - Model Calibration
+        - Model Optimization Protocol  _(2)_
+          - Model Pruning
+          - Quantization
+        - Model Training And Selection Protocol  _(5)_
+          - Fine Tuning
+          - Model Initialization
+          - Model Selection
+          - Pretraining
+          - Self Supervised Pretraining
+        - Training And Sampling Strategies  _(2)_
+          - Data Sampling And Augmentation Strategies  _(2)_
+            - Adaptive Sampling
+            - Data Augmentation
+          - The Term 'Core' Is A Qualifier, Not A Taxonomic Category. This Creates A Redundant Relationship With The Parent Node.  _(3)_
+            - Cross Validation
+            - Experience Replay
+            - Federated Learning  _(1)_
+              - Federated Learning Framework  _(1)_
+                - Decentralized Federated Learning
+        - Training Optimization Strategy  _(6)_
+          - Data Augmentation And Manipulation Strategy  _(1)_
+            - Domain Randomization
+          - Hyperparameter Tuning Strategy
+          - Knowledge And Curriculum Strategy  _(2)_
+            - Curriculum Learning
+            - Model Distillation
+          - Learning Rate Schedule Strategy
+          - Parameter Tuning Strategy
+          - Weight Initialization
+        - [New] Knowledge Acquisition Protocol
+      - Model  _(5)_
+        - Causal Model
+        - Conditional Generative Model
+        - General Graphical Frameworks  _(3)_
+          - Graph-Based Model
+          - Graphical Model
+          - Probabilistic Graphical Model  _(3)_
+            - Bayesian Latent Models  _(5)_
+              - Dirichlet Process Mixture Model
+              - Finite Mixture Model
+              - Gaussian Process
+              - Hierarchical Dirichlet Process
+              - Latent Dirichlet Allocation
+            - Structural Pgms  _(5)_
+              - Bayesian Network
+              - Conditional Random Field
+              - Dynamic Bayesian Network
+              - Gaussian Graphical Model
+              - Undirected Graphical Model
+            - Tractable Probabilistic Models
+        - Generative Graphical Model  _(1)_
+          - Graph Generative Model
+        - Physics-Based Model
+      - Model Generalization
+      - Model Interpretability  _(1)_
+        - Shapley Value
+      - Model Uncertainty
+      - Multi-Label Classification
+      - Multi-Output Gaussian Process
+      - Multimodal Learning
+      - Neural Network Component  _(1)_
+        - Rectified Linear Unit
+      - Neural Network Embedding
+      - Neural Process
+      - Non-Convex Optimization
+      - Nonlinear Dimension Reduction
+      - Optimization And Sampling  _(1)_
+        - Control Variates
+      - Overfitting
+      - Parameter Tuning
+      - Pattern Recognition
+      - Prediction Error
+      - Prediction Interval
+      - Predictive Analysis
+      - Predictive Model
+      - Predictive Task
+      - Probabilistic Generative Model  _(2)_
+        - Neural And Tensor Generative Models
+        - Probabilistic Sampling Model
+      - Probability And Statistics  _(3)_
+        - Mixture Distribution
+        - Multivariate Normal Distribution
+        - Predictive Distribution
+      - Projection-Free Algorithm
+      - Quantum Machine Learning
+      - Robust Classifier
+      - Robust Learner
+      - Scattering Transform
+      - Scenario Generation
+      - Self-Supervised Pre-Training
+      - Similarity Measure
+      - Stochastic Differential Equation
+      - Stochastic Gradient
+      - Sum-Product Network
+      - Synthetic Training Data
+      - Transformer-Based Architecture
+      - Unpaired Image-To-Image Translation
+      - Value-Based Rl Algorithm  _(2)_
+        - Deep Q-Learning
+        - Q-Learning
+      - Vector Representation
+    - Model Architectures And Frameworks  _(3)_
+      - Connectionist Models  _(1)_
+        - Neural Network  _(6)_
+          - Artificial Neural Network
+          - Compressed Neural Network  _(1)_
+            - Quantized Neural Network
+          - Deep Neural Network
+          - Multimodal Deep Learning
+          - Recursive Neural Network
+          - Shallow Neural Network
+      - Physics-Informed Neural Network  _(1)_
+        - Hamiltonian Neural Network
+      - Recurrent Neural Network  _(4)_
+        - Bidirectional Long Short-Term Memory
+        - Convolutional Long Short-Term Memory
+        - Gated Recurrent Unit
+        - Long Short-Term Memory Network
+    - Multi-Agent Systems  _(1)_
+      - Multi-Agent Reinforcement Learning
+    - Neural Networks  _(1)_
+      - Neural Computation  _(1)_
+        - Predictive Coding
+    - Probabilistic Programming
+    - Search Algorithm
+  - Cognitive Science
+  - Computing Architectures  _(2)_
+    - Quantum Computing  _(1)_
+      - Parameterized Quantum Circuit
+    - Trusted Execution Environment
+  - Cybersecurity  _(1)_
+    - False Data Injection Attack
+  - Data Science  _(1)_
+    - Data Engineering And Analysis  _(2)_
+      - Data Labeling  _(1)_
+        - Distant Supervision
+      - Data Preprocessing  _(2)_
+        - Feature Engineering
+        - Missing Value Imputation
+  - Digital Media & Simulation  _(4)_
+    - Image Processing
+    - Interactive Visualization
+    - Simulation
+    - Synthetic Media
+  - Distributed Systems  _(1)_
+    - Blockchain
+  - Information Systems  _(1)_
+    - Knowledge Management  _(1)_
+      - Knowledge Base
+  - Intelligent Systems
+  - Programming Languages  _(1)_
+    - Logic Program
+  - Proposed Path
+  - Proposed Path: Computer Science
+  - Signal Processing  _(1)_
+    - Sparse Recovery
+  - Software Assurance  _(1)_
+    - Formal Verification
+  - Software Engineering  _(3)_
+    - Compiler Design  _(1)_
+      - Intermediate Representation
+    - Simulator
+    - Software Design  _(1)_
+      - Hierarchical Decomposition
+  - Theoretical Computer Science
+  - Theoretical Foundations  _(2)_
+    - Computational Complexity  _(1)_
+      - Np-Hard Problem
+    - Computational Model
+- Engineering  _(6)_
+  - Control Algorithm  _(1)_
+    - Model Predictive Control
+  - Control Theory Algorithm  _(1)_
+    - Linear Quadratic Regulator
+  - Digital Twin
+  - Fault-Tolerant Control
+  - Feedback Loop
+  - Linear System Identification
+- Mathematics  _(16)_
+  - Analysis  _(1)_
+    - Differential Equations  _(1)_
+      - Differential Equation
+  - Analysis & Metric Geometry  _(3)_
+    - Distance Function
+    - Divergence
+    - Persistence Diagram
+  - Discrete Mathematics  _(1)_
+    - Graph Theory
+  - Discrete Structures & Dynamical Systems  _(3)_
+    - Discrete Structures  _(2)_
+      - Complex Network
+      - Graph
+    - First-Order Logic
+    - Region Of Attraction
+  - Linear Algebra & Spectral Theory  _(4)_
+    - Bijective Transformation
+    - Matrix Decomposition
+    - Orthogonal Transformation
+    - Random Matrix
+  - Numerical Analysis  _(1)_
+    - Spectral Method
+  - Optimization & Variational Analysis  _(3)_
+    - Convex Programming
+    - Coordinate Descent
+    - Min-Max Game
+  - Probabilistic Inference & Statistics  _(2)_
+    - Estimation & Sampling Techniques  _(1)_
+      - Kernel Density Estimator
+    - Statistical Inference Methods  _(2)_
+      - Confidence Interval
+      - Hypothesis Test
+  - Probability Theory  _(1)_
+    - Stochastic Processes  _(4)_
+      - Diffusion Process
+      - Hawkes Process
+      - Markov Chain
+      - Random Walks
+  - Semidefinite Relaxation
+  - Spectral Decomposition
+  - Spectral Filter
+  - Statistics  _(1)_
+    - Generalized Linear Models
+  - Tensor Decomposition
+  - Tensor Factorization
+  - Transition Matrix
+- Physics  _(7)_
+  - Computational Physics  _(1)_
+    - Molecular Simulation
+  - Dynamical Systems  _(1)_
+    - Hamiltonian Dynamics
+  - Mathematical Methods  _(1)_
+    - Perturbation
+  - Mean-Field Theory
+  - Quantum Information  _(2)_
+    - Quantum Circuit
+    - Tensor Network
+  - Renormalization Group
+  - Statistical Mechanics

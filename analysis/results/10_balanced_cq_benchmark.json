@@ -1,6 +1,6 @@
 {
   "benchmark_id": "balanced_corpus_cq_v1",
-  "input_inventory": "/home/hamdi/Desktop/Ontololgy/undermind.ai/SCOP_pipeline/test_result/pipeline_v2/reports/reference_in_definitions.json",
+  "input_inventory": "/home/hamdi/Desktop/ICAART_2027/reports/reference_in_definitions.json",
   "strategy": {
     "objective": "Create a corpus-grounded, frequency-balanced CQ benchmark that avoids over-representing generic high-frequency concepts.",
     "bands": [

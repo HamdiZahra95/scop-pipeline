@@ -1,12 +1,12 @@
 {
   "concepts": {
-    "baseline_total": 2089,
-    "guided_total": 2129,
-    "shared": 1132,
-    "only_baseline": 957,
-    "only_guided": 997,
-    "jaccard_slug": 0.3668,
-    "jaccard_lexical": 0.3824,
+    "baseline_total": 2054,
+    "guided_total": 2090,
+    "shared": 1114,
+    "only_baseline": 940,
+    "only_guided": 976,
+    "jaccard_slug": 0.3677,
+    "jaccard_lexical": 0.3823,
     "sample_shared": [
       "3d_convolutional_neural_network",
       "3d_object_detection",
@@ -15,194 +15,194 @@
       "accelerated_gradient_descent",
       "acoustic_scene_classification",
       "acquisition_function",
+      "acquisitionfunction",
       "action_recognition",
       "activation_function",
       "activation_sparsity",
       "active_inference",
       "active_learning",
-      "actor_critic_algorithm",
       "actor_critic_framework",
       "actor_critic_method"
     ],
     "sample_only_baseline": [
-      "abstract_base_models",
-      "abstract_task_definitions",
-      "activationsparsity",
-      "adversarial_generative_model",
-      "adversarial_generative_models",
+      "abstract_model",
+      "activation_and_layer_types",
+      "active_learning_objective",
+      "actor_critic",
+      "adversarial_defenses",
       "adversarial_multiarmed_bandit",
+      "adversarial_robustness_monitoring",
+      "adversarial_training_methods",
       "adversarialattack",
       "adversarialdomainadaptation",
       "agent_based_learning_strategies",
       "algebraic_and_geometric_methods",
+      "algorithm",
       "algorithm_selection",
-      "algorithmic_analysis",
-      "algorithmic_complexity",
-      "algorithmic_learning_task",
-      "algorithmic_optimization_task"
+      "algorithmic_learning_task"
     ],
     "sample_only_guided": [
       "a3c",
-      "acquisitionfunction",
       "activation_unit",
+      "actor_critic_algorithm",
       "actor_critic_rl",
       "actorcriticmethod",
       "adaptive_boosting_algorithm",
       "adaptive_iterative_optimization",
       "advanced_deployment_and_robustness",
-      "adversarial_attack",
       "adversarial_attack_method",
-      "adversarial_attacks",
+      "adversarial_attack_types",
+      "adversarial_defense",
       "adversarial_defense_mechanism",
       "adversarial_domain_adaptation",
       "adversarial_machine_learning",
-      "adversarial_ml_security"
+      "adversarial_ml_security_framework"
     ]
   },
   "hierarchy": {
-    "baseline_edges": 2084,
-    "guided_edges": 2124,
-    "shared_edges": 164,
-    "only_baseline_edges": 1920,
-    "only_guided_edges": 1960,
-    "edge_jaccard": 0.0406,
-    "shared_concepts_evaluated": 1132,
-    "identical_direct_parent_count": 164,
-    "identical_direct_parent_rate": 0.1449,
-    "changed_direct_parent_count": 968,
-    "changed_direct_parent_rate": 0.8551,
-    "mean_ancestor_jaccard": 0.4623,
+    "baseline_edges": 2049,
+    "guided_edges": 2085,
+    "shared_edges": 154,
+    "only_baseline_edges": 1895,
+    "only_guided_edges": 1931,
+    "edge_jaccard": 0.0387,
+    "shared_concepts_evaluated": 1114,
+    "identical_direct_parent_count": 154,
+    "identical_direct_parent_rate": 0.1382,
+    "changed_direct_parent_count": 960,
+    "changed_direct_parent_rate": 0.8618,
+    "mean_ancestor_jaccard": 0.4561,
     "max_depth": {
-      "baseline": 11,
+      "baseline": 10,
       "guided": 10
     },
     "avg_depth": {
-      "baseline": 5.12,
-      "guided": 5.16
+      "baseline": 5.08,
+      "guided": 5.07
     },
     "branching_factor": {
-      "baseline": 2.352,
-      "guided": 2.376
+      "baseline": 2.411,
+      "guided": 2.444
     },
     "sample_parent_shifts": [
       {
-        "concept": "stochastic_policy",
+        "concept": "signal_decomposition",
         "baseline_parent": [
-          "reinforcement_learning_policy"
+          "core_core_ml_task"
         ],
         "guided_parent": [
-          "policy_based_methods"
+          "unsupervised_learning_task"
         ]
       },
       {
-        "concept": "metamodel",
+        "concept": "regularized_empirical_risk_minimization",
         "baseline_parent": [
-          "engineering_approximation_model"
+          "risk_minimization_objective"
         ],
         "guided_parent": [
+          "regularized_risk_objectives"
+        ]
+      },
+      {
+        "concept": "classification_model",
+        "baseline_parent": [
+          "ml_task"
+        ],
+        "guided_parent": [
+          "core_parametric_ml_model"
+        ]
+      },
+      {
+        "concept": "gaussian_process",
+        "baseline_parent": [
+          "stochastic_process_model"
+        ],
+        "guided_parent": [
+          "probabilistic_functional_model"
+        ]
+      },
+      {
+        "concept": "core_ml_algorithm",
+        "baseline_parent": [
+          "ml_algorithm_architecture"
+        ],
+        "guided_parent": [
+          "ml_algorithm"
+        ]
+      },
+      {
+        "concept": "large_language_model",
+        "baseline_parent": [
+          "neural_network_architecture"
+        ],
+        "guided_parent": [
+          "neural_language_model"
+        ]
+      },
+      {
+        "concept": "convolutional_kernel",
+        "baseline_parent": [
+          "neural_network_component"
+        ],
+        "guided_parent": [
+          "new_ml_feature_extractor"
+        ]
+      },
+      {
+        "concept": "probabilistic_model",
+        "baseline_parent": [
           "ml_model"
+        ],
+        "guided_parent": [
+          "ml_foundations_and_theory"
         ]
       },
       {
-        "concept": "perturbation",
+        "concept": "self_attention_network",
         "baseline_parent": [
-          "theoretical_frameworks"
+          "recurrent_and_attention_neural_network"
         ],
         "guided_parent": [
-          "stability_and_sensitivity_analysis"
+          "connectionist_neural_network"
         ]
       },
       {
-        "concept": "hyperparameter_configuration",
+        "concept": "graph_network",
         "baseline_parent": [
-          "model_configuration"
+          "neural_architecture"
         ],
         "guided_parent": [
-          "model_evaluation_protocol"
-        ]
-      },
-      {
-        "concept": "offline_reinforcement_learning",
-        "baseline_parent": [
-          "offline_rl"
-        ],
-        "guided_parent": [
-          "rl_data_utilization_paradigms"
-        ]
-      },
-      {
-        "concept": "adaptive_neuro_fuzzy_inference_system",
-        "baseline_parent": [
-          "neuro_fuzzy_model"
-        ],
-        "guided_parent": [
-          "hybrid_ml_model"
-        ]
-      },
-      {
-        "concept": "entropic_penalization",
-        "baseline_parent": [
-          "information_theoretic_objective"
-        ],
-        "guided_parent": [
-          "regularization_technique"
-        ]
-      },
-      {
-        "concept": "deep_belief_network",
-        "baseline_parent": [
-          "generative_probabilistic_neural_network"
-        ],
-        "guided_parent": [
-          "generative_neural_architectures"
-        ]
-      },
-      {
-        "concept": "diffusion_model",
-        "baseline_parent": [
-          "likelihood_based_iterative_model"
-        ],
-        "guided_parent": [
-          "iterative_refinement_models"
-        ]
-      },
-      {
-        "concept": "exploration",
-        "baseline_parent": [
-          "exploration_strategies"
-        ],
-        "guided_parent": [
-          "reinforcement_learning_strategy"
+          "network_types_by_connectivity"
         ]
       }
     ]
   },
   "relations": {
-    "baseline_triples": 950,
-    "guided_triples": 997,
-    "shared_triples": 657,
-    "only_baseline_triples": 293,
-    "only_guided_triples": 340,
-    "triple_jaccard": 0.5093,
+    "baseline_triples": 946,
+    "guided_triples": 995,
+    "shared_triples": 640,
+    "only_baseline_triples": 306,
+    "only_guided_triples": 355,
+    "triple_jaccard": 0.4919,
     "predicate_breakdown": {
       "evaluates": {
         "baseline": 12,
-        "guided": 14,
-        "delta": 2
+        "guided": 15,
+        "delta": 3
       },
       "hasCharacteristic": {
-        "baseline": 28,
-        "guided": 36,
-        "delta": 8
+        "baseline": 26,
+        "guided": 35,
+        "delta": 9
       },
       "hasComponent": {
-        "baseline": 528,
-        "guided": 528,
-        "delta": 0
+        "baseline": 521,
+        "guided": 524,
+        "delta": 3
       },
       "hasPurpose": {
-        "baseline": 31,
-        "guided": 18,
+        "baseline": 30,
+        "guided": 17,
         "delta": -13
       },
       "integrates": {
@@ -216,58 +216,58 @@
         "delta": 10
       },
       "modifies": {
-        "baseline": 31,
-        "guided": 34,
-        "delta": 3
+        "baseline": 30,
+        "guided": 37,
+        "delta": 7
       },
       "optimizes": {
-        "baseline": 75,
-        "guided": 93,
-        "delta": 18
+        "baseline": 72,
+        "guided": 92,
+        "delta": 20
       },
       "organizes": {
-        "baseline": 4,
-        "guided": 6,
+        "baseline": 5,
+        "guided": 7,
         "delta": 2
       },
       "processesData": {
-        "baseline": 46,
+        "baseline": 50,
         "guided": 49,
-        "delta": 3
+        "delta": -1
       },
       "producesOutput": {
-        "baseline": 59,
-        "guided": 63,
-        "delta": 4
+        "baseline": 61,
+        "guided": 64,
+        "delta": 3
       },
       "selects": {
-        "baseline": 22,
-        "guided": 27,
-        "delta": 5
+        "baseline": 24,
+        "guided": 26,
+        "delta": 2
       },
       "transforms": {
-        "baseline": 26,
+        "baseline": 27,
         "guided": 25,
-        "delta": -1
+        "delta": -2
       }
     }
   },
   "annotations": {
     "skos_definition": {
-      "baseline": 34755,
-      "guided": 34411
+      "baseline": 34639,
+      "guided": 34393
     },
     "rdfs_comment": {
-      "baseline": 43015,
-      "guided": 42791
+      "baseline": 42861,
+      "guided": 42783
     },
     "skos_altLabel": {
-      "baseline": 928,
+      "baseline": 927,
       "guided": 864
     },
     "definition_concept_coverage": {
-      "baseline_rate": 0.3887,
-      "guided_rate": 0.3964
+      "baseline_rate": 0.3929,
+      "guided_rate": 0.4033
     }
   }
 }

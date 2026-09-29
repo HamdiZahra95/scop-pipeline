@@ -1,0 +1,209 @@
+{
+  "reference_labels": 709,
+  "definitions_scanned": 103231,
+  "attested_in_definitions": 182,
+  "not_attested": 527,
+  "farmed_concepts_with_hit": 21673,
+  "top_mentioned": [
+    [
+      "reinforcement learning",
+      2113
+    ],
+    [
+      "time",
+      2058
+    ],
+    [
+      "classification",
+      2043
+    ],
+    [
+      "graph",
+      2008
+    ],
+    [
+      "performance",
+      1854
+    ],
+    [
+      "image",
+      1471
+    ],
+    [
+      "target",
+      1385
+    ],
+    [
+      "text",
+      1104
+    ],
+    [
+      "accuracy",
+      1089
+    ],
+    [
+      "used for",
+      1056
+    ],
+    [
+      "random",
+      919
+    ],
+    [
+      "regression",
+      792
+    ],
+    [
+      "metric",
+      770
+    ],
+    [
+      "bayesian",
+      717
+    ],
+    [
+      "supervised learning",
+      699
+    ],
+    [
+      "clustering",
+      697
+    ],
+    [
+      "parameter",
+      642
+    ],
+    [
+      "hardware",
+      553
+    ],
+    [
+      "loss function",
+      521
+    ],
+    [
+      "audio",
+      496
+    ],
+    [
+      "time series",
+      490
+    ],
+    [
+      "video",
+      490
+    ],
+    [
+      "unsupervised learning",
+      428
+    ],
+    [
+      "ensemble",
+      404
+    ],
+    [
+      "group",
+      340
+    ],
+    [
+      "sum",
+      327
+    ],
+    [
+      "recommendation",
+      276
+    ],
+    [
+      "transformer",
+      248
+    ],
+    [
+      "feature extraction",
+      240
+    ],
+    [
+      "mean",
+      217
+    ],
+    [
+      "translation",
+      212
+    ],
+    [
+      "convolutional neural network",
+      211
+    ],
+    [
+      "precision",
+      207
+    ],
+    [
+      "ranking",
+      201
+    ],
+    [
+      "category",
+      192
+    ],
+    [
+      "required",
+      174
+    ],
+    [
+      "generative adversarial network",
+      156
+    ],
+    [
+      "anomaly detection",
+      150
+    ],
+    [
+      "scalable",
+      146
+    ],
+    [
+      "categorical",
+      146
+    ],
+    [
+      "feature selection",
+      143
+    ],
+    [
+      "accurate",
+      142
+    ],
+    [
+      "Gaussian process",
+      133
+    ],
+    [
+      "autoencoder",
+      131
+    ],
+    [
+      "stochastic gradient descent",
+      121
+    ],
+    [
+      "object detection",
+      115
+    ],
+    [
+      "binary classification",
+      111
+    ],
+    [
+      "image classification",
+      102
+    ],
+    [
+      "linear regression",
+      97
+    ],
+    [
+      "image segmentation",
+      93
+    ]
+  ]
+}

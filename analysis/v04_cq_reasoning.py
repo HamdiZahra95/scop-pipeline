@@ -3,11 +3,11 @@ v04_cq_reasoning.py — competency questions as REAL queries, comparatively.
 
 The hasty analysis scripts scored CQs by substring presence. This runs the 12
 competency questions as actual graph/reasoner queries (reusing the pipeline's own
-S12 evaluate_cqs logic) on BOTH the baseline and guided ontologies, and adds two
-things S12's single-run gate does not:
+s13 evaluate_cqs logic) on BOTH the baseline and guided ontologies, and adds two
+things s13's single-run gate does not:
 
   1. ASSERTED vs MATERIALIZED. Some CQs need inference (CQ7 transitive
-     hasComponent; CQ8/CQ9 inverse properties). S12 queries the asserted graph
+     hasComponent; CQ8/CQ9 inverse properties). s13 queries the asserted graph
      only. Here we also build a materialized graph that makes the axioms declared
      in common.PROPERTY_AXIOMS explicit — inverse edges, symmetric edges, and the
      transitive closure of transitive properties — deterministically in rdflib
@@ -19,7 +19,7 @@ things S12's single-run gate does not:
      each mode, reporting the per-CQ answerable-rate (does answerability flip
      run-to-run?).
 
-CQ12 (consistency) uses HermiT via S12.check_consistency on the latest export of
+CQ12 (consistency) uses HermiT via s13.check_consistency on the latest export of
 each mode; it is not part of the stability sweep (reasoner cost).
 
 Usage (from pipeline_v2/):
@@ -38,7 +38,7 @@ PV2 = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PV2))
 sys.path.insert(0, str(PV2 / "stages"))
 from analysis import common as C
-import s12_quality_gate as s12
+import s13_quality_gate as s13
 import common as PC
 
 from rdflib import Graph, URIRef, RDF, OWL
@@ -106,11 +106,11 @@ def main():
         owl = C.latest_owl(mode)
         print(f"[{mode}] {owl.name}: querying 12 CQs (asserted + materialized) "
               f"+ reasoner consistency...")
-        g = s12.load_graph(owl)
-        cons = s12.check_consistency(owl)
-        asserted = {c["id"]: c for c in s12.evaluate_cqs(g, cons)}
+        g = s13.load_graph(owl)
+        cons = s13.check_consistency(owl)
+        asserted = {c["id"]: c for c in s13.evaluate_cqs(g, cons)}
         mg, added = materialize(g)
-        materialized = {c["id"]: c for c in s12.evaluate_cqs(mg, cons)}
+        materialized = {c["id"]: c for c in s13.evaluate_cqs(mg, cons)}
         per_mode[mode] = {"owl": owl.name, "consistency": cons["status"],
                           "materialized_edges_added": added,
                           "asserted": asserted, "materialized": materialized}
@@ -152,11 +152,11 @@ def main():
             per_cq = defaultdict(list)
             n_used = 0
             for owl in C.all_owls(mode):
-                g = s12.load_graph(owl)
+                g = s13.load_graph(owl)
                 if _n_classes(g) < MIN_CLASSES:
                     continue
                 n_used += 1
-                for c in s12.evaluate_cqs(g, _STUB_CONS):
+                for c in s13.evaluate_cqs(g, _STUB_CONS):
                     per_cq[c["id"]].append(1 if c["status"] == "answerable" else 0)
             stability[mode] = {
                 "runs_used": n_used,
@@ -170,7 +170,7 @@ def main():
         "rollup": rollup,
         "comparison": comparison,
         "stability": stability,
-        "note": "Real graph/reasoner CQ queries (S12 logic), not substring matching. "
+        "note": "Real graph/reasoner CQ queries (s13 logic), not substring matching. "
                 "'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive "
                 "semantics explicit in rdflib (faithful proxy for DL property "
                 "inference); a CQ gained_by_inference is answerable by entailment. "

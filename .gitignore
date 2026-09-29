@@ -30,6 +30,9 @@ artifacts/
 *.fls
 *.fdb_latexmk
 paper/
+paper1/
+paper2/
+thesis*/
 
 # Large gold standard datasets (>100MB exceeds GitHub push limits)
 analysis/gold/ITO.owl

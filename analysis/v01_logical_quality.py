@@ -3,8 +3,8 @@ v01_logical_quality.py — reasoner-based logical soundness (guidance-independen
 
 The strongest guidance-independent axis: an ontology that is logically
 inconsistent or contains subclass cycles is broken regardless of how well it
-aligns to any reference. This script reuses the pipeline's OWN S12 gate logic
-(s12_quality_gate.check_consistency / detect_subclass_cycles) so the numbers are
+aligns to any reference. This script reuses the pipeline's OWN s13. gate logic
+(s13._quality_gate.check_consistency / detect_subclass_cycles) so the numbers are
 identical to what the pipeline reports, and applies it comparatively across
 BOTH modes and ALL of their S11 exports.
 
@@ -30,7 +30,7 @@ PV2 = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PV2))
 sys.path.insert(0, str(PV2 / "stages"))
 from analysis import common as C
-import s12_quality_gate as s12   # reuse the pipeline's validated gate logic
+import s13_quality_gate as s13   # reuse the pipeline's validated gate logic
 
 MODES = ["baseline", "guided"]
 
@@ -38,7 +38,7 @@ MODES = ["baseline", "guided"]
 def structural_scan(owl_path: Path) -> dict:
     """Cheap rdflib-only scan: class/edge counts, subclass cycles, self-loops."""
     from rdflib import RDF, RDFS, OWL, URIRef
-    g = s12.load_graph(owl_path)
+    g = s13.load_graph(owl_path)
     ns = C.ONTOLOGY_NS
     classes = [s for s in g.subjects(RDF.type, OWL.Class)
                if isinstance(s, URIRef) and str(s).startswith(ns)]
@@ -46,7 +46,7 @@ def structural_scan(owl_path: Path) -> dict:
                    if isinstance(c, URIRef) and isinstance(p, URIRef)
                    and str(c).startswith(ns) and str(p).startswith(ns))
     self_loops = sum(1 for c in classes if (c, RDFS.subClassOf, c) in g)
-    cycles = s12.detect_subclass_cycles(g)
+    cycles = s13.detect_subclass_cycles(g)
     out = {"run": owl_path.name, "classes": len(classes),
            "subclass_edges": subedges, "self_loops": self_loops,
            "cycles": len(cycles)}
@@ -83,7 +83,7 @@ def main():
               f"(HermiT via owlready2)...")
         cons = []
         for owl in to_check:
-            r = s12.check_consistency(owl)
+            r = s13.check_consistency(owl)
             cons.append({"run": owl.name, "status": r.get("status"),
                          "unsatisfiable_classes": r.get("inconsistent_classes", []),
                          "reasoner_error": r.get("reasoner_error")})
@@ -151,7 +151,7 @@ def main():
 
 def render_md(result) -> str:
     L = ["# v01. Logical Quality (reasoner-based, guidance-independent)", "",
-         "Consistency (HermiT) + subclass-cycle detection, reusing the S12 gate "
+         "Consistency (HermiT) + subclass-cycle detection, reusing the s13. gate "
          "logic, across both modes and all their S11 exports. This axis does not "
          "depend on any reference ontology.", "",
          "| mode | runs | latest consistency | latest cycle-free | runs w/ cycles | latest sound |",

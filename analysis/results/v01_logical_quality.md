@@ -1,6 +1,6 @@
 # v01. Logical Quality (reasoner-based, guidance-independent)
 
-Consistency (HermiT) + subclass-cycle detection, reusing the S12 gate logic, across both modes and all their S11 exports. This axis does not depend on any reference ontology.
+Consistency (HermiT) + subclass-cycle detection, reusing the s13. gate logic, across both modes and all their S11 exports. This axis does not depend on any reference ontology.
 
 | mode | runs | latest consistency | latest cycle-free | runs w/ cycles | latest sound |
 |---|---|---|---|---|---|

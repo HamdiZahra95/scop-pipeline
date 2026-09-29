@@ -4,8 +4,8 @@
 This evaluation scores the baseline and guided ontology runs against the same corpus-grounded, frequency-balanced CQ benchmark. The comparison focuses on concept coverage under a shared benchmark rather than generic CQ counts alone.
 
 ## Overall coverage
-- baseline coverage: 78.00%
-- guided coverage: 86.00%
+- baseline coverage: 76.00%
+- guided coverage: 84.00%
 - delta: 8.00%
 - winner: guided
 
@@ -15,8 +15,8 @@ This evaluation scores the baseline and guided ontology runs against the same co
 - guided: 14/16 = 87.50%
 
 ### medium_frequency
-- baseline: 16/18 = 88.89%
-- guided: 17/18 = 94.44%
+- baseline: 15/18 = 83.33%
+- guided: 16/18 = 88.89%
 
 ### low_frequency_important
 - baseline: 12/16 = 75.00%

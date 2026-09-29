@@ -12,48 +12,48 @@ Compares the generated baseline and guided ontologies against three **held-out, 
 ### strict
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.0738 | 0.0758 | +0.0020 | guided |
-| recall of gold | 0.0579 | 0.0600 | +0.0021 | guided |
-| taxonomic F1 | 0.0714 | 0.1667 | +0.0953 | guided |
+| coverage of generated | 0.0697 | 0.0714 | +0.0017 | guided |
+| recall of gold | 0.0557 | 0.0570 | +0.0013 | guided |
+| taxonomic F1 | 0.2581 | 0.1714 | -0.0867 | baseline |
 
 ### with_semantic
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.1149 | 0.1207 | +0.0058 | guided |
-| recall of gold | 0.0687 | 0.0731 | +0.0044 | guided |
-| taxonomic F1 | 0.1205 | 0.1854 | +0.0649 | guided |
+| coverage of generated | 0.1114 | 0.1153 | +0.0039 | guided |
+| recall of gold | 0.0696 | 0.0705 | +0.0009 | guided |
+| taxonomic F1 | 0.2038 | 0.1915 | -0.0123 | baseline |
 
 ## ITO — ITO (manual expert curation; AI task hierarchy)
 
 ### strict
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.0565 | 0.0507 | -0.0058 | baseline |
-| recall of gold | 0.1067 | 0.0957 | -0.0110 | baseline |
-| taxonomic F1 | 0.1194 | 0.0323 | -0.0871 | baseline |
+| coverage of generated | 0.0569 | 0.0502 | -0.0067 | baseline |
+| recall of gold | 0.1057 | 0.0948 | -0.0109 | baseline |
+| taxonomic F1 | 0.0923 | 0.0328 | -0.0595 | baseline |
 
 ### with_semantic
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.0922 | 0.0857 | -0.0065 | baseline |
-| recall of gold | 0.1231 | 0.1176 | -0.0055 | baseline |
-| taxonomic F1 | 0.1600 | 0.0400 | -0.1200 | baseline |
+| coverage of generated | 0.0933 | 0.0844 | -0.0089 | baseline |
+| recall of gold | 0.1231 | 0.1167 | -0.0064 | baseline |
+| taxonomic F1 | 0.2041 | 0.0400 | -0.1641 | baseline |
 
 ## AIO — AIO (expert + LLM-assisted; ML model/architecture is-a) — supplementary
 
 ### strict
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.0309 | 0.0298 | -0.0011 | baseline |
-| recall of gold | 0.1448 | 0.1425 | -0.0023 | baseline |
-| taxonomic F1 | 0.0690 | 0.0417 | -0.0273 | baseline |
+| coverage of generated | 0.0319 | 0.0304 | -0.0015 | baseline |
+| recall of gold | 0.1471 | 0.1425 | -0.0046 | baseline |
+| taxonomic F1 | 0.0220 | 0.0412 | +0.0192 | guided |
 
 ### with_semantic
 | metric | baseline | guided | delta | winner |
 |---|---|---|---|---|
-| coverage of generated | 0.0690 | 0.0616 | -0.0074 | baseline |
-| recall of gold | 0.1810 | 0.1810 | +0.0000 | tie |
-| taxonomic F1 | 0.1923 | 0.1159 | -0.0764 | baseline |
+| coverage of generated | 0.0707 | 0.0608 | -0.0099 | baseline |
+| recall of gold | 0.1855 | 0.1765 | -0.0090 | baseline |
+| taxonomic F1 | 0.0966 | 0.0896 | -0.0070 | baseline |
 
 ## Notes
 - **strict** = exact + normalized-lexical matches only (conservative). **with_semantic** adds embedding matches; treat as an upper bound and check `v03_match_samples.json` for matcher precision.

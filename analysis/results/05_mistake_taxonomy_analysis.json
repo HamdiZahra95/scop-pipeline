@@ -42,12 +42,12 @@
     },
     "object-property-crossleaf": {
       "baseline": {
-        "answerable": 0,
-        "gap": 1
+        "answerable": 1,
+        "gap": 0
       },
       "guided": {
-        "answerable": 0,
-        "gap": 1
+        "answerable": 1,
+        "gap": 0
       }
     },
     "object-property-targeted": {
@@ -92,12 +92,12 @@
     }
   },
   "baseline_summary": {
-    "answerable": 11,
-    "gaps": 1
+    "answerable": 12,
+    "gaps": 0
   },
   "guided_summary": {
-    "answerable": 11,
-    "gaps": 1
+    "answerable": 12,
+    "gaps": 0
   },
   "main_loss_pattern": {
     "most_affected_categories": [

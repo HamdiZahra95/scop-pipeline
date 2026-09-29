@@ -3,7 +3,7 @@ v02_structural_ontoqa.py — structural / OntoQA metrics, baseline vs guided.
 
 Structural quality is a guidance-independent axis: is the generated hierarchy
 well-shaped (deep enough but not degenerate, connected, richly related, not
-tangled)? Reuses S12's compute_metrics for the shared block (class/concept
+tangled)? Reuses s13's compute_metrics for the shared block (class/concept
 counts, depth, branching, parent/property coverage, orphans) and adds OntoQA
 (Tartir et al.) schema metrics:
 
@@ -32,7 +32,7 @@ PV2 = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PV2))
 sys.path.insert(0, str(PV2 / "stages"))
 from analysis import common as C
-import s12_quality_gate as s12
+import s13_quality_gate as s13
 import common as PC   # pipeline constants (CORE_PROPERTIES, ONTOLOGY_NS)
 
 MODES = ["baseline", "guided"]
@@ -79,8 +79,8 @@ def ontoqa_additions(g) -> dict:
 
 
 def scan(owl_path: Path) -> dict:
-    g = s12.load_graph(owl_path)
-    m = dict(s12.compute_metrics(g)["metrics"])   # shared S12 metrics
+    g = s13.load_graph(owl_path)
+    m = dict(s13.compute_metrics(g)["metrics"])   # shared s13 metrics
     m.update(ontoqa_additions(g))                 # OntoQA additions
     return m
 
@@ -147,7 +147,7 @@ def render_md(result) -> str:
             "orphan_ratio", "inheritance_richness", "relationship_richness",
             "attribute_richness", "tangledness", "leaf_ratio"]
     L = ["# v02. Structural / OntoQA Quality", "",
-         "Shared S12 metrics + OntoQA schema metrics. Primary comparison is the "
+         "Shared s13 metrics + OntoQA schema metrics. Primary comparison is the "
          "latest baseline vs the latest guided export.", "",
          "| metric | baseline | guided | delta |", "|---|---|---|---|"]
     comp = result["comparison"]

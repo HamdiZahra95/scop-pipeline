@@ -1,32 +1,32 @@
 {
   "baseline": {
-    "run_id": "20260925-161821",
+    "run_id": "20260928-200257",
     "verdict": "pass",
-    "class_count": 2089,
-    "concept_count": 2072,
+    "class_count": 2054,
+    "concept_count": 2037,
     "skeleton_count": 17,
-    "max_depth": 11,
-    "branching_factor": 2.352,
+    "max_depth": 10,
+    "branching_factor": 2.411,
     "pct_with_parent": 1.0,
-    "pct_with_property": 0.2138,
+    "pct_with_property": 0.217,
     "orphan_ratio": 0.0,
     "cq_total": 12,
-    "cq_answerable": 11,
-    "cq_gaps": 1,
+    "cq_answerable": 12,
+    "cq_gaps": 0,
     "cq_results": [
       {
         "id": "CQ1",
         "question": "What are the subtypes of unsupervised learning?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "15 direct subclasses, 27 descendants across 3 root(s)"
+        "detail": "11 direct subclasses, 18 descendants across 3 root(s)"
       },
       {
         "id": "CQ2",
         "question": "Which concepts are a kind of ML model?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "278 descendants"
+        "detail": "347 descendants"
       },
       {
         "id": "CQ3",
@@ -40,35 +40,35 @@
         "question": "What does an algorithm optimize?",
         "category": "object-property",
         "status": "answerable",
-        "detail": "75 optimizes edges"
+        "detail": "72 optimizes edges"
       },
       {
         "id": "CQ5",
         "question": "What optimizes cross-entropy / loss functions?",
         "category": "object-property-targeted",
         "status": "answerable",
-        "detail": "1 optimizers targeting 2 loss class(es)"
+        "detail": "1 optimizers targeting 1 loss class(es)"
       },
       {
         "id": "CQ6",
         "question": "Which models perform classification?",
         "category": "object-property-crossleaf",
-        "status": "gap",
-        "detail": "0 performers targeting 2 classification class(es)"
+        "status": "answerable",
+        "detail": "1 performers targeting 2 classification class(es)"
       },
       {
         "id": "CQ7",
         "question": "What are the components of a neural network?",
         "category": "object-property-transitive",
         "status": "answerable",
-        "detail": "21 architectural components across 27 neural network classes"
+        "detail": "22 architectural components across 31 neural network classes"
       },
       {
         "id": "CQ8",
         "question": "Given an objective, which algorithms optimize it?",
         "category": "inverse-property",
         "status": "answerable",
-        "detail": "11 optimizers targeting 3 objective class(es)"
+        "detail": "11 optimizers targeting 2 objective class(es)"
       },
       {
         "id": "CQ9",
@@ -101,33 +101,33 @@
     ]
   },
   "guided": {
-    "run_id": "20260925-125956",
+    "run_id": "20260928-210116",
     "verdict": "pass",
-    "class_count": 2129,
-    "concept_count": 2112,
+    "class_count": 2090,
+    "concept_count": 2073,
     "skeleton_count": 17,
     "max_depth": 10,
-    "branching_factor": 2.376,
+    "branching_factor": 2.444,
     "pct_with_parent": 1.0,
-    "pct_with_property": 0.2216,
+    "pct_with_property": 0.2253,
     "orphan_ratio": 0.0,
     "cq_total": 12,
-    "cq_answerable": 11,
-    "cq_gaps": 1,
+    "cq_answerable": 12,
+    "cq_gaps": 0,
     "cq_results": [
       {
         "id": "CQ1",
         "question": "What are the subtypes of unsupervised learning?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "14 direct subclasses, 39 descendants across 4 root(s)"
+        "detail": "12 direct subclasses, 24 descendants across 4 root(s)"
       },
       {
         "id": "CQ2",
         "question": "Which concepts are a kind of ML model?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "378 descendants"
+        "detail": "372 descendants"
       },
       {
         "id": "CQ3",
@@ -141,7 +141,7 @@
         "question": "What does an algorithm optimize?",
         "category": "object-property",
         "status": "answerable",
-        "detail": "93 optimizes edges"
+        "detail": "92 optimizes edges"
       },
       {
         "id": "CQ5",
@@ -154,15 +154,15 @@
         "id": "CQ6",
         "question": "Which models perform classification?",
         "category": "object-property-crossleaf",
-        "status": "gap",
-        "detail": "0 performers targeting 1 classification class(es)"
+        "status": "answerable",
+        "detail": "1 performers targeting 1 classification class(es)"
       },
       {
         "id": "CQ7",
         "question": "What are the components of a neural network?",
         "category": "object-property-transitive",
         "status": "answerable",
-        "detail": "20 architectural components across 28 neural network classes"
+        "detail": "12 architectural components across 17 neural network classes"
       },
       {
         "id": "CQ8",
@@ -176,7 +176,7 @@
         "question": "What data does a model learn from, and what processes it?",
         "category": "inverse-property",
         "status": "answerable",
-        "detail": "5 data learning/processing edges targeting 5 data class(es)"
+        "detail": "5 data learning/processing edges targeting 4 data class(es)"
       },
       {
         "id": "CQ10",
@@ -202,10 +202,10 @@
     ]
   },
   "deltas": {
-    "class_count": 40,
-    "concept_count": 40,
-    "max_depth": -1,
-    "branching_factor": 0.02400000000000002,
+    "class_count": 36,
+    "concept_count": 36,
+    "max_depth": 0,
+    "branching_factor": 0.03299999999999992,
     "cq_answerable": 0,
     "cq_gaps": 0
   },

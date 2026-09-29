@@ -1,7 +1,7 @@
 """
 v10_cq_quality.py — a better competency-question evaluation (deterministic, no LLM).
 
-The pipeline's built-in CQ check (S12 / v04) is a fixed set of 12 questions, each
+The pipeline's built-in CQ check (s13 / v04) is a fixed set of 12 questions, each
 bound to ONE hardcoded concept slug (e.g. ``unsupervised_learning``,
 ``gradient_descent``) and scored by bare non-emptiness. For a 2,000-class
 ontology that is a spot-check on ~10 entities (~0.5% of classes), and it is

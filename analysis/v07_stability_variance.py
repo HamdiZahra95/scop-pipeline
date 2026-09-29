@@ -32,7 +32,7 @@ PV2 = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PV2))
 sys.path.insert(0, str(PV2 / "stages"))
 from analysis import common as C
-import s12_quality_gate as s12
+import s13_quality_gate as s13
 from analysis import v02_structural_ontoqa as v2
 
 MODES = ["baseline", "guided"]
@@ -102,8 +102,8 @@ def _pooled_within_std(groups, key):
 
 
 def scan_export(owl_path: Path):
-    g = s12.load_graph(owl_path)
-    metrics = dict(s12.compute_metrics(g)["metrics"])
+    g = s13.load_graph(owl_path)
+    metrics = dict(s13.compute_metrics(g)["metrics"])
     metrics.update(v2.ontoqa_additions(g))
     cslugs, edges = extract_sets(g)
     return metrics, cslugs, edges

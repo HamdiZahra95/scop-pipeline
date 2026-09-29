@@ -1,12 +1,12 @@
 # v04. Competency Questions as Real Reasoner Queries
 
-- Real graph/reasoner CQ queries (S12 logic), not substring matching. 'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive semantics explicit in rdflib (faithful proxy for DL property inference); a CQ gained_by_inference is answerable by entailment. CQ12 consistency uses HermiT on the latest export; stability sweep is asserted-only (CQ12 uninformative there).
+- Real graph/reasoner CQ queries (s13 logic), not substring matching. 'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive semantics explicit in rdflib (faithful proxy for DL property inference); a CQ gained_by_inference is answerable by entailment. CQ12 consistency uses HermiT on the latest export; stability sweep is asserted-only (CQ12 uninformative there).
 
 ## Rollup
 | mode | asserted answerable | materialized answerable | consistency |
 |---|---|---|---|
-| baseline | 11/12 | 11/12 | consistent |
-| guided | 11/12 | 11/12 | consistent |
+| baseline | 12/12 | 12/12 | consistent |
+| guided | 12/12 | 12/12 | consistent |
 
 ## Per-CQ (asserted → materialized)
 | CQ | category | baseline | guided |
@@ -16,7 +16,7 @@
 | CQ3 Is every concept reachable from a top-level domain? | subsumption-coverage | answerable | answerable |
 | CQ4 What does an algorithm optimize? | object-property | answerable | answerable |
 | CQ5 What optimizes cross-entropy / loss functions? | object-property-targeted | answerable | answerable |
-| CQ6 Which models perform classification? | object-property-crossleaf | gap | gap |
+| CQ6 Which models perform classification? | object-property-crossleaf | answerable | answerable |
 | CQ7 What are the components of a neural network? | object-property-transitive | answerable | answerable |
 | CQ8 Given an objective, which algorithms optimize it? | inverse-property | answerable | answerable |
 | CQ9 What data does a model learn from, and what processes it? | inverse-property | answerable | answerable |
@@ -32,7 +32,7 @@
 | CQ3 | 1.0 | 1.0 |
 | CQ4 | 1.0 | 1.0 |
 | CQ5 | 1.0 | 1.0 |
-| CQ6 | 0.0 | 0.0 |
+| CQ6 | 1.0 | 1.0 |
 | CQ7 | 1.0 | 1.0 |
 | CQ8 | 1.0 | 1.0 |
 | CQ9 | 1.0 | 1.0 |

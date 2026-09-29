@@ -5,56 +5,56 @@
   ],
   "primary": {
     "baseline": {
-      "class_count": 2089,
-      "concept_count": 2072,
+      "class_count": 2054,
+      "concept_count": 2037,
       "skeleton_count": 17,
-      "max_depth": 11,
-      "branching_factor": 2.352,
+      "max_depth": 10,
+      "branching_factor": 2.411,
       "pct_with_parent": 1.0,
-      "pct_with_property": 0.2138,
+      "pct_with_property": 0.217,
       "orphan_count": 0,
       "orphan_ratio": 0.0,
       "inheritance_richness": 0.9976,
-      "relationship_richness": 0.3131,
-      "attribute_richness": 38.6769,
+      "relationship_richness": 0.3159,
+      "attribute_richness": 39.1855,
       "tangledness": 0.0,
       "multi_parent_classes": 0,
-      "leaf_ratio": 0.5759,
-      "leaf_count": 1203,
-      "property_edges": 950,
+      "leaf_ratio": 0.5862,
+      "leaf_count": 1204,
+      "property_edges": 946,
       "run": "scop_baseline.owl"
     },
     "guided": {
-      "class_count": 2129,
-      "concept_count": 2112,
+      "class_count": 2090,
+      "concept_count": 2073,
       "skeleton_count": 17,
       "max_depth": 10,
-      "branching_factor": 2.376,
+      "branching_factor": 2.444,
       "pct_with_parent": 1.0,
-      "pct_with_property": 0.2216,
+      "pct_with_property": 0.2253,
       "orphan_count": 0,
       "orphan_ratio": 0.0,
-      "inheritance_richness": 0.9977,
-      "relationship_richness": 0.3194,
-      "attribute_richness": 37.6726,
+      "inheritance_richness": 0.9976,
+      "relationship_richness": 0.3231,
+      "attribute_richness": 38.3445,
       "tangledness": 0.0,
       "multi_parent_classes": 0,
-      "leaf_ratio": 0.5801,
-      "leaf_count": 1235,
-      "property_edges": 997,
+      "leaf_ratio": 0.5919,
+      "leaf_count": 1237,
+      "property_edges": 995,
       "run": "scop_guided.owl"
     }
   },
   "comparison": {
     "class_count": {
-      "baseline": 2089,
-      "guided": 2129,
-      "delta": 40
+      "baseline": 2054,
+      "guided": 2090,
+      "delta": 36
     },
     "concept_count": {
-      "baseline": 2072,
-      "guided": 2112,
-      "delta": 40
+      "baseline": 2037,
+      "guided": 2073,
+      "delta": 36
     },
     "skeleton_count": {
       "baseline": 17,
@@ -62,14 +62,14 @@
       "delta": 0
     },
     "max_depth": {
-      "baseline": 11,
+      "baseline": 10,
       "guided": 10,
-      "delta": -1
+      "delta": 0
     },
     "branching_factor": {
-      "baseline": 2.352,
-      "guided": 2.376,
-      "delta": 0.024
+      "baseline": 2.411,
+      "guided": 2.444,
+      "delta": 0.033
     },
     "pct_with_parent": {
       "baseline": 1.0,
@@ -77,9 +77,9 @@
       "delta": 0.0
     },
     "pct_with_property": {
-      "baseline": 0.2138,
-      "guided": 0.2216,
-      "delta": 0.0078
+      "baseline": 0.217,
+      "guided": 0.2253,
+      "delta": 0.0083
     },
     "orphan_count": {
       "baseline": 0,
@@ -93,18 +93,18 @@
     },
     "inheritance_richness": {
       "baseline": 0.9976,
-      "guided": 0.9977,
-      "delta": 0.0001
+      "guided": 0.9976,
+      "delta": 0.0
     },
     "relationship_richness": {
-      "baseline": 0.3131,
-      "guided": 0.3194,
-      "delta": 0.0063
+      "baseline": 0.3159,
+      "guided": 0.3231,
+      "delta": 0.0072
     },
     "attribute_richness": {
-      "baseline": 38.6769,
-      "guided": 37.6726,
-      "delta": -1.0043
+      "baseline": 39.1855,
+      "guided": 38.3445,
+      "delta": -0.841
     },
     "tangledness": {
       "baseline": 0.0,
@@ -117,38 +117,38 @@
       "delta": 0
     },
     "leaf_ratio": {
-      "baseline": 0.5759,
-      "guided": 0.5801,
-      "delta": 0.0042
+      "baseline": 0.5862,
+      "guided": 0.5919,
+      "delta": 0.0057
     },
     "leaf_count": {
-      "baseline": 1203,
-      "guided": 1235,
-      "delta": 32
+      "baseline": 1204,
+      "guided": 1237,
+      "delta": 33
     },
     "property_edges": {
-      "baseline": 950,
-      "guided": 997,
-      "delta": 47
+      "baseline": 946,
+      "guided": 995,
+      "delta": 49
     }
   },
   "distribution_across_runs": {
     "baseline": {
       "class_count": {
-        "point": 2089.0,
-        "lo": 2089.0,
-        "hi": 2089.0,
+        "point": 2054.0,
+        "lo": 2054.0,
+        "hi": 2054.0,
         "n": 1,
-        "min": 2089,
-        "max": 2089
+        "min": 2054,
+        "max": 2054
       },
       "concept_count": {
-        "point": 2072.0,
-        "lo": 2072.0,
-        "hi": 2072.0,
+        "point": 2037.0,
+        "lo": 2037.0,
+        "hi": 2037.0,
         "n": 1,
-        "min": 2072,
-        "max": 2072
+        "min": 2037,
+        "max": 2037
       },
       "skeleton_count": {
         "point": 17.0,
@@ -159,20 +159,20 @@
         "max": 17
       },
       "max_depth": {
-        "point": 11.0,
-        "lo": 11.0,
-        "hi": 11.0,
+        "point": 10.0,
+        "lo": 10.0,
+        "hi": 10.0,
         "n": 1,
-        "min": 11,
-        "max": 11
+        "min": 10,
+        "max": 10
       },
       "branching_factor": {
-        "point": 2.352,
-        "lo": 2.352,
-        "hi": 2.352,
+        "point": 2.411,
+        "lo": 2.411,
+        "hi": 2.411,
         "n": 1,
-        "min": 2.352,
-        "max": 2.352
+        "min": 2.411,
+        "max": 2.411
       },
       "pct_with_parent": {
         "point": 1.0,
@@ -183,12 +183,12 @@
         "max": 1.0
       },
       "pct_with_property": {
-        "point": 0.2138,
-        "lo": 0.2138,
-        "hi": 0.2138,
+        "point": 0.217,
+        "lo": 0.217,
+        "hi": 0.217,
         "n": 1,
-        "min": 0.2138,
-        "max": 0.2138
+        "min": 0.217,
+        "max": 0.217
       },
       "orphan_count": {
         "point": 0.0,
@@ -215,20 +215,20 @@
         "max": 0.9976
       },
       "relationship_richness": {
-        "point": 0.3131,
-        "lo": 0.3131,
-        "hi": 0.3131,
+        "point": 0.3159,
+        "lo": 0.3159,
+        "hi": 0.3159,
         "n": 1,
-        "min": 0.3131,
-        "max": 0.3131
+        "min": 0.3159,
+        "max": 0.3159
       },
       "attribute_richness": {
-        "point": 38.6769,
-        "lo": 38.6769,
-        "hi": 38.6769,
+        "point": 39.1855,
+        "lo": 39.1855,
+        "hi": 39.1855,
         "n": 1,
-        "min": 38.6769,
-        "max": 38.6769
+        "min": 39.1855,
+        "max": 39.1855
       },
       "tangledness": {
         "point": 0.0,
@@ -247,46 +247,46 @@
         "max": 0
       },
       "leaf_ratio": {
-        "point": 0.5759,
-        "lo": 0.5759,
-        "hi": 0.5759,
+        "point": 0.5862,
+        "lo": 0.5862,
+        "hi": 0.5862,
         "n": 1,
-        "min": 0.5759,
-        "max": 0.5759
+        "min": 0.5862,
+        "max": 0.5862
       },
       "leaf_count": {
-        "point": 1203.0,
-        "lo": 1203.0,
-        "hi": 1203.0,
+        "point": 1204.0,
+        "lo": 1204.0,
+        "hi": 1204.0,
         "n": 1,
-        "min": 1203,
-        "max": 1203
+        "min": 1204,
+        "max": 1204
       },
       "property_edges": {
-        "point": 950.0,
-        "lo": 950.0,
-        "hi": 950.0,
+        "point": 946.0,
+        "lo": 946.0,
+        "hi": 946.0,
         "n": 1,
-        "min": 950,
-        "max": 950
+        "min": 946,
+        "max": 946
       }
     },
     "guided": {
       "class_count": {
-        "point": 2129.0,
-        "lo": 2129.0,
-        "hi": 2129.0,
+        "point": 2090.0,
+        "lo": 2090.0,
+        "hi": 2090.0,
         "n": 1,
-        "min": 2129,
-        "max": 2129
+        "min": 2090,
+        "max": 2090
       },
       "concept_count": {
-        "point": 2112.0,
-        "lo": 2112.0,
-        "hi": 2112.0,
+        "point": 2073.0,
+        "lo": 2073.0,
+        "hi": 2073.0,
         "n": 1,
-        "min": 2112,
-        "max": 2112
+        "min": 2073,
+        "max": 2073
       },
       "skeleton_count": {
         "point": 17.0,
@@ -305,12 +305,12 @@
         "max": 10
       },
       "branching_factor": {
-        "point": 2.376,
-        "lo": 2.376,
-        "hi": 2.376,
+        "point": 2.444,
+        "lo": 2.444,
+        "hi": 2.444,
         "n": 1,
-        "min": 2.376,
-        "max": 2.376
+        "min": 2.444,
+        "max": 2.444
       },
       "pct_with_parent": {
         "point": 1.0,
@@ -321,12 +321,12 @@
         "max": 1.0
       },
       "pct_with_property": {
-        "point": 0.2216,
-        "lo": 0.2216,
-        "hi": 0.2216,
+        "point": 0.2253,
+        "lo": 0.2253,
+        "hi": 0.2253,
         "n": 1,
-        "min": 0.2216,
-        "max": 0.2216
+        "min": 0.2253,
+        "max": 0.2253
       },
       "orphan_count": {
         "point": 0.0,
@@ -345,28 +345,28 @@
         "max": 0.0
       },
       "inheritance_richness": {
-        "point": 0.9977,
-        "lo": 0.9977,
-        "hi": 0.9977,
+        "point": 0.9976,
+        "lo": 0.9976,
+        "hi": 0.9976,
         "n": 1,
-        "min": 0.9977,
-        "max": 0.9977
+        "min": 0.9976,
+        "max": 0.9976
       },
       "relationship_richness": {
-        "point": 0.3194,
-        "lo": 0.3194,
-        "hi": 0.3194,
+        "point": 0.3231,
+        "lo": 0.3231,
+        "hi": 0.3231,
         "n": 1,
-        "min": 0.3194,
-        "max": 0.3194
+        "min": 0.3231,
+        "max": 0.3231
       },
       "attribute_richness": {
-        "point": 37.6726,
-        "lo": 37.6726,
-        "hi": 37.6726,
+        "point": 38.3445,
+        "lo": 38.3445,
+        "hi": 38.3445,
         "n": 1,
-        "min": 37.6726,
-        "max": 37.6726
+        "min": 38.3445,
+        "max": 38.3445
       },
       "tangledness": {
         "point": 0.0,
@@ -385,28 +385,28 @@
         "max": 0
       },
       "leaf_ratio": {
-        "point": 0.5801,
-        "lo": 0.5801,
-        "hi": 0.5801,
+        "point": 0.5919,
+        "lo": 0.5919,
+        "hi": 0.5919,
         "n": 1,
-        "min": 0.5801,
-        "max": 0.5801
+        "min": 0.5919,
+        "max": 0.5919
       },
       "leaf_count": {
-        "point": 1235.0,
-        "lo": 1235.0,
-        "hi": 1235.0,
+        "point": 1237.0,
+        "lo": 1237.0,
+        "hi": 1237.0,
         "n": 1,
-        "min": 1235,
-        "max": 1235
+        "min": 1237,
+        "max": 1237
       },
       "property_edges": {
-        "point": 997.0,
-        "lo": 997.0,
-        "hi": 997.0,
+        "point": 995.0,
+        "lo": 995.0,
+        "hi": 995.0,
         "n": 1,
-        "min": 997,
-        "max": 997
+        "min": 995,
+        "max": 995
       }
     }
   },

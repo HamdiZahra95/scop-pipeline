@@ -5,13 +5,13 @@
   ],
   "rollup": {
     "baseline": {
-      "asserted_answerable": 11,
-      "materialized_answerable": 11,
+      "asserted_answerable": 12,
+      "materialized_answerable": 12,
       "consistency": "consistent"
     },
     "guided": {
-      "asserted_answerable": 11,
-      "materialized_answerable": 11,
+      "asserted_answerable": 12,
+      "materialized_answerable": 12,
       "consistency": "consistent"
     }
   },
@@ -85,10 +85,10 @@
       "id": "CQ6",
       "question": "Which models perform classification?",
       "category": "object-property-crossleaf",
-      "baseline_asserted": "gap",
-      "baseline_materialized": "gap",
-      "guided_asserted": "gap",
-      "guided_materialized": "gap",
+      "baseline_asserted": "answerable",
+      "baseline_materialized": "answerable",
+      "guided_asserted": "answerable",
+      "guided_materialized": "answerable",
       "gained_by_inference": {
         "baseline": false,
         "guided": false
@@ -185,7 +185,7 @@
         "CQ3": 1.0,
         "CQ4": 1.0,
         "CQ5": 1.0,
-        "CQ6": 0.0,
+        "CQ6": 1.0,
         "CQ7": 1.0,
         "CQ8": 1.0,
         "CQ9": 1.0
@@ -202,12 +202,12 @@
         "CQ3": 1.0,
         "CQ4": 1.0,
         "CQ5": 1.0,
-        "CQ6": 0.0,
+        "CQ6": 1.0,
         "CQ7": 1.0,
         "CQ8": 1.0,
         "CQ9": 1.0
       }
     }
   },
-  "note": "Real graph/reasoner CQ queries (S12 logic), not substring matching. 'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive semantics explicit in rdflib (faithful proxy for DL property inference); a CQ gained_by_inference is answerable by entailment. CQ12 consistency uses HermiT on the latest export; stability sweep is asserted-only (CQ12 uninformative there)."
+  "note": "Real graph/reasoner CQ queries (s13 logic), not substring matching. 'materialized' makes PROPERTY_AXIOMS inverse/symmetric/transitive semantics explicit in rdflib (faithful proxy for DL property inference); a CQ gained_by_inference is answerable by entailment. CQ12 consistency uses HermiT on the latest export; stability sweep is asserted-only (CQ12 uninformative there)."
 }

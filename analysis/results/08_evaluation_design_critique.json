@@ -7,8 +7,8 @@
     "The CQ set measures benchmark answerability, not semantic fidelity to the actual corpus or the target ontology."
   ],
   "baseline_vs_guided": {
-    "baseline": 11,
-    "guided": 11,
+    "baseline": 12,
+    "guided": 12,
     "difference": 0
   },
   "recommendations": [

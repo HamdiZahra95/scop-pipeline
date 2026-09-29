@@ -1306,6 +1306,200 @@ def _root_sweep(tax: Taxonomy) -> dict:
     return {"root_swept": swept}
 
 
+# ── Morphological & spelling canonicalization ───────────────────────────────
+# Deterministic, no-LLM step that unifies nodes differing only by plural/
+# singular form or British/American spelling (e.g. "Learning_Paradigms" →
+# "Learning_Paradigm", "bayesian optimisation" → "bayesian optimization").
+
+_MORPHOLOGICAL_EXCEPTIONS = frozenset({
+    "bias", "loss", "bayes", "keras", "corpus", "status", "basis",
+    "series", "species", "analysis", "hypothesis", "synthesis", "genesis",
+    "thesis", "axis", "crisis", "matrix", "vertex", "simplex", "index",
+    "atlas", "chaos", "focus", "radius", "stimulus",
+})
+
+
+def canonical_morphological_slug(name: str) -> str:
+    """Map a concept name to a canonical slug for morphological grouping.
+
+    Applies (in order): common typo normalisation, UK→US spelling, Greek/Latin
+    plural→singular, and regular English plural→singular.  Safe-listed words
+    (``bias``, ``loss``, ``thesis``, …) are never stripped.
+    """
+    slug = re.sub(r"[^a-z0-9_]", "_", str(name).lower().strip())
+    slug = re.sub(r"_+", "_", slug).strip("_")
+    # 0. Common typos / phonetic variants
+    slug = re.sub(r"\boptima[sz]ation(s)?(?=_|$)", r"optimization\1", slug)
+    # 1. UK → US spelling
+    slug = re.sub(r"([a-z]+)is(e|ed|ing|ation|ations)(?=_|$)", r"\1iz\2", slug)
+    slug = re.sub(r"([a-z]+)ys(e|ed|ing)(?=_|$)", r"\1yz\2", slug)
+    slug = re.sub(r"([a-z]{2,})our(al|able|ed|ing|s)?(?=_|$)", r"\1or\2", slug)
+    slug = re.sub(r"([a-z]+)lling(?=_|$)", r"\1ling", slug)
+    # 2. Latin/Greek -ses → -sis
+    slug = re.sub(r"(analys|hypothes|synthes|thes)es(?=_|$)", r"\1is", slug)
+    # 3. Regular English plural → singular
+    last_word = slug.split("_")[-1]
+    if last_word not in _MORPHOLOGICAL_EXCEPTIONS:
+        if slug.endswith("ies") and len(slug) > 4:
+            slug = slug[:-3] + "y"
+        elif re.search(r"(ches|shes|sses|xes|zes)$", slug):
+            slug = slug[:-2]
+        elif slug.endswith("s") and not slug.endswith("ss") and len(slug) > 3:
+            slug = slug[:-1]
+    return slug
+
+
+def _canonical_preference(node: str, db: dict) -> tuple:
+    """Sorting key: higher = more preferred as the canonical representative."""
+    slug = node.lower().replace(" ", "_").replace("-", "_")
+    is_plural = slug.endswith("s") and not slug.endswith("ss")
+    is_uk = "optimis" in slug or "isat" in slug
+    is_title = node[0].isupper() if node else False
+    freq = db.get(node, {}).get("f", 0)
+    return (
+        not is_plural,   # prefer singular
+        not is_uk,        # prefer US spelling
+        is_title,         # prefer PascalCase / TitleCase
+        "-" not in node,  # prefer underscores over hyphens
+        freq,             # higher corpus frequency
+        -len(node),       # shorter name
+        node,             # deterministic tiebreak
+    )
+
+
+def _merge_morphological_variants(tax: Taxonomy) -> dict:
+    """Merge nodes that differ only by plural/singular or UK/US spelling.
+
+    For each duplicate group the function:
+      1. picks the *canonical* variant (singular, US spelling, PascalCase);
+      2. reparents every child of each duplicate under the canonical;
+      3. adopts the duplicate's parent when the canonical would otherwise
+         become unreachable (prevents orphan cascades);
+      4. merges ``f``, ``props``, ``consolidated_definitions``, and
+         ``literal_annotations``;
+      5. records the absorbed name as ``skos:altLabel``;
+      6. deletes the duplicate from ``tax.db``, ``tax.parent``, ``tax.children``.
+
+    Returns a counts dict ``{morphological_merged: int, morphological_groups: int}``.
+    """
+    from collections import defaultdict
+
+    # ── 1. Group eligible nodes ──────────────────────────────────────────
+    groups: dict[str, list[str]] = defaultdict(list)
+    for name, data in list(_real_nodes(tax.db)):
+        if (
+            name in DOMAINS
+            or data.get("is_skeleton")
+            or _is_protected(name)
+            or _is_excluded(data)
+        ):
+            continue
+        groups[canonical_morphological_slug(name)].append(name)
+
+    merged = 0
+    group_count = 0
+
+    for c_slug, variants in sorted(groups.items()):
+        if len(variants) <= 1:
+            continue
+        group_count += 1
+        canonical = max(variants, key=lambda n: _canonical_preference(n, tax.db))
+        duplicates = [v for v in variants if v != canonical]
+
+        for dup in duplicates:
+            # ── 2a. Reparent children of dup → canonical ─────────────
+            for child in list(tax.children.get(dup, [])):
+                if child == canonical:
+                    # canonical was child of dup → lift canonical to dup's parent
+                    dup_parent = tax.parent.get(dup) or "Machine_Learning"
+                    if dup_parent != canonical:
+                        tax.set_parent(
+                            canonical, dup_parent,
+                            action="morphological_merge_parent_repair",
+                            details={"absorbed_variant": dup},
+                        )
+                else:
+                    tax.set_parent(
+                        child, canonical,
+                        action="morphological_merge_child",
+                        details={"absorbed_variant": dup},
+                    )
+
+            # ── 2b. Adopt dup's parent when canonical would be orphaned ──
+            if not tax.reaches_domain(canonical):
+                dup_parent = tax.parent.get(dup)
+                if (
+                    dup_parent
+                    and dup_parent != canonical
+                    and dup_parent in tax.db
+                ):
+                    tax.set_parent(
+                        canonical, dup_parent,
+                        action="morphological_merge_adopt_parent",
+                        details={"absorbed_variant": dup},
+                    )
+
+            # ── 3. Merge payload ─────────────────────────────────────
+            dup_data = tax.db.get(dup, {})
+            canon_data = tax.db.setdefault(canonical, {})
+
+            # frequency
+            canon_data["f"] = canon_data.get("f", 0) + dup_data.get("f", 0)
+
+            # props
+            for prop, targets in dup_data.get("props", {}).items():
+                for target, t_info in targets.items():
+                    effective_target = canonical if target == dup else target
+                    c_targets = (
+                        canon_data
+                        .setdefault("props", {})
+                        .setdefault(prop, {})
+                    )
+                    if effective_target not in c_targets:
+                        c_targets[effective_target] = copy.deepcopy(t_info)
+                    else:
+                        c_targets[effective_target]["f"] = (
+                            c_targets[effective_target].get("f", 0)
+                            + t_info.get("f", 0)
+                        )
+
+            # definitions
+            c_defs = canon_data.setdefault("consolidated_definitions", [])
+            for defn in dup_data.get("consolidated_definitions", []):
+                if defn not in c_defs:
+                    c_defs.append(defn)
+
+            # surface forms + alt label
+            canon_data.setdefault("literal_annotations", []).append({
+                "prop": "skos:altLabel",
+                "value": dup,
+                "source": "morphological_canonicalization",
+            })
+
+            # ── 4. Delete the duplicate ──────────────────────────────
+            old_parent = tax.parent.pop(dup, None)
+            if old_parent and dup in tax.children.get(old_parent, []):
+                tax.children[old_parent].remove(dup)
+            tax.children.pop(dup, None)
+            del tax.db[dup]
+
+            if tax.recorder:
+                tax.recorder.record(
+                    dup, "morphological_merge_removed",
+                    canonical=canonical,
+                    old_parent=old_parent,
+                )
+
+            merged += 1
+
+    if merged:
+        print(
+            f"   🔤 Morphological canonicalization: merged {merged} variant(s) "
+            f"across {group_count} duplicate group(s)."
+        )
+    return {"morphological_merged": merged, "morphological_groups": group_count}
+
+
 # ── Controlled branching API ────────────────────────────────────────────────
 def _finalize_outcome(condition: str, db: dict, recorder: MovementRecorder,
                       counts: dict) -> dict:
@@ -1372,6 +1566,8 @@ def run_conditions(input_db: dict, *, conditions: Sequence[str] = CONDITIONS,
         fallback_tax = Taxonomy(fallback_db, fallback_recorder)
         fallback_counts = dict(preparation_counts)
         fallback_counts.update(_root_sweep(fallback_tax))
+        fallback_counts.update(_merge_morphological_variants(fallback_tax))
+        fallback_counts.update(_root_sweep(fallback_tax))  # re-sweep after merge
         outcomes["fallback"] = _finalize_outcome(
             "fallback", fallback_db, fallback_recorder, fallback_counts
         )
@@ -1391,6 +1587,8 @@ def run_conditions(input_db: dict, *, conditions: Sequence[str] = CONDITIONS,
             phase1_tax = Taxonomy(phase1_db, phase1_recorder)
             phase1_counts = dict(semantic_counts)
             phase1_counts.update(_root_sweep(phase1_tax))
+            phase1_counts.update(_merge_morphological_variants(phase1_tax))
+            phase1_counts.update(_root_sweep(phase1_tax))  # re-sweep after merge
             outcomes["phase1"] = _finalize_outcome(
                 "phase1", phase1_db, phase1_recorder, phase1_counts
             )
@@ -1401,6 +1599,8 @@ def run_conditions(input_db: dict, *, conditions: Sequence[str] = CONDITIONS,
                 semantic_tax, cache_namespace=cache_stage, input_sha=input_sha
             ))
             semantic_counts.update(_root_sweep(semantic_tax))
+            semantic_counts.update(_merge_morphological_variants(semantic_tax))
+            semantic_counts.update(_root_sweep(semantic_tax))  # re-sweep after merge
             outcomes["full"] = _finalize_outcome(
                 "full", semantic_db, semantic_recorder, semantic_counts
             )
@@ -1460,7 +1660,7 @@ def run_from_path(in_path: str | Path, *, condition: str = "full",
             f"{destination.stem}.movements.jsonl"
         )
     else:
-        ledger_path = C.report_path("s10_movements", __file__, ext="jsonl")
+        ledger_path = C.report_path("s09a_movements", __file__, ext="jsonl")
     _write_jsonl(ledger_path, outcome["ledger"])
 
     if write_manifest:

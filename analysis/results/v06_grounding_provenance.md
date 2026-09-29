@@ -4,22 +4,22 @@
 
 | metric | baseline | guided | delta |
 |---|---|---|---|
-| content concepts (non-scaffolding) | 1173 | 1215 | +42 |
-| corpus attestation rate (f>0) | 0.6922 | 0.6947 | +0.0025 |
-| object-property edges | 950 | 997 | +47 |
-| literal annotations | 8472 | 8595 | +123 |
-| demotion ratio (annotations / relations) | 0.8992 | 0.8961 | -0.0031 |
-| dangling-target rate (hallucination proxy) | 0.2979 | 0.2477 | -0.0502 |
+| content concepts (non-scaffolding) | 1162 | 1213 | +51 |
+| corpus attestation rate (f>0) | 0.6954 | 0.695 | -0.0004 |
+| object-property edges | 948 | 995 | +47 |
+| literal annotations | 8435 | 8605 | +170 |
+| demotion ratio (annotations / relations) | 0.899 | 0.8964 | -0.0026 |
+| dangling-target rate (hallucination proxy) | 0.2627 | 0.2492 | -0.0135 |
 | edge provenance rate (raw verbs) | 1.0 | 1.0 | +0.0 |
-| definition coverage (skos:definition) | 0.3919 | 0.3996 | +0.0077 |
-| altLabel coverage (skos:altLabel) | 0.1153 | 0.1146 | -0.0007 |
-| comment coverage (rdfs:comment) | 0.3958 | 0.4048 | +0.009 |
+| definition coverage (skos:definition) | 0.3962 | 0.4067 | +0.0105 |
+| altLabel coverage (skos:altLabel) | 0.1168 | 0.1167 | -0.0001 |
+| comment coverage (rdfs:comment) | 0.4094 | 0.4178 | +0.0084 |
 
 ## f-band distribution (content concepts)
 | mode | f==0 (not attested) | f 1–10 | f>10 |
 |---|---|---|---|
-| baseline | 361 | 0 | 812 |
-| guided | 371 | 31 | 813 |
+| baseline | 354 | 0 | 808 |
+| guided | 370 | 31 | 812 |
 
 ## Reading this
 - **corpus_attestation_rate**: guidance did NOT reduce corpus grounding here — guided is slightly higher. The f-bands show why: baseline's gate (freq>10) leaves the f 1–10 band empty, while guided's S03 gate-recovery adds low-frequency but reference-attested corpus concepts (f 1–10) and carries fewer f==0 (ungrounded-injected) nodes.

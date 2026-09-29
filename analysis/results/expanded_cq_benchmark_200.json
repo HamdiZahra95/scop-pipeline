@@ -11,7 +11,7 @@
   "comparison_table": [
     {
       "tier": 20,
-      "Baseline_SCOP": 0.75,
+      "Baseline_SCOP": 0.8,
       "Guided_SCOP": 0.7,
       "ACM_CCS": 0.35,
       "AIO": 0.2,
@@ -19,7 +19,7 @@
     },
     {
       "tier": 50,
-      "Baseline_SCOP": 0.6,
+      "Baseline_SCOP": 0.62,
       "Guided_SCOP": 0.56,
       "ACM_CCS": 0.18,
       "AIO": 0.26,
@@ -27,24 +27,24 @@
     },
     {
       "tier": 100,
-      "Baseline_SCOP": 0.39,
-      "Guided_SCOP": 0.38,
+      "Baseline_SCOP": 0.4,
+      "Guided_SCOP": 0.37,
       "ACM_CCS": 0.17,
       "AIO": 0.14,
       "ITO": 0.14
     },
     {
       "tier": 150,
-      "Baseline_SCOP": 0.4667,
-      "Guided_SCOP": 0.4067,
+      "Baseline_SCOP": 0.46,
+      "Guided_SCOP": 0.4,
       "ACM_CCS": 0.1133,
       "AIO": 0.0933,
       "ITO": 0.0933
     },
     {
       "tier": 200,
-      "Baseline_SCOP": 0.445,
-      "Guided_SCOP": 0.4,
+      "Baseline_SCOP": 0.44,
+      "Guided_SCOP": 0.395,
       "ACM_CCS": 0.1,
       "AIO": 0.085,
       "ITO": 0.075
@@ -53,14 +53,14 @@
   "evaluations": {
     "Baseline_SCOP": {
       "ontology": "Baseline_SCOP",
-      "total_classes": 2089,
-      "total_relations": 950,
+      "total_classes": 2054,
+      "total_relations": 946,
       "tiered_summary": {
         "Tier_20": {
           "tier_size": 20,
-          "answerable": 15,
-          "gaps": 5,
-          "answerable_rate": 0.75,
+          "answerable": 16,
+          "gaps": 4,
+          "answerable_rate": 0.8,
           "category_breakdown": {
             "subsumption": {
               "answerable": 5,
@@ -73,9 +73,9 @@
               "rate": 1.0
             },
             "relation": {
-              "answerable": 2,
+              "answerable": 3,
               "total": 4,
-              "rate": 0.5
+              "rate": 0.75
             },
             "component": {
               "answerable": 2,
@@ -91,9 +91,9 @@
         },
         "Tier_50": {
           "tier_size": 50,
-          "answerable": 30,
-          "gaps": 20,
-          "answerable_rate": 0.6,
+          "answerable": 31,
+          "gaps": 19,
+          "answerable_rate": 0.62,
           "category_breakdown": {
             "subsumption": {
               "answerable": 5,
@@ -106,9 +106,9 @@
               "rate": 1.0
             },
             "relation": {
-              "answerable": 5,
+              "answerable": 6,
               "total": 10,
-              "rate": 0.5
+              "rate": 0.6
             },
             "component": {
               "answerable": 5,
@@ -124,9 +124,9 @@
         },
         "Tier_100": {
           "tier_size": 100,
-          "answerable": 39,
-          "gaps": 61,
-          "answerable_rate": 0.39,
+          "answerable": 40,
+          "gaps": 60,
+          "answerable_rate": 0.4,
           "category_breakdown": {
             "subsumption": {
               "answerable": 14,
@@ -139,9 +139,9 @@
               "rate": 0.3333
             },
             "relation": {
-              "answerable": 5,
+              "answerable": 6,
               "total": 10,
-              "rate": 0.5
+              "rate": 0.6
             },
             "component": {
               "answerable": 5,
@@ -157,9 +157,9 @@
         },
         "Tier_150": {
           "tier_size": 150,
-          "answerable": 70,
-          "gaps": 80,
-          "answerable_rate": 0.4667,
+          "answerable": 69,
+          "gaps": 81,
+          "answerable_rate": 0.46,
           "category_breakdown": {
             "subsumption": {
               "answerable": 14,
@@ -172,9 +172,9 @@
               "rate": 0.3333
             },
             "relation": {
-              "answerable": 36,
+              "answerable": 35,
               "total": 50,
-              "rate": 0.72
+              "rate": 0.7
             },
             "component": {
               "answerable": 5,
@@ -190,9 +190,9 @@
         },
         "Tier_200": {
           "tier_size": 200,
-          "answerable": 89,
-          "gaps": 111,
-          "answerable_rate": 0.445,
+          "answerable": 88,
+          "gaps": 112,
+          "answerable_rate": 0.44,
           "category_breakdown": {
             "subsumption": {
               "answerable": 33,
@@ -205,9 +205,9 @@
               "rate": 0.3333
             },
             "relation": {
-              "answerable": 36,
+              "answerable": 35,
               "total": 50,
-              "rate": 0.72
+              "rate": 0.7
             },
             "component": {
               "answerable": 5,
@@ -326,7 +326,7 @@
           "category": "relation",
           "question": "Does Classification have purpose or produce output in an ML model?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ016",
@@ -578,7 +578,7 @@
           "category": "subsumption",
           "question": "[ACM_CCS] Is Natural Language Processing an entailment specialization of Artificial Intelligence?",
           "source": "ACM_CCS",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ052",
@@ -711,7 +711,7 @@
           "category": "subsumption",
           "question": "[ITO] Is Named Entity Recognition an entailment specialization of Language Process?",
           "source": "ITO",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ071",
@@ -963,7 +963,7 @@
           "category": "relation",
           "question": "Does Dimensionality Reduction functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ107",
@@ -1019,7 +1019,7 @@
           "category": "relation",
           "question": "Does Few Shot Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ115",
@@ -1047,7 +1047,7 @@
           "category": "relation",
           "question": "Does Model Compression functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ119",
@@ -1110,7 +1110,7 @@
           "category": "relation",
           "question": "Does Multi Agent Reinforcement Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ128",
@@ -1627,8 +1627,8 @@
     },
     "Guided_SCOP": {
       "ontology": "Guided_SCOP",
-      "total_classes": 2129,
-      "total_relations": 997,
+      "total_classes": 2090,
+      "total_relations": 995,
       "tiered_summary": {
         "Tier_20": {
           "tier_size": 20,
@@ -1642,14 +1642,14 @@
               "rate": 0.625
             },
             "categorisation": {
-              "answerable": 3,
-              "total": 4,
-              "rate": 0.75
-            },
-            "relation": {
               "answerable": 2,
               "total": 4,
               "rate": 0.5
+            },
+            "relation": {
+              "answerable": 3,
+              "total": 4,
+              "rate": 0.75
             },
             "component": {
               "answerable": 2,
@@ -1675,14 +1675,14 @@
               "rate": 0.25
             },
             "categorisation": {
-              "answerable": 9,
+              "answerable": 8,
               "total": 10,
-              "rate": 0.9
+              "rate": 0.8
             },
             "relation": {
-              "answerable": 5,
+              "answerable": 6,
               "total": 10,
-              "rate": 0.5
+              "rate": 0.6
             },
             "component": {
               "answerable": 4,
@@ -1698,24 +1698,24 @@
         },
         "Tier_100": {
           "tier_size": 100,
-          "answerable": 38,
-          "gaps": 62,
-          "answerable_rate": 0.38,
+          "answerable": 37,
+          "gaps": 63,
+          "answerable_rate": 0.37,
           "category_breakdown": {
             "subsumption": {
-              "answerable": 15,
+              "answerable": 14,
               "total": 50,
-              "rate": 0.3
+              "rate": 0.28
             },
             "categorisation": {
-              "answerable": 9,
+              "answerable": 8,
               "total": 30,
-              "rate": 0.3
+              "rate": 0.2667
             },
             "relation": {
-              "answerable": 5,
+              "answerable": 6,
               "total": 10,
-              "rate": 0.5
+              "rate": 0.6
             },
             "component": {
               "answerable": 4,
@@ -1731,24 +1731,24 @@
         },
         "Tier_150": {
           "tier_size": 150,
-          "answerable": 61,
-          "gaps": 89,
-          "answerable_rate": 0.4067,
+          "answerable": 60,
+          "gaps": 90,
+          "answerable_rate": 0.4,
           "category_breakdown": {
             "subsumption": {
-              "answerable": 15,
+              "answerable": 14,
               "total": 60,
-              "rate": 0.25
+              "rate": 0.2333
             },
             "categorisation": {
-              "answerable": 9,
+              "answerable": 8,
               "total": 30,
-              "rate": 0.3
+              "rate": 0.2667
             },
             "relation": {
-              "answerable": 28,
+              "answerable": 29,
               "total": 50,
-              "rate": 0.56
+              "rate": 0.58
             },
             "component": {
               "answerable": 4,
@@ -1764,24 +1764,24 @@
         },
         "Tier_200": {
           "tier_size": 200,
-          "answerable": 80,
-          "gaps": 120,
-          "answerable_rate": 0.4,
+          "answerable": 79,
+          "gaps": 121,
+          "answerable_rate": 0.395,
           "category_breakdown": {
             "subsumption": {
-              "answerable": 34,
+              "answerable": 33,
               "total": 110,
-              "rate": 0.3091
-            },
-            "categorisation": {
-              "answerable": 9,
-              "total": 30,
               "rate": 0.3
             },
+            "categorisation": {
+              "answerable": 8,
+              "total": 30,
+              "rate": 0.2667
+            },
             "relation": {
-              "answerable": 28,
+              "answerable": 29,
               "total": 50,
-              "rate": 0.56
+              "rate": 0.58
             },
             "component": {
               "answerable": 4,
@@ -1865,7 +1865,7 @@
           "category": "categorisation",
           "question": "Does Neural Network classify under an established ML leaf/category?",
           "source": "Core_ML",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ011",
@@ -1900,7 +1900,7 @@
           "category": "relation",
           "question": "Does Classification have purpose or produce output in an ML model?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ016",
@@ -2327,7 +2327,7 @@
           "category": "subsumption",
           "question": "[AIO] Is Spiking Neural Network an entailment specialization of Neural Network?",
           "source": "AIO",
-          "status": "answerable"
+          "status": "gap"
         },
         {
           "id": "CQ077",

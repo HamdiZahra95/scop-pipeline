@@ -16,8 +16,8 @@
 - guided: {'answerable': 1, 'gap': 0}
 
 ## object-property-crossleaf
-- baseline: {'answerable': 0, 'gap': 1}
-- guided: {'answerable': 0, 'gap': 1}
+- baseline: {'answerable': 1, 'gap': 0}
+- guided: {'answerable': 1, 'gap': 0}
 
 ## object-property-targeted
 - baseline: {'answerable': 1, 'gap': 0}

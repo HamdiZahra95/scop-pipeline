@@ -4,10 +4,10 @@ This comparison reuses the same balanced CQ generation strategy while scaling th
 
 | cq_count | baseline | guided | reference_ontology |
 |---|---:|---:|---:|
-| 50 | 76.00% | 84.00% | 100.00% |
-| 100 | 53.00% | 60.00% | 100.00% |
-| 150 | 46.00% | 54.67% | 100.00% |
-| 200 | 41.00% | 52.00% | 100.00% |
+| 50 | 74.00% | 82.00% | 100.00% |
+| 100 | 47.00% | 54.00% | 100.00% |
+| 150 | 42.00% | 50.00% | 100.00% |
+| 200 | 38.50% | 48.00% | 100.00% |
 
 ## Interpretation
 The reference ontology remains effectively at 100% coverage because it is the source used to define the concept inventory and to guide the run. That does not invalidate the comparison; rather, it confirms that the CQ list is well-anchored to the domain reference and is not arbitrary or noisy.

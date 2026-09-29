@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import knowledge
-from analysis.common import ROOT, RESULTS_DIR, load_json, write_json, write_md
+from analysis.common import ROOT, RESULTS_DIR, latest_owl, load_json, write_json, write_md
 
 bench_path = Path(__file__).resolve().parent / "10_balanced_cq_benchmark.py"
 spec = importlib.util.spec_from_file_location("bench_module", bench_path)
@@ -24,14 +24,6 @@ def normalize_term(value: str) -> str:
     text = value.lower().replace("_", " ").replace("-", " ")
     text = re.sub(r"[^a-z0-9 ]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
-
-
-def latest_owl(mode: str) -> Path:
-    base = ROOT / "artifacts" / "s11_export_owl" if mode == "baseline" else ROOT / "runs" / "guided" / "artifacts" / "s11_export_owl"
-    files = sorted(base.glob("*.owl"))
-    if not files:
-        raise FileNotFoundError(f"No OWL exports found under {base}")
-    return files[-1]
 
 
 def extract_ontology_tokens(owl_path: Path) -> set[str]:

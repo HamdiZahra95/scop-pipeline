@@ -78,8 +78,8 @@ SCOP enforces a strict separation of concerns between:
 │   └── reference/
 │       └── ML_Ontology.ttl            # External guiding reference taxonomy
 ├── ontologies/
-│   ├── scop_baseline.owl              # HermiT-certified baseline ontology (2,089 classes)
-│   └── scop_guided.owl                # HermiT-certified guided ontology (2,129 classes)
+│   ├── scop_baseline.owl              # HermiT-certified baseline ontology (2,054 classes)
+│   └── scop_guided.owl                # HermiT-certified guided ontology (2,090 classes)
 ├── analysis/                          # Paper evaluation and ablation harness
 │   ├── data/                          # 10-model blinded adjudication CSVs & metrics
 │   └── reproduce_evaluation.py        # 1-click script replicating Table 4 results
@@ -175,8 +175,8 @@ python harvest/harvest_concepts.py --input harvest/sample_abstracts.csv --limit 
 ## 🔬 Pre-Generated Ontology Artifacts
 
 For immediate inspection and semantic verification, the final serialized ontologies are provided in `ontologies/`:
-* `ontologies/scop_baseline.owl`: Baseline unguided ontology (2,089 classes, 0 unsatisfiable concepts, 0 subsumption cycles).
-* `ontologies/scop_guided.owl`: Full reference-guided ontology (2,129 classes, expanded taxonomic depth, HermiT certified).
+* `ontologies/scop_baseline.owl`: Baseline unguided ontology (2,054 classes, 0 unsatisfiable concepts, 0 subsumption cycles).
+* `ontologies/scop_guided.owl`: Full reference-guided ontology (2,090 classes, expanded taxonomic depth, HermiT certified).
 
 Both files can be opened and inspected in standard ontology editors (e.g., Protégé) or queried using RDFLib/HermiT.
 

@@ -11,7 +11,7 @@ By applying the corrected serialization mapping from preserved Stage S02 artifac
 (artifacts/s06_clean_vocab/20260805-130849__0b467285.json), this script verifies:
   1. Instant restoration of skos:definition to 71.3% (Baseline) and 59.7% (Guided) classes.
   2. Restoration of skos:altLabel across 13.0% (Baseline) and 10.1% (Guided) classes (770+ labels).
-  3. Elevation of Stage S12 SPARQL Competency Question pass rate from 11/12 (91.7%)
+  3. Elevation of Stage s13 SPARQL Competency Question pass rate from 11/12 (91.7%)
      to a perfect 12/12 (100.0%), flipping CQ11 to 'answerable'.
   4. 100% invariant Description Logic consistency and taxonomy tree structure.
 """
@@ -26,7 +26,7 @@ from rdflib import URIRef, Literal, RDF, RDFS, OWL, Namespace
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-import stages.s12_quality_gate as s12
+import stages.s13_quality_gate as s13
 
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 
@@ -101,7 +101,7 @@ def run_verification():
         # Baseline metrics (pre-remediation)
         pre_defs = sum(1 for c in classes if any(g.objects(c, SKOS.definition)))
         pre_alts = sum(1 for c in classes if any(g.objects(c, SKOS.altLabel)))
-        pre_cqs = s12.evaluate_cqs(g, {"status": "consistent"})
+        pre_cqs = s13.evaluate_cqs(g, {"status": "consistent"})
         pre_ans = sum(1 for q in pre_cqs if q["status"] == "answerable")
 
         # Apply deterministic re-annotation
@@ -120,13 +120,13 @@ def run_verification():
         post_alts = sum(1 for c in classes if any(g.objects(c, SKOS.altLabel)))
         total_alt_triples = sum(len(list(g.objects(c, SKOS.altLabel))) for c in classes)
 
-        post_cqs = s12.evaluate_cqs(g, {"status": "consistent"})
+        post_cqs = s13.evaluate_cqs(g, {"status": "consistent"})
         post_ans = sum(1 for q in post_cqs if q["status"] == "answerable")
         cq11 = [q for q in post_cqs if q["id"] == "CQ11"][0]
 
         print(f"  Total Classes: {total}")
-        print(f"  Pre-Remediation : skos:definition={pre_defs} (0.0%), skos:altLabel={pre_alts} (0.0%), S12 CQs={pre_ans}/12 (91.7%)")
-        print(f"  Post-Remediation: skos:definition={post_defs} ({post_defs/total*100:.1f}%), skos:altLabel={post_alts} ({post_alts/total*100:.1f}%, {total_alt_triples} triples), S12 CQs={post_ans}/12 (100.0%)")
+        print(f"  Pre-Remediation : skos:definition={pre_defs} (0.0%), skos:altLabel={pre_alts} (0.0%), s13 CQs={pre_ans}/12 (91.7%)")
+        print(f"  Post-Remediation: skos:definition={post_defs} ({post_defs/total*100:.1f}%), skos:altLabel={post_alts} ({post_alts/total*100:.1f}%, {total_alt_triples} triples), s13 CQs={post_ans}/12 (100.0%)")
         print(f"  CQ11 Status     : {cq11['status'].upper()} ({cq11['detail']})\n")
 
     audit_target("Baseline Artefact", "artifacts/s11_export_owl/20260816-171810__eb24b73e.owl")
