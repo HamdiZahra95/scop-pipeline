@@ -1,7 +1,7 @@
 # SCOP: Staged Corpus-to-Ontology Pipeline
 
 [![Conference](https://img.shields.io/badge/ICAART_2027-Accepted_Paper_%23394-success.svg)](https://icaart.scitepress.org/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]()
 [![OWL 2 DL](https://img.shields.io/badge/OWL_2_DL-100%25_HermiT_Certified-brightgreen.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]()
 
@@ -139,14 +139,14 @@ python analysis/13_cq_scale_comparison.py
 > See [`analysis/gold/SOURCES.md`](analysis/gold/SOURCES.md) for full provenance and retrieval details.
 
 
-### 3. Run Test Suite
+### 4. Run Test Suite
 To verify the programmatic contracts, schema validations, and reasoner gates across all 13 stages:
 
 ```bash
 pytest tests/ -v
 ```
 
-### 4. Live Trial Run (Top-N Demonstration from Scratch)
+### 5. Live Trial Run (Top-N Demonstration from Scratch)
 Executes the pipeline stages from seed data to W3C OWL 2 DL export and terminal HermiT hypertableau reasoning in an isolated sandbox (`runs/trial_10/`):
 
 First, configure your preferred LLM provider in `.env` (see `.env.example`):
@@ -154,7 +154,7 @@ First, configure your preferred LLM provider in `.env` (see `.env.example`):
 * **Ollama Cloud:** `OLLAMA_API_KEY=your_key`
 * **Local Ollama:** `OLLAMA_HOST=http://localhost:11434`
 
-It is recommend to run using a pro ollama account or a tier 1 google api account, since free tier api calls recently suffered from too much server errors after google upgraded the free tier request per day rate limit from 500 to 14500 request per day.
+It is recommended to use a Pro Ollama account or a Tier 1 Google API account, as the free tier has recently experienced frequent server errors under high load.
 
 Then execute:
 ```bash
@@ -166,7 +166,7 @@ python analysis/trial_run.py --mode baseline --top 10
 python analysis/trial_run.py --mode guided --top 10
 ```
 
-### 5. Running the Pipeline (Full Corpus)
+### 6. Running the Pipeline (Full Corpus)
 ```bash
 # List stages and status
 python run.py --list
@@ -178,7 +178,7 @@ python run.py --mode baseline --all
 python run.py --mode guided --all
 ```
 
-### 6. Optional: Testing Upstream Corpus Harvesting
+### 7. Optional: Testing Upstream Corpus Harvesting
 To test extracting concepts and definitions directly from raw literature abstracts:
 
 ```bash
@@ -202,11 +202,12 @@ Both files can be opened and inspected in standard ontology editors (e.g., Prot√
 If you use SCOP or our serialized ontology artifacts in your research, please cite:
 
 ```bibtex
-@inproceedings{scop_icaart2027,
-  author    = {Hamdi Zahra and Saoussen Ben Jabra and Wided Ben Abid},
+@inproceedings{ezzahra2027scop,
+  author    = {Hamdi Ezzahra and Wided Ben Abid},
   title     = {SCOP: A Staged Neuro-Symbolic Architecture for Automated Ontology Construction from Scientific Literature},
   booktitle = {Proceedings of the 19th International Conference on Agents and Artificial Intelligence (ICAART 2027)},
   year      = {2027},
-  publisher = {SCITEPRESS}
+  publisher = {SCITEPRESS},
+  note      = {To appear}
 }
 ```
