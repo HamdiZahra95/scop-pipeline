@@ -7,48 +7,48 @@ between the newly generated `scop_baseline.owl` and `scop_guided.owl` artifacts.
 
 | Metric | Baseline | Guided | Delta / Overlap |
 | :--- | :---: | :---: | :---: |
-| **Total Classes** | 2054 | 2090 | +36 |
-| **Shared Concepts** | 1114 | 1114 | 53.3% of Guided |
-| **Unique to Ontology** | 940 | 976 | — |
-| **Concept Jaccard (Exact Slug)** | — | — | **36.8%** |
-| **Concept Jaccard (Normalized Lexical)** | — | — | **38.2%** |
+| **Total Classes** | 1993 | 2041 | +48 |
+| **Shared Concepts** | 1194 | 1194 | 58.5% of Guided |
+| **Unique to Ontology** | 799 | 847 | — |
+| **Concept Jaccard (Exact Slug)** | — | — | **42.0%** |
+| **Concept Jaccard (Normalized Lexical)** | — | — | **43.7%** |
 
 ### Sample Vocabulary Differences
-- **Shared concepts (sample):** 3d_convolutional_neural_network, 3d_object_detection, abductive_reasoning, abstractive_summarization, accelerated_gradient_descent, acoustic_scene_classification, acquisition_function, acquisitionfunction, action_recognition, activation_function
-- **Only in Baseline (sample):** abstract_model, activation_and_layer_types, active_learning_objective, actor_critic, adversarial_defenses, adversarial_multiarmed_bandit, adversarial_robustness_monitoring, adversarial_training_methods, adversarialattack, adversarialdomainadaptation
-- **Only in Guided (sample):** a3c, activation_unit, actor_critic_algorithm, actor_critic_rl, actorcriticmethod, adaptive_boosting_algorithm, adaptive_iterative_optimization, advanced_deployment_and_robustness, adversarial_attack_method, adversarial_attack_types
+- **Shared concepts (sample):** 3d_convolutional_neural_network, 3d_object_detection, abductive_reasoning, abstractive_summarization, accelerated_gradient_descent, acoustic_scene_classification, acquisition_function, action_recognition, activation_function, activation_sparsity
+- **Only in Baseline (sample):** abstract_model, activation_and_layer_types, activation_function_algorithm, actor_critic, adversarial_defenses, adversarial_robustness_monitoring, adversarial_training_methods, agent_based_learning_strategies, algebraic_and_geometric_methods, algorithm
+- **Only in Guided (sample):** a3c, activation_unit, actor_critic_algorithm, actor_critic_rl, adaptive_boosting_algorithm, adaptive_iterative_optimization, advanced_deployment_and_robustness, adversarial_attack_method, adversarial_attack_types, adversarial_defense
 
 ## 2. Taxonomic Subsumption & Hierarchy Alignment
 
 | Metric | Baseline | Guided | Comparison / Agreement |
 | :--- | :---: | :---: | :---: |
-| **Subsumption Edges (rdfs:subClassOf)** | 2049 | 2085 | Shared: 154 (Jaccard: **3.9%**) |
-| **Identical Direct Parent (on shared concepts)** | — | — | **154 / 1114 (13.8%)** |
-| **Different Direct Parent (Re-homed / Stratified)** | — | — | **960 / 1114 (86.2%)** |
-| **Mean Transitive Ancestor Jaccard** | — | — | **45.6%** |
-| **Max Subsumption Depth** | 10 | 10 | Guided is more compact / stratified |
-| **Mean Concept Depth** | 5.08 | 5.07 | — |
-| **Branching Factor** | 2.411 | 2.444 | Guided is slightly denser |
+| **Subsumption Edges (rdfs:subClassOf)** | 1988 | 2036 | Shared: 153 (Jaccard: **4.0%**) |
+| **Identical Direct Parent (on shared concepts)** | — | — | **153 / 1194 (12.8%)** |
+| **Different Direct Parent (Re-homed / Stratified)** | — | — | **1041 / 1194 (87.2%)** |
+| **Mean Transitive Ancestor Jaccard** | — | — | **45.5%** |
+| **Max Subsumption Depth** | 10 | 11 | Guided is more compact / stratified |
+| **Mean Concept Depth** | 5.09 | 5.1 | — |
+| **Branching Factor** | 2.398 | 2.444 | Guided is slightly denser |
 
 ### Sample Direct Parent Shifts (Baseline vs Guided)
 | Concept | Baseline Parent | Guided Parent |
 | :--- | :--- | :--- |
-| `signal_decomposition` | `core_core_ml_task` | `unsupervised_learning_task` |
-| `regularized_empirical_risk_minimization` | `risk_minimization_objective` | `regularized_risk_objectives` |
-| `classification_model` | `ml_task` | `core_parametric_ml_model` |
-| `gaussian_process` | `stochastic_process_model` | `probabilistic_functional_model` |
-| `core_ml_algorithm` | `ml_algorithm_architecture` | `ml_algorithm` |
-| `large_language_model` | `neural_network_architecture` | `neural_language_model` |
-| `convolutional_kernel` | `neural_network_component` | `new_ml_feature_extractor` |
-| `probabilistic_model` | `ml_model` | `ml_foundations_and_theory` |
+| `black_box_optimization` | `heuristic_search_algorithm` | `general_ml_theory` |
+| `spectral_normalization` | `regularization` | `normalization_regularization` |
+| `unsupervised_clustering` | `pattern_discovery` | `grouping_analysis` |
+| `machine_learning_algorithm` | `ml_algorithm` | `statistical_learning_model` |
+| `chaotic_dynamical_system` | `nonlinear_system` | `dynamical_system` |
+| `variational_autoencoder` | `autoencoder_architecture` | `latent_variable_model` |
+| `latent_variable_model` | `probabilistic_model` | `probabilistic_generative_model` |
+| `ensemble_kalman_filter` | `state_estimation_algorithms` | `sequential_monte_carlo` |
 
 ## 3. Relational Structure & Object Properties
 
 | Metric | Baseline | Guided | Delta / Overlap |
 | :--- | :---: | :---: | :---: |
 | **Total Object Property Triples** | 946 | 995 | +49 |
-| **Shared Triples** | 640 | 640 | **49.2%** Jaccard |
-| **Unique Triples** | 306 | 355 | — |
+| **Shared Triples** | 735 | 735 | **61.0%** Jaccard |
+| **Unique Triples** | 211 | 260 | — |
 
 ### Predicate Frequency Breakdown
 | Predicate | Baseline Triples | Guided Triples | Delta |
@@ -74,7 +74,7 @@ between the newly generated `scop_baseline.owl` and `scop_guided.owl` artifacts.
 | `skos:definition` | 34,639 | 34,393 | -246 |
 | `rdfs:comment` | 42,861 | 42,783 | -78 |
 | `skos:altLabel` | 927 | 864 | -63 |
-| **Definition Concept Coverage** | 39.3% | 40.3% | Guided has higher concept coverage |
+| **Definition Concept Coverage** | 40.5% | 41.2% | Guided has higher concept coverage |
 
 ## 5. Synthesis: Why They Differ
 

@@ -288,24 +288,33 @@ def get_uri_name(name: str) -> str:
     """Deterministic URI slug for a concept/target/property name.
 
     Normalization (fixed, deterministic — same input always yields same slug):
-      1. lowercase and strip surrounding whitespace,
-      2. replace every run of non-``[a-z0-9_]`` characters with a single ``_``,
-      3. collapse repeated underscores and trim leading/trailing underscores.
-
-    This is the SINGLE source of slug generation shared by S09 (hierarchy/URI
-    collision repair) and S11 (OWL export) so the two stages can never disagree
-    on a URI.
-
-    Collision behavior (documented, intentional): normalization is many-to-one.
-    Names that differ only by case, surrounding whitespace, or punctuation
-    normalize to the SAME slug — e.g. ``"Neural Network"``, ``"neural_network"``
-    and ``"neural-network"`` all map to ``"neural_network"``. Callers that must
-    keep such names distinct are responsible for disambiguating BEFORE calling
-    this helper (this is exactly what S09's collision-repair pass does). Empty or
-    all-punctuation names normalize to the empty string ``""``.
+      1. strip surrounding whitespace and remove any [NEW] prefix,
+      2. map '&' to 'and',
+      3. preserve trailing domain symbols if present (e.g. '++' in 'k-means++'),
+      4. split PascalCase boundaries (e.g. BinarizedNeuralNetwork -> binarized_neural_network),
+      5. replace every run of non-[a-z0-9_] characters with a single '_',
+      6. collapse repeated underscores and trim leading/trailing underscores.
     """
-    slug = re.sub(r"[^a-z0-9_]", "_", str(name).lower().strip())
+    s = str(name).strip()
+    s = re.sub(r"^\[NEW\][\s_]*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\[NEW\][\s_]*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\s*&\s*", " and ", s)
+
+    # Check for trailing domain symbols (like ++ or +)
+    trailing_match = re.search(r"([^a-zA-Z0-9\s\-_)]+)$", s)
+    trailing_sym = ""
+    if trailing_match:
+        sym = trailing_match.group(1)
+        if sym in ("++", "+", "#", "*"):
+            trailing_sym = sym
+            s = s[:-len(trailing_sym)].rstrip()
+
+    # Split PascalCase: lowercase followed by uppercase
+    s = re.sub(r"([a-z])([A-Z])", r"\1_\2", s)
+    slug = re.sub(r"[^a-z0-9_]", "_", s.lower())
     slug = re.sub(r"_+", "_", slug).strip("_")
+    if trailing_sym:
+        slug += trailing_sym
     return slug
 
 

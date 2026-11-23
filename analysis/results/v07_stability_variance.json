@@ -60,22 +60,22 @@
   },
   "delta_vs_noise": {
     "class_count": {
-      "delta_guided_minus_baseline": 36,
+      "delta_guided_minus_baseline": 48,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "concept_count": {
-      "delta_guided_minus_baseline": 36,
+      "delta_guided_minus_baseline": 48,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "max_depth": {
-      "delta_guided_minus_baseline": 0,
+      "delta_guided_minus_baseline": 1,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "branching_factor": {
-      "delta_guided_minus_baseline": 0.033,
+      "delta_guided_minus_baseline": 0.046,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
@@ -85,27 +85,27 @@
       "exceeds_2sigma_noise": null
     },
     "pct_with_property": {
-      "delta_guided_minus_baseline": 0.0083,
+      "delta_guided_minus_baseline": 0.007,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "inheritance_richness": {
-      "delta_guided_minus_baseline": 0.0,
+      "delta_guided_minus_baseline": 0.0001,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "relationship_richness": {
-      "delta_guided_minus_baseline": 0.0072,
+      "delta_guided_minus_baseline": 0.0059,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "attribute_richness": {
-      "delta_guided_minus_baseline": -0.841,
+      "delta_guided_minus_baseline": -1.115,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     },
     "leaf_ratio": {
-      "delta_guided_minus_baseline": 0.0057,
+      "delta_guided_minus_baseline": 0.0079,
       "run_to_run_noise_std": null,
       "exceeds_2sigma_noise": null
     }

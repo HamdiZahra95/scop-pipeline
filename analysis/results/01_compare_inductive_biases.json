@@ -1,14 +1,14 @@
 {
   "baseline": {
-    "run_id": "20260928-200257",
+    "run_id": "20260930-142503",
     "verdict": "pass",
-    "class_count": 2054,
-    "concept_count": 2037,
+    "class_count": 1993,
+    "concept_count": 1976,
     "skeleton_count": 17,
     "max_depth": 10,
-    "branching_factor": 2.411,
+    "branching_factor": 2.398,
     "pct_with_parent": 1.0,
-    "pct_with_property": 0.217,
+    "pct_with_property": 0.2237,
     "orphan_ratio": 0.0,
     "cq_total": 12,
     "cq_answerable": 12,
@@ -26,7 +26,7 @@
         "question": "Which concepts are a kind of ML model?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "347 descendants"
+        "detail": "332 descendants"
       },
       {
         "id": "CQ3",
@@ -47,7 +47,7 @@
         "question": "What optimizes cross-entropy / loss functions?",
         "category": "object-property-targeted",
         "status": "answerable",
-        "detail": "1 optimizers targeting 1 loss class(es)"
+        "detail": "1 optimizers targeting 2 loss class(es)"
       },
       {
         "id": "CQ6",
@@ -101,15 +101,15 @@
     ]
   },
   "guided": {
-    "run_id": "20260928-210116",
+    "run_id": "20260930-142524",
     "verdict": "pass",
-    "class_count": 2090,
-    "concept_count": 2073,
+    "class_count": 2041,
+    "concept_count": 2024,
     "skeleton_count": 17,
-    "max_depth": 10,
+    "max_depth": 11,
     "branching_factor": 2.444,
     "pct_with_parent": 1.0,
-    "pct_with_property": 0.2253,
+    "pct_with_property": 0.2307,
     "orphan_ratio": 0.0,
     "cq_total": 12,
     "cq_answerable": 12,
@@ -127,7 +127,7 @@
         "question": "Which concepts are a kind of ML model?",
         "category": "subsumption",
         "status": "answerable",
-        "detail": "372 descendants"
+        "detail": "363 descendants"
       },
       {
         "id": "CQ3",
@@ -202,16 +202,16 @@
     ]
   },
   "deltas": {
-    "class_count": 36,
-    "concept_count": 36,
-    "max_depth": 0,
-    "branching_factor": 0.03299999999999992,
+    "class_count": 48,
+    "concept_count": 48,
+    "max_depth": 1,
+    "branching_factor": 0.04599999999999982,
     "cq_answerable": 0,
     "cq_gaps": 0
   },
   "headline": {
     "guided_is_larger": true,
-    "guided_is_deeper": false,
+    "guided_is_deeper": true,
     "guided_has_fewer_answerable_cqs": false,
     "guided_has_more_conservative_semantics": false
   },

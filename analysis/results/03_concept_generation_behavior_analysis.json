@@ -1,19 +1,19 @@
 {
   "baseline": {
-    "class_count": 2054,
-    "concept_count": 2037,
+    "class_count": 1993,
+    "concept_count": 1976,
     "production_pattern": "broader exploratory expansion with higher CQ answerability"
   },
   "guided": {
-    "class_count": 2090,
-    "concept_count": 2073,
+    "class_count": 2041,
+    "concept_count": 2024,
     "production_pattern": "conservative grounding with stronger semantic control and cleaner hierarchy"
   },
   "differential": {
-    "class_delta": 36,
-    "concept_delta": 36,
-    "depth_delta": 0,
-    "branching_delta": 0.03299999999999992,
+    "class_delta": 48,
+    "concept_delta": 48,
+    "depth_delta": 1,
+    "branching_delta": 0.04599999999999982,
     "what_it_means": "The guided run grows the ontology more deeply and more densely, but does so under stronger semantic filtering. The baseline remains broader but less controlled."
   },
   "reference_overlap_proxy": {

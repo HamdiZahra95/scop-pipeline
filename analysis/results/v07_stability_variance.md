@@ -45,16 +45,16 @@
 ## Latest guided-vs-baseline delta vs run-to-run noise
 | metric | Δ (guided−baseline) | noise std | exceeds 2σ noise? |
 |---|---|---|---|
-| class_count | +36 | None | — |
-| concept_count | +36 | None | — |
-| max_depth | +0 | None | — |
-| branching_factor | +0.033 | None | — |
+| class_count | +48 | None | — |
+| concept_count | +48 | None | — |
+| max_depth | +1 | None | — |
+| branching_factor | +0.046 | None | — |
 | orphan_ratio | +0.0 | None | — |
-| pct_with_property | +0.0083 | None | — |
-| inheritance_richness | +0.0 | None | — |
-| relationship_richness | +0.0072 | None | — |
-| attribute_richness | -0.841 | None | — |
-| leaf_ratio | +0.0057 | None | — |
+| pct_with_property | +0.007 | None | — |
+| inheritance_richness | +0.0001 | None | — |
+| relationship_richness | +0.0059 | None | — |
+| attribute_richness | -1.115 | None | — |
+| leaf_ratio | +0.0079 | None | — |
 
 ## Reading this
 - **concept-set / edge-set Jaccard** across same-code reruns measures how reproducible the discovered ontology is (1.0 = identical). Lower values quantify LLM run-to-run churn.

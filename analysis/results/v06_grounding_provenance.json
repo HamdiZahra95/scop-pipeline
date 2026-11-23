@@ -20,10 +20,10 @@
       "dangling_target_rate": 0.2627,
       "dangling_targets": 249,
       "edge_provenance_rate": 1.0,
-      "owl_concept_classes": 2037,
-      "definition_coverage": 0.3962,
-      "altlabel_coverage": 0.1168,
-      "comment_coverage": 0.4094,
+      "owl_concept_classes": 1976,
+      "definition_coverage": 0.4084,
+      "altlabel_coverage": 0.1204,
+      "comment_coverage": 0.4221,
       "_s10": "20260928-200257__88cb791f.json",
       "_owl": "scop_baseline.owl"
     },
@@ -43,10 +43,10 @@
       "dangling_target_rate": 0.2492,
       "dangling_targets": 248,
       "edge_provenance_rate": 1.0,
-      "owl_concept_classes": 2073,
-      "definition_coverage": 0.4067,
-      "altlabel_coverage": 0.1167,
-      "comment_coverage": 0.4178,
+      "owl_concept_classes": 2024,
+      "definition_coverage": 0.416,
+      "altlabel_coverage": 0.1196,
+      "comment_coverage": 0.4274,
       "_s10": "20260928-210116__88cb791f.json",
       "_owl": "scop_guided.owl"
     }
@@ -88,19 +88,19 @@
       "delta": 0.0
     },
     "definition_coverage": {
-      "baseline": 0.3962,
-      "guided": 0.4067,
-      "delta": 0.0105
+      "baseline": 0.4084,
+      "guided": 0.416,
+      "delta": 0.0076
     },
     "altlabel_coverage": {
-      "baseline": 0.1168,
-      "guided": 0.1167,
-      "delta": -0.0001
+      "baseline": 0.1204,
+      "guided": 0.1196,
+      "delta": -0.0008
     },
     "comment_coverage": {
-      "baseline": 0.4094,
-      "guided": 0.4178,
-      "delta": 0.0084
+      "baseline": 0.4221,
+      "guided": 0.4274,
+      "delta": 0.0053
     }
   },
   "note": "Grounding/provenance from the final formalized DB (S10); definition/altLabel coverage from the S11 OWL. corpus_attestation_rate = content concepts with corpus frequency f>0; f==0 content are promoted/materialized/reference-injected concepts that are structurally present but not corpus-attested. dangling_target_rate is a hallucination/ungrounded-target proxy (edge targets that are not a node)."

@@ -33,8 +33,8 @@
       "total_self_loops_any_run": 0,
       "latest": {
         "run": "scop_baseline.owl",
-        "classes": 2054,
-        "subclass_edges": 2049,
+        "classes": 1993,
+        "subclass_edges": 1988,
         "self_loops": 0,
         "cycles": 0
       },
@@ -49,8 +49,8 @@
       "per_run": [
         {
           "run": "scop_baseline.owl",
-          "classes": 2054,
-          "subclass_edges": 2049,
+          "classes": 1993,
+          "subclass_edges": 1988,
           "self_loops": 0,
           "cycles": 0
         }
@@ -65,8 +65,8 @@
       "total_self_loops_any_run": 0,
       "latest": {
         "run": "scop_guided.owl",
-        "classes": 2090,
-        "subclass_edges": 2085,
+        "classes": 2041,
+        "subclass_edges": 2036,
         "self_loops": 0,
         "cycles": 0
       },
@@ -81,8 +81,8 @@
       "per_run": [
         {
           "run": "scop_guided.owl",
-          "classes": 2090,
-          "subclass_edges": 2085,
+          "classes": 2041,
+          "subclass_edges": 2036,
           "self_loops": 0,
           "cycles": 0
         }

@@ -2,25 +2,25 @@
 
 ## Baseline summary
 - verdict: pass
-- class_count: 2054
+- class_count: 1993
 - max_depth: 10
-- branching_factor: 2.411
+- branching_factor: 2.398
 - CQ answerable: 12/12
 - CQ gaps: 0
 
 ## Guided summary
 - verdict: pass
-- class_count: 2090
-- max_depth: 10
+- class_count: 2041
+- max_depth: 11
 - branching_factor: 2.444
 - CQ answerable: 12/12
 - CQ gaps: 0
 
 ## Delta interpretation
-- class_count delta: 36
-- concept_count delta: 36
-- max_depth delta: 0
-- branching_factor delta: 0.03299999999999992
+- class_count delta: 48
+- concept_count delta: 48
+- max_depth delta: 1
+- branching_factor delta: 0.04599999999999982
 - CQ answerable delta: 0
 - CQ gaps delta: 0
 

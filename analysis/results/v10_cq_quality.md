@@ -9,25 +9,25 @@ A naming-robust replacement for the 12 hardcoded-slug CQs. Part~A reports functi
 ## Part A — functional coverage rates (share of discovered classes)
 | CQ archetype | baseline | guided | population |
 |---|---|---|---|
-| Define <X>. (skos:definition present) | 0.396 (807/2037) | 0.407 (843/2073) | base 2037 / guided 2073 |
-| Describe <X>. (any rdfs:comment present) | 0.409 (834/2037) | 0.418 (866/2073) | base 2037 / guided 2073 |
-| What is <X> also called? (skos:altLabel present) | 0.117 (238/2037) | 0.117 (242/2073) | base 2037 / guided 2073 |
-| What kinds of <X> are there? (>=1 subclass) | 0.409 (833/2037) | 0.403 (836/2073) | base 2037 / guided 2073 |
-| Is <X> a model / task / algorithm / ...? (is-a reaches an ML leaf) | 0.785 (1599/2037) | 0.742 (1538/2073) | base 2037 / guided 2073 |
-| What does <X> use / optimise / produce? (subject of >=1 relation) | 0.216 (441/2037) | 0.225 (466/2073) | base 2037 / guided 2073 |
-| What uses / produces / relates to <X>? (object of >=1 relation) | 0.197 (401/2037) | 0.200 (414/2073) | base 2037 / guided 2073 |
+| Define <X>. (skos:definition present) | 0.408 (807/1976) | 0.416 (842/2024) | base 1976 / guided 2024 |
+| Describe <X>. (any rdfs:comment present) | 0.422 (834/1976) | 0.427 (865/2024) | base 1976 / guided 2024 |
+| What is <X> also called? (skos:altLabel present) | 0.120 (238/1976) | 0.120 (242/2024) | base 1976 / guided 2024 |
+| What kinds of <X> are there? (>=1 subclass) | 0.411 (812/1976) | 0.403 (816/2024) | base 1976 / guided 2024 |
+| Is <X> a model / task / algorithm / ...? (is-a reaches an ML leaf) | 0.793 (1567/1976) | 0.750 (1517/2024) | base 1976 / guided 2024 |
+| What does <X> use / optimise / produce? (subject of >=1 relation) | 0.223 (441/1976) | 0.230 (466/2024) | base 1976 / guided 2024 |
+| What uses / produces / relates to <X>? (object of >=1 relation) | 0.203 (401/1976) | 0.204 (414/2024) | base 1976 / guided 2024 |
 
 ## Part B — gold-grounded functional subsumption (strict matches)
 "Is <child> a kind of <parent>?" scored against held-out expert is-a pairs, conditional on both concepts being present in our ontology.
 
 | Reference | mode | recall | precision | F1 | expert pairs | matched concepts |
 |---|---|---|---|---|---|---|
-| CCS | baseline | 0.171 | 0.500 | 0.255 | 35 | 128 |
-| CCS | guided | 0.118 | 0.333 | 0.174 | 34 | 131 |
-| ITO | baseline | 0.042 | 0.143 | 0.065 | 24 | 116 |
-| ITO | guided | 0.042 | 0.125 | 0.062 | 24 | 104 |
-| AIO | baseline | 0.000 | 1.000 | 0.000 | 49 | 65 |
-| AIO | guided | 0.042 | 0.200 | 0.069 | 48 | 63 |
+| CCS | baseline | 0.167 | 0.500 | 0.250 | 36 | 132 |
+| CCS | guided | 0.111 | 0.333 | 0.167 | 36 | 135 |
+| ITO | baseline | 0.038 | 0.143 | 0.061 | 26 | 121 |
+| ITO | guided | 0.035 | 0.125 | 0.054 | 29 | 122 |
+| AIO | baseline | 0.018 | 1.000 | 0.036 | 55 | 70 |
+| AIO | guided | 0.036 | 0.200 | 0.061 | 56 | 71 |
 
 ## Reading this
 - **Part A** iterates real class URIs, so it is immune to the naming/placement brittleness of the 12 hardcoded CQs; each row is a coverage statistic over the whole ontology, not a single concept.

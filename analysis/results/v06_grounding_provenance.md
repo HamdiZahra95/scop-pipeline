@@ -11,9 +11,9 @@
 | demotion ratio (annotations / relations) | 0.899 | 0.8964 | -0.0026 |
 | dangling-target rate (hallucination proxy) | 0.2627 | 0.2492 | -0.0135 |
 | edge provenance rate (raw verbs) | 1.0 | 1.0 | +0.0 |
-| definition coverage (skos:definition) | 0.3962 | 0.4067 | +0.0105 |
-| altLabel coverage (skos:altLabel) | 0.1168 | 0.1167 | -0.0001 |
-| comment coverage (rdfs:comment) | 0.4094 | 0.4178 | +0.0084 |
+| definition coverage (skos:definition) | 0.4084 | 0.416 | +0.0076 |
+| altLabel coverage (skos:altLabel) | 0.1204 | 0.1196 | -0.0008 |
+| comment coverage (rdfs:comment) | 0.4221 | 0.4274 | +0.0053 |
 
 ## f-band distribution (content concepts)
 | mode | f==0 (not attested) | f 1–10 | f>10 |

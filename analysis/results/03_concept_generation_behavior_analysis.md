@@ -1,13 +1,13 @@
 # 03. Concept Generation Behavior Analysis
 
 ## Observed structural behavior
-- baseline class_count: 2054
-- guided class_count: 2090
-- baseline concept_count: 2037
-- guided concept_count: 2073
+- baseline class_count: 1993
+- guided class_count: 2041
+- baseline concept_count: 1976
+- guided concept_count: 2024
 - baseline max_depth: 10
-- guided max_depth: 10
-- baseline branching_factor: 2.411
+- guided max_depth: 11
+- baseline branching_factor: 2.398
 - guided branching_factor: 2.444
 
 ## Reference-overlap proxy

@@ -33,6 +33,11 @@ paper/
 paper1/
 paper2/
 thesis*/
+review_literature_paper/
+*qa_bank*.md
+thesis_presentation_summary.md
+presentation_summary.md
+abstracts_standalone.*
 
 # Large gold standard datasets (>100MB exceeds GitHub push limits)
 analysis/gold/ITO.owl

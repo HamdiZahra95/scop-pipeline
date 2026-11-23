@@ -35,16 +35,16 @@
     },
     {
       "tier": 150,
-      "Baseline_SCOP": 0.46,
-      "Guided_SCOP": 0.4,
+      "Baseline_SCOP": 0.4867,
+      "Guided_SCOP": 0.4267,
       "ACM_CCS": 0.1133,
       "AIO": 0.0933,
       "ITO": 0.0933
     },
     {
       "tier": 200,
-      "Baseline_SCOP": 0.44,
-      "Guided_SCOP": 0.395,
+      "Baseline_SCOP": 0.46,
+      "Guided_SCOP": 0.42,
       "ACM_CCS": 0.1,
       "AIO": 0.085,
       "ITO": 0.075
@@ -53,7 +53,7 @@
   "evaluations": {
     "Baseline_SCOP": {
       "ontology": "Baseline_SCOP",
-      "total_classes": 2054,
+      "total_classes": 1993,
       "total_relations": 946,
       "tiered_summary": {
         "Tier_20": {
@@ -157,9 +157,9 @@
         },
         "Tier_150": {
           "tier_size": 150,
-          "answerable": 69,
-          "gaps": 81,
-          "answerable_rate": 0.46,
+          "answerable": 73,
+          "gaps": 77,
+          "answerable_rate": 0.4867,
           "category_breakdown": {
             "subsumption": {
               "answerable": 14,
@@ -172,9 +172,9 @@
               "rate": 0.3333
             },
             "relation": {
-              "answerable": 35,
+              "answerable": 39,
               "total": 50,
-              "rate": 0.7
+              "rate": 0.78
             },
             "component": {
               "answerable": 5,
@@ -190,9 +190,9 @@
         },
         "Tier_200": {
           "tier_size": 200,
-          "answerable": 88,
-          "gaps": 112,
-          "answerable_rate": 0.44,
+          "answerable": 92,
+          "gaps": 108,
+          "answerable_rate": 0.46,
           "category_breakdown": {
             "subsumption": {
               "answerable": 33,
@@ -205,9 +205,9 @@
               "rate": 0.3333
             },
             "relation": {
-              "answerable": 35,
+              "answerable": 39,
               "total": 50,
-              "rate": 0.7
+              "rate": 0.78
             },
             "component": {
               "answerable": 5,
@@ -984,7 +984,7 @@
           "category": "relation",
           "question": "Does Semi Supervised Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ110",
@@ -1012,7 +1012,7 @@
           "category": "relation",
           "question": "Does Zero Shot Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ114",
@@ -1047,7 +1047,7 @@
           "category": "relation",
           "question": "Does Model Compression functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ119",
@@ -1117,7 +1117,7 @@
           "category": "relation",
           "question": "Does Markov Decision Process functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ129",
@@ -1627,7 +1627,7 @@
     },
     "Guided_SCOP": {
       "ontology": "Guided_SCOP",
-      "total_classes": 2090,
+      "total_classes": 2041,
       "total_relations": 995,
       "tiered_summary": {
         "Tier_20": {
@@ -1731,9 +1731,9 @@
         },
         "Tier_150": {
           "tier_size": 150,
-          "answerable": 60,
-          "gaps": 90,
-          "answerable_rate": 0.4,
+          "answerable": 64,
+          "gaps": 86,
+          "answerable_rate": 0.4267,
           "category_breakdown": {
             "subsumption": {
               "answerable": 14,
@@ -1746,9 +1746,9 @@
               "rate": 0.2667
             },
             "relation": {
-              "answerable": 29,
+              "answerable": 33,
               "total": 50,
-              "rate": 0.58
+              "rate": 0.66
             },
             "component": {
               "answerable": 4,
@@ -1764,14 +1764,14 @@
         },
         "Tier_200": {
           "tier_size": 200,
-          "answerable": 79,
-          "gaps": 121,
-          "answerable_rate": 0.395,
+          "answerable": 84,
+          "gaps": 116,
+          "answerable_rate": 0.42,
           "category_breakdown": {
             "subsumption": {
-              "answerable": 33,
+              "answerable": 34,
               "total": 110,
-              "rate": 0.3
+              "rate": 0.3091
             },
             "categorisation": {
               "answerable": 8,
@@ -1779,9 +1779,9 @@
               "rate": 0.2667
             },
             "relation": {
-              "answerable": 29,
+              "answerable": 33,
               "total": 50,
-              "rate": 0.58
+              "rate": 0.66
             },
             "component": {
               "answerable": 4,
@@ -2586,14 +2586,14 @@
           "category": "relation",
           "question": "Does Zero Shot Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ114",
           "category": "relation",
           "question": "Does Few Shot Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ115",
@@ -2642,7 +2642,7 @@
           "category": "relation",
           "question": "Does Curriculum Learning functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ122",
@@ -2691,7 +2691,7 @@
           "category": "relation",
           "question": "Does Markov Decision Process functionally integrate into an ML pipeline/workflow?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ129",
@@ -2887,7 +2887,7 @@
           "category": "subsumption",
           "question": "Does the ontology place Kernel Density Estimation in an appropriate specialized subtree?",
           "source": "Core_ML",
-          "status": "gap"
+          "status": "answerable"
         },
         {
           "id": "CQ157",

@@ -45,6 +45,7 @@ Uses the SINGLE shared `common.get_uri` slug helper so S11's URIs can never
 disagree with S09's (R6.2). Exposes `run() -> Path` (R13.3).
 """
 
+import re
 import sys
 from pathlib import Path
 
@@ -72,6 +73,38 @@ _CHARACTERISTIC_CLASS = {
     "InverseFunctional": OWL.InverseFunctionalProperty,
     "Reflexive": OWL.ReflexiveProperty,
 }
+
+
+def _format_label(cls: str) -> str:
+    """Human-readable, valid label for an ontology concept.
+
+    1. Strips case-insensitive [NEW] prefix.
+    2. Replaces '&' with 'and'.
+    3. Preserves trailing domain symbols (like '++' in 'k-means++').
+    4. Splits PascalCase boundaries (e.g. BinarizedNeuralNetwork -> Binarized Neural Network).
+    5. Deletes special characters between words except hyphens '-' and underscores '_'.
+    6. Formats as clean Title Case with spaces.
+    """
+    s = str(cls).strip()
+    s = re.sub(r"^\[NEW\][\s_]*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\[NEW\][\s_]*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\s*&\s*", " and ", s)
+
+    trailing_match = re.search(r"([^a-zA-Z0-9\s\-_)]+)$", s)
+    trailing_sym = ""
+    if trailing_match:
+        sym = trailing_match.group(1)
+        if sym in ("++", "+", "#", "*"):
+            trailing_sym = sym
+            s = s[:-len(trailing_sym)].rstrip()
+
+    s = re.sub(r"([a-z])([A-Z])", r"\1 \2", s)
+    s = re.sub(r"[^a-zA-Z0-9\s\-_]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    label = s.replace("_", " ").title()
+    if trailing_sym:
+        label += trailing_sym
+    return label
 
 
 def _uri(name: str) -> URIRef:
@@ -132,11 +165,14 @@ def build_graph(db: dict) -> tuple[Graph, dict]:
     # ── 2. Declare classes (+ label, definitions, alt-labels) ────────────
     definitions_emitted = 0
     alt_labels_emitted = 0
+    emitted_class_labels: set[URIRef] = set()
     for cls in sorted(all_classes):
         uri = _uri(cls)
         g.add((uri, RDF.type, OWL.Class))
-        label = cls.replace("[new]_", "").replace("_", " ").title()
-        g.add((uri, RDFS.label, Literal(label, lang="en")))
+        if uri not in emitted_class_labels:
+            label = _format_label(cls)
+            g.add((uri, RDFS.label, Literal(label, lang="en")))
+            emitted_class_labels.add(uri)
 
         data = db.get(cls, {}) or {}
         # R20.3: definitions as BOTH rdfs:comment and skos:definition.
@@ -400,6 +436,15 @@ def run() -> Path:
           f"subClassOf={counts['subclass_axioms']}, "
           f"triples={counts['property_triples']}, "
           f"disjoint={counts['disjoint_class_axioms']}")
+
+    onto_dir = Path(__file__).resolve().parent.parent / "ontologies"
+    if onto_dir.exists():
+        import shutil
+        mode = getattr(C, "SCOP_MODE", "baseline") or "baseline"
+        target_file = onto_dir / f"scop_{mode}.owl"
+        shutil.copyfile(out_path, target_file)
+        print(f"   📋 Mirrored export to {target_file}")
+
     return out_path
 
 

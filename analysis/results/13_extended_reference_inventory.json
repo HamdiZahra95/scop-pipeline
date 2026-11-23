@@ -426,7 +426,7 @@
       "source_index": 84
     },
     {
-      "term": "CatBoost",
+      "term": "catboost",
       "frequency": 15,
       "source_index": 85
     },
@@ -1616,1919 +1616,1924 @@
       "source_index": 322
     },
     {
-      "term": "Fastai",
+      "term": "CatBoost",
       "frequency": 5,
       "source_index": 323
     },
     {
-      "term": "GluonTS",
+      "term": "Fastai",
       "frequency": 5,
       "source_index": 324
     },
     {
-      "term": "GreyKite",
+      "term": "GluonTS",
       "frequency": 5,
       "source_index": 325
     },
     {
-      "term": "H2O",
+      "term": "GreyKite",
       "frequency": 5,
       "source_index": 326
     },
     {
-      "term": "IBM Snap ML",
+      "term": "H2O",
       "frequency": 5,
       "source_index": 327
     },
     {
-      "term": "Kats",
+      "term": "IBM Snap ML",
       "frequency": 5,
       "source_index": 328
     },
     {
-      "term": "Keras",
+      "term": "Kats",
       "frequency": 5,
       "source_index": 329
     },
     {
-      "term": "LightGBM",
+      "term": "Keras",
       "frequency": 5,
       "source_index": 330
     },
     {
-      "term": "MLlib",
+      "term": "LightGBM",
       "frequency": 5,
       "source_index": 331
     },
     {
-      "term": "MXNET",
+      "term": "MLlib",
       "frequency": 5,
       "source_index": 332
     },
     {
-      "term": "pmdarima",
+      "term": "MXNET",
       "frequency": 5,
       "source_index": 333
     },
     {
-      "term": "PyFlux",
+      "term": "pmdarima",
       "frequency": 5,
       "source_index": 334
     },
     {
-      "term": "Pytorch-Forecasting",
+      "term": "PyFlux",
       "frequency": 5,
       "source_index": 335
     },
     {
-      "term": "Pytorch",
+      "term": "Pytorch-Forecasting",
       "frequency": 5,
       "source_index": 336
     },
     {
-      "term": "PyWavelets",
+      "term": "Pytorch",
       "frequency": 5,
       "source_index": 337
     },
     {
-      "term": "Scikit-learn",
+      "term": "PyWavelets",
       "frequency": 5,
       "source_index": 338
     },
     {
-      "term": "sktime",
+      "term": "Scikit-learn",
       "frequency": 5,
       "source_index": 339
     },
     {
-      "term": "Statsmodel",
+      "term": "sktime",
       "frequency": 5,
       "source_index": 340
     },
     {
-      "term": "TensorFlow",
+      "term": "Statsmodel",
       "frequency": 5,
       "source_index": 341
     },
     {
-      "term": "tsfresh",
+      "term": "TensorFlow",
       "frequency": 5,
       "source_index": 342
     },
     {
-      "term": "tslearn",
+      "term": "tsfresh",
       "frequency": 5,
       "source_index": 343
     },
     {
-      "term": "Weka",
+      "term": "tslearn",
       "frequency": 5,
       "source_index": 344
     },
     {
-      "term": "Adanet",
+      "term": "Weka",
       "frequency": 5,
       "source_index": 345
     },
     {
-      "term": "Alphad3m",
+      "term": "Adanet",
       "frequency": 5,
       "source_index": 346
     },
     {
-      "term": "Analytics Zoo Chronos",
+      "term": "Alphad3m",
       "frequency": 5,
       "source_index": 347
     },
     {
-      "term": "ATM",
+      "term": "Analytics Zoo Chronos",
       "frequency": 5,
       "source_index": 348
     },
     {
-      "term": "Auto_TimeSeries",
+      "term": "ATM",
       "frequency": 5,
       "source_index": 349
     },
     {
-      "term": "Auto-Weka",
+      "term": "Auto_TimeSeries",
       "frequency": 5,
       "source_index": 350
     },
     {
-      "term": "AutoCVE",
+      "term": "Auto-Weka",
       "frequency": 5,
       "source_index": 351
     },
     {
-      "term": "Autogluon",
+      "term": "AutoCVE",
       "frequency": 5,
       "source_index": 352
     },
     {
-      "term": "Autokeras",
+      "term": "Autogluon",
       "frequency": 5,
       "source_index": 353
     },
     {
-      "term": "Autopytorch",
+      "term": "Autokeras",
       "frequency": 5,
       "source_index": 354
     },
     {
-      "term": "Autosklearn",
+      "term": "Autopytorch",
       "frequency": 5,
       "source_index": 355
     },
     {
-      "term": "AutoTS",
+      "term": "Autosklearn",
       "frequency": 5,
       "source_index": 356
     },
     {
-      "term": "AWS Sagemaker Autopilot",
+      "term": "AutoTS",
       "frequency": 5,
       "source_index": 357
     },
     {
-      "term": "Azure AutoML",
+      "term": "AWS Sagemaker Autopilot",
       "frequency": 5,
       "source_index": 358
     },
     {
-      "term": "Databricks",
+      "term": "Azure AutoML",
       "frequency": 5,
       "source_index": 359
     },
     {
-      "term": "DataRobot",
+      "term": "Databricks",
       "frequency": 5,
       "source_index": 360
     },
     {
-      "term": "EvalML",
+      "term": "DataRobot",
       "frequency": 5,
       "source_index": 361
     },
     {
-      "term": "FEDOT",
+      "term": "EvalML",
       "frequency": 5,
       "source_index": 362
     },
     {
-      "term": "FLAML",
+      "term": "FEDOT",
       "frequency": 5,
       "source_index": 363
     },
     {
-      "term": "GAMA",
+      "term": "FLAML",
       "frequency": 5,
       "source_index": 364
     },
     {
-      "term": "Google AutoML",
+      "term": "GAMA",
       "frequency": 5,
       "source_index": 365
     },
     {
-      "term": "H2O Automl",
+      "term": "Google AutoML",
       "frequency": 5,
       "source_index": 366
     },
     {
-      "term": "IBM AutoAI",
+      "term": "H2O Automl",
       "frequency": 5,
       "source_index": 367
     },
     {
-      "term": "Mcfly",
+      "term": "IBM AutoAI",
       "frequency": 5,
       "source_index": 368
     },
     {
-      "term": "Merlion",
+      "term": "Mcfly",
       "frequency": 5,
       "source_index": 369
     },
     {
-      "term": "MLBOX",
+      "term": "Merlion",
       "frequency": 5,
       "source_index": 370
     },
     {
-      "term": "MLJAR",
+      "term": "MLBOX",
       "frequency": 5,
       "source_index": 371
     },
     {
-      "term": "Pycaret",
+      "term": "MLJAR",
       "frequency": 5,
       "source_index": 372
     },
     {
-      "term": "Rapidminer",
+      "term": "Pycaret",
       "frequency": 5,
       "source_index": 373
     },
     {
-      "term": "Remi AI",
+      "term": "Rapidminer",
       "frequency": 5,
       "source_index": 374
     },
     {
-      "term": "TPOT",
+      "term": "Remi AI",
       "frequency": 5,
       "source_index": 375
     },
     {
-      "term": "TransmogrifAI",
+      "term": "TPOT",
       "frequency": 5,
       "source_index": 376
     },
     {
-      "term": "LAMA",
+      "term": "TransmogrifAI",
       "frequency": 5,
       "source_index": 377
     },
     {
-      "term": "tabular classification in AutoKeras",
+      "term": "LAMA",
       "frequency": 5,
       "source_index": 378
     },
     {
-      "term": "tabular regression in AutoKeras",
+      "term": "tabular classification in AutoKeras",
       "frequency": 5,
       "source_index": 379
     },
     {
-      "term": "image classification in AutoKeras",
+      "term": "tabular regression in AutoKeras",
       "frequency": 5,
       "source_index": 380
     },
     {
-      "term": "image regression in AutoKeras",
+      "term": "image classification in AutoKeras",
       "frequency": 5,
       "source_index": 381
     },
     {
-      "term": "text classification in AutoKeras",
+      "term": "image regression in AutoKeras",
       "frequency": 5,
       "source_index": 382
     },
     {
-      "term": "text regression in AutoKeras",
+      "term": "text classification in AutoKeras",
       "frequency": 5,
       "source_index": 383
     },
     {
-      "term": "time series forecasting in AutoKeras",
+      "term": "text regression in AutoKeras",
       "frequency": 5,
       "source_index": 384
     },
     {
-      "term": "tabular classification in Autosklearn",
+      "term": "time series forecasting in AutoKeras",
       "frequency": 5,
       "source_index": 385
     },
     {
-      "term": "tabular regression in Autosklearn",
+      "term": "tabular classification in Autosklearn",
       "frequency": 5,
       "source_index": 386
     },
     {
-      "term": "tabular classification in FLAML",
+      "term": "tabular regression in Autosklearn",
       "frequency": 5,
       "source_index": 387
     },
     {
-      "term": "tabular regression in FLAML",
+      "term": "tabular classification in FLAML",
       "frequency": 5,
       "source_index": 388
     },
     {
-      "term": "time series forecasting in FLAML",
+      "term": "tabular regression in FLAML",
       "frequency": 5,
       "source_index": 389
     },
     {
-      "term": "text classification in FLAML",
+      "term": "time series forecasting in FLAML",
       "frequency": 5,
       "source_index": 390
     },
     {
-      "term": "ranking in FLAML",
+      "term": "text classification in FLAML",
       "frequency": 5,
       "source_index": 391
     },
     {
-      "term": "text regression in FLAML",
+      "term": "ranking in FLAML",
       "frequency": 5,
       "source_index": 392
     },
     {
-      "term": "tabular classification in EvalML",
+      "term": "text regression in FLAML",
       "frequency": 5,
       "source_index": 393
     },
     {
-      "term": "tabular regression in EvalML",
+      "term": "tabular classification in EvalML",
       "frequency": 5,
       "source_index": 394
     },
     {
-      "term": "time series regression in EvalML",
+      "term": "tabular regression in EvalML",
       "frequency": 5,
       "source_index": 395
     },
     {
-      "term": "time series classification in EvalML",
+      "term": "time series regression in EvalML",
       "frequency": 5,
       "source_index": 396
     },
     {
-      "term": "text classification in EvalML",
+      "term": "time series classification in EvalML",
       "frequency": 5,
       "source_index": 397
     },
     {
-      "term": "text regression in EvalML",
+      "term": "text classification in EvalML",
       "frequency": 5,
       "source_index": 398
     },
     {
-      "term": "tabular classification PyCaret",
+      "term": "text regression in EvalML",
       "frequency": 5,
       "source_index": 399
     },
     {
-      "term": "tabular regression PyCaret",
+      "term": "tabular classification PyCaret",
       "frequency": 5,
       "source_index": 400
     },
     {
-      "term": "time series forecasting  PyCaret",
+      "term": "tabular regression PyCaret",
       "frequency": 5,
       "source_index": 401
     },
     {
-      "term": "clustering PyCaret",
+      "term": "time series forecasting  PyCaret",
       "frequency": 5,
       "source_index": 402
     },
     {
-      "term": "tabular classification in AutoGluon",
+      "term": "clustering PyCaret",
       "frequency": 5,
       "source_index": 403
     },
     {
-      "term": "tabular regression in AutoGluon",
+      "term": "tabular classification in AutoGluon",
       "frequency": 5,
       "source_index": 404
     },
     {
-      "term": "time series forecasting in AutoGluon",
+      "term": "tabular regression in AutoGluon",
       "frequency": 5,
       "source_index": 405
     },
     {
-      "term": "image classification in AutoGluon",
+      "term": "time series forecasting in AutoGluon",
       "frequency": 5,
       "source_index": 406
     },
     {
-      "term": "object detection in AutoGluon",
+      "term": "image classification in AutoGluon",
       "frequency": 5,
       "source_index": 407
     },
     {
-      "term": "text classification in AutoGluon",
+      "term": "object detection in AutoGluon",
       "frequency": 5,
       "source_index": 408
     },
     {
-      "term": "named entity recognition in AutoGluon",
+      "term": "text classification in AutoGluon",
       "frequency": 5,
       "source_index": 409
     },
     {
-      "term": "text regression in AutoGluon",
+      "term": "named entity recognition in AutoGluon",
       "frequency": 5,
       "source_index": 410
     },
     {
-      "term": "time series classification in mcfly",
+      "term": "text regression in AutoGluon",
       "frequency": 5,
       "source_index": 411
     },
     {
-      "term": "tabular classification in Auto-PyTorch",
+      "term": "time series classification in mcfly",
       "frequency": 5,
       "source_index": 412
     },
     {
-      "term": "tabular regression in Auto-PyTorch",
+      "term": "tabular classification in Auto-PyTorch",
       "frequency": 5,
       "source_index": 413
     },
     {
-      "term": "time series forecasting in Auto-PyTorch",
+      "term": "tabular regression in Auto-PyTorch",
       "frequency": 5,
       "source_index": 414
     },
     {
-      "term": "tabular classification MLJAR",
+      "term": "time series forecasting in Auto-PyTorch",
       "frequency": 5,
       "source_index": 415
     },
     {
-      "term": "tabular regression MLJAR",
+      "term": "tabular classification MLJAR",
       "frequency": 5,
       "source_index": 416
     },
     {
-      "term": "tabular classification TPOT",
+      "term": "tabular regression MLJAR",
       "frequency": 5,
       "source_index": 417
     },
     {
-      "term": "tabular regression TPOT",
+      "term": "tabular classification TPOT",
       "frequency": 5,
       "source_index": 418
     },
     {
-      "term": "image classification TPOT",
+      "term": "tabular regression TPOT",
       "frequency": 5,
       "source_index": 419
     },
     {
-      "term": "tabular classification in AutoCVE",
+      "term": "image classification TPOT",
       "frequency": 5,
       "source_index": 420
     },
     {
-      "term": "tabular classification in GAMA",
+      "term": "tabular classification in AutoCVE",
       "frequency": 5,
       "source_index": 421
     },
     {
-      "term": "tabular regression in GAMA",
+      "term": "tabular classification in GAMA",
       "frequency": 5,
       "source_index": 422
     },
     {
-      "term": "tabular classification in LAMA",
+      "term": "tabular regression in GAMA",
       "frequency": 5,
       "source_index": 423
     },
     {
-      "term": "binary classification in LAMA",
+      "term": "tabular classification in LAMA",
       "frequency": 5,
       "source_index": 424
     },
     {
-      "term": "tabular regression in LAMA",
+      "term": "binary classification in LAMA",
       "frequency": 5,
       "source_index": 425
     },
     {
-      "term": "tabular classification in H2O AutoML",
+      "term": "tabular regression in LAMA",
       "frequency": 5,
       "source_index": 426
     },
     {
-      "term": "tabular regression in H2O AutoML",
+      "term": "tabular classification in H2O AutoML",
       "frequency": 5,
       "source_index": 427
     },
     {
-      "term": "ensemble flaml tabular classification",
+      "term": "tabular regression in H2O AutoML",
       "frequency": 5,
       "source_index": 428
     },
     {
-      "term": "ensemble flaml tabular regression",
+      "term": "ensemble flaml tabular classification",
       "frequency": 5,
       "source_index": 429
     },
     {
-      "term": "ensemble flaml time series forecasting",
+      "term": "ensemble flaml tabular regression",
       "frequency": 5,
       "source_index": 430
     },
     {
-      "term": "ensemble flaml text classification",
+      "term": "ensemble flaml time series forecasting",
       "frequency": 5,
       "source_index": 431
     },
     {
-      "term": "ensemble flaml text regression",
+      "term": "ensemble flaml text classification",
       "frequency": 5,
       "source_index": 432
     },
     {
-      "term": "ensemble flaml ranking",
+      "term": "ensemble flaml text regression",
       "frequency": 5,
       "source_index": 433
     },
     {
-      "term": "ensemble_nbest",
+      "term": "ensemble flaml ranking",
       "frequency": 5,
       "source_index": 434
     },
     {
-      "term": "ensemble nbest autosklearn tabular classification",
+      "term": "ensemble_nbest",
       "frequency": 5,
       "source_index": 435
     },
     {
-      "term": "ensemble nbest autosklearn tabular regression",
+      "term": "ensemble nbest autosklearn tabular classification",
       "frequency": 5,
       "source_index": 436
     },
     {
-      "term": "ensemble size",
+      "term": "ensemble nbest autosklearn tabular regression",
       "frequency": 5,
       "source_index": 437
     },
     {
-      "term": "ensemble size autosklearn tabular classification",
+      "term": "ensemble size",
       "frequency": 5,
       "source_index": 438
     },
     {
-      "term": "ensemble size autosklearn tabular regression",
+      "term": "ensemble size autosklearn tabular classification",
       "frequency": 5,
       "source_index": 439
     },
     {
-      "term": "use approach",
+      "term": "ensemble size autosklearn tabular regression",
       "frequency": 5,
       "source_index": 440
     },
     {
-      "term": "use approach Autosklearn tabular classification",
+      "term": "use approach",
       "frequency": 5,
       "source_index": 441
     },
     {
-      "term": "use approach Autosklearn tabular regression",
+      "term": "use approach Autosklearn tabular classification",
       "frequency": 5,
       "source_index": 442
     },
     {
-      "term": "use approach FLAML tabular classification",
+      "term": "use approach Autosklearn tabular regression",
       "frequency": 5,
       "source_index": 443
     },
     {
-      "term": "use approach FLAML tabular regression",
+      "term": "use approach FLAML tabular classification",
       "frequency": 5,
       "source_index": 444
     },
     {
-      "term": "use approach FLAML time series analysis",
+      "term": "use approach FLAML tabular regression",
       "frequency": 5,
       "source_index": 445
     },
     {
-      "term": "use approach FLAML ranking",
+      "term": "use approach FLAML time series analysis",
       "frequency": 5,
       "source_index": 446
     },
     {
-      "term": "use approach FLAML text classification",
+      "term": "use approach FLAML ranking",
       "frequency": 5,
       "source_index": 447
     },
     {
-      "term": "use approach FLAML text regression",
+      "term": "use approach FLAML text classification",
       "frequency": 5,
       "source_index": 448
     },
     {
-      "term": "use approach EvalML tabular classification",
+      "term": "use approach FLAML text regression",
       "frequency": 5,
       "source_index": 449
     },
     {
-      "term": "use approach EvalML tabular regression",
+      "term": "use approach EvalML tabular classification",
       "frequency": 5,
       "source_index": 450
     },
     {
-      "term": "use approach EvalML text classification",
+      "term": "use approach EvalML tabular regression",
       "frequency": 5,
       "source_index": 451
     },
     {
-      "term": "use approach EvalML text regression",
+      "term": "use approach EvalML text classification",
       "frequency": 5,
       "source_index": 452
     },
     {
-      "term": "use approach EvalML time series regression",
+      "term": "use approach EvalML text regression",
       "frequency": 5,
       "source_index": 453
     },
     {
-      "term": "use approach EvalML time series classification",
+      "term": "use approach EvalML time series regression",
       "frequency": 5,
       "source_index": 454
     },
     {
-      "term": "use approach Auto-Pytorch classification",
+      "term": "use approach EvalML time series classification",
       "frequency": 5,
       "source_index": 455
     },
     {
-      "term": "use approach Auto-Pytorch regression",
+      "term": "use approach Auto-Pytorch classification",
       "frequency": 5,
       "source_index": 456
     },
     {
-      "term": "use approach AutoCVE classification",
+      "term": "use approach Auto-Pytorch regression",
       "frequency": 5,
       "source_index": 457
     },
     {
-      "term": "use approach AutoGluon classification",
+      "term": "use approach AutoCVE classification",
       "frequency": 5,
       "source_index": 458
     },
     {
-      "term": "use approach AutoGluon regression",
+      "term": "use approach AutoGluon classification",
       "frequency": 5,
       "source_index": 459
     },
     {
-      "term": "use approach AutoGluon image classification",
+      "term": "use approach AutoGluon regression",
       "frequency": 5,
       "source_index": 460
     },
     {
-      "term": "use approach AutoGluon object detection",
+      "term": "use approach AutoGluon image classification",
       "frequency": 5,
       "source_index": 461
     },
     {
-      "term": "use approach AutoGluon text classification",
+      "term": "use approach AutoGluon object detection",
       "frequency": 5,
       "source_index": 462
     },
     {
-      "term": "use approach AutoGluon named entity recognition",
+      "term": "use approach AutoGluon text classification",
       "frequency": 5,
       "source_index": 463
     },
     {
-      "term": "use approach AutoGluon text regression",
+      "term": "use approach AutoGluon named entity recognition",
       "frequency": 5,
       "source_index": 464
     },
     {
-      "term": "use approach mcfly time series classification",
+      "term": "use approach AutoGluon text regression",
       "frequency": 5,
       "source_index": 465
     },
     {
-      "term": "include preprocessor",
+      "term": "use approach mcfly time series classification",
       "frequency": 5,
       "source_index": 466
     },
     {
-      "term": "include preprocessor Autosklearn tabular classification",
+      "term": "include preprocessor",
       "frequency": 5,
       "source_index": 467
     },
     {
-      "term": "include preprocessor Autosklearn tabular regression",
+      "term": "include preprocessor Autosklearn tabular classification",
       "frequency": 5,
       "source_index": 468
     },
     {
-      "term": "configuration via metalearning",
+      "term": "include preprocessor Autosklearn tabular regression",
       "frequency": 5,
       "source_index": 469
     },
     {
-      "term": "configuration via metalearning autosklearn",
+      "term": "configuration via metalearning",
       "frequency": 5,
       "source_index": 470
     },
     {
-      "term": "metric autokeras tabular classification",
+      "term": "configuration via metalearning autosklearn",
       "frequency": 5,
       "source_index": 471
     },
     {
-      "term": "metric autokeras tabular regression",
+      "term": "metric autokeras tabular classification",
       "frequency": 5,
       "source_index": 472
     },
     {
-      "term": "metric AutoKeras image classification",
+      "term": "metric autokeras tabular regression",
       "frequency": 5,
       "source_index": 473
     },
     {
-      "term": "metric AutoKeras image regression",
+      "term": "metric AutoKeras image classification",
       "frequency": 5,
       "source_index": 474
     },
     {
-      "term": "metric AutoKeras text classification",
+      "term": "metric AutoKeras image regression",
       "frequency": 5,
       "source_index": 475
     },
     {
-      "term": "metric AutoKeras text regression",
+      "term": "metric AutoKeras text classification",
       "frequency": 5,
       "source_index": 476
     },
     {
-      "term": "metric AutoKeras time series forecasting",
+      "term": "metric AutoKeras text regression",
       "frequency": 5,
       "source_index": 477
     },
     {
-      "term": "metric Autosklearn tabular classification",
+      "term": "metric AutoKeras time series forecasting",
       "frequency": 5,
       "source_index": 478
     },
     {
-      "term": "metric Autosklearn tabular regression",
+      "term": "metric Autosklearn tabular classification",
       "frequency": 5,
       "source_index": 479
     },
     {
-      "term": "metric FLAML tabular classification",
+      "term": "metric Autosklearn tabular regression",
       "frequency": 5,
       "source_index": 480
     },
     {
-      "term": "metric FLAML tabular regression",
+      "term": "metric FLAML tabular classification",
       "frequency": 5,
       "source_index": 481
     },
     {
-      "term": "metric FLAML text classification",
+      "term": "metric FLAML tabular regression",
       "frequency": 5,
       "source_index": 482
     },
     {
-      "term": "metric FLAML text regression",
+      "term": "metric FLAML text classification",
       "frequency": 5,
       "source_index": 483
     },
     {
-      "term": "metric FLAML ranking",
+      "term": "metric FLAML text regression",
       "frequency": 5,
       "source_index": 484
     },
     {
-      "term": "metric FLAML time series analysis",
+      "term": "metric FLAML ranking",
       "frequency": 5,
       "source_index": 485
     },
     {
-      "term": "metric EvalML tabular classification",
+      "term": "metric FLAML time series analysis",
       "frequency": 5,
       "source_index": 486
     },
     {
-      "term": "metric EvalML tabular regression",
+      "term": "metric EvalML tabular classification",
       "frequency": 5,
       "source_index": 487
     },
     {
-      "term": "metric EvalML text classification",
+      "term": "metric EvalML tabular regression",
       "frequency": 5,
       "source_index": 488
     },
     {
-      "term": "metric EvalML text regression",
+      "term": "metric EvalML text classification",
       "frequency": 5,
       "source_index": 489
     },
     {
-      "term": "metric EvalML time series regression",
+      "term": "metric EvalML text regression",
       "frequency": 5,
       "source_index": 490
     },
     {
-      "term": "metric AutoGluon tabular regression",
+      "term": "metric EvalML time series regression",
       "frequency": 5,
       "source_index": 491
     },
     {
-      "term": "metric AutoGluon tabular classification",
+      "term": "metric AutoGluon tabular regression",
       "frequency": 5,
       "source_index": 492
     },
     {
-      "term": "metric AutoGluon text classification",
+      "term": "metric AutoGluon tabular classification",
       "frequency": 5,
       "source_index": 493
     },
     {
-      "term": "metric AutoGluon named entity recognition",
+      "term": "metric AutoGluon text classification",
       "frequency": 5,
       "source_index": 494
     },
     {
-      "term": "metric AutoGluon text regression",
+      "term": "metric AutoGluon named entity recognition",
       "frequency": 5,
       "source_index": 495
     },
     {
-      "term": "metric AutoGluon image classification",
+      "term": "metric AutoGluon text regression",
       "frequency": 5,
       "source_index": 496
     },
     {
-      "term": "metric AutoGluon time series forecasting",
+      "term": "metric AutoGluon image classification",
       "frequency": 5,
       "source_index": 497
     },
     {
-      "term": "metric AutoPytorch tabular classification",
+      "term": "metric AutoGluon time series forecasting",
       "frequency": 5,
       "source_index": 498
     },
     {
-      "term": "metric AutoPytorch time series forecasting",
+      "term": "metric AutoPytorch tabular classification",
       "frequency": 5,
       "source_index": 499
     },
     {
-      "term": "metric AutoPytorch tabular regression",
+      "term": "metric AutoPytorch time series forecasting",
       "frequency": 5,
       "source_index": 500
     },
     {
-      "term": "metric AutoCVE classification",
+      "term": "metric AutoPytorch tabular regression",
       "frequency": 5,
       "source_index": 501
     },
     {
-      "term": "metric mcfly time series classification",
+      "term": "metric AutoCVE classification",
       "frequency": 5,
       "source_index": 502
     },
     {
-      "term": "metric MLJAR tabular classification",
+      "term": "metric mcfly time series classification",
       "frequency": 5,
       "source_index": 503
     },
     {
-      "term": "metric MLJAR tabular regression",
+      "term": "metric MLJAR tabular classification",
       "frequency": 5,
       "source_index": 504
     },
     {
-      "term": "metric PyCaret tabular classification",
+      "term": "metric MLJAR tabular regression",
       "frequency": 5,
       "source_index": 505
     },
     {
-      "term": "metric PyCaret tabular regression",
+      "term": "metric PyCaret tabular classification",
       "frequency": 5,
       "source_index": 506
     },
     {
-      "term": "metric PyCaret time series forecasting",
+      "term": "metric PyCaret tabular regression",
       "frequency": 5,
       "source_index": 507
     },
     {
-      "term": "metric TPOT tabular classification",
+      "term": "metric PyCaret time series forecasting",
       "frequency": 5,
       "source_index": 508
     },
     {
-      "term": "metric TPOT tabular regression",
+      "term": "metric TPOT tabular classification",
       "frequency": 5,
       "source_index": 509
     },
     {
-      "term": "metric TPOT image classification",
+      "term": "metric TPOT tabular regression",
       "frequency": 5,
       "source_index": 510
     },
     {
-      "term": "metric GAMA tabular classification",
+      "term": "metric TPOT image classification",
       "frequency": 5,
       "source_index": 511
     },
     {
-      "term": "metric GAMA tabular regression",
+      "term": "metric GAMA tabular classification",
       "frequency": 5,
       "source_index": 512
     },
     {
-      "term": "metric LAMA tabular classification",
+      "term": "metric GAMA tabular regression",
       "frequency": 5,
       "source_index": 513
     },
     {
-      "term": "metric LAMA binary classification",
+      "term": "metric LAMA tabular classification",
       "frequency": 5,
       "source_index": 514
     },
     {
-      "term": "metric LAMA tabular regression",
+      "term": "metric LAMA binary classification",
       "frequency": 5,
       "source_index": 515
     },
     {
-      "term": "metric h2o AutoML tabular classification",
+      "term": "metric LAMA tabular regression",
       "frequency": 5,
       "source_index": 516
     },
     {
-      "term": "metric h2o AutoML tabular regression",
+      "term": "metric h2o AutoML tabular classification",
       "frequency": 5,
       "source_index": 517
     },
     {
-      "term": "time limit",
+      "term": "metric h2o AutoML tabular regression",
       "frequency": 5,
       "source_index": 518
     },
     {
-      "term": "time limit autosklearn tabular classification",
+      "term": "time limit",
       "frequency": 5,
       "source_index": 519
     },
     {
-      "term": "time limit autosklearn tabular regression",
+      "term": "time limit autosklearn tabular classification",
       "frequency": 5,
       "source_index": 520
     },
     {
-      "term": "time limit per run",
+      "term": "time limit autosklearn tabular regression",
       "frequency": 5,
       "source_index": 521
     },
     {
-      "term": "time limit per run autosklearn tabular classification",
+      "term": "time limit per run",
       "frequency": 5,
       "source_index": 522
     },
     {
-      "term": "time limit per run autosklearn tabular regression",
+      "term": "time limit per run autosklearn tabular classification",
       "frequency": 5,
       "source_index": 523
     },
     {
-      "term": "max_model_size",
+      "term": "time limit per run autosklearn tabular regression",
       "frequency": 5,
       "source_index": 524
     },
     {
-      "term": "max model size autokeras tabular classification",
+      "term": "max_model_size",
       "frequency": 5,
       "source_index": 525
     },
     {
-      "term": "max model size autokeras tabular regression",
+      "term": "max model size autokeras tabular classification",
       "frequency": 5,
       "source_index": 526
     },
     {
-      "term": "max model size autokeras image classification",
+      "term": "max model size autokeras tabular regression",
       "frequency": 5,
       "source_index": 527
     },
     {
-      "term": "max model size autokeras image regression",
+      "term": "max model size autokeras image classification",
       "frequency": 5,
       "source_index": 528
     },
     {
-      "term": "max model size autokeras text classification",
+      "term": "max model size autokeras image regression",
       "frequency": 5,
       "source_index": 529
     },
     {
-      "term": "max model size autokeras text regression",
+      "term": "max model size autokeras text classification",
       "frequency": 5,
       "source_index": 530
     },
     {
-      "term": "max model size autokeras time series forecasting",
+      "term": "max model size autokeras text regression",
       "frequency": 5,
       "source_index": 531
     },
     {
-      "term": "include approach",
+      "term": "max model size autokeras time series forecasting",
       "frequency": 5,
       "source_index": 532
     },
     {
-      "term": "include approach autosklearn",
+      "term": "include approach",
       "frequency": 5,
       "source_index": 533
     },
     {
-      "term": "include approach h2o automl",
+      "term": "include approach autosklearn",
       "frequency": 5,
       "source_index": 534
     },
     {
-      "term": "include approach pycaret Clustering",
+      "term": "include approach h2o automl",
       "frequency": 5,
       "source_index": 535
     },
     {
-      "term": "epochs",
+      "term": "include approach pycaret Clustering",
       "frequency": 5,
       "source_index": 536
     },
     {
-      "term": "epochs mcfly",
+      "term": "epochs",
       "frequency": 5,
       "source_index": 537
     },
     {
-      "term": "max_trials",
+      "term": "epochs mcfly",
       "frequency": 5,
       "source_index": 538
     },
     {
-      "term": "max trials autokeras tabular classification",
+      "term": "max_trials",
       "frequency": 5,
       "source_index": 539
     },
     {
-      "term": "max trials autokeras tabular regression",
+      "term": "max trials autokeras tabular classification",
       "frequency": 5,
       "source_index": 540
     },
     {
-      "term": "max trials autokeras image classification",
+      "term": "max trials autokeras tabular regression",
       "frequency": 5,
       "source_index": 541
     },
     {
-      "term": "max trials autokeras image regression",
+      "term": "max trials autokeras image classification",
       "frequency": 5,
       "source_index": 542
     },
     {
-      "term": "max trials autokeras text classification",
+      "term": "max trials autokeras image regression",
       "frequency": 5,
       "source_index": 543
     },
     {
-      "term": "max trials autokeras text regression",
+      "term": "max trials autokeras text classification",
       "frequency": 5,
       "source_index": 544
     },
     {
-      "term": "max trials autokeras time series forecasting",
+      "term": "max trials autokeras text regression",
       "frequency": 5,
       "source_index": 545
     },
     {
-      "term": "tuner",
+      "term": "max trials autokeras time series forecasting",
       "frequency": 5,
       "source_index": 546
     },
     {
-      "term": "tuner autokeras tabular regression",
+      "term": "tuner",
       "frequency": 5,
       "source_index": 547
     },
     {
-      "term": "tuner autokeras tabular classification",
+      "term": "tuner autokeras tabular regression",
       "frequency": 5,
       "source_index": 548
     },
     {
-      "term": "tuner autokeras image regression",
+      "term": "tuner autokeras tabular classification",
       "frequency": 5,
       "source_index": 549
     },
     {
-      "term": "tuner autokeras image classification",
+      "term": "tuner autokeras image regression",
       "frequency": 5,
       "source_index": 550
     },
     {
-      "term": "tuner autokeras text regression",
+      "term": "tuner autokeras image classification",
       "frequency": 5,
       "source_index": 551
     },
     {
-      "term": "tuner autokeras text classification",
+      "term": "tuner autokeras text regression",
       "frequency": 5,
       "source_index": 552
     },
     {
-      "term": "tuner autokeras time series forecasting",
+      "term": "tuner autokeras text classification",
       "frequency": 5,
       "source_index": 553
     },
     {
-      "term": "tuner class evalml",
+      "term": "tuner autokeras time series forecasting",
       "frequency": 5,
       "source_index": 554
     },
     {
-      "term": "tuner class GAMA",
+      "term": "tuner class evalml",
       "frequency": 5,
       "source_index": 555
     },
     {
+      "term": "tuner class GAMA",
+      "frequency": 5,
+      "source_index": 556
+    },
+    {
       "term": "loss function",
       "frequency": 521,
-      "source_index": 556
+      "source_index": 557
     },
     {
       "term": "loss function autokeras tabular classification",
       "frequency": 5,
-      "source_index": 557
+      "source_index": 558
     },
     {
       "term": "loss function autokeras tabular regression",
       "frequency": 5,
-      "source_index": 558
+      "source_index": 559
     },
     {
       "term": "loss function autokeras image classification",
       "frequency": 5,
-      "source_index": 559
+      "source_index": 560
     },
     {
       "term": "loss function autokeras image regression",
       "frequency": 5,
-      "source_index": 560
+      "source_index": 561
     },
     {
       "term": "loss function autokeras text classification",
       "frequency": 5,
-      "source_index": 561
+      "source_index": 562
     },
     {
       "term": "loss function autokeras text regression",
       "frequency": 5,
-      "source_index": 562
+      "source_index": 563
     },
     {
       "term": "loss function autokeras time series forecasting",
       "frequency": 5,
-      "source_index": 563
+      "source_index": 564
     },
     {
       "term": "loss function mcfly time series classification",
       "frequency": 5,
-      "source_index": 564
+      "source_index": 565
     },
     {
       "term": "loss function lama tabular classification",
       "frequency": 5,
-      "source_index": 565
+      "source_index": 566
     },
     {
       "term": "loss function lama tabular regression",
       "frequency": 5,
-      "source_index": 566
+      "source_index": 567
     },
     {
       "term": "loss function lama binary classification",
       "frequency": 5,
-      "source_index": 567
+      "source_index": 568
     },
     {
       "term": "forecasting horizon",
       "frequency": 5,
-      "source_index": 568
+      "source_index": 569
     },
     {
       "term": "forecasting horizon autokeras time series forcasting",
       "frequency": 5,
-      "source_index": 569
+      "source_index": 570
     },
     {
       "term": "forecasting horizon autogluon time series forcasting",
       "frequency": 5,
-      "source_index": 570
+      "source_index": 571
     },
     {
       "term": "forecasting horizon evalml time series forcasting",
       "frequency": 5,
-      "source_index": 571
+      "source_index": 572
     },
     {
       "term": "forecasting horizon flaml time series forcasting",
       "frequency": 5,
-      "source_index": 572
+      "source_index": 573
     },
     {
       "term": "forecasting horizon pycaret time series forcasting",
       "frequency": 5,
-      "source_index": 573
+      "source_index": 574
     },
     {
       "term": "forecasting horizon autopytorch time series forcasting",
       "frequency": 5,
-      "source_index": 574
+      "source_index": 575
     },
     {
       "term": "lookback",
       "frequency": 5,
-      "source_index": 575
+      "source_index": 576
     },
     {
       "term": "lookback autokeras time series forecasting",
       "frequency": 5,
-      "source_index": 576
+      "source_index": 577
     },
     {
       "term": "lookback evalml time series forecasting",
       "frequency": 5,
-      "source_index": 577
+      "source_index": 578
     },
     {
       "term": "gap",
       "frequency": 5,
-      "source_index": 578
+      "source_index": 579
     },
     {
       "term": "gap autokeras time series forecasting",
       "frequency": 5,
-      "source_index": 579
+      "source_index": 580
     },
     {
       "term": "gap evalml time series forecasting",
       "frequency": 5,
-      "source_index": 580
+      "source_index": 581
     },
     {
       "term": "validation split",
       "frequency": 5,
-      "source_index": 581
+      "source_index": 582
     },
     {
       "term": "validation split autokeras",
       "frequency": 5,
-      "source_index": 582
+      "source_index": 583
     },
     {
       "term": "validation split flaml",
       "frequency": 5,
-      "source_index": 583
+      "source_index": 584
     },
     {
       "term": "eval method",
       "frequency": 5,
-      "source_index": 584
+      "source_index": 585
     },
     {
       "term": "eval method Flaml",
       "frequency": 5,
-      "source_index": 585
+      "source_index": 586
     },
     {
       "term": "cross validation fold",
       "frequency": 5,
-      "source_index": 586
+      "source_index": 587
     },
     {
       "term": "cross validation fold flaml",
       "frequency": 5,
-      "source_index": 587
+      "source_index": 588
     },
     {
       "term": "cross validation fold pycaret",
       "frequency": 5,
-      "source_index": 588
+      "source_index": 589
     },
     {
       "term": "split type",
       "frequency": 5,
-      "source_index": 589
+      "source_index": 590
     },
     {
       "term": "split type flaml classification",
       "frequency": 5,
-      "source_index": 590
+      "source_index": 591
     },
     {
       "term": "split type flaml regression",
       "frequency": 5,
-      "source_index": 591
+      "source_index": 592
     },
     {
       "term": "split type flaml time series forecasting",
       "frequency": 5,
-      "source_index": 592
+      "source_index": 593
     },
     {
       "term": "split type flaml ranking",
       "frequency": 5,
-      "source_index": 593
+      "source_index": 594
     },
     {
       "term": "hyperparameter optimization method",
       "frequency": 5,
-      "source_index": 594
+      "source_index": 595
     },
     {
       "term": "hyperparameter optimization method flaml",
       "frequency": 5,
-      "source_index": 595
+      "source_index": 596
     },
     {
       "term": "optimize thresholds",
       "frequency": 5,
-      "source_index": 596
+      "source_index": 597
     },
     {
       "term": "optimize thresholds evalml",
       "frequency": 5,
-      "source_index": 597
+      "source_index": 598
     },
     {
       "term": "ensembling",
       "frequency": 5,
-      "source_index": 598
+      "source_index": 599
     },
     {
       "term": "ensembling evalml",
       "frequency": 5,
-      "source_index": 599
+      "source_index": 600
     },
     {
       "term": "max batches",
       "frequency": 5,
-      "source_index": 600
+      "source_index": 601
     },
     {
       "term": "max batches evalml",
       "frequency": 5,
-      "source_index": 601
+      "source_index": 602
     },
     {
       "term": "allow long running models",
       "frequency": 5,
-      "source_index": 602
+      "source_index": 603
     },
     {
       "term": "allow long running models evalml",
       "frequency": 5,
-      "source_index": 603
+      "source_index": 604
     },
     {
       "term": "pipelines per batch",
       "frequency": 5,
-      "source_index": 604
+      "source_index": 605
     },
     {
       "term": "pipelines per batch evalml",
       "frequency": 5,
-      "source_index": 605
+      "source_index": 606
     },
     {
       "term": "exclude featurizers",
       "frequency": 5,
-      "source_index": 606
+      "source_index": 607
     },
     {
       "term": "exclude featurizers evalml",
       "frequency": 5,
-      "source_index": 607
+      "source_index": 608
     },
     {
       "term": "max models",
       "frequency": 5,
-      "source_index": 608
+      "source_index": 609
     },
     {
       "term": "max models h2o AutoML",
       "frequency": 5,
-      "source_index": 609
+      "source_index": 610
     },
     {
       "term": "sort metric",
       "frequency": 5,
-      "source_index": 610
+      "source_index": 611
     },
     {
       "term": "sort metric h2o AutoML",
       "frequency": 5,
-      "source_index": 611
+      "source_index": 612
     },
     {
       "term": "number clusters",
       "frequency": 5,
-      "source_index": 612
+      "source_index": 613
     },
     {
       "term": "number clusters pycaret clustering",
       "frequency": 5,
-      "source_index": 613
+      "source_index": 614
     },
     {
       "term": "category type",
       "frequency": 5,
-      "source_index": 614
+      "source_index": 615
     },
     {
       "term": "datatype",
       "frequency": 5,
-      "source_index": 615
+      "source_index": 616
     },
     {
       "term": "task configuration",
       "frequency": 5,
-      "source_index": 616
+      "source_index": 617
     },
     {
       "term": "parameter",
       "frequency": 642,
-      "source_index": 617
+      "source_index": 618
     },
     {
       "term": "hardware",
       "frequency": 553,
-      "source_index": 618
+      "source_index": 619
     },
     {
       "term": "characteristic",
       "frequency": 5,
-      "source_index": 619
+      "source_index": 620
     },
     {
       "term": "dataset type",
       "frequency": 5,
-      "source_index": 620
+      "source_index": 621
     },
     {
       "term": "tuner approach",
       "frequency": 5,
-      "source_index": 621
+      "source_index": 622
     },
     {
       "term": "inheritance type",
       "frequency": 5,
-      "source_index": 622
+      "source_index": 623
     },
     {
       "term": "column role",
       "frequency": 5,
-      "source_index": 623
+      "source_index": 624
     },
     {
       "term": "evaluation approach",
       "frequency": 5,
-      "source_index": 624
+      "source_index": 625
     },
     {
       "term": "split approach",
       "frequency": 5,
-      "source_index": 625
+      "source_index": 626
     },
     {
       "term": "hyperparameter optimization approach",
       "frequency": 5,
-      "source_index": 626
+      "source_index": 627
     },
     {
       "term": "featurizers",
       "frequency": 5,
-      "source_index": 627
+      "source_index": 628
     },
     {
       "term": "integer",
       "frequency": 5,
-      "source_index": 628
+      "source_index": 629
     },
     {
       "term": "float",
       "frequency": 5,
-      "source_index": 629
+      "source_index": 630
     },
     {
       "term": "boolean",
       "frequency": 5,
-      "source_index": 630
+      "source_index": 631
     },
     {
       "term": "string",
       "frequency": 5,
-      "source_index": 631
+      "source_index": 632
     },
     {
       "term": "categorical",
       "frequency": 146,
-      "source_index": 632
+      "source_index": 633
     },
     {
       "term": "datetime",
       "frequency": 5,
-      "source_index": 633
+      "source_index": 634
     },
     {
       "term": "list",
       "frequency": 5,
-      "source_index": 634
+      "source_index": 635
     },
     {
       "term": "single value",
       "frequency": 5,
-      "source_index": 635
+      "source_index": 636
     },
     {
       "term": "index",
       "frequency": 5,
-      "source_index": 636
+      "source_index": 637
     },
     {
       "term": "target",
       "frequency": 1385,
-      "source_index": 637
+      "source_index": 638
     },
     {
       "term": "ignore",
       "frequency": 5,
-      "source_index": 638
+      "source_index": 639
     },
     {
       "term": "balanced dataset",
       "frequency": 5,
-      "source_index": 639
+      "source_index": 640
     },
     {
       "term": "unbalanced dataset",
       "frequency": 5,
-      "source_index": 640
+      "source_index": 641
     },
     {
       "term": "missing values",
       "frequency": 5,
-      "source_index": 641
+      "source_index": 642
     },
     {
       "term": "numerical features",
       "frequency": 5,
-      "source_index": 642
+      "source_index": 643
     },
     {
       "term": "categorical features",
       "frequency": 5,
-      "source_index": 643
+      "source_index": 644
     },
     {
       "term": "text features",
       "frequency": 5,
-      "source_index": 644
+      "source_index": 645
     },
     {
       "term": "small dataset",
       "frequency": 5,
-      "source_index": 645
+      "source_index": 646
     },
     {
       "term": "large dataset",
       "frequency": 5,
-      "source_index": 646
+      "source_index": 647
     },
     {
       "term": "fast training",
       "frequency": 5,
-      "source_index": 647
+      "source_index": 648
     },
     {
       "term": "long training time",
       "frequency": 5,
-      "source_index": 648
+      "source_index": 649
     },
     {
       "term": "many features",
       "frequency": 5,
-      "source_index": 649
+      "source_index": 650
     },
     {
       "term": "accurate",
       "frequency": 142,
-      "source_index": 650
+      "source_index": 651
     },
     {
       "term": "small memory footprint",
       "frequency": 5,
-      "source_index": 651
+      "source_index": 652
     },
     {
       "term": "large memory footprint",
       "frequency": 5,
-      "source_index": 652
+      "source_index": 653
     },
     {
       "term": "explainable",
       "frequency": 5,
-      "source_index": 653
+      "source_index": 654
     },
     {
       "term": "scalable",
       "frequency": 146,
-      "source_index": 654
+      "source_index": 655
     },
     {
       "term": "tabular",
       "frequency": 5,
-      "source_index": 655
+      "source_index": 656
     },
     {
       "term": "text",
       "frequency": 1104,
-      "source_index": 656
+      "source_index": 657
     },
     {
       "term": "image",
       "frequency": 1471,
-      "source_index": 657
+      "source_index": 658
     },
     {
       "term": "video",
       "frequency": 490,
-      "source_index": 658
+      "source_index": 659
     },
     {
       "term": "audio",
       "frequency": 496,
-      "source_index": 659
+      "source_index": 660
     },
     {
       "term": "graph",
       "frequency": 2008,
-      "source_index": 660
+      "source_index": 661
     },
     {
       "term": "time series longitudinal",
       "frequency": 5,
-      "source_index": 661
+      "source_index": 662
     },
     {
       "term": "time series",
       "frequency": 490,
-      "source_index": 662
+      "source_index": 663
     },
     {
       "term": "greedy",
       "frequency": 5,
-      "source_index": 663
+      "source_index": 664
     },
     {
       "term": "bayesian",
       "frequency": 717,
-      "source_index": 664
+      "source_index": 665
     },
     {
       "term": "hyperband",
       "frequency": 5,
-      "source_index": 665
+      "source_index": 666
     },
     {
       "term": "random",
       "frequency": 919,
-      "source_index": 666
+      "source_index": 667
     },
     {
       "term": "grid search",
       "frequency": 5,
-      "source_index": 667
+      "source_index": 668
     },
     {
       "term": "skopt",
       "frequency": 5,
-      "source_index": 668
+      "source_index": 669
     },
     {
       "term": "async successive halving",
       "frequency": 5,
-      "source_index": 669
+      "source_index": 670
     },
     {
       "term": "async ea",
       "frequency": 5,
-      "source_index": 670
+      "source_index": 671
     },
     {
       "term": "broader inherited",
       "frequency": 5,
-      "source_index": 671
+      "source_index": 672
     },
     {
       "term": "auto evaluation",
       "frequency": 5,
-      "source_index": 672
+      "source_index": 673
     },
     {
       "term": "cross validation",
       "frequency": 5,
-      "source_index": 673
+      "source_index": 674
     },
     {
       "term": "holdout",
       "frequency": 5,
-      "source_index": 674
+      "source_index": 675
     },
     {
       "term": "auto split",
       "frequency": 5,
-      "source_index": 675
+      "source_index": 676
     },
     {
       "term": "stratified",
       "frequency": 5,
-      "source_index": 676
+      "source_index": 677
     },
     {
       "term": "uniform",
       "frequency": 5,
-      "source_index": 677
+      "source_index": 678
     },
     {
       "term": "time",
       "frequency": 2058,
-      "source_index": 678
+      "source_index": 679
     },
     {
       "term": "group",
       "frequency": 340,
-      "source_index": 679
+      "source_index": 680
     },
     {
       "term": "auto optimization approach",
       "frequency": 5,
-      "source_index": 680
+      "source_index": 681
     },
     {
       "term": "BlendSearch",
       "frequency": 5,
-      "source_index": 681
+      "source_index": 682
     },
     {
       "term": "Frugal Optimization for Costrelated Hyperparameters",
       "frequency": 5,
-      "source_index": 682
+      "source_index": 683
     },
     {
       "term": "Datetime Featurizer",
       "frequency": 5,
-      "source_index": 683
+      "source_index": 684
     },
     {
       "term": "Email Featurizer",
       "frequency": 5,
-      "source_index": 684
+      "source_index": 685
     },
     {
       "term": "URL Featurizer",
       "frequency": 5,
-      "source_index": 685
+      "source_index": 686
     },
     {
       "term": "Natural Language Featurizer",
       "frequency": 5,
-      "source_index": 686
+      "source_index": 687
     },
     {
       "term": "Time Series Featurizer",
       "frequency": 5,
-      "source_index": 687
+      "source_index": 688
     },
     {
       "term": "Query get all dataset types",
       "frequency": 5,
-      "source_index": 688
+      "source_index": 689
     },
     {
       "term": "Query get all ML tasks",
       "frequency": 5,
-      "source_index": 689
+      "source_index": 690
     },
     {
       "term": "Query get all ML approaches",
       "frequency": 5,
-      "source_index": 690
+      "source_index": 691
     },
     {
       "term": "Query get all preprocessing approaches",
       "frequency": 5,
-      "source_index": 691
+      "source_index": 692
     },
     {
       "term": "Query get all metrics",
       "frequency": 5,
-      "source_index": 692
+      "source_index": 693
     },
     {
       "term": "Query get all ML libraries",
       "frequency": 5,
-      "source_index": 693
+      "source_index": 694
     },
     {
       "term": "Query get all AutoML solutions",
       "frequency": 5,
-      "source_index": 694
+      "source_index": 695
     },
     {
       "term": "Query get all predefined SPARQL queries",
       "frequency": 5,
-      "source_index": 695
+      "source_index": 696
     },
     {
       "term": "Query get all predefined SPARQL insert inference rules",
       "frequency": 5,
-      "source_index": 696
+      "source_index": 697
     },
     {
       "term": "Query list all classes and their number of instances",
       "frequency": 5,
-      "source_index": 697
+      "source_index": 698
     },
     {
       "term": "Query get all broader_inherited properties",
       "frequency": 5,
-      "source_index": 698
+      "source_index": 699
     },
     {
       "term": "Query list ML_tasks in broader relationship",
       "frequency": 5,
-      "source_index": 699
+      "source_index": 700
     },
     {
       "term": "Query list ML_tasks that belong_to ML_area",
       "frequency": 5,
-      "source_index": 700
+      "source_index": 701
     },
     {
       "term": "Inference rule broader inheritance",
       "frequency": 5,
-      "source_index": 701
+      "source_index": 702
     },
     {
       "term": "Check class instance",
       "frequency": 5,
-      "source_index": 702
+      "source_index": 703
     },
     {
       "term": "Check unique class",
       "frequency": 5,
-      "source_index": 703
+      "source_index": 704
     },
     {
       "term": "Check predicate declared",
       "frequency": 5,
-      "source_index": 704
+      "source_index": 705
     },
     {
       "term": "Check predicates with domain and range datatypes",
       "frequency": 5,
-      "source_index": 705
+      "source_index": 706
     }
   ]
 }

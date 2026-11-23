@@ -1,12 +1,12 @@
 {
   "concepts": {
-    "baseline_total": 2054,
-    "guided_total": 2090,
-    "shared": 1114,
-    "only_baseline": 940,
-    "only_guided": 976,
-    "jaccard_slug": 0.3677,
-    "jaccard_lexical": 0.3823,
+    "baseline_total": 1993,
+    "guided_total": 2041,
+    "shared": 1194,
+    "only_baseline": 799,
+    "only_guided": 847,
+    "jaccard_slug": 0.4204,
+    "jaccard_lexical": 0.4368,
     "sample_shared": [
       "3d_convolutional_neural_network",
       "3d_object_detection",
@@ -15,38 +15,37 @@
       "accelerated_gradient_descent",
       "acoustic_scene_classification",
       "acquisition_function",
-      "acquisitionfunction",
       "action_recognition",
       "activation_function",
       "activation_sparsity",
       "active_inference",
       "active_learning",
+      "active_learning_objective",
       "actor_critic_framework",
       "actor_critic_method"
     ],
     "sample_only_baseline": [
       "abstract_model",
       "activation_and_layer_types",
-      "active_learning_objective",
+      "activation_function_algorithm",
       "actor_critic",
       "adversarial_defenses",
-      "adversarial_multiarmed_bandit",
       "adversarial_robustness_monitoring",
       "adversarial_training_methods",
-      "adversarialattack",
-      "adversarialdomainadaptation",
       "agent_based_learning_strategies",
       "algebraic_and_geometric_methods",
       "algorithm",
-      "algorithm_selection",
-      "algorithmic_learning_task"
+      "algorithmic_learning_task",
+      "algorithmic_optimization_task",
+      "algorithmic_primitives",
+      "alignment_model",
+      "analysis_and_evaluation_task"
     ],
     "sample_only_guided": [
       "a3c",
       "activation_unit",
       "actor_critic_algorithm",
       "actor_critic_rl",
-      "actorcriticmethod",
       "adaptive_boosting_algorithm",
       "adaptive_iterative_optimization",
       "advanced_deployment_and_robustness",
@@ -54,125 +53,126 @@
       "adversarial_attack_types",
       "adversarial_defense",
       "adversarial_defense_mechanism",
-      "adversarial_domain_adaptation",
       "adversarial_machine_learning",
-      "adversarial_ml_security_framework"
+      "adversarial_ml_security_framework",
+      "adversarial_robustness_and_distributed_deployment",
+      "adversarial_variants"
     ]
   },
   "hierarchy": {
-    "baseline_edges": 2049,
-    "guided_edges": 2085,
-    "shared_edges": 154,
-    "only_baseline_edges": 1895,
-    "only_guided_edges": 1931,
-    "edge_jaccard": 0.0387,
-    "shared_concepts_evaluated": 1114,
-    "identical_direct_parent_count": 154,
-    "identical_direct_parent_rate": 0.1382,
-    "changed_direct_parent_count": 960,
-    "changed_direct_parent_rate": 0.8618,
-    "mean_ancestor_jaccard": 0.4561,
+    "baseline_edges": 1988,
+    "guided_edges": 2036,
+    "shared_edges": 153,
+    "only_baseline_edges": 1835,
+    "only_guided_edges": 1883,
+    "edge_jaccard": 0.0395,
+    "shared_concepts_evaluated": 1194,
+    "identical_direct_parent_count": 153,
+    "identical_direct_parent_rate": 0.1281,
+    "changed_direct_parent_count": 1041,
+    "changed_direct_parent_rate": 0.8719,
+    "mean_ancestor_jaccard": 0.455,
     "max_depth": {
       "baseline": 10,
-      "guided": 10
+      "guided": 11
     },
     "avg_depth": {
-      "baseline": 5.08,
-      "guided": 5.07
+      "baseline": 5.09,
+      "guided": 5.1
     },
     "branching_factor": {
-      "baseline": 2.411,
+      "baseline": 2.398,
       "guided": 2.444
     },
     "sample_parent_shifts": [
       {
-        "concept": "signal_decomposition",
+        "concept": "black_box_optimization",
         "baseline_parent": [
-          "core_core_ml_task"
+          "heuristic_search_algorithm"
         ],
         "guided_parent": [
-          "unsupervised_learning_task"
+          "general_ml_theory"
         ]
       },
       {
-        "concept": "regularized_empirical_risk_minimization",
+        "concept": "spectral_normalization",
         "baseline_parent": [
-          "risk_minimization_objective"
+          "regularization"
         ],
         "guided_parent": [
-          "regularized_risk_objectives"
+          "normalization_regularization"
         ]
       },
       {
-        "concept": "classification_model",
+        "concept": "unsupervised_clustering",
         "baseline_parent": [
-          "ml_task"
+          "pattern_discovery"
         ],
         "guided_parent": [
-          "core_parametric_ml_model"
+          "grouping_analysis"
         ]
       },
       {
-        "concept": "gaussian_process",
+        "concept": "machine_learning_algorithm",
         "baseline_parent": [
-          "stochastic_process_model"
-        ],
-        "guided_parent": [
-          "probabilistic_functional_model"
-        ]
-      },
-      {
-        "concept": "core_ml_algorithm",
-        "baseline_parent": [
-          "ml_algorithm_architecture"
-        ],
-        "guided_parent": [
           "ml_algorithm"
+        ],
+        "guided_parent": [
+          "statistical_learning_model"
         ]
       },
       {
-        "concept": "large_language_model",
+        "concept": "chaotic_dynamical_system",
         "baseline_parent": [
-          "neural_network_architecture"
+          "nonlinear_system"
         ],
         "guided_parent": [
-          "neural_language_model"
+          "dynamical_system"
         ]
       },
       {
-        "concept": "convolutional_kernel",
+        "concept": "variational_autoencoder",
         "baseline_parent": [
-          "neural_network_component"
+          "autoencoder_architecture"
         ],
         "guided_parent": [
-          "new_ml_feature_extractor"
+          "latent_variable_model"
         ]
       },
       {
-        "concept": "probabilistic_model",
+        "concept": "latent_variable_model",
         "baseline_parent": [
-          "ml_model"
+          "probabilistic_model"
         ],
         "guided_parent": [
-          "ml_foundations_and_theory"
+          "probabilistic_generative_model"
         ]
       },
       {
-        "concept": "self_attention_network",
+        "concept": "ensemble_kalman_filter",
         "baseline_parent": [
-          "recurrent_and_attention_neural_network"
+          "state_estimation_algorithms"
         ],
         "guided_parent": [
-          "connectionist_neural_network"
+          "sequential_monte_carlo"
         ]
       },
       {
-        "concept": "graph_network",
+        "concept": "membership_inference_attack",
         "baseline_parent": [
-          "neural_architecture"
+          "privacy_attack"
         ],
         "guided_parent": [
-          "network_types_by_connectivity"
+          "ml_security_attack"
+        ]
+      },
+      {
+        "concept": "reward_model",
+        "baseline_parent": [
+          "alignment_model"
+        ],
+        "guided_parent": [
+          "objective_model"
         ]
       }
     ]
@@ -180,10 +180,10 @@
   "relations": {
     "baseline_triples": 946,
     "guided_triples": 995,
-    "shared_triples": 640,
-    "only_baseline_triples": 306,
-    "only_guided_triples": 355,
-    "triple_jaccard": 0.4919,
+    "shared_triples": 735,
+    "only_baseline_triples": 211,
+    "only_guided_triples": 260,
+    "triple_jaccard": 0.6095,
     "predicate_breakdown": {
       "evaluates": {
         "baseline": 12,
@@ -266,8 +266,8 @@
       "guided": 864
     },
     "definition_concept_coverage": {
-      "baseline_rate": 0.3929,
-      "guided_rate": 0.4033
+      "baseline_rate": 0.4049,
+      "guided_rate": 0.4125
     }
   }
 }
